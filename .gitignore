@@ -10,7 +10,7 @@ Thumbs.db
 
 # Working files #
 ######################
-.scss
-.map
+*.scss
+*.map
 /assets/modules
 /assets/scss
