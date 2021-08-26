@@ -281,23 +281,24 @@ body {
   line-height: 1.6em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
   font-family: "Gopher", Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-.btn {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main p,
+main :not(.btn) {
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
@@ -310,15 +311,15 @@ p,
 }
 
 .text-hero {
-  font-size: 7rem;
+  font-size: 7em;
 }
 
 .text-title {
-  font-size: 3.8rem;
+  font-size: 3.8em;
 }
 
 .text-subtitle {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .text-main {
