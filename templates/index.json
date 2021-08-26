@@ -1,5 +1,10 @@
 {
   "sections": {
+    "16299683217c801bfb": {
+      "type": "tbc-banner",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -171,20 +176,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16299683217c801bfb": {
-      "type": "tbc-banner",
-      "settings": {
-      }
     }
   },
   "order": [
+    "16299683217c801bfb",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16299683217c801bfb"
+    "multi_column"
   ]
 }
