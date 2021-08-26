@@ -3,22 +3,60 @@
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-center flex-50 p-med content-con">
 				<div class="content-wrapper">
-					<h3 class="text-main">LOREM, IPSUM DOLOR SIT.</h3>
-					<h1 class="text-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit provident.</h1>
+					<h3 class="text-main">{{ section.settings.caption }}</h3>
+					<h1 class="text-subtitle">L{{ section.settings.heading }}</h1>
 					<a href="#" class="btn custom-btn">SEE SERVICES</a>
 				</div>						
 			</div>
 			<div class="col flex-50 image-con">
-				<figure><img src="img/Juice.png" alt=""></figure>
+				<figure>
+					{%- if section.settings.image_1 != blank -%}
+					<img srcset="{%- if section.settings.image_1.width >= 375 -%}{{ section.settings.image_1 | img_url: '375x' }} 375w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 750 -%}{{ section.settings.image_1 | img_url: '750x' }} 750w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 1100 -%}{{ section.settings.image_1 | img_url: '1100x' }} 1100w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 1500 -%}{{ section.settings.image_1 | img_url: '1500x' }} 1500w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 1780 -%}{{ section.settings.image_1 | img_url: '1780x' }} 1780w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 2000 -%}{{ section.settings.image_1 | img_url: '2000x' }} 2000w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 3000 -%}{{ section.settings.image_1 | img_url: '3000x' }} 3000w,{%- endif -%}
+						{%- if section.settings.image_1.width >= 3840 -%}{{ section.settings.image_1 | img_url: '3840x' }} 3840w,{%- endif -%}"
+					sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
+					src="{{ section.settings.image_1 | img_url: '1500x' }}"
+					loading="lazy"
+					alt="{{ section.settings.image_1.alt | escape }}"
+					width="{{ section.settings.image_1.width }}"
+					height="{{ section.settings.image_1.width | divided_by: section.settings.image_1.aspect_ratio }}">
+					{%- else -%}
+						{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+					{%- endif -%}
+				</figure>
 			</div>
 		</div>
-		<div class="bgimage"><img src="img/bg1.jpg" alt=""></div>
+		<div class="bgimage">
+			{%- if section.settings.image_2 != blank -%}
+				<img srcset="{%- if section.settings.image_2.width >= 375 -%}{{ section.settings.image_2 | img_url: '375x' }} 375w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | img_url: '750x' }} 750w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 1100 -%}{{ section.settings.image_2 | img_url: '1100x' }} 1100w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 1500 -%}{{ section.settings.image_2 | img_url: '1500x' }} 1500w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 1780 -%}{{ section.settings.image_2 | img_url: '1780x' }} 1780w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 2000 -%}{{ section.settings.image_2 | img_url: '2000x' }} 2000w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 3000 -%}{{ section.settings.image_2 | img_url: '3000x' }} 3000w,{%- endif -%}
+					{%- if section.settings.image_2.width >= 3840 -%}{{ section.settings.image_2 | img_url: '3840x' }} 3840w,{%- endif -%}"
+				sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
+				src="{{ section.settings.image_2 | img_url: '1500x' }}"
+				loading="lazy"
+				alt="{{ section.settings.image_2.alt | escape }}"
+				width="{{ section.settings.image_2.width }}"
+				height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}">
+			{%- else -%}
+				{{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg op-10' }}
+			{%- endif -%}
+		</div>
 	</div>
 </div>
 
 {% schema %}
 	{
-		"name": "Custom Hero Banner",
+		"name": "Custom Hero - Text/Image",
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
@@ -31,12 +69,24 @@
 				"type": "image_picker",
 				"id": "image_2",
 				"label": "Foreground Image"
+			},
+			{
+				"type": "text",
+				"id": "caption",
+				"default": "LOREM, IPSUM DOLOR SIT.",
+				"label": "Caption"
+			},
+			{
+				"type": "text",
+				"id": "heading",
+				"default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+				"label": "Headline"
 			}
 		],
 		"presets": [
 			{
 				"category": "Custom",
-				"name":"Custom Hero Banner"
+				"name":"Custom Hero - Text/Image"
 			}
 		]
 	}
