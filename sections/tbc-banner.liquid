@@ -1,0 +1,43 @@
+<div id="hero-{{ section.id }}" class="hero-6">
+	<div class="container page-width">
+		<div class="content-con flex-main">
+			<div class="col flex-inner flex-center flex-50 p-med content-con">
+				<div class="content-wrapper">
+					<h3 class="text-main">LOREM, IPSUM DOLOR SIT.</h3>
+					<h1 class="text-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit provident.</h1>
+					<a href="#" class="btn custom-btn">SEE SERVICES</a>
+				</div>						
+			</div>
+			<div class="col flex-50 image-con">
+				<figure><img src="img/Juice.png" alt=""></figure>
+			</div>
+		</div>
+		<div class="bgimage"><img src="img/bg1.jpg" alt=""></div>
+	</div>
+</div>
+
+{% schema %}
+	{
+		"name": "Custom Hero Banner",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+			{
+				"type": "image_picker",
+				"id": "image",
+				"label": "Background Image"
+			},
+			{
+				"type": "image_picker",
+				"id": "image_2",
+				"label": "Foreground Image"
+			}
+		],
+		"presets": [
+			{
+				"category": "Custom",
+				"name":"Custom Hero Banner"
+			}
+		]
+	}
+{% endschema %}
