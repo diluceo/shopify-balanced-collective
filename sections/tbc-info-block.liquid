@@ -14,7 +14,7 @@
 		</div>
 		<div class="col flex-50 flex-main flex-center">
 			<h3 class="text-subtitle">{{section.settings.title}}</h3>
-			<div class="content-wrapper flex-main" style="{{section.settings.color}}">
+			<div class="content-wrapper flex-main" style="color:{{section.settings.color}};">
 				{%- for block in section.blocks -%}
 					{%- case block.type -%}
 						{%- when 'info' -%}
