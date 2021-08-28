@@ -1,0 +1,14 @@
+<img srcset="{%- if my_img.width >= 375 -%}{{ my_img }} 375w,{%- endif -%}
+	{%- if my_img.width >= 750 -%}{{ my_img }} 750w,{%- endif -%}
+	{%- if my_img.width >= 1100 -%}{{ my_img }} 1100w,{%- endif -%}
+	{%- if my_img.width >= 1500 -%}{{ my_img }} 1500w,{%- endif -%}
+	{%- if my_img.width >= 1780 -%}{{ my_img }} 1780w,{%- endif -%}
+	{%- if my_img.width >= 2000 -%}{{ my_img }} 2000w,{%- endif -%}
+	{%- if my_img.width >= 3000 -%}{{ my_img }} 3000w,{%- endif -%}
+	{%- if section.settings.image_1.width >= 3840 -%}{{ my_img }} 3840w,{%- endif -%}"
+sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
+src="{{ my_img }}"
+loading="lazy"
+alt="{{ my_img.alt | escape }}"
+width="{{ my_img.width }}"
+height="{{ my_img.width | divided_by: my_img.aspect_ratio }}">

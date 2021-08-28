@@ -22,8 +22,7 @@
 								{%- if block.settings.icon != blank -%}
 								<div class="icon">
 									{% assign my_img = block.settings.icon %}
-									<!-- <img src="{{ my_img }}" alt=""> -->
-									{% render 'image-block', my_img: my_img %}
+									{% render 'image-block-svg', my_img: my_img %}
 								</div>
 								{%- endif -%}
 								{%- if block.settings.heading != blank -%}
