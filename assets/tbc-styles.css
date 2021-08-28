@@ -636,10 +636,6 @@ main a:not(.btn) {
   padding: 40px;
 }
 
-.hero-6 .bgimage {
-  opacity: 0.5;
-}
-
 @media (max-width: 749px) {
   .hero-6 {
     height: auto;
@@ -691,9 +687,10 @@ main a:not(.btn) {
   }
   .block-1 .content-wrapper .col {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
-    min-width: 50%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    min-width: 100%;
+    padding: 20px 5px;
   }
 }
 
