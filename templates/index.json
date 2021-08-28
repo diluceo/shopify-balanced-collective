@@ -20,6 +20,19 @@
     },
     "16301459394b558fdd": {
       "type": "tbc-info-block",
+      "blocks": {
+        "0a8c1acc-c4f0-4f80-a910-4110af3c508a": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Local Business",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          }
+        }
+      },
+      "block_order": [
+        "0a8c1acc-c4f0-4f80-a910-4110af3c508a"
+      ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
         "title": "Lorem Ipsum"
