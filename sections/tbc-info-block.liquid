@@ -1,5 +1,5 @@
 <div id="block-1{{ section.id }}" class="block-1">
-	<div class="container page-width flex p-med">
+	<div class="container page-width flex-main p-med">
 		<div class="col flex-50">
 			<div class="image-con">
 				<figure>
@@ -24,9 +24,9 @@
 				</figure>
 			</div>
 		</div>
-		<div class="col flex-50 flex flex-center">
+		<div class="col flex-50 flex-main flex-center">
 			<h3>Lorem Ipsum</h3>
-			<div class="content-wrapper flex">
+			<div class="content-wrapper flex-main">
 				{%- for block in section.blocks -%}
 					{%- case block.type -%}
 						{%- when 'info' -%}
