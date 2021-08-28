@@ -4,7 +4,7 @@
 			<div class="col flex-inner flex-center flex-50 p-med content-con">
 				<div class="content-wrapper">
 					<h3 class="text-main">{{ section.settings.caption }}</h3>
-					<h1 class="text-subtitle">L{{ section.settings.heading }}</h1>
+					<h1 class="text-subtitle">{{ section.settings.heading }}</h1>
 					<a href="#" class="btn custom-btn">SEE SERVICES</a>
 				</div>						
 			</div>
@@ -77,9 +77,9 @@
 				"label": "Caption"
 			},
 			{
-				"type": "text",
+				"type": "richtext",
 				"id": "heading",
-				"default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+				"default": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit provident.</p>",
 				"label": "Headline"
 			}
 		],
