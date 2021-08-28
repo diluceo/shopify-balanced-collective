@@ -1,16 +1,22 @@
+<style>
+	#hero-{{ section.id }} span {
+		background-color: {{ section.settings.hightlight_color }};
+		color: {{ section.settings.hightlight_text_color }};
+	}
+</style>
 <div id="hero-{{ section.id }}" class="hero-6">
 	<div class="container page-full">
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-center flex-50 p-med content-con">
 				<div class="content-wrapper">
 					{%- if section.settings.caption != blank -%}
-					<h3 class="text-main">{{ section.settings.caption }}</h3>
+					<h3 class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</h3>
 					{%- endif -%}
 					{%- if section.settings.heading != blank -%}
-					<h1 class="text-subtitle">{{ section.settings.heading }}</h1>
+					<h1 class="text-title" style="color:{{section.settings.heading_color}};">{{ section.settings.heading }}</h1>
 					{%- endif -%}
 					{%- if section.settings.button_link_1 != blank -%}
-					<a href="{{ section.settings.button_link_1 }}" class="btn custom-btn">{{ section.settings.button_label }}</a>
+					<a href="{{ section.settings.button_link_1 }}" class="btn custom-btn" style="background-color:{{section.settings.button_color}};">{{ section.settings.button_label }}</a>
 					{%- endif -%}
 				</div>						
 			</div>
@@ -98,6 +104,36 @@
 				"type": "url",
 				"id": "button_link_1",
 				"label": "Button Link"
+			},
+			{
+				"type": "color",
+				"id": "caption_color",
+				"label": "Caption Color",
+				"default": "#FF6976"
+			},
+			{
+				"type": "color",
+				"id": "heading_color",
+				"label": "Heading Color",
+				"default": "#1C7EE3"
+			},
+			{
+				"type": "color",
+				"id": "button_color",
+				"label": "Button Color",
+				"default": "#FF6976"
+			},
+			{
+				"type": "color",
+				"id": "highlight_color",
+				"label": "Highlight Color",
+				"default": "#EC86D0"
+			},
+			{
+				"type": "color",
+				"id": "highlight_text_color",
+				"label": "Highlight Text Color",
+				"default": "#FFF"
 			}
 		],
 		"presets": [
