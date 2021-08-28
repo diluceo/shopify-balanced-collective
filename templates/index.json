@@ -18,6 +18,13 @@
         "image_2": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg"
       }
     },
+    "16301459394b558fdd": {
+      "type": "tbc-info-block",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
+        "title": "Lorem Ipsum"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -194,6 +201,7 @@
   "order": [
     "16299683217c801bfb",
     "163013949020d3b718",
+    "16301459394b558fdd",
     "image_banner",
     "rich_text",
     "featured_products",
