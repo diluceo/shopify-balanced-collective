@@ -657,6 +657,37 @@ main a:not(.btn) {
   }
 }
 
+.block-1 {
+  height: 700px;
+  overflow: hidden;
+}
+
+.block-1 .content-wrapper .col {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.block-1 .content-wrapper .icon {
+  margin: auto;
+  width: 50px;
+}
+
+@media (max-width: 749px) {
+  .block-1 {
+    height: auto;
+  }
+  .block-1 .image-con {
+    width: 250px;
+    margin: auto;
+  }
+  .block-1 .content-wrapper .col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    min-width: 50%;
+  }
+}
+
 .bg-ticker .container {
   height: 150px;
   position: relative;
