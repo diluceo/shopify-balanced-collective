@@ -4,20 +4,8 @@
 			<div class="image-con">
 				<figure>
 					{%- if section.settings.image_1 != blank -%}
-					<img srcset="{%- if section.settings.image_1.width >= 375 -%}{{ section.settings.image_1 | img_url: '375x' }} 375w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 750 -%}{{ section.settings.image_1 | img_url: '750x' }} 750w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 1100 -%}{{ section.settings.image_1 | img_url: '1100x' }} 1100w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 1500 -%}{{ section.settings.image_1 | img_url: '1500x' }} 1500w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 1780 -%}{{ section.settings.image_1 | img_url: '1780x' }} 1780w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 2000 -%}{{ section.settings.image_1 | img_url: '2000x' }} 2000w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 3000 -%}{{ section.settings.image_1 | img_url: '3000x' }} 3000w,{%- endif -%}
-						{%- if section.settings.image_1.width >= 3840 -%}{{ section.settings.image_1 | img_url: '3840x' }} 3840w,{%- endif -%}"
-					sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
-					src="{{ section.settings.image_1 | img_url: '1500x' }}"
-					loading="lazy"
-					alt="{{ section.settings.image_1.alt | escape }}"
-					width="{{ section.settings.image_1.width }}"
-					height="{{ section.settings.image_1.width | divided_by: section.settings.image_1.aspect_ratio }}">
+					{% assign my_img = section.settings.image_1 %}
+					{% render 'image-block', my_img: my_img %}
 					{%- else -%}
 						{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
 					{%- endif -%}
@@ -32,7 +20,10 @@
 						{%- when 'info' -%}
 							<div class="col flex-50">
 								{%- if block.settings.icon != blank -%}
-								<div class="icon"><img src="{{ block.settings.icon }}" width="100" height="100" alt="{{ section.settings.image_1.alt | escape }}"></div>
+								<div class="icon">
+									{% assign my_img = block.settings.icon %}
+									{% render 'image-block', my_img: my_img %}
+								</div>
 								{%- endif -%}
 								{%- if block.settings.heading != blank -%}
 								<p>{{ block.settings.heading }}</p>
