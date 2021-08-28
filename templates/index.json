@@ -24,8 +24,8 @@
         "0a8c1acc-c4f0-4f80-a910-4110af3c508a": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/testicon.png?v=1630146966",
-            "heading": "Local Business",
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
+            "heading": "Local & Female Owned",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
           }
         },
@@ -33,23 +33,32 @@
           "type": "info",
           "settings": {
             "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/testicon.png?v=1630146966",
-            "heading": "Local Business",
+            "heading": "Environment Friendly",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
           }
         },
         "7c10a37f-d9b4-472e-8c52-f8258e9d216d": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/testicon.png?v=1630146966",
-            "heading": "Local Business",
-            "content": ""
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Trauma.svg?v=1630150742",
+            "heading": "Trauma Informed Team",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          }
+        },
+        "baf78fe2-e609-4c0e-9e39-91d2f8e77f44": {
+          "type": "info",
+          "settings": {
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Quality.svg?v=1630150742",
+            "heading": "Quality",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
           }
         }
       },
       "block_order": [
         "0a8c1acc-c4f0-4f80-a910-4110af3c508a",
         "6b170b5e-5251-4b24-aa03-45dfe93b1efe",
-        "7c10a37f-d9b4-472e-8c52-f8258e9d216d"
+        "7c10a37f-d9b4-472e-8c52-f8258e9d216d",
+        "baf78fe2-e609-4c0e-9e39-91d2f8e77f44"
       ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
