@@ -1,11 +1,17 @@
 <div id="hero-{{ section.id }}" class="hero-6">
-	<div class="container page-width">
+	<div class="container page-full">
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-center flex-50 p-med content-con">
 				<div class="content-wrapper">
+					{%- if section.settings.caption != blank -%}
 					<h3 class="text-main">{{ section.settings.caption }}</h3>
+					{%- endif -%}
+					{%- if section.settings.heading != blank -%}
 					<h1 class="text-subtitle">{{ section.settings.heading }}</h1>
-					<a href="#" class="btn custom-btn">SEE SERVICES</a>
+					{%- endif -%}
+					{%- if section.settings.button_link_1 != blank -%}
+					<a href="{{ section.settings.button_label }}" class="btn custom-btn">{{ section.settings.button_link_1 }}</a>
+					{%- endif -%}
 				</div>						
 			</div>
 			<div class="col flex-50 image-con">
@@ -81,11 +87,21 @@
 				"id": "heading",
 				"default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
 				"label": "Headline"
-			}
+			},
+			{
+				"type": "text",
+				"id": "button_label",
+				"default": "Button Label",
+				"label": "Link Text"
+			},
+			{
+				"type": "url",
+				"id": "button_link_1",
+				"label": "Button Link"
+			},
 		],
 		"presets": [
 			{
-				"category": "Custom",
 				"name":"Custom Hero - Text/Image"
 			}
 		]

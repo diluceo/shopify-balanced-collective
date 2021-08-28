@@ -290,9 +290,15 @@
   z-index: 1;
 }
 
+.page-full {
+  width: 100%;
+}
+
 figure {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 figure img {
@@ -317,6 +323,16 @@ figure img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.page-full .bgimage {
+  padding: 0;
+}
+
+@media (max-width: 749px) {
+  .bgimage {
+    padding: 0 1.5rem;
+  }
 }
 
 @font-face {
@@ -346,7 +362,7 @@ main h6,
 main p,
 main a:not(.btn) {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .text-hero,
@@ -383,20 +399,22 @@ main a:not(.btn) {
 
 @media (max-width: 768px) {
   .text-hero {
-    font-size: 3.4rem;
+    font-size: 3.4em;
   }
   .text-title {
-    font-size: 2.2rem;
+    font-size: 2.2em;
   }
   .text-subtitle {
-    font-size: 1.6rem;
+    font-size: 1.6em;
   }
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+@media (min-width: 750px) {
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 }
 
 .btn {
@@ -622,7 +640,7 @@ main a:not(.btn) {
   opacity: 0.5;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 749px) {
   .hero-6 {
     height: auto;
   }
@@ -632,6 +650,7 @@ main a:not(.btn) {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 2em;
+    text-align: center;
   }
   .hero-6 figure img {
     max-height: 300px;
