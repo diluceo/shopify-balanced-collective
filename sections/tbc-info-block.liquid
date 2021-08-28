@@ -26,10 +26,10 @@
 								</div>
 								{%- endif -%}
 								{%- if block.settings.heading != blank -%}
-								<p>{{ block.settings.heading }}</p>
+								<h4 class="text-main" style="color:{{section.settings.text_colour}}; margin-bottom: 7px;">{{ block.settings.heading }}</h4>
 								{%- endif -%}
 								{%- if block.settings.content != blank -%}
-								<p>{{ block.settings.content }}</p>
+								<p class="text-main">{{ block.settings.content }}</p>
 								{%- endif -%}
 							</div>
 					{%- endcase -%}

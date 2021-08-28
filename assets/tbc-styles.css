@@ -337,11 +337,41 @@ figure img {
 
 @font-face {
   font-family: "Gopher";
+  src: url("gopherREG.woff2") format("woff2"), url("gopherREG.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gopher";
   src: url("gopherMED.woff2") format("woff2"), url("gopherMED.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gopher";
+  src: url("gopherBOLD.woff2") format("woff2"), url("gopherBOLD.woff") format("woff");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url("brandonREG.woff2") format("woff2"), url("brandonREG.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Brandon";
+  src: url("brandonBOLD.woff2") format("woff2"), url("brandonBOLD.woff") format("woff");
+  font-weight: bold;
 }
 
 body {
+  font-family: "Brandon", Arial, sans-serif;
   line-height: 1.6em;
+}
+
+p {
+  font-family: "Brandon", Arial, sans-serif;
 }
 
 main h1,
@@ -351,6 +381,7 @@ main h4,
 main h5,
 main h6 {
   font-family: "Gopher", Arial, sans-serif;
+  font-weight: bolder;
 }
 
 main h1,
@@ -386,7 +417,7 @@ main a:not(.btn) {
 }
 
 .text-main {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .text-overline {
@@ -665,8 +696,8 @@ main a:not(.btn) {
 
 .block-1 .content-wrapper .icon {
   margin: auto;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 20px;
 }
 
