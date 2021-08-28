@@ -62,7 +62,8 @@
       ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
-        "title": "Lorem Ipsum"
+        "title": "Lorem Ipsum",
+        "text_colour": "#e22120"
       }
     },
     "image_banner": {
