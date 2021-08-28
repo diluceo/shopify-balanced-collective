@@ -6,9 +6,14 @@
         "image_1": "shopify:\/\/shop_images\/lady-header.png",
         "image_2": "shopify:\/\/shop_images\/bg-heather.jpg",
         "caption": "Physio, Active Rehab, Education, Products",
-        "heading": "Fell better in <span style=\"background-color: #ea87ed; color: #fff; padding: 0 10px\">your body<\/span> with uniquely tailored movements.",
+        "heading": "Fell better in <span>your body<\/span> with uniquely tailored movements.",
         "button_label": "Button Label",
-        "button_link_1": ""
+        "button_link_1": "",
+        "caption_color": "#FF6976",
+        "heading_color": "#1C7EE3",
+        "button_color": "#FF6976",
+        "highlight_color": "#EC86D0",
+        "highlight_text_color": "#FFF"
       }
     },
     "163013949020d3b718": {
