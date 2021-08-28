@@ -3,11 +3,11 @@
   .container {
     height: 200px;
     position: relative;
-    background-image: url({{ section.settings.image_2 }});
+    background-image: url({{ section.settings.image_2 | file_url }});
 
     &:before {
       @include aux-con;
-      background-image: url({{ section.settings.image_1 }});
+      background-image: url({{ section.settings.image_1 | file_url }});
       background-repeat: repeat-x;
       background-position: center center;
       animation: animatedBackground 500s linear infinite;
