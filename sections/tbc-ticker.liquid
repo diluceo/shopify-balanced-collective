@@ -1,0 +1,61 @@
+<style type="text/css">
+.bg-ticker {
+  .container {
+    height: 200px;
+    position: relative;
+    background-image: url({{ section.settings.image_2 }});
+
+    &:before {
+      @include aux-con;
+      background-image: url({{ section.settings.image_1 }});
+      background-repeat: repeat-x;
+      background-position: center center;
+      animation: animatedBackground 500s linear infinite;
+    }
+
+    @keyframes animatedBackground {
+      from {
+        background-position: 0 center;
+      }
+      to {
+        background-position: -10000px center;
+      }
+    }
+  }
+}
+</style>
+
+<div class="wrapper bg-ticker">
+	<div class="container page-width">
+		<div class="content-wrapper">
+			<div class="col p-small">
+				<h3 class="text-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, sint?</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+	{
+		"name": "Custom Ticker",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+			{
+				"type": "image_picker",
+				"id": "image_1",
+				"label": "Ticker Image"
+			},
+			{
+				"type": "image_picker",
+				"id": "image_2",
+				"label": "Backgroud Image"
+			}
+		],
+		"presets": [
+			{
+				"name":"Custom Ticker"
+			}
+		]
+	}
+{% endschema %}
