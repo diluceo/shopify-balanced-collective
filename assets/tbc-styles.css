@@ -488,6 +488,10 @@ main a:not(.btn) {
   padding: 0px 15px;
 }
 
+.fancyheader {
+  position: relative;
+}
+
 .fancyheader:before, .fancyheader:after {
   content: '';
   display: block;
