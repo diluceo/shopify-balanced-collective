@@ -845,15 +845,25 @@ main a:not(.btn) {
 
 /** TESTIMONIAL SLIDER **/
 .testimonial-1 {
-  border: 1px solid red;
+  padding: 6em 1em;
+}
+
+.testimonial-1 .section-title {
+  margin-bottom: 3em;
+}
+
+.testimonial-1 .section-title * {
+  display: inline;
 }
 
 .testimonial-1 > .container {
-  padding: 0 80px;
+  padding: 0 100px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .testimonial-1 .splide .container {
-  height: 300px;
+  min-height: 300px;
   padding: 0 2em;
 }
 
@@ -861,10 +871,7 @@ main a:not(.btn) {
   background-color: #fff;
   padding: 1em;
   width: 100%;
-}
-
-.testimonial-1 .splide__slide {
-  border: 1px solid red;
+  text-align: center;
 }
 
 .testimonial-1 .splide__arrow--prev {
@@ -873,6 +880,14 @@ main a:not(.btn) {
 
 .testimonial-1 .splide__arrow--next {
   right: -60px;
+}
+
+@media (max-width: 749px) {
+  .testimonial-1 > .container {
+    padding: 0 70px;
+    max-width: 1000px;
+    margin: auto;
+  }
 }
 
 body {
