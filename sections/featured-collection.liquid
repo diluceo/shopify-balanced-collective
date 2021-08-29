@@ -62,9 +62,9 @@
     </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}">
+      <div class="center{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}" style="margin-top: 2em;">
         <a href="{{ section.settings.collection.url }}"
-          class="btn custom-btn"
+          class="btn custom-btn alt"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
         >
           {{ 'sections.featured_collection.view_all' | t }}
@@ -73,9 +73,9 @@
     {%- endif -%}
   </div>
   
-  {%- if block.settings.bg_image != blank -%}
-  {% assign my_img = block.settings.bg_image %}
+  {%- if section.settings.bg_image != blank -%}
   <div class="bgimage">
+    {% assign my_img = section.settings.bg_image %}
     {% render 'image-block', my_img: my_img %}
   </div> 
   {%- endif -%}

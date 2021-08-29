@@ -274,7 +274,7 @@
 
 .section,
 .container,
-.col {
+.col, .bg-wrapper {
   position: relative;
 }
 
@@ -410,7 +410,7 @@ main a:not(.btn) {
 }
 
 .text-subtitle {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .text-main {
@@ -462,7 +462,7 @@ main a:not(.btn) {
 
 .custom-btn {
   text-transform: uppercase;
-  background-color: orangered;
+  background-color: #FF6976;
   color: #fff;
   font-weight: bold;
   border-radius: 15px;
@@ -470,6 +470,12 @@ main a:not(.btn) {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
+}
+
+.custom-btn.alt {
+  background-color: #fff;
+  color: #FF6976;
+  border: 2px solid #FF6976;
 }
 
 .custom-btn:after {
@@ -530,13 +536,26 @@ main a:not(.btn) {
   right: -50px;
 }
 
+.fancy-background {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles-top.png?v=1630216385), url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubble-bottom.png?v=1630216385);
+  background-position: left top, right bottom;
+  background-size: 300px, 300px;
+  background-repeat: no-repeat, no-repeat;
+}
+
 .product-cards {
+  padding-top: 4em;
+  padding-bottom: 5em;
   position: relative;
   z-index: 1;
 }
 
 .product-cards .card--product {
   padding: 0 3vw;
+}
+
+.product-cards > .title-wrapper-with-link {
+  padding-bottom: 30px;
 }
 
 .product-cards .card-information__wrapper {
@@ -553,6 +572,13 @@ main a:not(.btn) {
           justify-content: center;
   color: #FF6976;
   font-weight: bold;
+}
+
+@media (max-width: 749px) {
+  .product-cards {
+    padding-top: 2em;
+    padding-bottom: 3em;
+  }
 }
 
 .hero-1 {
