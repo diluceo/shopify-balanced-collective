@@ -86,6 +86,20 @@
         "button_color": "#ff6976"
       }
     },
+    "1630211704a0d804e5": {
+      "type": "tbc-slider-testimonial",
+      "settings": {
+        "contained": false,
+        "container_color": "#FFFFFF",
+        "caption": "LOREM, IPSUM DOLOR SIT.",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+        "button_label": "Button Label",
+        "button_link_1": "",
+        "caption_color": "#333",
+        "content_color": "#333",
+        "button_color": "#FF6976"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -264,6 +278,7 @@
     "163013949020d3b718",
     "16301459394b558fdd",
     "1630199682ccd2f15a",
+    "1630211704a0d804e5",
     "image_banner",
     "rich_text",
     "featured_products",
