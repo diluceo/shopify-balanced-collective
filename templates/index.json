@@ -128,6 +128,38 @@
         "section_title": "Testimonials"
       }
     },
+    "1630221088c6b6c9b7": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "1630221088c6b6c9b7-0": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "caption": "EVENTS & EDUCATION",
+            "title": "Come learn, heal and Laugh with us.",
+            "button_label": "JOIN US",
+            "button_url": ""
+          }
+        },
+        "1630221088c6b6c9b7-1": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
+            "caption": "BLOGS",
+            "title": "Wellness tips for a balanced life.",
+            "button_label": "READ MORE",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630221088c6b6c9b7-0",
+        "1630221088c6b6c9b7-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -307,6 +339,7 @@
     "16301459394b558fdd",
     "1630199682ccd2f15a",
     "16302161411f026622",
+    "1630221088c6b6c9b7",
     "image_banner",
     "rich_text",
     "featured_products",
