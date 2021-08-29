@@ -845,8 +845,12 @@ main a:not(.btn) {
 
 /** TESTIMONIAL SLIDER **/
 .testimonial-1 {
-  padding: 6em 1em;
+  padding: 200px 1em;
   background-color: #F4F3F2;
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles-top.png?v=1630216385), url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubble-bottom.png?v=1630216385);
+  background-position: left top, right bottom;
+  background-size: 300px, 300px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .testimonial-1 .section-title {
@@ -863,16 +867,56 @@ main a:not(.btn) {
   margin: auto;
 }
 
+.testimonial-1 .splide {
+  position: relative;
+}
+
 .testimonial-1 .splide .container {
-  min-height: 300px;
+  min-height: 150px;
   padding: 0 2em;
+  z-index: 1;
+}
+
+.testimonial-1 .splide:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quotes-left.svg?v=1630217157);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.testimonial-1 .splide:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quotes-right.svg?v=1630217157);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .testimonial-1 .content-wrapper {
-  background-color: #fff;
   padding: 1em;
   width: 100%;
   text-align: center;
+}
+
+.testimonial-1 .splide__arrow {
+  background: #ff6976;
+  border-radius: 15px;
+}
+
+.testimonial-1 .splide__arrow svg {
+  fill: #fff;
 }
 
 .testimonial-1 .splide__arrow--prev {
