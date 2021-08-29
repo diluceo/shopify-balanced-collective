@@ -701,7 +701,7 @@ main a:not(.btn) {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
   }
   .hero-6 figure img {
