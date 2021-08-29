@@ -488,6 +488,23 @@ main a:not(.btn) {
   padding: 0px 15px;
 }
 
+.fancyheader:before, .fancyheader:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  left: -50px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles_icon.svg?v=1630196027);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fancyheader:after {
+  right: -50px;
+}
+
 .hero-1 {
   height: 500px;
   overflow: hidden;
