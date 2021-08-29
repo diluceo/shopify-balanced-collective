@@ -846,6 +846,7 @@ main a:not(.btn) {
 /** TESTIMONIAL SLIDER **/
 .testimonial-1 {
   padding: 6em 1em;
+  background-color: #F4F3F2;
 }
 
 .testimonial-1 .section-title {
