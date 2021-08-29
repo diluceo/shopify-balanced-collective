@@ -1,0 +1,91 @@
+<div id="block-3-{{ section.id }}" class="block-3"></div>
+  <div class="container page-width flex">
+
+    {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'banner' -%}
+        <div class="col flex-50 p-small">
+          <div class="content-wrapper">
+            <p class="caption text-main">{{block.settings.caption}}</p>
+            <h4 class="title text-subtitle">{{block.settings.title}}</h4>
+            <a href="{{block.settings.button_url}}" class="btn custom-btn">{{block.settings.button_label}}</a>
+          </div>
+          <div class="bgimage">
+            {%- if block.settings.image_1 != blank -%}
+            {% assign my_img = block.settings.image_1 %}
+            {% render 'image-block', my_img: my_img %}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
+        </div>
+    {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+
+{% schema %}
+	{
+		"name": "Custom Multibanner",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+			{
+				"type": "text",
+				"id": "section_title",
+				"label": "Section Title"
+			}
+		],
+    "blocks": [
+      {
+        "type": "banner",
+        "name": "banner",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Background Image"
+          },
+          {
+            "type": "text",
+            "id": "caption",
+            "default": "Lorem ipsum",
+            "label": "Caption"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button Label",
+            "label": "Button Label"
+          },
+          {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button Url"
+          }
+        ]
+      }
+    ],
+		"presets": [
+			{
+				"name":"Custom Multibanner",
+        "blocks": [
+          {
+            "type": "banner"
+          },
+          {
+            "type": "banner"
+          }
+        ]
+      }
+		]
+	}
+{% endschema %}

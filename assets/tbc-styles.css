@@ -417,7 +417,7 @@ main a:not(.btn) {
 }
 
 .text-main {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .text-overline {
@@ -781,6 +781,26 @@ main a:not(.btn) {
     min-width: 100%;
     padding: 20px 5px;
   }
+}
+
+.block-3 .col {
+  border: 1px solid red;
+  padding-top: 12em;
+  background: transparent -webkit-gradient(linear, left bottom, left top, from(#262C96), to(#26268B00)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(0deg, #262C96 0%, #26268B00 100%) 0% 0% no-repeat padding-box;
+}
+
+.block-3 .bgimage {
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+}
+
+.block-3 .caption {
+  color: #FFC600;
+}
+
+.block-3 .title {
+  color: #fff;
 }
 
 .bg-ticker .container {
