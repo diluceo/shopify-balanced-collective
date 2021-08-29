@@ -86,6 +86,48 @@
         "button_color": "#ff6976"
       }
     },
+    "16302161411f026622": {
+      "type": "tbc-slider-testimonial",
+      "blocks": {
+        "16302161411f026622-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "name": "Jane Doe"
+          }
+        },
+        "16302161411f026622-1": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "name": "Jane Doe"
+          }
+        },
+        "16302161411f026622-2": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "name": "Jane Doe"
+          }
+        },
+        "16302161411f026622-3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "name": "Jane Doe"
+          }
+        }
+      },
+      "block_order": [
+        "16302161411f026622-0",
+        "16302161411f026622-1",
+        "16302161411f026622-2",
+        "16302161411f026622-3"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -264,6 +306,7 @@
     "163013949020d3b718",
     "16301459394b558fdd",
     "1630199682ccd2f15a",
+    "16302161411f026622",
     "image_banner",
     "rich_text",
     "featured_products",
