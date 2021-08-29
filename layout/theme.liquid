@@ -15,6 +15,7 @@
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
+      <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
     <title>{{ page_title }}</title>
 
@@ -95,6 +96,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     {{ 'tbc-styles.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
@@ -147,5 +149,15 @@
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+  	<script>
+		document.addEventListener( 'DOMContentLoaded', function () {
+			var elms = document.getElementsByClassName( 'splide' );
+			for (var i = 0, len = elms.length; i < len; i++) {
+				new Splide(elms[i]).mount();
+			}
+		} );
+		
+	</script>
   </body>
 </html>
