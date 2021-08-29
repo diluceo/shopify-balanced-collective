@@ -783,6 +783,10 @@ main a:not(.btn) {
   }
 }
 
+.block-3 {
+  border: 1px solid red;
+}
+
 .block-3 .col {
   border: 1px solid red;
   padding-top: 12em;
