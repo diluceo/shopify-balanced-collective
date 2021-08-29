@@ -529,7 +529,7 @@ main a:not(.btn) {
 }
 
 .hero-1 .contained {
-  background-color: #fff;
+  padding: 2em;
 }
 
 .hero-2 .container {
