@@ -824,6 +824,57 @@ main a:not(.btn) {
   }
 }
 
+.slick-slide,
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.splide__arrow {
+  height: 4em;
+  width: 4em;
+  border-radius: 0;
+}
+
+/** TESTIMONIAL SLIDER **/
+.testimonial-1 {
+  border: 1px solid red;
+}
+
+.testimonial-1 > .container {
+  padding: 0 80px;
+}
+
+.testimonial-1 .splide .container {
+  height: 300px;
+  padding: 0 2em;
+}
+
+.testimonial-1 .content-wrapper {
+  background-color: #fff;
+  padding: 1em;
+  width: 100%;
+}
+
+.testimonial-1 .splide__slide {
+  border: 1px solid red;
+}
+
+.testimonial-1 .splide__arrow--prev {
+  left: -60px;
+}
+
+.testimonial-1 .splide__arrow--next {
+  right: -60px;
+}
+
 body {
   background-color: #fff;
 }
