@@ -9,11 +9,11 @@
         "heading": "Fell better in <span>your body<\/span> with uniquely tailored movements.",
         "button_label": "Button Label",
         "button_link_1": "",
-        "caption_color": "#FF6976",
-        "heading_color": "#1C7EE3",
-        "button_color": "#FF6976",
-        "highlight_color": "#EC86D0",
-        "highlight_text_color": "#FFF"
+        "caption_color": "#ff6976",
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
       }
     },
     "163013949020d3b718": {
@@ -69,6 +69,19 @@
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
         "title": "Lorem Ipsum",
         "text_colour": "#262c96"
+      }
+    },
+    "1630199682ccd2f15a": {
+      "type": "tbc-text-banner",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/blue-bg.jpg",
+        "caption": "SERVICES",
+        "content": "Go live that kick-ass life. We’re here to support your body.",
+        "button_label": "Learn More",
+        "button_link_1": "shopify:\/\/pages\/services",
+        "caption_color": "#ffc600",
+        "content_color": "#333",
+        "button_color": "#FF6976"
       }
     },
     "image_banner": {
@@ -248,6 +261,7 @@
     "16299683217c801bfb",
     "163013949020d3b718",
     "16301459394b558fdd",
+    "1630199682ccd2f15a",
     "image_banner",
     "rich_text",
     "featured_products",
