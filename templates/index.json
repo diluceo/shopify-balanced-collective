@@ -75,13 +75,15 @@
       "type": "tbc-text-banner",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/blue-bg.jpg",
+        "contained": false,
+        "container_color": "#ffffff",
         "caption": "SERVICES",
         "content": "Go live that kick-ass life. We’re here to support your body.",
         "button_label": "Learn More",
         "button_link_1": "shopify:\/\/pages\/services",
         "caption_color": "#ffc600",
-        "content_color": "#333",
-        "button_color": "#FF6976"
+        "content_color": "#ffffff",
+        "button_color": "#ff6976"
       }
     },
     "image_banner": {
