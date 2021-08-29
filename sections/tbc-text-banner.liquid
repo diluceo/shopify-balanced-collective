@@ -8,8 +8,12 @@
 
 <div id="hero-{{ section.id }}" class="hero-1">
   <div class="container page-full">
-    <div class="col flex flex-bottom-left p-med">
-      <div class="content-wrapper p-small">
+    <div class="col flex-main flex-center p-med">
+      {%- if section.settings.contained -%}
+      <div class="content-wrapper contained p-small">
+      {%- else -%}
+      <div class="content-wrapper p-small"> 
+      {%- endif -%}
         {%- if section.settings.caption != blank -%}
 				<p class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</p>
 				{%- endif -%}
@@ -38,6 +42,18 @@
 				"id": "bg_image",
 				"label": "Backgroud Image"
 			},
+      {
+        "type": "checkbox",
+        "id": "contained",
+        "label": "Boxed Content",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "container_color",
+        "label": "Container Color",
+        "default": "#FFFFFF"
+      },
 			{
 				"type": "text",
 				"id": "caption",

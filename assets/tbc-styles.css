@@ -523,10 +523,13 @@ main a:not(.btn) {
 }
 
 .hero-1 .content-wrapper {
-  background-color: #fff;
   max-width: 600px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.hero-1 .contained {
+  background-color: #fff;
 }
 
 .hero-2 .container {
