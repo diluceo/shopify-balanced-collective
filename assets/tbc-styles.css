@@ -488,7 +488,7 @@ main a:not(.btn) {
   padding: 0px 15px;
 }
 
-.fancyheader {
+.fancyheader, .myfancyheader {
   position: relative;
 }
 
