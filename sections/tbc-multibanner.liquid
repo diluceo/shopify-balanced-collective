@@ -1,13 +1,13 @@
-<div id="block-3-{{ section.id }}" class="block-3"></div>
+<div id="block-3-{{ section.id }}" class="block-3">
   <div class="container page-width flex-main">
 
     {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when 'banner' -%}
-        <div class="col flex-50 p-small">
+        <div class="col flex-inner flex-50 p-small">
           <div class="content-wrapper">
             <p class="caption text-main">{{block.settings.caption}}</p>
-            <h4 class="title text-subtitle">{{block.settings.title}}</h4>
+            <h4 class="block-title text-subtitle">{{block.settings.title}}</h4>
             <a href="{{block.settings.button_url}}" class="btn custom-btn">{{block.settings.button_label}}</a>
           </div>
           <div class="bgimage">

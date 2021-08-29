@@ -314,7 +314,6 @@ figure img {
   bottom: 0;
   right: 0;
   width: 100%;
-  padding: 0 5rem;
 }
 
 .bgimage img {
@@ -327,12 +326,6 @@ figure img {
 
 .page-full .bgimage {
   padding: 0;
-}
-
-@media (max-width: 749px) {
-  .bgimage {
-    padding: 0 1.5rem;
-  }
 }
 
 @font-face {
@@ -783,28 +776,41 @@ main a:not(.btn) {
   }
 }
 
-.block-3 {
-  border: 1px solid red;
-}
-
 .block-3 .col {
-  border: 1px solid red;
-  padding-top: 12em;
+  padding: 2em 4em 3em;
   background: transparent -webkit-gradient(linear, left bottom, left top, from(#262C96), to(#26268B00)) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(0deg, #262C96 0%, #26268B00 100%) 0% 0% no-repeat padding-box;
+  height: 500px;
 }
 
 .block-3 .bgimage {
-  opacity: 0.7;
   mix-blend-mode: multiply;
 }
 
 .block-3 .caption {
   color: #FFC600;
+  margin-bottom: 5px;
 }
 
-.block-3 .title {
+.block-3 .block-title {
   color: #fff;
+}
+
+@media (min-width: 750px) {
+  .block-3 .col {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+@media (max-width: 749px) {
+  .block-3 .col {
+    height: 400px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 
 .bg-ticker .container {
