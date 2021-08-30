@@ -11,7 +11,6 @@
 <script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
 
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-<div>
 
 <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}" style="z-index: 1;">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
@@ -509,8 +508,6 @@
   {% render 'image-block', my_img: my_img %}
 </div>
 {%- endif -%}
-</div>
-{% section 'tbc-multibanner' %}
 
 {% schema %}
 {
