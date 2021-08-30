@@ -15,7 +15,7 @@
       {%- case block.type -%}
         {%- when 'name' -%}
           <div class="item">
-            <div class="item-heading"><h4 class="text-subtitle name">{{block.settings.name_title}}</h4></div>
+            <div class="item-heading"><h4 class="text-subtitle name" style="color:{{block.settings.title_color}}">{{block.settings.name_title}}</h4></div>
             <div class="text-main">{{block.settings.name_text_1}}</div>
             <div class="text-main">{{block.settings.name_text_2}}</div>
             <div class="text-main">{{block.settings.name_text_3}}</div>
@@ -61,6 +61,11 @@
             </ul>
           </div>
 
+        {%- when 'button' -%}
+          <div class="item">
+            <a href="{{block.settings.content_url}}" class="btn custom-btn">{{block.settings.content_label}}</a>
+          </div>
+
       {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -91,6 +96,12 @@
         "name": "Name Information",
         "limit": 1,
         "settings": [
+          {
+            "type": "color",
+            "id": "title_color",
+            "label": "Title Color",
+            "default": "#1dd8c4"
+          },
           {
             "type": "text",
             "id": "name_title",
@@ -179,6 +190,24 @@
             "id": "content_text_1",
             "label": "Content Text",
             "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident."
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "url",
+            "id": "content_url",
+            "label": "Content URL"
+          },
+          {
+            "type": "text",
+            "id": "content_label",
+            "label": "Content Label",
+            "default": "Button Label"
           }
         ]
       },
