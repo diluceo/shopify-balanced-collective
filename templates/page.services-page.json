@@ -28,27 +28,12 @@
         "163030625826391d0c-0": {
           "type": "caption",
           "settings": {
-            "caption_1": "Lorem ipsum"
-          }
-        },
-        "163030625826391d0c-1": {
-          "type": "title",
-          "settings": {
-            "title_1": "Your Body is Weird and Wonderful."
-          }
-        },
-        "163030625826391d0c-2": {
-          "type": "link",
-          "settings": {
-            "button_label": "Button Label",
-            "button_url": "Button Link"
+            "caption_1": "<span>Your Body is Weird and Wonderful.<\/span><br><span>That’s why we provide sessions that are as unique as you are.<\/span>"
           }
         }
       },
       "block_order": [
-        "163030625826391d0c-0",
-        "163030625826391d0c-1",
-        "163030625826391d0c-2"
+        "163030625826391d0c-0"
       ],
       "settings": {
         "section_width": "page-width",
