@@ -92,7 +92,8 @@
           "4eaf4396-4ca2-4f1a-9318-c140daff4aba": {
             "type": "image",
             "settings": {
-              "image_width": 100,
+              "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/logo.svg?v=1630284135",
+              "image_width": 165,
               "alignment": "center"
             }
           },
