@@ -457,7 +457,7 @@
   {%- endif -%}
 </div>
 
-<div id="CollectionProductGrid">
+<div id="CollectionProductGrid" style="z-index: 1;">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
@@ -502,11 +502,23 @@
   {%- endpaginate -%}
 </div>
 
+{%- if section.settings.bg_image != blank -%}
+<div class="bgimage" style="opacity: {{section.settings.bg_opacity}};">
+  {% assign my_img = section.settings.bg_image %}
+  {% render 'image-block', my_img: my_img %}
+</div>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
   "class": "spaced-section collection-grid-section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
     {
       "type": "range",
       "id": "products_per_page",
