@@ -82,8 +82,10 @@
       ],
       "settings": {
         "direction": true,
+        "fancy": true,
         "image_1": "shopify:\/\/shop_images\/Group_569.png",
         "title": "Our products are<br>the bomb dot com",
+        "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
     }
