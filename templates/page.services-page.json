@@ -42,8 +42,8 @@
         "bg_color": "#ff4646",
         "caption_color": "#ffffff",
         "title_color": "",
-        "highlight_color": "",
-        "highlight_text_color": ""
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#121212"
       }
     }
   },
