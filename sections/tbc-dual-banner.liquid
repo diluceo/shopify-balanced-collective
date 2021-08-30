@@ -1,5 +1,9 @@
 <div id="block-33-{{ section.id }}" class="block-33">
+  {%- if {{section.settings.direction}} -%}
   <div class="container page-width grid-main grid-2 gap-20 reversed">
+  {%- else -%}
+  <div class="container page-width grid-main grid-2 gap-20">
+  {%- endif -%}
     <div class="col block-one">
       <figure>
         {% assign my_img = section.settings.image_1 %}
@@ -7,13 +11,11 @@
       </figure>
     </div>
     <div class="col block-two">
-
       {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'name' -%}
-          <h6 class="caption text-main" style="font-weight:bold; color:{{section.settings.caption_color}};">{{block.settings.name_title}}</h6>
           <div class="item">
-            <div class="item-heading"><h4 class="text-subtitle">{{block.settings.caption_1}}</h4></div>
+            <div class="item-heading"><h4 class="text-subtitle name">{{block.settings.name_title}}</h4></div>
             <div>{{block.settings.name_text_1}}</div>
             <div>{{block.settings.name_text_2}}</div>
             <div>{{block.settings.name_text_3}}</div>
@@ -71,6 +73,12 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+      {
+        "type": "checkbox",
+        "id": "direction",
+        "label": "Reverse Section",
+        "default": false
+      },
 			{
 				"type": "image_picker",
 				"id": "image_1",
