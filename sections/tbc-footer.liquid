@@ -55,7 +55,7 @@
                   <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                     {%- if block.settings.logo_svg != blank -%}
                       {%- assign image_size = block.settings.image_width | append: 'x' -%}
-                      <div style="width: {{block.settings.image_width }}px;">
+                      <div style="width: {{block.settings.image_width }}px; margin:auto;">
                         <img srcset="{{ block.settings.logo_svg}} 1x,"
                           src="{{ block.settings.logo_svg}}"
                           loading="lazy"
