@@ -1,3 +1,6 @@
+{%- if section.settings.fancy -%}
+<div class="fancy-background">
+{%- endif -%}
 <div id="block-1{{ section.id }}" class="block-1">
   {%- if section.settings.direction -%}
 	<div class="container page-width flex-main p-small flex-reverse">
@@ -17,7 +20,7 @@
 			</div>
 		</div>
 		<div class="col flex-50 flex-main flex-center">
-			<h3 class="text-subtitle fancyheader">{{section.settings.title}}</h3>
+			<h3 class="text-subtitle fancyheader" style="color:{{section.settings.title_colour}};">{{section.settings.title}}</h3>
 			<div class="content-wrapper flex-main" style="color:{{section.settings.text_colour}};">
 				{%- for block in section.blocks -%}
 					{%- case block.type -%}
@@ -42,6 +45,9 @@
 		</div>
 	</div>
 </div>
+{%- if section.settings.fancy -%}
+</div>
+{%- endif -%}
 
 {% schema %}
 	{
@@ -53,6 +59,12 @@
         "type": "checkbox",
         "id": "direction",
         "label": "Reverse Section",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "fancy",
+        "label": "Fancy Background",
         "default": false
       },
 			{
@@ -67,11 +79,16 @@
 			},
 			{
 				"type": "color",
+				"id": "title_colour",
+				"label": "Title Colour",
+				"default": "#000"
+			}
+			{
+				"type": "color",
 				"id": "text_colour",
 				"label": "Text Colour",
 				"default": "#000"
 			}
-
 		],
 		"blocks": [
 			{
