@@ -168,6 +168,58 @@
         "image_1": "shopify:\/\/shop_images\/team-danielle.png",
         "image_position": "top"
       }
+    },
+    "1630352647787145aa": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "2ea9b25d-8822-476b-a038-ed558039e337": {
+          "type": "name",
+          "settings": {
+            "title_color": "#ec86d0",
+            "name_title": "Holly Middleton",
+            "name_text_1": "She \/ Her (taurus)",
+            "name_text_2": "Role: Active Rehab Assistant",
+            "name_text_3": "Favourite Bone: The Talus"
+          }
+        },
+        "d798eabf-f9f0-49c0-9bc9-7102178f1988": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "",
+            "about_text_1": "My elderly cat, Pekoe",
+            "about_url_2": "",
+            "about_text_2": "The topic of my PhD research",
+            "about_url_3": "",
+            "about_text_3": "A forest scent that evokes childhood memories"
+          }
+        },
+        "5362b885-6c00-494b-829e-b857a3ace1b9": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "I help restore your body’s factory settings by helping you move better. I zoom in with my eagle eyes on what is and isn’t moving and work with you to find strategies to get your parts moving better. I’m super keen on foot function and hacking the role of gravity and momentum in getting your body to do what it’s designed to do. I also enjoy how getting your breathing just right can instantly alleviate pain and improve your posture."
+          }
+        },
+        "c00259c6-d1d1-4191-aefc-62564cc4a5ef": {
+          "type": "list",
+          "settings": {
+            "list_title": "Courses and Certifications:",
+            "list_text_1": "<li>CanFitPro certified Personal Training Specialist <\/li><li>Anatomy in Motion practitioner<\/li>\n<li>Anatomy in Motion practitioner<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "2ea9b25d-8822-476b-a038-ed558039e337",
+        "d798eabf-f9f0-49c0-9bc9-7102178f1988",
+        "5362b885-6c00-494b-829e-b857a3ace1b9",
+        "c00259c6-d1d1-4191-aefc-62564cc4a5ef"
+      ],
+      "settings": {
+        "direction": true,
+        "image_1": "shopify:\/\/shop_images\/team-holly.png",
+        "image_position": "top"
+      }
     }
   },
   "order": [
@@ -176,6 +228,7 @@
     "163030625826391d0c",
     "1630309950b6af270e",
     "1630350002472a30f1",
-    "16303517224142031f"
+    "16303517224142031f",
+    "1630352647787145aa"
   ]
 }
