@@ -26,20 +26,20 @@
     "16301459394b558fdd": {
       "type": "tbc-info-block",
       "blocks": {
-        "0a8c1acc-c4f0-4f80-a910-4110af3c508a": {
-          "type": "info",
-          "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
-            "heading": "Local & Female Owned",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          }
-        },
         "6b170b5e-5251-4b24-aa03-45dfe93b1efe": {
           "type": "info",
           "settings": {
             "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/testicon.png?v=1630146966",
             "heading": "Environment Friendly",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            "content": "We’re committed to reducing harm to the environment and creating a positive impact on climate change."
+          }
+        },
+        "0a8c1acc-c4f0-4f80-a910-4110af3c508a": {
+          "type": "info",
+          "settings": {
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
+            "heading": "Local + Female Owned",
+            "content": "Lorem Did you know we’re a female owned business based in North Vancouver, British Columbia? Oh chyea!"
           }
         },
         "7c10a37f-d9b4-472e-8c52-f8258e9d216d": {
@@ -47,27 +47,27 @@
           "settings": {
             "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Trauma.svg?v=1630150742",
             "heading": "Trauma Informed Team",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            "content": "Our team understands how to navigate and respect your unique history while creating the most sensitive and appropriate plan for you."
           }
         },
         "baf78fe2-e609-4c0e-9e39-91d2f8e77f44": {
           "type": "info",
           "settings": {
             "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Quality.svg?v=1630150742",
-            "heading": "Quality",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            "heading": "Committed to Quality",
+            "content": "We’re committed to continuously improving and learning so you’ll always be given the highest quality services and products."
           }
         }
       },
       "block_order": [
-        "0a8c1acc-c4f0-4f80-a910-4110af3c508a",
         "6b170b5e-5251-4b24-aa03-45dfe93b1efe",
+        "0a8c1acc-c4f0-4f80-a910-4110af3c508a",
         "7c10a37f-d9b4-472e-8c52-f8258e9d216d",
         "baf78fe2-e609-4c0e-9e39-91d2f8e77f44"
       ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
-        "title": "Lorem Ipsum",
+        "title": "What we’re all about",
         "text_colour": "#262c96"
       }
     },
