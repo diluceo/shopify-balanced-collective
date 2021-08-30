@@ -649,6 +649,7 @@ main a:not(.btn) {
 
 .myprod {
   padding-top: 200px;
+  padding-bottom: 80px;
   margin-top: -150px !important;
 }
 

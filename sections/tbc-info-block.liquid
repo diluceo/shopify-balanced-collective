@@ -1,5 +1,9 @@
 <div id="block-1{{ section.id }}" class="block-1">
+  {%- if section.settings.direction -%}
+	<div class="container page-width flex-main p-small flex-reverse">
+  {%- else -%}
 	<div class="container page-width flex-main p-small">
+  {%- endif -%}
 		<div class="col flex-50">
 			<div class="image-con">
 				<figure>
@@ -45,6 +49,12 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+      {
+        "type": "checkbox",
+        "id": "direction",
+        "label": "Reverse Section",
+        "default": false
+      },
 			{
 				"type": "image_picker",
 				"id": "image_1",
