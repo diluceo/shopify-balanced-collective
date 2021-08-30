@@ -291,7 +291,7 @@
 
 .section,
 .container,
-.col, .bg-wrapper {
+.col, .bg-wrapper, .relative {
   position: relative;
 }
 
