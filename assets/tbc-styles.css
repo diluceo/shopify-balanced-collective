@@ -654,6 +654,10 @@ main a:not(.btn) {
   margin-top: -150px !important;
 }
 
+footer ul {
+  text-align: left;
+}
+
 footer ul.footer-block__details-content li {
   display: inline-block !important;
 }
@@ -680,6 +684,9 @@ footer .icon-facebook {
 }
 
 @media (max-width: 749px) {
+  footer ul {
+    text-align: center;
+  }
   footer .footer-block--menu {
     text-align: center;
   }
