@@ -40,7 +40,7 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
         "bg_color": "#ff4646",
-        "caption_color": "",
+        "caption_color": "#ffffff",
         "title_color": "",
         "highlight_color": "",
         "highlight_text_color": ""
