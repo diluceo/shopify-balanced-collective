@@ -81,7 +81,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications:",
-            "list_text_1": "Lorem ipsum dolor sit."
+            "list_text_1": "<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>"
           }
         }
       },
