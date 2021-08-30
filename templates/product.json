@@ -84,10 +84,43 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16302987114067d624": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "16302987114067d624-0": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "caption": "EVENTS & EDUCATION",
+            "title": "Come learn, heal and Laugh with us.",
+            "button_label": "Button Label",
+            "button_url": ""
+          }
+        },
+        "16302987114067d624-1": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
+            "caption": "Blogs",
+            "title": "Wellness tips for a balanced life.",
+            "button_label": "Read More",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16302987114067d624-0",
+        "16302987114067d624-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16302987114067d624"
   ]
 }
