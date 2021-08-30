@@ -52,7 +52,8 @@
       ],
       "settings": {
         "section_width": "page-width",
-        "bg_image": "shopify:\/\/shop_images\/blue-bg.jpg",
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_opacity": 1,
         "bg_color": "#ff4646",
         "caption_color": "",
         "title_color": "",
