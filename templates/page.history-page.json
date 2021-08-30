@@ -81,7 +81,8 @@
       ],
       "settings": {
         "direction": true,
-        "image_1": "shopify:\/\/shop_images\/who-we-are_290be253-d7b9-422e-8cce-04bdcaf4132c.png"
+        "image_1": "shopify:\/\/shop_images\/who-we-are_290be253-d7b9-422e-8cce-04bdcaf4132c.png",
+        "image_position": "center"
       }
     },
     "1630350002472a30f1": {
@@ -115,6 +116,58 @@
         "highlight_color": "",
         "highlight_text_color": ""
       }
+    },
+    "16303517224142031f": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "6d52c556-ff1b-4ec0-8131-8bc08ad81d57": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1dd8c4",
+            "name_title": "Danielle Boyd",
+            "name_text_1": "She \/ Her",
+            "name_text_2": "Role: Physiotherapist and Founder of TBC",
+            "name_text_3": "Favourite Bone: The Sphenoid"
+          }
+        },
+        "d6dd2a11-0ec2-40e4-a275-b9e6d8fc0982": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "",
+            "about_text_1": "My days as a competitive wakeboarder",
+            "about_url_2": "",
+            "about_text_2": "Favourite Wine",
+            "about_url_3": "",
+            "about_text_3": "Anything travel related"
+          }
+        },
+        "58189429-40fe-4446-985b-252de4c1e6f9": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "Using a unique and cutting edge set of assessment and treatment modalities, I like to look at each client as a whole. I take a thorough and detailed history to get a deep understanding of each client and the unique history they have experienced in order to create a detailed map of their nervous system. This history is the most important facet of treatment as it allows me to navigate the intricacies of every unique person I work with. Nothing is cookie cutter because no two nervous systems are the same or have had the same experiences. Together, we then create a unique and detailed treatment plan that aligns with each client’s goals and needs."
+          }
+        },
+        "65939ebb-20b9-4e39-b7c7-247ad89dda9a": {
+          "type": "list",
+          "settings": {
+            "list_title": "Lorem ipsum",
+            "list_text_1": "<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "6d52c556-ff1b-4ec0-8131-8bc08ad81d57",
+        "d6dd2a11-0ec2-40e4-a275-b9e6d8fc0982",
+        "58189429-40fe-4446-985b-252de4c1e6f9",
+        "65939ebb-20b9-4e39-b7c7-247ad89dda9a"
+      ],
+      "settings": {
+        "direction": false,
+        "image_1": "shopify:\/\/shop_images\/team-danielle.png",
+        "image_position": "center"
+      }
     }
   },
   "order": [
@@ -122,6 +175,7 @@
     "1630299441752dfb4b",
     "163030625826391d0c",
     "1630309950b6af270e",
-    "1630350002472a30f1"
+    "1630350002472a30f1",
+    "16303517224142031f"
   ]
 }
