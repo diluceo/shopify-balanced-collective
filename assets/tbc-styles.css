@@ -570,6 +570,7 @@ main a:not(.btn) {
   background-position: left top, right bottom;
   background-size: 300px, 300px;
   background-repeat: no-repeat, no-repeat;
+  padding-top: 3em;
 }
 
 .header-wrapper, .header {
