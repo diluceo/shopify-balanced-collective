@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /***************************
 ******* FLEX SETTINGS ******
 ****************************/
@@ -205,6 +206,11 @@
       grid-template-columns: 1fr 3fr;
 }
 
+.grid-2-3 {
+  -ms-grid-columns: 2fr 3fr;
+      grid-template-columns: 2fr 3fr;
+}
+
 @media (max-width: 767px) {
   .grid-2,
   .grid-3,
@@ -212,9 +218,14 @@
   .grid-2-1,
   .grid-3-1,
   .grid-1-2,
-  .grid-3-1 {
+  .grid-3-1,
+  .grid-2-3 {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+  }
+  .grid-2-3 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -922,6 +933,101 @@ main a:not(.btn) {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+}
+
+.block-33 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.block-33 .block-one figure img {
+  -o-object-position: top;
+     object-position: top;
+}
+
+.block-33 .item-content figure {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.block-33 .item_item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.3333%;
+          flex: 1 1 33.3333%;
+  text-align: center;
+}
+
+.block-33 .item {
+  margin-bottom: 30px;
+}
+
+.block-33 .item .text-main {
+  margin-bottom: 10px;
+}
+
+.block-33 .item ul {
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.block-33 .item li {
+  margin-left: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(50% - 40px);
+          flex: 1 1 calc(50% - 40px);
+  display: inline-block;
+  width: calc(50% - 40px);
+}
+
+.block-33 .item li::before {
+  content: "•";
+  color: #1DD8C4;
+  font-size: 30px;
+  display: inline-block;
+  width: 24px;
+  margin-left: -40px;
+}
+
+@media (max-width: 767px) {
+  .block-33 .grid-2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .block-33 .grid-main {
+        grid-template-areas: "first second";
+  }
+  .block-33 .block-one {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: first;
+  }
+  .block-33 .block-two {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: second;
+  }
+  .block-33 .reversed .block-one {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: second;
+  }
+  .block-33 .reversed .block-two {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: first;
   }
 }
 

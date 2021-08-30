@@ -1,9 +1,69 @@
 <div id="block-33-{{ section.id }}" class="block-33">
-  <div class="container page-full flex-main">
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur id aliquam officia, error corrupti distinctio animi vitae eum est necessitatibus quae veniam ipsa ut? Saepe reiciendis ullam at dolore.</h1>
+  <div class="container page-width grid-main grid-2 gap-20 reversed">
+    <div class="col block-one">
+      <figure>
+        {% assign my_img = block.settings.image_1 %}
+        {% render 'image-block-svg', my_img: my_img %}
+      </figure>
+    </div>
+    <div class="col block-two">
+
+      {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'name' -%}
+          <h6 class="caption text-main" style="font-weight:bold; color:{{section.settings.caption_color}};">{{block.settings.name_title}}</h6>
+          <div class="item">
+            <div class="item-heading"><h4 class="text-subtitle">{{block.settings.caption_1}}</h4></div>
+            <div>{{block.settings.name_text_1}}</div>
+            <div>{{block.settings.name_text_2}}</div>
+            <div>{{block.settings.name_text_3}}</div>
+          </div>
+        {%- when 'about' -%}
+          <div class="item">
+            <div class="item-heading"><h4 class="text-main">{{block.settings.about_title}}</h4></div>
+            <div class="item-content flex-main">
+              <div class="item_item">
+                <figure>
+                  {% assign my_img = block.settings.about_url_1 %}
+									{% render 'image-block-svg', my_img: my_img %}
+                </figure>
+                <div class="text-main">{{block.settings.about_text_1}}</div>
+              </div>
+              <div class="item_item">
+                <figure>
+                  {% assign my_img = block.settings.about_url_2 %}
+									{% render 'image-block-svg', my_img: my_img %}
+                </figure>
+                <div class="text-main">{{block.settings.about_text_2}}</div>
+              </div>
+              <div class="item_item">
+                <figure>
+                  {% assign my_img = block.settings.about_url_3 %}
+									{% render 'image-block-svg', my_img: my_img %}
+                </figure>
+                <div class="text-main">{{block.settings.about_text_3}}</div>
+              </div>
+            </div>
+          </div>
+        {%- when 'content' -%}
+          <div class="item">
+            <div class="item-heading"><h4 class="text-main">{{block.settings.content_title}}</h4></div>
+            <p class="text-main">{{block.settings.content_text_1}}</p>
+          </div>
+          
+        {%- when 'list' -%}
+          <div class="item">
+            <div class="item-heading"><h4 class="text-main">{{block.settings.list_title}}</h4></div>
+            <ul class="text-main">
+              {{block.settings.list_test_1}}
+            </ul>
+          </div>
+
+      {%- endcase -%}
+      {%- endfor -%}
+    </div>
   </div>
 </div>
-
 
 {% schema %}
 	{
@@ -12,44 +72,124 @@
 		"class": "wrapper",
 		"settings": [
 			{
-				"type": "text",
-				"id": "section_title",
-				"label": "Section Title"
+				"type": "image_picker",
+				"id": "image_1",
+				"label": "Image"
 			}
 		],
     "blocks": [
       {
-        "type": "banner",
-        "name": "banner",
-        "limit": 2,
+        "type": "name",
+        "name": "Name Information",
+        "limit": 1,
         "settings": [
           {
-            "type": "image_picker",
-            "id": "image_1",
-            "label": "Background Image"
+            "type": "text",
+            "id": "name_title",
+            "label": "Title",
+            "default": "Lorem ipsum"
           },
           {
             "type": "text",
-            "id": "caption",
-            "default": "Lorem ipsum",
-            "label": "Caption"
+            "id": "name_text_1",
+            "label": "Text 1",
+            "default": "Lorem ipsum"
           },
           {
             "type": "text",
-            "id": "title",
-            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
-            "label": "Title"
+            "id": "name_text_2",
+            "label": "Text 2",
+            "default": "Lorem ipsum"
           },
           {
             "type": "text",
-            "id": "button_label",
-            "default": "Button Label",
-            "label": "Button Label"
+            "id": "name_text_3",
+            "label": "Text 3",
+            "default": "Lorem ipsum"
+          }
+        ]
+      },
+      {
+        "type": "about",
+        "name": "About Us",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "about_title",
+            "label": "About Title",
+            "default": "Lorem ipsum"
           },
           {
             "type": "url",
-            "id": "button_url",
-            "label": "Button Url"
+            "id": "about_url_1",
+            "label": "Icon Link 1"
+          },
+          {
+            "type": "text",
+            "id": "about_text_1",
+            "label": "Text 1",
+            "default": "Lorem ipsum Dolor"
+          },
+          {
+            "type": "url",
+            "id": "about_url_2",
+            "label": "Icon Link 2"
+          },
+          {
+            "type": "text",
+            "id": "about_text_2",
+            "label": "Text 2",
+            "default": "Lorem ipsum Dolor"
+          },
+          {
+            "type": "url",
+            "id": "about_url_3",
+            "label": "Icon Link 3"
+          },
+          {
+            "type": "text",
+            "id": "about_text_3",
+            "label": "Text 3",
+            "default": "Lorem ipsum Dolor"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name": "Content",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "content_title",
+            "label": "Content Title",
+            "default": "Lorem ipsum"
+          },
+          {
+            "type": "text",
+            "id": "content_text_1",
+            "label": "Content Text",
+            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "name": "List",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "list_title",
+            "label": "List Title",
+            "default": "Lorem ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "list_text_1",
+            "label": "List Content",
+            "default": "<li>Lorem ipsum dolor sit.</li><li>Lorem ipsum dolor sit.</li>"
           }
         ]
       }
