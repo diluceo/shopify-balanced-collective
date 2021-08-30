@@ -121,10 +121,10 @@
         "section_title": ""
       }
     },
-    "custom-multibanner": {
+    "1630344378b5ba1203": {
       "type": "tbc-multibanner",
       "blocks": {
-        "custom-multibanner-0": {
+        "1630344378b5ba1203-0": {
           "type": "banner",
           "settings": {
             "caption": "Lorem ipsum",
@@ -133,7 +133,7 @@
             "button_url": ""
           }
         },
-        "custom-multibanner-1": {
+        "1630344378b5ba1203-1": {
           "type": "banner",
           "settings": {
             "caption": "Lorem ipsum",
@@ -144,8 +144,8 @@
         }
       },
       "block_order": [
-        "custom-multibanner-0",
-        "custom-multibanner-1"
+        "1630344378b5ba1203-0",
+        "1630344378b5ba1203-1"
       ],
       "settings": {
         "section_title": ""
@@ -158,6 +158,6 @@
     "product-grid",
     "16303422502867d4c7",
     "16303432603530dfb6",
-    "custom-multibanner"
+    "1630344378b5ba1203"
   ]
 }
