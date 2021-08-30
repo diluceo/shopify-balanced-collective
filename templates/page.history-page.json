@@ -52,6 +52,7 @@
         "3ce27ffd-b79c-4469-92ac-48e6de17dea1": {
           "type": "name",
           "settings": {
+            "title_color": "#1c7ee3",
             "name_title": "Who we are",
             "name_text_1": "",
             "name_text_2": "",
@@ -65,18 +66,18 @@
             "content_text_1": "TBC is a collective of practitioners, services and environmentally friendly-products designed to facilitate your journey towards wellness, health and balance; whatever that means to you. As a team, TBC is committed to supporting you as you navigate the (sometimes overwhelming) process that is wellness and balance. What makes TBC special isn’t just that we have an incredible array of advanced and powerful modalities and resources, it’s that we care deeply about our clients and customers and go above and beyond to ensure every individual feels heard, seen and supported. At TBC, we believe that wellness is a balance of vulnerable and real work, combined with plenty of moments of ease, joy and fun. Health doesn’t have to be hard and serious all the time–we want you to enjoy the journey and have great connections along the way. We are ready to get down to business… and have a few laughs along the way."
           }
         },
-        "f34195e1-1f45-4fad-a9e8-9e2b2271455b": {
-          "type": "list",
+        "612a5955-1ed5-4112-8b31-73f682152ab9": {
+          "type": "button",
           "settings": {
-            "list_title": "Courses and Certifications:",
-            "list_text_1": "<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>"
+            "content_url": "",
+            "content_label": "DISCOVER MORE"
           }
         }
       },
       "block_order": [
         "3ce27ffd-b79c-4469-92ac-48e6de17dea1",
         "48532f09-f170-4d49-aaeb-87cd0a23bdff",
-        "f34195e1-1f45-4fad-a9e8-9e2b2271455b"
+        "612a5955-1ed5-4112-8b31-73f682152ab9"
       ],
       "settings": {
         "direction": true,
