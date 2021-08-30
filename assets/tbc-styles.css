@@ -684,7 +684,7 @@ footer .icon-facebook {
 }
 
 @media (max-width: 749px) {
-  footer ul {
+  footer ul, footer .footer-block {
     text-align: center;
   }
   footer .footer-block--menu {
@@ -706,7 +706,6 @@ footer .icon-facebook {
 .hero-1 .content-wrapper {
   max-width: 600px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .hero-1 .contained {
