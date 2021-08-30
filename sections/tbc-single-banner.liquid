@@ -1,0 +1,121 @@
+<div id="block-3-{{ section.id }}" class="hero-1"></div>
+  <div class="container {{section.settings.section_width}}">
+    <div class="col flex-main flex-center p-med">
+      <div class="content-wrapper p-small">
+
+        {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'caption' -%}
+            <p class="caption text-main">{{block.settings.caption}}</p>
+          {%- when 'title' -%}
+            <h4 class="block-title text-subtitle">{{block.settings.title}}</h4>
+          {%- when 'link' -%}
+            <a href="{{block.settings.button_url}}" class="btn custom-btn">{{block.settings.button_label}}</a>
+        {%- endcase -%}
+        {%- endfor -%}
+
+      </div>
+    </div>
+    {%- if section.settings.bg_image != blank -%}
+    <div class="bgimage">
+      {% assign my_img = section.settings.bg_image %}
+      {% render 'image-block', my_img: my_img %}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+	{
+		"name": "Custom - Single Banner",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "select",
+        "id": "section_width",
+        "label": "Section Width",
+        "options": [
+          {
+            "value": "page-full",
+            "label": "Full Width"
+          },
+          {
+            "value": "page-width",
+            "label": "Boxed"
+          }
+        ],
+        "default": "page-width"
+      }
+		],
+    "blocks": [
+      {
+        "type": "caption",
+        "name": "caption",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "caption_1",
+            "label": "Caption",
+            "default": "Lorem ipsum"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "name": "title",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title_1",
+            "label": "Caption",
+            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident."
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "name": "link",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button Label",
+            "default": "Button Label"
+          },
+          {
+            "type": "text",
+            "id": "button_url",
+            "label": "Button Url",
+            "default": "Button Link"
+          }
+        ]
+      }
+    ],
+		"presets": [
+			{
+				"name":"Custom - Single Banner",
+        "blocks": [
+          {
+            "type": "caption"
+          },
+          {
+            "type": "title"
+          },
+          {
+            "type": "link"
+          }
+        ]
+      }
+		]
+	}
+{% endschema %}
