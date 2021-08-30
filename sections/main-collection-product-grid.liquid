@@ -503,7 +503,7 @@
 </div>
 
 {%- if section.settings.bg_image_p != blank -%}
-<div class="bgimage" style="opacity: {{section.settings.bg_opacity}};">
+<div class="bgimage" style="z-index: -1;">
   {% assign my_img = section.settings.bg_image_p %}
   {% render 'image-block', my_img: my_img %}
 </div>
@@ -512,7 +512,7 @@
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
-  "class": "collection-grid-section relative",
+  "class": "collection-grid-section relative myprod",
   "settings": [
     {
       "type": "image_picker",
