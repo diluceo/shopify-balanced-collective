@@ -988,6 +988,10 @@ footer .icon-facebook {
   padding-bottom: 4em;
 }
 
+.block-33 .text-main, .block-33 .text-subtitle, .block-33 p, .block-33 li {
+  color: var(--tbc-darkblue);
+}
+
 .block-33 .block-one figure img {
   -o-object-position: top;
      object-position: top;
