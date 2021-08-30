@@ -1,13 +1,45 @@
 {
   "sections": {
+    "163033968360b5a1e9": {
+      "type": "tbc-banner",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_59.png",
+        "image_2": "shopify:\/\/shop_images\/header-product.jpg",
+        "caption": "HAPPY EARTH, HAPPY HEART.",
+        "heading": "Eco-friendly products for<br><span>your wellness routine<span><\/span><\/span>",
+        "button_label": "Button Label",
+        "button_link_1": "",
+        "caption_color": "#262c96",
+        "heading_color": "#1C7EE3",
+        "button_color": "#FF6976",
+        "highlight_color": "#EC86D0",
+        "highlight_text_color": "#FFF"
+      }
+    },
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
     }
   },
   "order": [
+    "163033968360b5a1e9",
     "banner",
     "product-grid"
   ]
