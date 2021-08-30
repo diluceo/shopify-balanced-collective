@@ -15,7 +15,13 @@
           {%- when 'caption' -%}
             <h6 class="caption text-main" style="font-weight:bold; color:{{section.settings.caption_color}};">{{block.settings.caption_1}}</h6>
           {%- when 'title' -%}
+            {%- if block.settings.fancy -%}
+            <div class="flex-main flex-center">
+              <h4 class="block-title text-subtitle" style="color:{{section.settings.title_color}};">{{block.settings.title_1}}</h4>
+            </div>
+            {%- else -%}
             <h4 class="block-title text-subtitle" style="color:{{section.settings.title_color}};">{{block.settings.title_1}}</h4>
+            {%- endif -%}
           {%- when 'link' -%}
             <a href="{{block.settings.button_url}}" class="btn custom-btn">{{block.settings.button_label}}</a>
         {%- endcase -%}
@@ -92,7 +98,7 @@
       {
         "type": "color",
         "id": "highlight_color",
-        "label": "Highlight Color"
+        "label": "Highlight Text Color"
       },
       {
         "type": "color",
@@ -124,6 +130,12 @@
             "id": "title_1",
             "label": "Caption",
             "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident."
+          },
+          {
+            "type": "checkbox",
+            "id": "fancy",
+            "label": "Fancy Heading",
+            "default": false
           }
         ]
       },
