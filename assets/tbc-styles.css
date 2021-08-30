@@ -609,6 +609,10 @@ main a:not(.btn) {
   }
 }
 
+.product {
+  padding-bottom: 4em;
+}
+
 .product .product__title {
   color: var(--tbc-blue);
 }
@@ -897,6 +901,7 @@ main a:not(.btn) {
 
 .block-3 .caption {
   color: #FFC600;
+  text-transform: uppercase;
   margin-bottom: 5px;
 }
 
