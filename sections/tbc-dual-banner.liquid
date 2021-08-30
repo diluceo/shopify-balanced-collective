@@ -1,0 +1,59 @@
+
+
+
+{% schema %}
+	{
+		"name": "Custom - Dual Banner",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+			{
+				"type": "text",
+				"id": "section_title",
+				"label": "Section Title"
+			}
+		],
+    "blocks": [
+      {
+        "type": "banner",
+        "name": "banner",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Background Image"
+          },
+          {
+            "type": "text",
+            "id": "caption",
+            "default": "Lorem ipsum",
+            "label": "Caption"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button Label",
+            "label": "Button Label"
+          },
+          {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button Url"
+          }
+        ]
+      }
+    ],
+		"presets": [
+			{
+				"name":"Custom - Dual Banner"
+      }
+		]
+	}
+{% endschema %}
