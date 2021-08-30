@@ -1,4 +1,9 @@
 <div id="block-33-{{ section.id }}" class="block-33">
+  <style>
+    #block-33-{{ section.id }} .block-one > figure > img {
+      object-position: {{section.settings.image_position}}!important;
+    }
+  </style>
   {%- if section.settings.direction -%}
   <div class="container page-width grid-main grid-2 gap-40 reversed">
   {%- else -%}
@@ -88,7 +93,23 @@
 				"type": "image_picker",
 				"id": "image_1",
 				"label": "Image"
-			}
+			},
+      {
+        "type": "select",
+        "id": "image_position",
+        "label": "Image Postion",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Middle"
+          }
+        ],
+        "default": "center"
+      }
 		],
     "blocks": [
       {
