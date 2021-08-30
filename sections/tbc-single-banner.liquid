@@ -1,14 +1,21 @@
-<div id="block-3-{{ section.id }}" class="hero-1"></div>
-  <div class="container {{section.settings.section_width}}">
+<div id="hero-1-{{ section.id }}" class="hero-1">
+  <!-- <style>
+    #hero-1-{{ section.id }} span {
+      background-color: {{ section.settings.highlight_color }};
+      color: {{ section.settings.highlight_text_color }};
+      padding: 0 5px;
+    }
+  </style> -->
+  <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}};">
     <div class="col flex-main flex-center p-med">
       <div class="content-wrapper p-small">
 
         {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'caption' -%}
-            <p class="caption text-main">{{block.settings.caption}}</p>
+            <p class="caption text-main" style="color:{{section.settings.caption_color}};">{{block.settings.caption_1}}</p>
           {%- when 'title' -%}
-            <h4 class="block-title text-subtitle">{{block.settings.title}}</h4>
+            <h4 class="block-title text-subtitle" style="color:{{section.settings.title_color}};">{{block.settings.title_1}}</h4>
           {%- when 'link' -%}
             <a href="{{block.settings.button_url}}" class="btn custom-btn">{{block.settings.button_label}}</a>
         {%- endcase -%}
@@ -33,11 +40,6 @@
 		"class": "wrapper",
 		"settings": [
       {
-        "type": "image_picker",
-        "id": "bg_image",
-        "label": "Background Image"
-      },
-      {
         "type": "select",
         "id": "section_width",
         "label": "Section Width",
@@ -52,6 +54,40 @@
           }
         ],
         "default": "page-width"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color"
+      },
+      {
+        "type": "header",
+        "content": "Sections Options"
+      },
+      {
+        "type": "color",
+        "id": "caption_color",
+        "label": "Caption Color"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title Color"
+      },
+      {
+        "type": "color",
+        "id": "highlight_color",
+        "label": "Highlight Color"
+      },
+      {
+        "type": "color",
+        "id": "highlight_text_color",
+        "label": "Highlight Color"
       }
 		],
     "blocks": [
@@ -74,7 +110,7 @@
         "limit": 1,
         "settings": [
           {
-            "type": "text",
+            "type": "textarea",
             "id": "title_1",
             "label": "Caption",
             "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident."
