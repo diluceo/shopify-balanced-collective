@@ -543,6 +543,16 @@ main a:not(.btn) {
   background-repeat: no-repeat, no-repeat;
 }
 
+.header-wrapper, .header {
+  background-color: transparent;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.header.fade-in {
+  background-color: #FFFFFFCC;
+}
+
 .product-cards {
   padding-top: 4em;
   padding-bottom: 5em;
