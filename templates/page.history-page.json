@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "isactive": false
+      }
+    },
+    "1630299441752dfb4b": {
+      "type": "tbc-banner",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/guy-header.png",
+        "image_2": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
+        "caption": "LET’S GET YOU…",
+        "heading": "Back on your feet <br><span>so you can feel like yourself again<\/span>",
+        "button_label": "Button Label",
+        "button_link_1": "",
+        "caption_color": "#121212",
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
+      }
+    },
+    "163030625826391d0c": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "163030625826391d0c-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "<span>Your Body is Weird and Wonderful.<\/span><br><span>That’s why we provide sessions that are as unique as you are!.<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "163030625826391d0c-0"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_opacity": 1,
+        "bg_color": "#ff4646",
+        "caption_color": "#ffffff",
+        "title_color": "#ffffff",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#121212"
+      }
+    },
+    "1630309950b6af270e": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "3ce27ffd-b79c-4469-92ac-48e6de17dea1": {
+          "type": "name",
+          "settings": {
+            "name_title": "Danielle Boyd",
+            "name_text_1": "She \/ Her",
+            "name_text_2": "Role: Physiotherapist and Founder of TBC",
+            "name_text_3": "Favourite Bone: The Sphenoid"
+          }
+        },
+        "26319269-2e72-46e5-86ba-dd0ba2a9c2bf": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Trauma.svg?v=1630150742",
+            "about_text_1": "My days as a competitive wakeboarder",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Quality.svg?v=1630150742",
+            "about_text_2": "Favourite Wine",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
+            "about_text_3": "Anything travel related"
+          }
+        },
+        "48532f09-f170-4d49-aaeb-87cd0a23bdff": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "Using a unique and cutting edge set of assessment and treatment modalities, I like to look at each client as a whole. I take a thorough and detailed history to get a deep understanding of each client and the unique history they have experienced in order to create a detailed map of their nervous system. This history is the most important facet of treatment as it allows me to navigate the intricacies of every unique person I work with. Nothing is cookie cutter because no two nervous systems are the same or have had the same experiences. Together, we then create a unique and detailed treatment plan that aligns with each client’s goals and needs."
+          }
+        },
+        "f34195e1-1f45-4fad-a9e8-9e2b2271455b": {
+          "type": "list",
+          "settings": {
+            "list_title": "Courses and Certifications:",
+            "list_text_1": "<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "3ce27ffd-b79c-4469-92ac-48e6de17dea1",
+        "26319269-2e72-46e5-86ba-dd0ba2a9c2bf",
+        "48532f09-f170-4d49-aaeb-87cd0a23bdff",
+        "f34195e1-1f45-4fad-a9e8-9e2b2271455b"
+      ],
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/guy-header.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1630299441752dfb4b",
+    "163030625826391d0c",
+    "1630309950b6af270e"
+  ]
+}
