@@ -491,9 +491,9 @@ main a:not(.btn) {
 }
 
 .custom-btn.alt, .shopify-payment-button__button.alt {
-  background-color: #fff;
-  color: #FF6976;
-  border: 2px solid #FF6976;
+  background-color: #fff !important;
+  color: #FF6976 !important;
+  border: 2px solid #FF6976 !important;
 }
 
 .custom-btn:after, .shopify-payment-button__button:after {
