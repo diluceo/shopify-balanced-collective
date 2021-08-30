@@ -502,9 +502,9 @@
   {%- endpaginate -%}
 </div>
 
-{%- if section.settings.bg_image != blank -%}
+{%- if section.settings.bg_image_p != blank -%}
 <div class="bgimage" style="opacity: {{section.settings.bg_opacity}};">
-  {% assign my_img = section.settings.bg_image %}
+  {% assign my_img = section.settings.bg_image_p %}
   {% render 'image-block', my_img: my_img %}
 </div>
 {%- endif -%}
@@ -516,7 +516,7 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "bg_image",
+      "id": "bg_image_p",
       "label": "Background Image"
     },
     {
