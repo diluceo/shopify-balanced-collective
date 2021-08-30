@@ -1,13 +1,13 @@
 <div id="hero-1-{{ section.id }}" class="hero-1">
-  <!-- <style>
+  <style>
     #hero-1-{{ section.id }} span {
       background-color: {{ section.settings.highlight_color }};
       color: {{ section.settings.highlight_text_color }};
       padding: 0 5px;
     }
-  </style> -->
+  </style>
   <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}};">
-    <div class="col flex-main flex-center p-med">
+    <div class="col flex-main flex-center p-small">
       <div class="content-wrapper p-small">
 
         {%- for block in section.blocks -%}
