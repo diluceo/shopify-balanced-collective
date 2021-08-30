@@ -654,6 +654,14 @@ main a:not(.btn) {
   margin-top: -150px !important;
 }
 
+ul.footer-block__details-content li {
+  display: inline-block !important;
+}
+
+ul.footer-block__details-content li a {
+  color: var(--tbc-darkblue) !important;
+}
+
 .hero-1 {
   overflow: hidden;
 }
