@@ -37,11 +37,61 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
+    },
+    "16303422502867d4c7": {
+      "type": "tbc-info-block",
+      "blocks": {
+        "c7b27012-f997-48a4-9b7a-6a2efc3bb552": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Positive Health Benefits",
+            "content": "Every product selected by TBC has been tried and tested to have a positive impact on your health. We genuinely want you to feel good. No snake oil here!"
+          }
+        },
+        "9dad7897-69f6-4674-be46-ce2b738c2826": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Environmental Impact",
+            "content": "We choose products that are made with a high positive environmental impact. We want to reduce harm to the earth while having a beneficial impact on climate change."
+          }
+        },
+        "f196a9b0-b401-4940-9ac1-bd269b110841": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Local & Female Owned",
+            "content": "Did you know we’re based in North Vancouver, British Columbia and female founded? Oh chyea!"
+          }
+        },
+        "821a646b-827b-4887-ae6b-46de3bed52db": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Donate to support",
+            "content": "A portion of all profits will be donated to Protect our Winters Canada, who work towards policy solutions for our planet’s carbon reduction."
+          }
+        }
+      },
+      "block_order": [
+        "c7b27012-f997-48a4-9b7a-6a2efc3bb552",
+        "9dad7897-69f6-4674-be46-ce2b738c2826",
+        "f196a9b0-b401-4940-9ac1-bd269b110841",
+        "821a646b-827b-4887-ae6b-46de3bed52db"
+      ],
+      "settings": {
+        "direction": true,
+        "image_1": "shopify:\/\/shop_images\/Group_569.png",
+        "title": "",
+        "text_colour": "#000"
+      }
     }
   },
   "order": [
     "163033968360b5a1e9",
     "banner",
-    "product-grid"
+    "product-grid",
+    "16303422502867d4c7"
   ]
 }
