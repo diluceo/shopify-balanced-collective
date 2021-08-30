@@ -1,6 +1,6 @@
 // Change header class on scroll
 let scrollpos = window.scrollY;
-const header = document.querySelector("header");
+const header = document.querySelector("sticky-header");
 const header_height = header.offsetHeight;
 
 const add_class_on_scroll = () => header.classList.add("fade-in");

@@ -425,7 +425,7 @@ main a:not(.btn) {
   font-size: 13px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .text-hero {
     font-size: 3.4em;
   }
@@ -434,6 +434,10 @@ main a:not(.btn) {
   }
   .text-subtitle {
     font-size: 1.6em;
+  }
+  .text-main {
+    font-size: 16px;
+    line-height: 1.4em;
   }
 }
 
@@ -549,8 +553,8 @@ main a:not(.btn) {
   transition: all 300ms ease;
 }
 
-.header.fade-in {
-  background-color: #FFFFFFCC;
+.header-wrapper.fade-in {
+  background-color: #ffffffe3;
 }
 
 .product-cards {
@@ -791,7 +795,8 @@ main a:not(.btn) {
 }
 
 .block-1 {
-  min-height: 700px;
+  padding-top: 3em;
+  padding-bottom: 3em;
   overflow: hidden;
 }
 
@@ -808,7 +813,7 @@ main a:not(.btn) {
 
 .block-1 .content-wrapper .col {
   text-align: center;
-  padding: 40px 20px;
+  padding: 2em;
 }
 
 .block-1 .content-wrapper .icon {
@@ -838,7 +843,7 @@ main a:not(.btn) {
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
     min-width: 100%;
-    padding: 20px 5px;
+    padding: 1em;
   }
 }
 
