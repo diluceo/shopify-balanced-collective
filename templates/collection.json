@@ -120,6 +120,36 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "1630344378b5ba1203": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "1630344378b5ba1203-0": {
+          "type": "banner",
+          "settings": {
+            "caption": "Lorem ipsum",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "button_label": "Button Label",
+            "button_url": ""
+          }
+        },
+        "1630344378b5ba1203-1": {
+          "type": "banner",
+          "settings": {
+            "caption": "Lorem ipsum",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "button_label": "Button Label",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630344378b5ba1203-0",
+        "1630344378b5ba1203-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
     }
   },
   "order": [
@@ -127,6 +157,7 @@
     "banner",
     "product-grid",
     "16303422502867d4c7",
-    "16303432603530dfb6"
+    "16303432603530dfb6",
+    "1630344378b5ba1203"
   ]
 }
