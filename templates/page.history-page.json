@@ -95,12 +95,45 @@
         "direction": false,
         "image_1": "shopify:\/\/shop_images\/guy-header.png"
       }
+    },
+    "1630350002472a30f1": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "1630350002472a30f1-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "Team",
+            "fancy": true
+          }
+        },
+        "1630350002472a30f1-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "We don’t mean to brag, but we have a pretty incredible team of people available for in-person and virtual services. Get to know the team below."
+          }
+        }
+      },
+      "block_order": [
+        "1630350002472a30f1-1",
+        "1630350002472a30f1-0"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/bg-team-section.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "caption_color": "#ffffff",
+        "title_color": "#ffffff",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "1630299441752dfb4b",
     "163030625826391d0c",
-    "1630309950b6af270e"
+    "1630309950b6af270e",
+    "1630350002472a30f1"
   ]
 }
