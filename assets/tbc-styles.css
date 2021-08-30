@@ -605,7 +605,7 @@ main a:not(.btn) {
 @media (max-width: 749px) {
   .product-cards {
     padding-top: 2em;
-    padding-bottom: 3em;
+    padding-bottom: 2.8em;
   }
 }
 
