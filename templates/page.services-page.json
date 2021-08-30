@@ -45,11 +45,18 @@
         "highlight_color": "#d0df00",
         "highlight_text_color": "#121212"
       }
+    },
+    "1630309950b6af270e": {
+      "type": "tbc-dual-banner",
+      "settings": {
+        "section_title": ""
+      }
     }
   },
   "order": [
     "main",
     "1630299441752dfb4b",
-    "163030625826391d0c"
+    "163030625826391d0c",
+    "1630309950b6af270e"
   ]
 }
