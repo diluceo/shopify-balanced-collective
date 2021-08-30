@@ -75,6 +75,46 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "tbc-footer": {
+        "type": "tbc-footer",
+        "blocks": {
+          "tbc-footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>With gratitude, The Balanced Collective, acknowledges that our work is facilitated on the traditional territories of the Coast Salish peoples – xʷməθkʷəy̓əm (Musqueam), sḵwx̱wú7mesh (Squamish), and sel̓íl̓witulh (Tsleil-Waututh) ancestors and families.<\/p>"
+            }
+          },
+          "4eaf4396-4ca2-4f1a-9318-c140daff4aba": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
+          "tbc-footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          }
+        },
+        "block_order": [
+          "tbc-footer-1",
+          "4eaf4396-4ca2-4f1a-9318-c140daff4aba",
+          "tbc-footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
       }
     },
     "content_for_index": [
