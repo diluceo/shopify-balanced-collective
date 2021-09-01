@@ -279,7 +279,56 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
         "button_label": "Button Label",
-        "heading_color": "#fff"
+        "heading_color": "#ffffff"
+      }
+    },
+    "1630526735603a7d3a": {
+      "type": "tbc-feature-list",
+      "blocks": {
+        "f1af7960-0a1c-4f7c-8237-c87c234dd975": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Integrity",
+            "content": "The team at TBC is committed to practicing with the highest level of integrity, respect and care possible. Wherever you’re at in your health journey, we welcome you."
+          }
+        },
+        "f5c573a6-ef62-49e5-8f4e-d5d2535686e9": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Quality",
+            "content": "We’re committed to continuously improving and learning so you’ll always be given the highest quality services and products to the best of our abilities."
+          }
+        },
+        "1eb5510b-d6ff-42eb-a3a8-11d17c2a6094": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Unique Techniques",
+            "content": "Each treatment plan includes cutting edge techniques uniquely tailored to suit you. No two nervous systems are the same so no two sessions will be either."
+          }
+        },
+        "e9523541-b309-48af-a08c-ef15bcd674b3": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Trauma Informed",
+            "content": "Our trauma-informed team understands how to navigate and respect your unique history while creating the most sensitive and appropriate plan for you."
+          }
+        }
+      },
+      "block_order": [
+        "f1af7960-0a1c-4f7c-8237-c87c234dd975",
+        "f5c573a6-ef62-49e5-8f4e-d5d2535686e9",
+        "1eb5510b-d6ff-42eb-a3a8-11d17c2a6094",
+        "e9523541-b309-48af-a08c-ef15bcd674b3"
+      ],
+      "settings": {
+        "fancy": false,
+        "title": "What you can expect in our sessions",
+        "title_colour": "#000",
+        "text_colour": "#262c96"
       }
     }
   },
@@ -294,6 +343,7 @@
     "1630352647787145aa",
     "1630481710de7d62b2",
     "1630482090fd6da96d",
-    "1630516101a293de53"
+    "1630516101a293de53",
+    "1630526735603a7d3a"
   ]
 }
