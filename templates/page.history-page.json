@@ -226,6 +226,12 @@
         "image_1": "shopify:\/\/shop_images\/team-holly.png",
         "image_position": "top"
       }
+    },
+    "1630481710de7d62b2": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
+      }
     }
   },
   "order": [
@@ -236,6 +242,7 @@
     "1630350002472a30f1",
     "16303517224142031f",
     "1630481693613d42ec",
-    "1630352647787145aa"
+    "1630352647787145aa",
+    "1630481710de7d62b2"
   ]
 }
