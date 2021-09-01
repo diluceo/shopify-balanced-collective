@@ -322,6 +322,21 @@ figure {
   padding: 0;
 }
 
+figure.top img {
+  -o-object-position: top;
+     object-position: top;
+}
+
+figure.center img {
+  -o-object-position: center;
+     object-position: center;
+}
+
+figure.bottom img {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
 figure img {
   width: 100%;
   height: 100%;
@@ -1000,7 +1015,6 @@ footer .icon-facebook {
 .block-33 .item-content figure {
   width: 50px;
   height: 50px;
-  margin: auto;
   margin-bottom: 10px;
 }
 
@@ -1008,7 +1022,6 @@ footer .icon-facebook {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 33.3333%;
           flex: 1 1 33.3333%;
-  text-align: center;
 }
 
 .block-33 .item {
@@ -1028,7 +1041,6 @@ footer .icon-facebook {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 500px;
 }
 
 .block-33 .item li {
@@ -1039,6 +1051,8 @@ footer .icon-facebook {
           flex: 1 1 calc(50% - 40px);
   display: inline-block;
   width: calc(50% - 40px);
+  margin-bottom: 0.4em;
+  margin-right: 1em;
 }
 
 .block-33 .item li::before {
