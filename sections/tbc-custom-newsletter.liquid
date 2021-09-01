@@ -1,11 +1,12 @@
-<div id="hero-{{ section.id }}" class="hero-6 tbc-newsletter">
-	<div class="container page-full">
-		<div class="content-con flex-main">
-			<div class="col flex-inner flex-center flex-50 p-med content-con">
-        <h4 class="text-subtitle" style="color:{{section.settings.heading_color}};">{{section.settings.heading}}</h4>					
+<div id="hero-custom-{{ section.id }}" class="hero-custom tbc-newsletter">
+  <div class="bg-wrapper">
+	<div class="container page-width">
+		<div class="content-con grid-main grid-2 gap-40">
+			<div class="col flex-inner flex-center flex-50 content-con">
+        <h4 class="text-heading clear-margin" style="color:{{section.settings.heading_color}};">{{section.settings.heading}}</h4>					
 			</div>
-			<div class="col flex-50">
-        {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+			<div class="col flex-inner flex-center">
+        {%- form 'customer', id: 'ContactFooter', class: 'custom-form' -%}
           <input type="hidden" name="contact[tags]" value="newsletter">
           <div class="newsletter-form__field-wrapper">
             <div class="field">
@@ -44,14 +45,15 @@
         {%- endform -%}
 			</div>
 		</div>
-    {%- if section.settings.bg_image != blank -%}
-    <div class="bgimage">
-      {% render 'image-block', my_img: section.settings.bg_image %}
-    </div>
-    {%- else -%}
-      {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg op-10' }}
-    {%- endif -%}
 	</div>
+  {%- if section.settings.bg_image != blank -%}
+  <div class="bgimage">
+    {% render 'image-block', my_img: section.settings.bg_image %}
+  </div>
+  {%- else -%}
+    {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg op-10' }}
+  {%- endif -%}
+</div>
 </div>
 
 {% schema %}
