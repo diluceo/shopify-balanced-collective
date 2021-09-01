@@ -232,6 +232,46 @@
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
       }
+    },
+    "1630482090fd6da96d": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "1630482090fd6da96d-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "SERVICES"
+          }
+        },
+        "1630482090fd6da96d-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "You’re one session away from a good mood.",
+            "fancy": false
+          }
+        },
+        "1630482090fd6da96d-2": {
+          "type": "link",
+          "settings": {
+            "button_label": "LET’S CONNECT",
+            "button_url": "Button Link"
+          }
+        }
+      },
+      "block_order": [
+        "1630482090fd6da96d-0",
+        "1630482090fd6da96d-1",
+        "1630482090fd6da96d-2"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "caption_color": "#e10600",
+        "title_color": "#262c96",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
     }
   },
   "order": [
@@ -243,6 +283,7 @@
     "16303517224142031f",
     "1630481693613d42ec",
     "1630352647787145aa",
-    "1630481710de7d62b2"
+    "1630481710de7d62b2",
+    "1630482090fd6da96d"
   ]
 }
