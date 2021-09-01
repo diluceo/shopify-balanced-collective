@@ -1,0 +1,32 @@
+<div id="hero-1-{{ section.id }}" class="hero-1 tbc-divider">
+  <div class="container page-full">
+    {%- if section.settings.bg_image != blank -%}
+    <div class="bgimage">
+      {% render 'image-block', my_img: section.settings.bg_image %}
+    </div>
+    {%- else -%}
+      {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg op-10' }}
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+	{
+		"name": "Custom - Divider",
+		"tag": "section",
+		"class": "wrapper",
+		"settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      }
+		],
+		"presets": [
+			{
+				"name":"Custom - Divider"
+      }
+		]
+	}
+{% endschema %}
