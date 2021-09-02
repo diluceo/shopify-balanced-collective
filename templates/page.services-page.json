@@ -84,12 +84,51 @@
         "image_1": "shopify:\/\/shop_images\/physiotherapy.png",
         "image_position": "center"
       }
+    },
+    "1630544979a8159e41": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
+      }
+    },
+    "16305450173826bedb": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "b46d6046-8320-4259-bfc2-c7ccf21cd590": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1c7ee3",
+            "name_title": "Active Rehab",
+            "name_text_1": "",
+            "name_text_2": "",
+            "name_text_3": ""
+          }
+        },
+        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca": {
+          "type": "content",
+          "settings": {
+            "content_title": "",
+            "content_text_1": "Active Rehab is a dynamic-movement-specific treatment that involves all the benefits of a Physiotherapist with the combined precision of a personal trainer or Kinesiologist. Receive support from an expert team dedicated to reducing long-term injuries and decreasing pain, while increasing confidence and strength in your body. <br><br>Active Rehab begins with a detailed, high-level assessment completed by a Physiotherapist, who will develop a uniquely tailored treatment plan. Then, during your next session(s), a personal trainer or Kinesiologist will carry out the program under the supervision of the Physiotherapist. Finally, you’ll continue to meet with your physiotherapist in between for progress check-ins and treatment modifications."
+          }
+        }
+      },
+      "block_order": [
+        "b46d6046-8320-4259-bfc2-c7ccf21cd590",
+        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca"
+      ],
+      "settings": {
+        "direction": true,
+        "image_1": "shopify:\/\/shop_images\/active.png",
+        "image_position": "center"
+      }
     }
   },
   "order": [
     "main",
     "1630299441752dfb4b",
     "163030625826391d0c",
-    "1630309950b6af270e"
+    "1630309950b6af270e",
+    "1630544979a8159e41",
+    "16305450173826bedb"
   ]
 }
