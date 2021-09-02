@@ -15,6 +15,12 @@
         "show_author": false
       }
     },
+    "163057279396b0c59c": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
+      }
+    },
     "1630569292c5ebda49": {
       "type": "tbc-custom-newsletter",
       "settings": {
@@ -28,6 +34,7 @@
   "order": [
     "1630568324f286379c",
     "main",
+    "163057279396b0c59c",
     "1630569292c5ebda49"
   ]
 }
