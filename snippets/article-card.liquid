@@ -38,14 +38,14 @@
 
     <div class="article-card__info">
       <header class="article-card__header">
-        <h2 class="article-card__title" id="Article-{{ article.id }}">
-          {{ article.title | escape }}
-        </h2>
         {%- if show_date -%}
-          <span class="circle-divider caption-with-letter-spacing">
+          <span class="circle-divider caption-with-letter-spacing text-caption post-date">
             {{- article.published_at | time_tag: format: 'month_year' -}}
           </span>
         {%- endif -%}
+        <h2 class="article-card__title text-heading post-title" id="Article-{{ article.id }}">
+          {{ article.title | escape }}
+        </h2>
         {%- if show_author -%}
           <span class="caption-with-letter-spacing">{{ article.author -}}</span>
         {%- endif -%}
@@ -59,6 +59,7 @@
           {%- endif -%}
         </p>
       {%- endif -%}
+      <div><button class="btn custom-btn" style="cursor: pointer;">Read More</button></div>
       <div class="article-card__footer">
         {%- if article.comments_count > 0 and blog.comments_enabled? -%}
           <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>

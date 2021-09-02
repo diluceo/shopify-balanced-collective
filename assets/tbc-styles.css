@@ -691,6 +691,22 @@ main .clear-margin {
   height: 4.5rem;
 }
 
+.tbc-blog-block {
+  max-width: 1100px;
+}
+
+.tbc-blog-block .blog-articles__article {
+  margin-top: -100px;
+}
+
+.tbc-blog-block .post-date {
+  color: #1DD8C4;
+}
+
+.tbc-blog-block .post-title {
+  color: #262C96;
+}
+
 .blog-header .container {
   padding-top: 12em;
   padding-bottom: 4em;
