@@ -13,7 +13,7 @@
 						{%- when 'info' -%}
 							<div class="col flex-25">
 								{%- if block.settings.icon != blank -%}
-								<div class="icon" style="height: {{section.settings.icon_size}}; width: {{section.settings.icon_size}};">
+								<div class="icon" style="height: {{section.settings.icon_size}}px; width: {{section.settings.icon_size}}px;">
 									{% assign my_img = block.settings.icon %}
 									{% render 'image-block-svg', my_img: my_img %}
 								</div>
