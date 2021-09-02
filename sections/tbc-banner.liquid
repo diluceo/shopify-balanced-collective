@@ -1,17 +1,17 @@
-<style>
+<!-- <style>
 	#hero-{{ section.id }} span {
 		background-color: {{ section.settings.highlight_color }};
 		color: {{ section.settings.highlight_text_color }};
 		padding: 0 5px;
 	}
-</style>
-<div id="hero-{{ section.id }}" class="hero-6">
+</style> -->
+<div id="hero-{{ section.id }}" class="hero-6 tbc-banner">
 	<div class="container page-full">
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-center flex-50 p-med content-con">
 				<div class="content-wrapper">
 					{%- if section.settings.caption != blank -%}
-					<h3 class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</h3>
+					<h3 class="text-main clear-margin" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</h3>
 					{%- endif -%}
 					{%- if section.settings.heading != blank -%}
 					<h1 class="text-title" style="color:{{section.settings.heading_color}};">{{ section.settings.heading }}</h1>
