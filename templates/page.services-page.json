@@ -110,11 +110,27 @@
             "content_title": "",
             "content_text_1": "Active Rehab is a dynamic-movement-specific treatment that involves all the benefits of a Physiotherapist with the combined precision of a personal trainer or Kinesiologist. Receive support from an expert team dedicated to reducing long-term injuries and decreasing pain, while increasing confidence and strength in your body. <br><br>Active Rehab begins with a detailed, high-level assessment completed by a Physiotherapist, who will develop a uniquely tailored treatment plan. Then, during your next session(s), a personal trainer or Kinesiologist will carry out the program under the supervision of the Physiotherapist. Finally, you’ll continue to meet with your physiotherapist in between for progress check-ins and treatment modifications."
           }
+        },
+        "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6": {
+          "type": "content",
+          "settings": {
+            "content_title": "Have questions? Ready to get started? Book a free 15min consult with an Active Rehab specialist.",
+            "content_text_1": ""
+          }
+        },
+        "ed56f9a1-3eee-4460-9aeb-449e37df36d9": {
+          "type": "button",
+          "settings": {
+            "content_url": "",
+            "content_label": "BOOK NOW"
+          }
         }
       },
       "block_order": [
         "b46d6046-8320-4259-bfc2-c7ccf21cd590",
-        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca"
+        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca",
+        "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6",
+        "ed56f9a1-3eee-4460-9aeb-449e37df36d9"
       ],
       "settings": {
         "direction": true,
