@@ -226,8 +226,8 @@
       ],
       "settings": {
         "fancy": false,
-        "title": "",
-        "title_colour": "#000",
+        "title": "What you can expect in our sessions",
+        "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
     }
