@@ -231,6 +231,37 @@
         "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
+    },
+    "1630557728ca28f1af": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "2141b451-d258-46a0-a98b-f1760972f05c": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1c7ee3",
+            "name_title": "Rates",
+            "name_text_1": "Lorem ipsum",
+            "name_text_2": "Lorem ipsum",
+            "name_text_3": "Lorem ipsum"
+          }
+        },
+        "d9af5b44-fb48-41bc-b1be-1bdae322c808": {
+          "type": "content",
+          "settings": {
+            "content_title": "",
+            "content_text_1": "Rates are based on your health practitioner and service. We can happily direct bill to your extended health benefits provider. We currently do not bill to ICBC or WSBC, but please check back as this is another support feature in our near future."
+          }
+        }
+      },
+      "block_order": [
+        "2141b451-d258-46a0-a98b-f1760972f05c",
+        "d9af5b44-fb48-41bc-b1be-1bdae322c808"
+      ],
+      "settings": {
+        "direction": true,
+        "image_1": "shopify:\/\/shop_images\/active.png",
+        "image_position": "center"
+      }
     }
   },
   "order": [
@@ -241,6 +272,7 @@
     "1630544979a8159e41",
     "16305450173826bedb",
     "163055505955c53802",
-    "16305562074d6a90dd"
+    "16305562074d6a90dd",
+    "1630557728ca28f1af"
   ]
 }
