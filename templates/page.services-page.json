@@ -40,6 +40,8 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
         "bg_color": "#ff4646",
+        "show_vid": false,
+        "vid_link": "",
         "caption_color": "#ffffff",
         "title_color": "#ffffff",
         "highlight_color": "#d0df00",
@@ -137,6 +139,48 @@
         "image_1": "shopify:\/\/shop_images\/active.png",
         "image_position": "center"
       }
+    },
+    "163055505955c53802": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "163055505955c53802-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "Lorem ipsum"
+          }
+        },
+        "163055505955c53802-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "fancy": false
+          }
+        },
+        "163055505955c53802-2": {
+          "type": "link",
+          "settings": {
+            "button_label": "Button Label",
+            "button_url": "Button Link"
+          }
+        }
+      },
+      "block_order": [
+        "163055505955c53802-0",
+        "163055505955c53802-1",
+        "163055505955c53802-2"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "",
+        "title_color": "",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
     }
   },
   "order": [
@@ -145,6 +189,7 @@
     "163030625826391d0c",
     "1630309950b6af270e",
     "1630544979a8159e41",
-    "16305450173826bedb"
+    "16305450173826bedb",
+    "163055505955c53802"
   ]
 }
