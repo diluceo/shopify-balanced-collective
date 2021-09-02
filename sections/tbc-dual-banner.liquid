@@ -1,4 +1,4 @@
-<div id="block-33-{{ section.id }}" class="block-33">
+<div id="block-33-{{ section.id }}" class="block-33 custom-dual-banner">
   <!-- <style>
     #block-33-{{ section.id }} .block-one > figure > img {
       object-position: {{section.settings.image_position}}!important;
@@ -15,7 +15,8 @@
         {% render 'image-block', my_img: my_img %}
       </figure>
     </div>
-    <div class="col block-two  flex-inner flex-center">
+    <div class="col block-two flex-inner flex-center">
+      <div class="item-block">
       {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'name' -%}
@@ -75,6 +76,7 @@
 
       {%- endcase -%}
       {%- endfor -%}
+      </div>
     </div>
   </div>
 </div>

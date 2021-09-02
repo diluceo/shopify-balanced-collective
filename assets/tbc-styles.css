@@ -647,6 +647,10 @@ main .clear-margin {
   }
 }
 
+.custom-dual-banner .item-block {
+  width: 100%;
+}
+
 .tbc-newsletter .bg-wrapper {
   padding: 4em 0;
 }
