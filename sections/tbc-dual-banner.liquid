@@ -1,4 +1,5 @@
 <div id="block-33-{{ section.id }}" class="block-33 custom-dual-banner">
+<div id="bg-wrapper">
   <!-- <style>
     #block-33-{{ section.id }} .block-one > figure > img {
       object-position: {{section.settings.image_position}}!important;
@@ -11,7 +12,7 @@
   <div class="container page-width grid-main grid-2 gap-40">
   {%- endif -%}
     <div class="col block-one">
-      <figure>
+      <figure style="top:{{section.settings.image_position}}">
         {% assign my_img = section.settings.image_1 %}
         {% render 'image-block', my_img: my_img %}
       </figure>
@@ -80,6 +81,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 
 {% schema %}
