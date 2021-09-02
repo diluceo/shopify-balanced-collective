@@ -12,7 +12,7 @@
   <div class="container page-width grid-main grid-2 gap-40">
   {%- endif -%}
     <div class="col block-one">
-      <figure style="top:{{section.settings.image_position}}">
+      <figure class="{{section.settings.image_position}}">
         {% assign my_img = section.settings.image_1 %}
         {% render 'image-block', my_img: my_img %}
       </figure>
