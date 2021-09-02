@@ -260,7 +260,8 @@
       "settings": {
         "direction": true,
         "image_1": "shopify:\/\/shop_images\/rates.png",
-        "image_position": "center"
+        "image_position": "center",
+        "bg_image": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg"
       }
     }
   },
