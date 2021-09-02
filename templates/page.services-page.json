@@ -49,16 +49,35 @@
     "1630309950b6af270e": {
       "type": "tbc-dual-banner",
       "blocks": {
+        "be1e7132-ab91-4a55-90a9-1d915a103ec5": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1c7ee3",
+            "name_title": "Physiotherapy",
+            "name_text_1": "",
+            "name_text_2": "",
+            "name_text_3": ""
+          }
+        },
         "48532f09-f170-4d49-aaeb-87cd0a23bdff": {
           "type": "content",
           "settings": {
             "content_title": "",
             "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. Our physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. In-person physiotherapy sessions at 500-224 West Esplanade, North Vancouver. If an online session is more your style, we are also available for virtual telehealth sessions."
           }
+        },
+        "9de049b5-7916-410d-a70e-4612871d700e": {
+          "type": "button",
+          "settings": {
+            "content_url": "",
+            "content_label": "BOOK NOW"
+          }
         }
       },
       "block_order": [
-        "48532f09-f170-4d49-aaeb-87cd0a23bdff"
+        "be1e7132-ab91-4a55-90a9-1d915a103ec5",
+        "48532f09-f170-4d49-aaeb-87cd0a23bdff",
+        "9de049b5-7916-410d-a70e-4612871d700e"
       ],
       "settings": {
         "direction": false,
