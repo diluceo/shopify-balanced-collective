@@ -295,6 +295,15 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "163056294909b03e5b": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "heading": "Lorem ipsum dolor sit amet",
+        "button_label": "Button Label",
+        "heading_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -307,6 +316,7 @@
     "163055505955c53802",
     "16305562074d6a90dd",
     "1630557728ca28f1af",
-    "1630562693e6105f93"
+    "1630562693e6105f93",
+    "163056294909b03e5b"
   ]
 }
