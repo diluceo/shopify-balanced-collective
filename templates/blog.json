@@ -1,14 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-blog",
-      "settings": {
-        "active_header": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false
-      }
-    },
     "1630568324f286379c": {
       "type": "tbc-blog-banner",
       "settings": {
@@ -22,13 +13,22 @@
         "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
         "heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
         "button_label": "Button Label",
-        "heading_color": "#1C7EE3"
+        "heading_color": "#1c7ee3"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "active_header": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false
       }
     }
   },
   "order": [
-    "main",
     "1630568324f286379c",
-    "1630569292c5ebda49"
+    "1630569292c5ebda49",
+    "main"
   ]
 }
