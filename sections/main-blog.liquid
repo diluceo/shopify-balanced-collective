@@ -6,7 +6,9 @@
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
+    {% if section.settings.active_header %}
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    {% endif %}
 
     <div class="blog-articles">
       {%- for article in blog.articles -%}
@@ -26,8 +28,13 @@
 {
   "name": "t:sections.main-blog.name",
   "tag": "section",
-  "class": "spaced-section",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "active_header",
+      "label": "Hide Title",
+      "default": false
+    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
