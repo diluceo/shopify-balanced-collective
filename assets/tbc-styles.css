@@ -691,6 +691,19 @@ main .clear-margin {
   height: 4.5rem;
 }
 
+.blog-header .container {
+  padding-top: 12em;
+  padding-bottom: 4em;
+  z-index: 1;
+}
+
+@media (max-width: 749px) {
+  .blog-header .container {
+    padding-top: 6em;
+    padding-bottom: 8em;
+  }
+}
+
 .product {
   padding-bottom: 4em;
 }
