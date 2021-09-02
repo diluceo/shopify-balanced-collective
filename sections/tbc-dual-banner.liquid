@@ -75,9 +75,9 @@
       </div>
     </div>
   </div>
-  {%- if settings.settings.bg_image != blank -%}
+  {%- if section.settings.bg_image != blank -%}
   <div class="bgimage">
-    {% render 'image-block', my_img: settings.settings.bg_image %}
+    {% render 'image-block', my_img: section.settings.bg_image %}
   </div>
   {%- endif -%}
 </div>
