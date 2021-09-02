@@ -49,50 +49,21 @@
     "1630309950b6af270e": {
       "type": "tbc-dual-banner",
       "blocks": {
-        "3ce27ffd-b79c-4469-92ac-48e6de17dea1": {
-          "type": "name",
-          "settings": {
-            "name_title": "Danielle Boyd",
-            "name_text_1": "She \/ Her",
-            "name_text_2": "Role: Physiotherapist and Founder of TBC",
-            "name_text_3": "Favourite Bone: The Sphenoid"
-          }
-        },
-        "26319269-2e72-46e5-86ba-dd0ba2a9c2bf": {
-          "type": "about",
-          "settings": {
-            "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Trauma.svg?v=1630150742",
-            "about_text_1": "My days as a competitive wakeboarder",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Quality.svg?v=1630150742",
-            "about_text_2": "Favourite Wine",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
-            "about_text_3": "Anything travel related"
-          }
-        },
         "48532f09-f170-4d49-aaeb-87cd0a23bdff": {
           "type": "content",
           "settings": {
-            "content_title": "Approach",
-            "content_text_1": "Using a unique and cutting edge set of assessment and treatment modalities, I like to look at each client as a whole. I take a thorough and detailed history to get a deep understanding of each client and the unique history they have experienced in order to create a detailed map of their nervous system. This history is the most important facet of treatment as it allows me to navigate the intricacies of every unique person I work with. Nothing is cookie cutter because no two nervous systems are the same or have had the same experiences. Together, we then create a unique and detailed treatment plan that aligns with each client’s goals and needs."
-          }
-        },
-        "f34195e1-1f45-4fad-a9e8-9e2b2271455b": {
-          "type": "list",
-          "settings": {
-            "list_title": "Courses and Certifications:",
-            "list_text_1": "<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>\n<li>Lorem ipsum dolor sit.<\/li><li>Lorem ipsum dolor sit.<\/li>"
+            "content_title": "",
+            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. Our physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. In-person physiotherapy sessions at 500-224 West Esplanade, North Vancouver. If an online session is more your style, we are also available for virtual telehealth sessions."
           }
         }
       },
       "block_order": [
-        "3ce27ffd-b79c-4469-92ac-48e6de17dea1",
-        "26319269-2e72-46e5-86ba-dd0ba2a9c2bf",
-        "48532f09-f170-4d49-aaeb-87cd0a23bdff",
-        "f34195e1-1f45-4fad-a9e8-9e2b2271455b"
+        "48532f09-f170-4d49-aaeb-87cd0a23bdff"
       ],
       "settings": {
-        "image_1": "shopify:\/\/shop_images\/guy-header.png"
+        "direction": false,
+        "image_1": "shopify:\/\/shop_images\/physiotherapy.png",
+        "image_position": "center"
       }
     }
   },
