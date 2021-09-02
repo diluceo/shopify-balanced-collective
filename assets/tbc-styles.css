@@ -323,18 +323,18 @@ figure {
 }
 
 figure.top img {
-  -o-object-position: top;
-     object-position: top;
+  -o-object-position: top !important;
+     object-position: top !important;
 }
 
 figure.center img {
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: center !important;
+     object-position: center !important;
 }
 
 figure.bottom img {
-  -o-object-position: bottom;
-     object-position: bottom;
+  -o-object-position: bottom !important;
+     object-position: bottom !important;
 }
 
 figure img {
