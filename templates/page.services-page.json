@@ -245,7 +245,7 @@
             "name_text_3": "Lorem ipsum"
           }
         },
-        "d9af5b44-fb48-41bc-b1be-1bdae322c808": {
+        "c721d132-7886-4c01-a013-c8420bce2fce": {
           "type": "content",
           "settings": {
             "content_title": "",
@@ -255,11 +255,11 @@
       },
       "block_order": [
         "2141b451-d258-46a0-a98b-f1760972f05c",
-        "d9af5b44-fb48-41bc-b1be-1bdae322c808"
+        "c721d132-7886-4c01-a013-c8420bce2fce"
       ],
       "settings": {
         "direction": true,
-        "image_1": "shopify:\/\/shop_images\/active.png",
+        "image_1": "shopify:\/\/shop_images\/rates.png",
         "image_position": "center"
       }
     }
