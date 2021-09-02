@@ -54,7 +54,9 @@
           </div>
         {%- when 'content' -%}
           <div class="item">
+            {%- if block.settings.content_title -%}
             <div class="item-heading"><h4 class="text-main">{{block.settings.content_title}}</h4></div>
+            {%- endif -%}
             <p class="text-main">{{block.settings.content_text_1}}</p>
           </div>
           
@@ -115,7 +117,6 @@
       {
         "type": "name",
         "name": "Name Information",
-        "limit": 1,
         "settings": [
           {
             "type": "color",
