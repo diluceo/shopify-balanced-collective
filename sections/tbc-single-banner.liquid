@@ -1,11 +1,11 @@
 <div id="hero-1-{{ section.id }}" class="hero-1">
-  <style>
+  <!-- <style>
     #hero-1-{{ section.id }} span {
       background-color: {{ section.settings.highlight_color }};
       color: {{ section.settings.highlight_text_color }};
       padding: 0 5px;
     }
-  </style>
+  </style> -->
   <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}};">
     <div class="col flex-main flex-center p-small">
       <div class="content-wrapper p-small">
@@ -69,12 +69,6 @@
         "default": "page-width"
       },
       {
-        "type": "checkbox",
-        "id": "show_vid",
-        "label": "Use Background Video",
-        "default": false
-      },
-      {
         "type": "image_picker",
         "id": "bg_image",
         "label": "Background Image"
@@ -93,6 +87,17 @@
         "type": "color",
         "id": "bg_color",
         "label": "Background Color"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vid",
+        "label": "Use Background Video",
+        "default": false
+      },
+      {
+        "type": "url",
+        "id": "vid_link",
+        "label": "Background Image"
       },
       {
         "type": "header",
