@@ -6,12 +6,9 @@
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
-    {% if section.settings.active_header %}
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
-    {% endif %}
 
-    <div class="container">
-          <div class="blog-articles">
+    <div class="blog-articles">
       {%- for article in blog.articles -%}
         <div class="blog-articles__article article">
           {%- render 'article-card', article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
@@ -22,7 +19,6 @@
     {%- if paginate.pages > 1 -%}
       {%- render 'pagination', paginate: paginate -%}
     {%- endif -%}
-    </div>
   </div>
 {%- endpaginate -%}
 
@@ -30,13 +26,8 @@
 {
   "name": "t:sections.main-blog.name",
   "tag": "section",
+  "class": "spaced-section",
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "active_header",
-      "label": "Hide Title",
-      "default": false
-    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
