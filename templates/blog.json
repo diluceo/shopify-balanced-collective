@@ -3,7 +3,7 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "active_header": false,
+        "active_header": true,
         "show_image": true,
         "show_date": true,
         "show_author": false
@@ -15,10 +15,20 @@
         "heading": "Blogs",
         "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg"
       }
+    },
+    "1630569292c5ebda49": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+        "button_label": "Button Label",
+        "heading_color": "#1C7EE3"
+      }
     }
   },
   "order": [
     "main",
-    "1630568324f286379c"
+    "1630568324f286379c",
+    "1630569292c5ebda49"
   ]
 }
