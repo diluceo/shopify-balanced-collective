@@ -227,7 +227,7 @@
       "settings": {
         "fancy": false,
         "title": "What you can expect in our sessions",
-        "icon_size": 100,
+        "icon_size": 80,
         "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
