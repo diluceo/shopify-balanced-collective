@@ -1,11 +1,11 @@
 <div id="hero-1-{{ section.id }}" class="hero-1">
-  <style>
+  <!-- <style>
     #hero-1-{{ section.id }} span {
       background-color: {{ section.settings.highlight_color }};
       color: {{ section.settings.highlight_text_color }};
       padding: 0 5px;
     }
-  </style>
+  </style> -->
   <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}};">
     <div class="col flex-main flex-center p-small">
       <div class="content-wrapper p-small">
@@ -29,7 +29,14 @@
 
       </div>
     </div>
-    {%- if section.settings.bg_image != blank -%}
+
+    {%- if section.settings.show_vid -%}
+    <div class="bgimage" style="opacity: {{section.settings.bg_opacity}};">
+      <video autoplay muted loop id="bgvideo">
+        <source src="{{section.settings.vid_link}}" type="video/mp4">
+      </video>
+    </div>
+    {%- else -%}
     <div class="bgimage" style="opacity: {{section.settings.bg_opacity}};">
       {% assign my_img = section.settings.bg_image %}
       {% render 'image-block', my_img: my_img %}
@@ -60,6 +67,12 @@
           }
         ],
         "default": "page-width"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vid",
+        "label": "Use Background Video",
+        "default": false
       },
       {
         "type": "image_picker",

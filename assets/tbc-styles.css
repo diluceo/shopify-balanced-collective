@@ -344,15 +344,17 @@ figure img {
      object-fit: contain;
 }
 
-.bgimage {
+.bgimage, #bgvideo {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-.bgimage img {
+.bgimage img, #bgvideo img {
   display: block;
   height: 100%;
   width: 100%;
