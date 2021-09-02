@@ -1,10 +1,24 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog"
+      "type": "main-blog",
+      "settings": {
+        "active_header": false,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false
+      }
+    },
+    "1630568324f286379c": {
+      "type": "tbc-blog-banner",
+      "settings": {
+        "heading": "Blogs",
+        "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1630568324f286379c"
   ]
 }
