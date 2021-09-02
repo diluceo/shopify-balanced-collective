@@ -4,6 +4,7 @@
       object-position: {{section.settings.image_position}}!important;
     }
   </style> -->
+  .
   {%- if section.settings.direction -%}
   <div class="container page-width grid-main grid-2 gap-40 reversed">
   {%- else -%}
@@ -113,7 +114,16 @@
           }
         ],
         "default": "center"
-      }
+      },
+			{
+				"type": "header",
+				"content": "Background Settings"
+			},
+			{
+				"type": "image_picker",
+				"id": "bg_image",
+				"label": "Background Image"
+			}
 		],
     "blocks": [
       {
