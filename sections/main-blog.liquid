@@ -14,17 +14,16 @@
       {%- endfor -%}
     </div>
 
+    
+    {%- if section.settings.separator_image != blank -%}
     <div id="hero-1-{{ section.id }}" class="hero-1 tbc-divider">
       <div class="container page-full" style="height: 40px;">
-        {%- if section.settings.bg_image != blank -%}
         <div class="bgimage">
           {% render 'image-block', my_img: section.settings.separator_image %}
         </div>
-        {%- else -%}
-          {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg op-10' }}
-        {%- endif -%}
       </div>
     </div>
+    {%- endif -%}
 
     <div class="blog-articles all-blogs grid-3">
       {%- for article in blog.articles offset:1 -%}
