@@ -146,13 +146,13 @@
         "163055505955c53802-0": {
           "type": "caption",
           "settings": {
-            "caption_1": "Lorem ipsum"
+            "caption_1": "CONTACT US"
           }
         },
         "163055505955c53802-1": {
           "type": "title",
           "settings": {
-            "title_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "title_1": "We love seeing our clients happy in motion.",
             "fancy": false
           }
         },
@@ -172,14 +172,63 @@
       "settings": {
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
-        "bg_opacity": 1,
-        "bg_color": "",
-        "show_vid": false,
-        "vid_link": "",
-        "caption_color": "",
-        "title_color": "",
+        "bg_opacity": 0.6,
+        "bg_color": "#26268b",
+        "show_vid": true,
+        "vid_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/workoutvideo.mp4?v=1630555901",
+        "caption_color": "#ffc600",
+        "title_color": "#ffffff",
         "highlight_color": "",
         "highlight_text_color": ""
+      }
+    },
+    "16305562074d6a90dd": {
+      "type": "tbc-feature-list",
+      "blocks": {
+        "15c35e41-487e-4b15-9536-ee87793168ca": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Integrity",
+            "content": "The team at TBC is committed to practicing with the highest level of integrity, respect and care possible. Wherever you’re at in your health journey, we welcome you."
+          }
+        },
+        "ca63816f-1a06-4053-bdd1-9c8b8266f4f8": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Quality",
+            "content": "We’re committed to continuously improving and learning so you’ll always be given the highest quality services and products to the best of our abilities."
+          }
+        },
+        "dea2af01-bf62-4d0a-9cfa-39d4f92700c0": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Unique Techniques",
+            "content": "Each treatment plan includes cutting edge techniques uniquely tailored to suit you. No two nervous systems are the same so no two sessions will be either."
+          }
+        },
+        "a07a651e-5628-4a7e-8c27-aae66f9b0168": {
+          "type": "info",
+          "settings": {
+            "icon": "",
+            "heading": "Trauma Informed",
+            "content": "Our trauma-informed team understands how to navigate and respect your unique history while creating the most sensitive and appropriate plan for you."
+          }
+        }
+      },
+      "block_order": [
+        "15c35e41-487e-4b15-9536-ee87793168ca",
+        "ca63816f-1a06-4053-bdd1-9c8b8266f4f8",
+        "dea2af01-bf62-4d0a-9cfa-39d4f92700c0",
+        "a07a651e-5628-4a7e-8c27-aae66f9b0168"
+      ],
+      "settings": {
+        "fancy": false,
+        "title": "",
+        "title_colour": "#000",
+        "text_colour": "#262c96"
       }
     }
   },
@@ -190,6 +239,7 @@
     "1630309950b6af270e",
     "1630544979a8159e41",
     "16305450173826bedb",
-    "163055505955c53802"
+    "163055505955c53802",
+    "16305562074d6a90dd"
   ]
 }
