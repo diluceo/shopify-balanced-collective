@@ -1,11 +1,5 @@
 <div id="block-33-{{ section.id }}" class="block-33 custom-dual-banner">
 <div id="bg-wrapper">
-  <!-- <style>
-    #block-33-{{ section.id }} .block-one > figure > img {
-      object-position: {{section.settings.image_position}}!important;
-    }
-  </style> -->
-  .
   {%- if section.settings.direction -%}
   <div class="container page-width grid-main grid-2 gap-40 reversed">
   {%- else -%}
@@ -81,6 +75,11 @@
       </div>
     </div>
   </div>
+  {%- if block.settings.bg_image != blank -%}
+  <div class="bgimage">
+    {% render 'image-block', my_img: block.settings.bg_image %}
+  </div>
+  {%- endif -%}
 </div>
 </div>
 
