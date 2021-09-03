@@ -728,7 +728,7 @@ button.simple-link {
 }
 
 .tbc-blog-block .all-blogs .blog-articles__article {
-  grid-column: span 1;
+  grid-column: span 1 !important;
 }
 
 .tbc-blog-block .all-blogs .blog-articles__article:nth-child(7n+1) .article-card__image {
