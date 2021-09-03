@@ -16,18 +16,6 @@
         "highlight_text_color": "#FFF"
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "isactive": false
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": ""
-      }
-    },
     "163065265152337357": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -51,17 +39,29 @@
         "bg_color": "",
         "show_vid": false,
         "vid_link": "",
-        "caption_color": "",
+        "caption_color": "#262c96",
         "title_color": "",
-        "highlight_color": "",
+        "highlight_color": "#d0df00",
         "highlight_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "isactive": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
       }
     }
   },
   "order": [
     "1630652435f89cb654",
+    "163065265152337357",
     "main",
-    "form",
-    "163065265152337357"
+    "form"
   ]
 }
