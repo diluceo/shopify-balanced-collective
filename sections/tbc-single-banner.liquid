@@ -7,8 +7,8 @@
     }
   </style>
   <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}};">
-    <div class="col flex-main flex-center p-small">
-      <div class="content-wrapper p-small">
+    <div class="col flex-main flex-{{section.settings.content_alignment}} p-small">
+      <div class="content-wrapper p-small {{section.settings.text_alignment}}">
 
         {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -52,6 +52,62 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+			{
+				"type": "select",
+				"id": "content_alignment",
+				"label": "Content Alignment",
+				"options": [
+					{
+						"value": "center",
+						"label": "center"
+					},
+					{
+						"value": "center-right",
+						"label": "Center Right"
+					},
+					{
+						"value": "center-left",
+						"label": "Center Left"
+					},
+					{
+						"value": "top-right",
+						"label": "Top Right"
+					},
+					{
+						"value": "top-left",
+						"label": "Top Left"
+					},
+					{
+						"value": "bottom-right",
+						"label": "Bottom Right"
+					},
+					{
+						"value": "bottom-left",
+						"label": "Bottom Left"
+					}
+				],
+				"default": "center"
+			},
+      {
+        "type": "radio",
+        "id": "text_alignment",
+        "label": "Section Width",
+        "options": [
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
       {
         "type": "select",
         "id": "section_width",
