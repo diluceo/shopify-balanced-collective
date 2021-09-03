@@ -65,13 +65,13 @@
           "type": "content",
           "settings": {
             "content_title": "",
-            "content_text_1": "TBC is a collective of practitioners, services and environmentally friendly-products designed to facilitate your journey towards wellness, health and balance; whatever that means to you. As a team, TBC is committed to supporting you as you navigate the (sometimes overwhelming) process that is wellness and balance. What makes TBC special isn’t just that we have an incredible array of advanced and powerful modalities and resources, it’s that we care deeply about our clients and customers and go above and beyond to ensure every individual feels heard, seen and supported. At TBC, we believe that wellness is a balance of vulnerable and real work, combined with plenty of moments of ease, joy and fun. Health doesn’t have to be hard and serious all the time–we want you to enjoy the journey and have great connections along the way. We are ready to get down to business… and have a few laughs along the way."
+            "content_text_1": "TBC is a collective of practitioners, services and environmentally friendly-products designed to facilitate your journey towards wellness, health and balance; whatever that means to you. As a team, TBC is committed to supporting you as you navigate the (sometimes overwhelming) process that is wellness and balance. <br><br> What makes TBC special isn’t just that we have an incredible array of advanced and powerful modalities and resources, it’s that we care deeply about our clients and customers and go above and beyond to ensure every individual feels heard, seen and supported. <br><br>\nAt TBC, we believe that wellness is a balance of vulnerable and real work, combined with plenty of moments of ease, joy and fun. Health doesn’t have to be hard and serious all the time–we want you to enjoy the journey and have great connections along the way. We are ready to get down to business… and have a few laughs along the way."
           }
         },
         "612a5955-1ed5-4112-8b31-73f682152ab9": {
           "type": "button",
           "settings": {
-            "content_url": "",
+            "content_url": "shopify:\/\/pages\/our-services",
             "content_label": "DISCOVER MORE"
           }
         }
