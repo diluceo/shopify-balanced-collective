@@ -179,6 +179,15 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "16307000205bfa80d1": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "heading": "Stay up to date on health tips,\nevents and new products!",
+        "button_label": "Button Label",
+        "heading_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -188,6 +197,7 @@
     "featured_products",
     "1630199682ccd2f15a",
     "16302161411f026622",
-    "1630221088c6b6c9b7"
+    "1630221088c6b6c9b7",
+    "16307000205bfa80d1"
   ]
 }
