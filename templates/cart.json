@@ -3,16 +3,17 @@
     "16306478006894076c": {
       "type": "tbc-banner",
       "settings": {
+        "content_alignment": "center-left",
         "image_2": "shopify:\/\/shop_images\/bg-single-event.jpg",
         "caption": "",
         "heading": "Cart<br><span>Get ready to feel good<span><\/span><\/span>",
         "button_label": "Continue Shopping",
         "button_link_1": "shopify:\/\/collections\/all",
         "caption_color": "#1c7ee3",
-        "heading_color": "#1C7EE3",
-        "button_color": "#FF6976",
-        "highlight_color": "#EC86D0",
-        "highlight_text_color": "#FFF"
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
       }
     },
     "cart-items": {
