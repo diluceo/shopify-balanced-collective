@@ -45,7 +45,7 @@
     <div class="article-card__info">
       <header class="article-card__header">
         {%- if article_date -%}
-          <span class="circle-divider caption-with-letter-spacing text-caption post-date">
+          <span class="circle-divider caption-with-letter-spacing text-caption post-date article-event-date">
             {{ article_date | convert: "date" | date: "%a, %b %d, %Y" }}
           </span>
         {%- elsif show_date -%}

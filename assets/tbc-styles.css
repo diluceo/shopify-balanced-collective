@@ -721,6 +721,11 @@ button.simple-link {
   padding-bottom: 4em;
 }
 
+.tbc-blog-block .article-event-date {
+  color: var(--tbc-blue);
+  font-weight: bold;
+}
+
 .tbc-blog-block .pagination__item {
   background-color: var(--tbc-orange);
   border: 2px solid var(--tbc-red);
@@ -879,6 +884,12 @@ button.simple-link {
   padding-top: 200px;
   padding-bottom: 80px;
   margin-top: -150px !important;
+}
+
+#cart-notification .cart-notification-product__info {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
 }
 
 footer ul {

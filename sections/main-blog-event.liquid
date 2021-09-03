@@ -9,8 +9,8 @@
 
     {%- if paginate.current_page == 1 -%}
       <div class="blog-header container page-width flex-inner flex-center">
-        <h4 class="text-subtitle fancyheader text-center">Lorem Ipsum</h4>
-        <p class="text-main text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio, expedita asperiores recusandae aspernatur reprehenderit doloremque rerum odio eum excepturi, vero, eligendi sint! Pariatur nostrum, velit ratione provident iure similique.</p>
+        <h4 class="text-subtitle fancyheader text-center">Next Opportunities</h4>
+        <p class="text-main text-center">Join our virtual or in-person workshops, live events, or destination wellness retreats –packed with plenty of joy and holistic healing. Or continue learning with one of our self-led health classes via Teachable.<br><br>Be sure to visit frequently for updated content!</p>
       </div>
       <div class="blog-articles container page-width all-blogs">
         {%- for article in blog.articles -%}
@@ -41,8 +41,7 @@
     {%- endif -%}
     
     <div class="blog-header container page-width flex-inner flex-center">
-      <h4 class="text-subtitle fancyheader text-center">Lorem Ipsum</h4>
-      <p class="text-main text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio, expedita asperiores recusandae aspernatur reprehenderit doloremque rerum odio eum excepturi, vero, eligendi sint! Pariatur nostrum, velit ratione provident iure similique.</p>
+      <h4 class="text-subtitle fancyheader text-center">Past Opportunities</h4>
     </div>
     <div class="blog-articles page-width all-blogs">
       {%- for article in blog.articles offset:1 -%}
@@ -55,7 +54,7 @@
 
         {%- if event_date < today -%}
         <div class="blog-articles__article article">
-          {%- render 'tbc-article-card', article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
+          {%- render 'tbc-article-card', article: article, article_title:article_title, article_date:article_date, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
         </div>
       {%- endif -%}
       {%- endfor -%}
