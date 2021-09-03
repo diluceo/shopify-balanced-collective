@@ -1,9 +1,8 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog",
-      "settings": {
-      }
+      "type": "main-blog-event",
+      "settings": {}
     }
   },
   "order": [
