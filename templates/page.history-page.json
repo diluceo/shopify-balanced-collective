@@ -237,6 +237,58 @@
         "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
       }
     },
+    "163064602929229c1b": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "1c5ecd68-7a48-47e2-8ef0-7435892e431f": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1dd8c4",
+            "name_title": "Jeremy Vaughan",
+            "name_text_1": "He\/Him",
+            "name_text_2": "Role: Movement Trainer. Active Rehab Specialist",
+            "name_text_3": "Favourite Bone: The Serratus Anterior"
+          }
+        },
+        "41224bdb-ebda-42de-8497-2c7f8d9e06a8": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon1.svg?v=1630646173",
+            "about_text_1": "My obsession with Cold water",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_text_2": "My favourite  Dark chocolate",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon3.svg?v=1630646187",
+            "about_text_3": "Favourite spot to Unplug from the world."
+          }
+        },
+        "7d251ff7-0cff-4c74-8cab-fbb8e327c1f7": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "It all starts with your assessment. Then, seeing where you are currently and taking note of any limitations stopping you from where you want to be. I blend multiple modalities of strength training, breathing, and functional joint\/mobility training to put the best possible program design forward for you to work through with me. It’s dynamic and flexible, knowing that as the weeks go on, there will be changes and adaptations made so that everything will be as effective as when you started."
+          }
+        },
+        "7846a29e-67aa-4a09-9e5c-82904d0f2d0f": {
+          "type": "list",
+          "settings": {
+            "list_title": "Lorem ipsum",
+            "list_text_1": "<li>CSEP Personal Training<\/li>\n<li>CAPU Human Kinetics Exercise <\/li><li>Science Christian Thibeau: Science and Application of Strength Training<\/li>\n<li>Functional Range Conditioning  Mobility Specialist<\/li>\n<li>DNS (Dynamic Neuromuscular Stabilization) Level 1 & 2<\/li>\n<li>FMS Level 1<\/li>\n<li>Brain. Breathe. Barefoot. Workshop w\/ Dr. Emily Splichal<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "1c5ecd68-7a48-47e2-8ef0-7435892e431f",
+        "41224bdb-ebda-42de-8497-2c7f8d9e06a8",
+        "7d251ff7-0cff-4c74-8cab-fbb8e327c1f7",
+        "7846a29e-67aa-4a09-9e5c-82904d0f2d0f"
+      ],
+      "settings": {
+        "direction": false,
+        "image_1": "shopify:\/\/shop_images\/team-jeremy.png",
+        "image_position": "center"
+      }
+    },
     "1630482090fd6da96d": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -299,6 +351,7 @@
     "1630481693613d42ec",
     "1630352647787145aa",
     "1630481710de7d62b2",
+    "163064602929229c1b",
     "1630482090fd6da96d",
     "1630516101a293de53"
   ]
