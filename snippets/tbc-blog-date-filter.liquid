@@ -1,0 +1,5 @@
+{% assign splitTitle = article.title | split: " | " %}
+{% assign article_title = splitTitle[0] %}
+{% assign article_date = splitTitle[1] %}
+{% assign today = 'now' | date: '%s' %}
+{% assign event_date = article_date | convert: "date" | date: '%s' %}

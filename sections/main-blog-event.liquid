@@ -2,16 +2,26 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
-
-{%- paginate blog.articles by 6 -%}
+{%- paginate blog.articles by 5 -%}
 
   <div class="main-blog tbc-blog-block">
     <div class="bg-wrapper fancy-background">
-    <div class="blog-articles container page-width first-blog">
-      {%- for article in blog.articles limit: 1 -%}
+
+    {%- if paginate.current_page == 1 -%}    
+    <div class="blog-articles container page-width all-blogs">
+      {%- for article in blog.articles -%}
+
+      {% assign splitTitle = article.title | split: " | " %}
+      {% assign article_title = splitTitle[0] %}
+      {% assign article_date = splitTitle[1] %}
+      {% assign today = 'now' | date: '%s' %}
+      {% assign event_date = article_date | convert: "date" | date: '%s' %}
+
+      {%- if event_date >= today -%}
         <div class="blog-articles__article article">
-          {%- render 'article-card', article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
+          {%- render 'tbc-article-card', article: article, article_title:article_title, article_date:article_date, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
         </div>
+      {%- endif -%}
       {%- endfor -%}
     </div>
 
@@ -25,12 +35,26 @@
       </div>
     </div>
     {%- endif -%}
+      
+
+      
+    {%- endif -%}
+
 
     <div class="blog-articles page-width all-blogs">
       {%- for article in blog.articles offset:1 -%}
+
+        {% assign splitTitle = article.title | split: " | " %}
+        {% assign article_title = splitTitle[0] %}
+        {% assign article_date = splitTitle[1] %}
+        {% assign today = 'now' | date: '%s' %}
+        {% assign event_date = article_date | convert: "date" | date: '%s' %}
+
+        {%- if event_date < today -%}
         <div class="blog-articles__article article">
           {%- render 'tbc-article-card', article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
         </div>
+      {%- endif -%}
       {%- endfor -%}
     </div>
 

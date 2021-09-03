@@ -44,13 +44,21 @@
 
     <div class="article-card__info">
       <header class="article-card__header">
-        {%- if show_date -%}
+        {%- if article_date -%}
+          <span class="circle-divider caption-with-letter-spacing text-caption post-date">
+            {{ article_date | convert: "date" | date: "%a, %b %d, %Y" }}
+          </span>
+        {%- elsif show_date -%}
           <span class="circle-divider caption-with-letter-spacing text-caption post-date">
             {{- article.published_at | time_tag: format: 'month_year' -}}
           </span>
         {%- endif -%}
         <h2 class="article-card__title text-main post-title" id="Article-{{ article.id }}">
-          {{ article.title | escape }}
+          {%- if article_title -%}
+            {{ article_title | escape }}
+          {%- else -%}
+            {{ article.title | escape }}
+          {%- endif -%}
         </h2>
         {%- if show_author -%}
           <span class="caption-with-letter-spacing">{{ article.author -}}</span>
