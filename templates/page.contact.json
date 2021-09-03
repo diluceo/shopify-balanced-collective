@@ -27,11 +27,41 @@
       "settings": {
         "heading": ""
       }
+    },
+    "163065265152337357": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "1630652651f9111033-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet felis id urna<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "1630652651f9111033-0"
+      ],
+      "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "",
+        "title_color": "",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
     }
   },
   "order": [
     "1630652435f89cb654",
     "main",
-    "form"
+    "form",
+    "163065265152337357"
   ]
 }
