@@ -716,6 +716,31 @@ button.simple-link {
   background-color: transparent;
 }
 
+.tbc-blog-block .pagination-wrapper {
+  margin-bottom: 0;
+  padding-bottom: 4em;
+}
+
+.tbc-blog-block .pagination__item {
+  background-color: var(--tbc-orange);
+  border: 2px solid var(--tbc-red);
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tbc-blog-block .pagination__item--current {
+  background-color: transparent;
+}
+
+.tbc-blog-block .pagination__item--current::after {
+  background-color: transparent !important;
+}
+
+.tbc-blog-block .pagination__item:hover::after {
+  background-color: transparent !important;
+}
+
 .tbc-blog-block .first-blog {
   padding-bottom: 20px;
 }
