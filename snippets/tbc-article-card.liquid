@@ -34,6 +34,12 @@
           >
         </div>
       </div>
+    {%- else -%}
+      <div class="article-card__image-wrapper">
+        <div class="article-card__image media media--square">
+          {% render 'image-block', my_img: section.settings.placeholder_image %}
+        </div>
+      </div>
     {%- endif -%}
 
     <div class="article-card__info">
