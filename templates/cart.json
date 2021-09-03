@@ -1,5 +1,40 @@
 {
   "sections": {
+    "16306488428b52c0fb": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "16306488426238151c-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "Cart <br><span>Get ready to feel good<span><\/span><\/span>",
+            "fancy": false
+          }
+        },
+        "16306488426238151c-2": {
+          "type": "link",
+          "settings": {
+            "button_label": "Button Label",
+            "button_url": "Button Link"
+          }
+        }
+      },
+      "block_order": [
+        "16306488426238151c-1",
+        "16306488426238151c-2"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "#ec86d0",
+        "title_color": "#1c7ee3",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
+    },
     "16306478006894076c": {
       "type": "tbc-banner",
       "settings": {
@@ -61,6 +96,7 @@
     }
   },
   "order": [
+    "16306488428b52c0fb",
     "16306478006894076c",
     "cart-items",
     "cart-footer",
