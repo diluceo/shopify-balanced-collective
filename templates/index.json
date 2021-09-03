@@ -66,8 +66,11 @@
         "baf78fe2-e609-4c0e-9e39-91d2f8e77f44"
       ],
       "settings": {
+        "direction": false,
+        "fancy": false,
         "image_1": "shopify:\/\/shop_images\/what-we-are-section.png",
         "title": "What we’re all about",
+        "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
     },
