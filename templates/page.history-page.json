@@ -296,6 +296,12 @@
         "image_position": "center"
       }
     },
+    "1630684101b4cd5c8d": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
+      }
+    },
     "16306837944244da03": {
       "type": "tbc-dual-banner",
       "blocks": {
@@ -414,6 +420,7 @@
     "1630352647787145aa",
     "1630481710de7d62b2",
     "163064602929229c1b",
+    "1630684101b4cd5c8d",
     "16306837944244da03",
     "1630482090fd6da96d",
     "1630516101a293de53"
