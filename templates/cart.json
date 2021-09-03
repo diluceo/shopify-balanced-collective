@@ -14,7 +14,7 @@
           "type": "link",
           "settings": {
             "button_label": "CONTINUE SHOPPING",
-            "button_url": ""
+            "button_url": "shopify:\/\/collections\/all"
           }
         }
       },
