@@ -13,8 +13,8 @@
         "16306488426238151c-2": {
           "type": "link",
           "settings": {
-            "button_label": "Button Label",
-            "button_url": "Button Link"
+            "button_label": "CONTINUE SHOPPING",
+            "button_url": ""
           }
         }
       },
@@ -23,6 +23,9 @@
         "16306488426238151c-2"
       ],
       "settings": {
+        "top_padding": 6,
+        "content_alignment": "center-left",
+        "text_alignment": "left",
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg",
         "bg_opacity": 1,
@@ -31,22 +34,6 @@
         "vid_link": "",
         "caption_color": "#ec86d0",
         "title_color": "#1c7ee3",
-        "highlight_color": "#ec86d0",
-        "highlight_text_color": "#ffffff"
-      }
-    },
-    "16306478006894076c": {
-      "type": "tbc-banner",
-      "settings": {
-        "content_alignment": "center-left",
-        "image_2": "shopify:\/\/shop_images\/bg-single-event.jpg",
-        "caption": "",
-        "heading": "Cart<br><span>Get ready to feel good<span><\/span><\/span>",
-        "button_label": "Continue Shopping",
-        "button_link_1": "shopify:\/\/collections\/all",
-        "caption_color": "#1c7ee3",
-        "heading_color": "#1c7ee3",
-        "button_color": "#ff6976",
         "highlight_color": "#ec86d0",
         "highlight_text_color": "#ffffff"
       }
@@ -97,7 +84,6 @@
   },
   "order": [
     "16306488428b52c0fb",
-    "16306478006894076c",
     "cart-items",
     "cart-footer",
     "featured-products"
