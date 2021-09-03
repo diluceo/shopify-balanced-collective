@@ -157,7 +157,7 @@
             "caption": "EVENTS & EDUCATION",
             "title": "Come learn, heal and Laugh with us.",
             "button_label": "JOIN US",
-            "button_url": ""
+            "button_url": "shopify:\/\/blogs\/events"
           }
         },
         "1630221088c6b6c9b7-1": {
@@ -167,7 +167,7 @@
             "caption": "BLOGS",
             "title": "Wellness tips for a balanced life.",
             "button_label": "READ MORE",
-            "button_url": ""
+            "button_url": "shopify:\/\/blogs\/news"
           }
         }
       },
