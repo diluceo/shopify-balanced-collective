@@ -1,11 +1,23 @@
 {
   "sections": {
+    "1630628288b1b9008f": {
+      "type": "tbc-blog-banner",
+      "settings": {
+        "heading": "Events",
+        "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg"
+      }
+    },
     "main": {
       "type": "main-blog-event",
-      "settings": {}
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": false
+      }
     }
   },
   "order": [
+    "1630628288b1b9008f",
     "main"
   ]
 }
