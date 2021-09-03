@@ -258,12 +258,20 @@
             "content_title": "Physiotherapy: $95 - $165<br>\nActive Rehab: $120 - $175",
             "content_text_1": ""
           }
+        },
+        "1f1377d3-4e3b-40a3-8be4-8c62cf71a0cd": {
+          "type": "button",
+          "settings": {
+            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
+            "content_label": "BOOK NOW"
+          }
         }
       },
       "block_order": [
         "2141b451-d258-46a0-a98b-f1760972f05c",
         "c721d132-7886-4c01-a013-c8420bce2fce",
-        "1e3efa7f-399a-475d-938d-41eb6a69db32"
+        "1e3efa7f-399a-475d-938d-41eb6a69db32",
+        "1f1377d3-4e3b-40a3-8be4-8c62cf71a0cd"
       ],
       "settings": {
         "direction": true,
