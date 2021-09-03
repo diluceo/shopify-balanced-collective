@@ -11,6 +11,7 @@
       "type": "main-blog-event",
       "settings": {
         "separator_image": "shopify:\/\/shop_images\/space-2.jpg",
+        "placeholder_image": "shopify:\/\/shop_images\/The-Balanced-Collective-Square.jpg",
         "show_image": true,
         "show_date": true,
         "show_author": false
