@@ -9,6 +9,7 @@
     "1630299441752dfb4b": {
       "type": "tbc-banner",
       "settings": {
+        "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/guy-header.png",
         "image_2": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
         "caption": "LET’S GET YOU…",
@@ -36,6 +37,9 @@
         "163030625826391d0c-0"
       ],
       "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
@@ -170,6 +174,9 @@
         "163055505955c53802-2"
       ],
       "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
         "bg_opacity": 0.6,
@@ -204,7 +211,7 @@
         "dea2af01-bf62-4d0a-9cfa-39d4f92700c0": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/techniques.svg?v=1630542147",
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/unique.svg?v=1630699705",
             "heading": "Unique Techniques",
             "content": "Each treatment plan includes cutting edge techniques uniquely tailored to suit you. No two nervous systems are the same so no two sessions will be either."
           }
