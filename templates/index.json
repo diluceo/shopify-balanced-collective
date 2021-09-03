@@ -3,6 +3,7 @@
     "16299683217c801bfb": {
       "type": "tbc-banner",
       "settings": {
+        "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/lady-header.png",
         "image_2": "shopify:\/\/shop_images\/bg-heather.jpg",
         "caption": "Physio, Active Rehab, Education, Products",
@@ -45,7 +46,7 @@
         "0a8c1acc-c4f0-4f80-a910-4110af3c508a": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Local.svg?v=1630150742",
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/icon-local_a86ef42c-804a-4acc-92e0-3fa95c1abbd6.svg?v=1630645415",
             "heading": "Local + Female Owned",
             "content": "Lorem Did you know we’re a female owned business based in North Vancouver, British Columbia? Oh chyea!"
           }
@@ -53,7 +54,7 @@
         "6b170b5e-5251-4b24-aa03-45dfe93b1efe": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/icon-environment.svg?v=1630643149",
+            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/positive-healf.svg?v=1630645244",
             "heading": "Environment Friendly",
             "content": "We’re committed to reducing harm to the environment and creating a positive impact on climate change."
           }
