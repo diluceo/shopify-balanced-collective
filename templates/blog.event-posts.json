@@ -10,6 +10,7 @@
     "main": {
       "type": "main-blog-event",
       "settings": {
+        "separator_image": "shopify:\/\/shop_images\/space-2.jpg",
         "show_image": true,
         "show_date": true,
         "show_author": false
