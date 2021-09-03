@@ -1,10 +1,19 @@
 {
   "sections": {
-    "1630628288b1b9008f": {
-      "type": "tbc-blog-banner",
+    "163064092789da3d03": {
+      "type": "tbc-banner",
       "settings": {
-        "heading": "Events",
-        "bg_image": "shopify:\/\/shop_images\/bg-single-event.jpg"
+        "image_1": "shopify:\/\/shop_images\/events-header.png",
+        "image_2": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg",
+        "caption": "EVENTS & EDUCATION",
+        "heading": "Empowering you<br> <span>To feel better<\/span>",
+        "button_label": "Button Label",
+        "button_link_1": "",
+        "caption_color": "#FF6976",
+        "heading_color": "#1C7EE3",
+        "button_color": "#FF6976",
+        "highlight_color": "#EC86D0",
+        "highlight_text_color": "#FFF"
       }
     },
     "main": {
@@ -19,7 +28,7 @@
     }
   },
   "order": [
-    "1630628288b1b9008f",
+    "163064092789da3d03",
     "main"
   ]
 }
