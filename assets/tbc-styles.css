@@ -293,6 +293,10 @@
   --tbc-orange: #FFC600;
 }
 
+body {
+  color: var(--tbc-darkblue);
+}
+
 .section,
 .container,
 .col, .bg-wrapper, .relative {
@@ -884,6 +888,18 @@ button.simple-link {
   padding-top: 200px;
   padding-bottom: 80px;
   margin-top: -150px !important;
+}
+
+.cart-items .quantity {
+  border-radius: 15px;
+  border: 2px solid var(--tbc-green);
+}
+
+.cart-items .cart-item__totals .button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid var(--tbc-orange);
+  color: var(--tbc-orange);
 }
 
 #cart-notification .cart-notification-product__info {
