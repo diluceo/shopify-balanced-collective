@@ -1,18 +1,18 @@
-<!-- <style>
-	#hero-{{ section.id }} span {
+<style>
+	#hero-txt-{{ section.id }} span {
 		background-color: {{ section.settings.highlight_color }};
 		color: {{ section.settings.highlight_text_color }};
 		padding: 0 5px;
 	}
-</style> -->
+</style>
 
-<div id="hero-{{ section.id }}" class="hero-1">
+<div id="hero-{{ section.id }}" class="hero-1 hero-txt">
   <div class="container page-full">
-    <div class="col flex-main flex-center p-med">
+    <div class="col flex-main flex-{{section.settings.content_alignment}} p-med">
       {%- if section.settings.contained -%}
       <div class="content-wrapper contained" style="background-color:{{section.settings.container_color}};">
       {%- else -%}
-      <div class="content-wrapper p-small"> 
+      <div class="content-wrapper text-{{section.settings.text_alignment}} p-small"> 
       {%- endif -%}
         {%- if section.settings.caption != blank -%}
 				<p class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</p>
@@ -37,6 +37,62 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+			{
+				"type": "select",
+				"id": "content_alignment",
+				"label": "Content Alignment",
+				"options": [
+					{
+						"value": "center",
+						"label": "center"
+					},
+					{
+						"value": "center-right",
+						"label": "Center Right"
+					},
+					{
+						"value": "center-left",
+						"label": "Center Left"
+					},
+					{
+						"value": "top-right",
+						"label": "Top Right"
+					},
+					{
+						"value": "top-left",
+						"label": "Top Left"
+					},
+					{
+						"value": "bottom-right",
+						"label": "Bottom Right"
+					},
+					{
+						"value": "bottom-left",
+						"label": "Bottom Left"
+					}
+				],
+				"default": "center"
+			},
+      {
+        "type": "radio",
+        "id": "text_alignment",
+        "label": "Section Width",
+        "options": [
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
 			{
 				"type": "image_picker",
 				"id": "bg_image",
