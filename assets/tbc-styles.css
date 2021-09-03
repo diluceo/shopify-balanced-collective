@@ -126,6 +126,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .flex-center-right,
+  .flex-center-left,
   .flex-top-right,
   .flex-top-left,
   .flex-bottom-right,
@@ -735,6 +737,15 @@ button.simple-link {
   font-weight: bold;
   border-radius: 15px;
   height: 4.5rem;
+}
+
+@media (max-width: 749px) {
+  .tbc-single-banner .container {
+    padding-top: 1em !important;
+  }
+  .tbc-single-banner .content-wrapper {
+    text-align: center;
+  }
 }
 
 .tbc-blog-block .blog-header {
