@@ -374,7 +374,7 @@
           "type": "link",
           "settings": {
             "button_label": "LET’S CONNECT",
-            "button_url": ""
+            "button_url": "shopify:\/\/pages\/contact-us"
           }
         }
       },
