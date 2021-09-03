@@ -9,6 +9,7 @@
     "1630299441752dfb4b": {
       "type": "tbc-banner",
       "settings": {
+        "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/header.png",
         "image_2": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
         "caption": "ENJOY THE PROCESS",
@@ -36,6 +37,9 @@
         "163030625826391d0c-0"
       ],
       "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
@@ -109,6 +113,9 @@
         "1630350002472a30f1-0"
       ],
       "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
         "section_width": "page-width",
         "bg_image": "shopify:\/\/shop_images\/bg-team-section.jpg",
         "bg_opacity": 1,
@@ -272,7 +279,7 @@
         "7846a29e-67aa-4a09-9e5c-82904d0f2d0f": {
           "type": "list",
           "settings": {
-            "list_title": "Lorem ipsum",
+            "list_title": "Courses and Certifications:",
             "list_text_1": "<li>CSEP Personal Training<\/li>\n<li>CAPU Human Kinetics Exercise <\/li><li>Science Christian Thibeau: Science and Application of Strength Training<\/li>\n<li>Functional Range Conditioning  Mobility Specialist<\/li>\n<li>DNS (Dynamic Neuromuscular Stabilization) Level 1 & 2<\/li>\n<li>FMS Level 1<\/li>\n<li>Brain. Breathe. Barefoot. Workshop w\/ Dr. Emily Splichal<\/li>"
           }
         }
@@ -309,7 +316,7 @@
           "type": "link",
           "settings": {
             "button_label": "LET’S CONNECT",
-            "button_url": "Button Link"
+            "button_url": ""
           }
         }
       },
@@ -319,6 +326,9 @@
         "1630482090fd6da96d-2"
       ],
       "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
         "section_width": "page-full",
         "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
         "bg_opacity": 1,
