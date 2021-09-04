@@ -399,15 +399,6 @@
         "highlight_text_color": ""
       }
     },
-    "1630516101a293de53": {
-      "type": "tbc-custom-newsletter",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
-        "heading": "Stay up to date on health tips, events and new products!",
-        "button_label": "Button Label",
-        "heading_color": "#ffffff"
-      }
-    },
     "16307976914653aa88": {
       "type": "tbc-multibanner",
       "blocks": {
@@ -439,6 +430,15 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "1630516101a293de53": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "heading": "Stay up to date on health tips, events and new products!",
+        "button_label": "Button Label",
+        "heading_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -455,7 +455,7 @@
     "1630684101b4cd5c8d",
     "16306837944244da03",
     "1630482090fd6da96d",
-    "1630516101a293de53",
-    "16307976914653aa88"
+    "16307976914653aa88",
+    "1630516101a293de53"
   ]
 }
