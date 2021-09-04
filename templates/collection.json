@@ -3,6 +3,7 @@
     "163033968360b5a1e9": {
       "type": "tbc-banner",
       "settings": {
+        "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_59.png",
         "image_2": "shopify:\/\/shop_images\/header-product.jpg",
         "caption": "HAPPY EARTH, HAPPY HEART.",
@@ -120,6 +121,15 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "163079383759367706": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "heading": "Stay up to date on health tips, events and new products!",
+        "button_label": "Button Label",
+        "heading_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -127,6 +137,7 @@
     "banner",
     "product-grid",
     "16303422502867d4c7",
-    "16303432603530dfb6"
+    "16303432603530dfb6",
+    "163079383759367706"
   ]
 }
