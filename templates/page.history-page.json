@@ -407,6 +407,38 @@
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
+    },
+    "16307976914653aa88": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "1630797691b03428a1-0": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "caption": "Events",
+            "title": "Come learn, heal and Laugh with us.",
+            "button_label": "Coming Soon",
+            "button_url": ""
+          }
+        },
+        "1630797691b03428a1-1": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/products.jpg",
+            "caption": "Products",
+            "title": "Roll and release, with Our eco-friendly products.",
+            "button_label": "See Products",
+            "button_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "1630797691b03428a1-0",
+        "1630797691b03428a1-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
     }
   },
   "order": [
@@ -423,6 +455,7 @@
     "1630684101b4cd5c8d",
     "16306837944244da03",
     "1630482090fd6da96d",
-    "1630516101a293de53"
+    "1630516101a293de53",
+    "16307976914653aa88"
   ]
 }
