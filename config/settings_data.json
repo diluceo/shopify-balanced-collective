@@ -17,7 +17,7 @@
     "checkout_body_background_color": "#f4f3f2",
     "checkout_input_background_color_mode": "transparent",
     "checkout_sidebar_background_image": "shopify:\/\/shop_images\/bg-heather.jpg",
-    "checkout_accent_color": "#1dd8c4",
+    "checkout_accent_color": "#1c7ee3",
     "checkout_button_color": "#ff6976",
     "sections": {
       "announcement-bar": {
