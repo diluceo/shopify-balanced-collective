@@ -10,10 +10,10 @@
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
-        "heading_color": "#1C7EE3",
-        "button_color": "#FF6976",
-        "highlight_color": "#EC86D0",
-        "highlight_text_color": "#FFF"
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
       }
     },
     "163065265152337357": {
@@ -22,7 +22,7 @@
         "1630652651f9111033-0": {
           "type": "caption",
           "settings": {
-            "caption_1": "<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet felis id urna<\/span>"
+            "caption_1": "<span>Your Body is Weird and Wonderful.<\/span>"
           }
         }
       },
