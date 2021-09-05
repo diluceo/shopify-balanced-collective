@@ -13,6 +13,9 @@
     "social_facebook_link": "https:\/\/twitter.com\/shopify",
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "favicon": "shopify:\/\/shop_images\/thebalancedcollective.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-tbc.png",
+    "checkout_accent_color": "#1dd8c4",
+    "checkout_button_color": "#ff6976",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
