@@ -373,8 +373,8 @@
         "1630482090fd6da96d-2": {
           "type": "link",
           "settings": {
-            "button_label": "LET’S CONNECT",
-            "button_url": "shopify:\/\/pages\/contact-us"
+            "button_label": "Book now",
+            "button_url": "https:\/\/thebalancedcollective.janeapp.com\/"
           }
         }
       },
