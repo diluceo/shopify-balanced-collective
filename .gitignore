@@ -12,5 +12,6 @@ Thumbs.db
 ######################
 *.scss
 *.map
+*.zip
 /assets/modules
 /assets/scss
