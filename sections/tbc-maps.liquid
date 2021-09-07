@@ -1,0 +1,66 @@
+<div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner">
+	<div class="container page-full">
+		<div class="content-con flex-main">
+      
+    </div>
+    <div class="maps-con">
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom - Maps",
+  "tag": "section",
+  "class": "wrapper",
+  "settings": [
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Alignment",
+      "options": [
+        {
+          "value": "center",
+          "label": "center"
+        },
+        {
+          "value": "center-right",
+          "label": "Center Right"
+        },
+        {
+          "value": "center-left",
+          "label": "Center Left"
+        },
+        {
+          "value": "top-right",
+          "label": "Top Right"
+        },
+        {
+          "value": "top-left",
+          "label": "Top Left"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom Right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom Left"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "html",
+      "id": "map_embed",
+      "label": "Video Iframe"
+    }
+  ],
+  "presets": [
+    {
+      "name":"Custom - Maps"
+    }
+  ]
+}
+{% endschema %}
