@@ -1062,6 +1062,13 @@ button.simple-link {
       align-self: center !important;
 }
 
+.tbc-contact form input, .tbc-contact form textarea {
+  border: 2px solid var(--tbc-green);
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 footer ul {
   text-align: right;
 }
