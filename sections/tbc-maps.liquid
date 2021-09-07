@@ -1,8 +1,18 @@
 <div id="tbc-maps-{{ section.id }}" class="hero-6 tbc-maps">
-	<div class="container page-full">
+	<div class="container page-width page-width--narrow address-info">
 		<div class="content-con flex-main">
-      
+      {%- for block in section.blocks -%}
+					{%- case block.type -%}
+						{%- when 'address_item' -%}
+            <div class="item">
+              <i class="{{block.settings.item_icon}}"></i>
+              <p class="text-main">{{block.settings.item_text}}</p>
+            </div>
+          {%- endcase -%}
+        {%- endfor -%}
     </div>
+  </div>
+  <div class="container page-full map-info">
     <div class="maps-con">
       {{ section.settings.map_embed }}
     </div>
@@ -14,52 +24,41 @@
   "name": "Custom - Maps",
   "tag": "section",
   "class": "wrapper",
-  "settings": [
+  "blocks": [
     {
-      "type": "select",
-      "id": "content_alignment",
-      "label": "Content Alignment",
-      "options": [
+      "type": "address_item",
+      "name": "Address Item",
+      "settings": [
         {
-          "value": "center",
-          "label": "center"
+          "type": "textarea",
+          "id": "item_text",
+          "label": "Content",
+          "defaut": "6XX-XXX-XXXX"
         },
         {
-          "value": "center-right",
-          "label": "Center Right"
-        },
-        {
-          "value": "center-left",
-          "label": "Center Left"
-        },
-        {
-          "value": "top-right",
-          "label": "Top Right"
-        },
-        {
-          "value": "top-left",
-          "label": "Top Left"
-        },
-        {
-          "value": "bottom-right",
-          "label": "Bottom Right"
-        },
-        {
-          "value": "bottom-left",
-          "label": "Bottom Left"
+          "type": "text",
+          "id": "item_icon",
+          "label":"Icon",
+          "defalt":"fas fa-phone-alt",
+          "info": "Use a flaticon example"
         }
-      ],
-      "default": "center"
-    },
-    {
-      "type": "html",
-      "id": "map_embed",
-      "label": "Video Iframe"
+      ]
     }
   ],
   "presets": [
     {
-      "name":"Custom - Maps"
+      "name":"Custom - Maps",
+      "blocks": [
+        {
+          "type": "address_item"
+        },
+        {
+          "type": "address_item"
+        },
+        {
+          "type": "address_item"
+        }
+      ]
     }
   ]
 }
