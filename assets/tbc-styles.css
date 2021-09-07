@@ -463,7 +463,7 @@ main h6,
 main p,
 main a:not(.btn) {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 main .clear-margin {
@@ -619,11 +619,11 @@ button.simple-link {
   padding: 0px 15px;
 }
 
-.fancyheader, .myfancyheader {
+.fancyheader, .fancy-header_banner {
   position: relative;
 }
 
-.fancyheader:before, .fancyheader:after {
+.fancyheader:before, .fancyheader:after, .fancy-header_banner:before {
   content: '';
   display: block;
   position: absolute;
@@ -636,7 +636,7 @@ button.simple-link {
   background-repeat: no-repeat;
 }
 
-.fancyheader:before {
+.fancyheader:before, .fancy-header_banner:before {
   left: -50px;
 }
 
@@ -737,6 +737,26 @@ button.simple-link {
   font-weight: bold;
   border-radius: 15px;
   height: 4.5rem;
+}
+
+.tbc-banner .fancy-wrapper {
+  position: relative;
+}
+
+.tbc-banner .fancy-header_banner {
+  margin-left: 40px;
+}
+
+@media (max-width: 749px) {
+  .tbc-banner .fancy-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .tbc-single-banner h1, .tbc-single-banner h2, .tbc-single-banner h3, .tbc-single-banner h4 {

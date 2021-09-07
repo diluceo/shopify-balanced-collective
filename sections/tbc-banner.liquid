@@ -9,9 +9,9 @@
 	<div class="container page-full">
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-{{section.settings.content_alignment}} flex-50 p-med content-con">
-				<div class="content-wrapper">
+				<div class="content-wrapper"> 
 					{%- if section.settings.caption != blank -%}
-					<h3 class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</h3>
+					<div class="fancy-wrapper flex-inner"><h3 class="text-main fancy-header_banner" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</h3></div>
 					{%- endif -%}
 					{%- if section.settings.heading != blank -%}
 					<h1 class="text-subtitle" style="color:{{section.settings.heading_color}};">{{ section.settings.heading }}</h1>
