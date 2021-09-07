@@ -61,8 +61,7 @@
     "1630983405788f8344": {
       "type": "tbc-maps",
       "settings": {
-        "content_alignment": "center",
-        "map_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2601.061932287895!2d-123.0856515838025!3d49.31311077933472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486712096c677ed%3A0x9e191ba3f2a7ac29!2sThe%20Balanced%20Collective!5e0!3m2!1sen!2sca!4v1630982561376!5m2!1sen!2sca\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
+        "item_text": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2601.0619322932503!2d-123.08565694823243!3d49.3131107792333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486712096c677ed%3A0x9e191ba3f2a7ac29!2sThe%20Balanced%20Collective!5e0!3m2!1sen!2sca!4v1631052096173!5m2!1sen!2sca\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
       }
     }
   },
