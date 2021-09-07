@@ -824,6 +824,11 @@ button.simple-link {
   margin-bottom: 20px;
 }
 
+.tbc-maps .item p {
+  margin-top: 3px;
+  text-align: left;
+}
+
 .tbc-maps i {
   background-color: var(--tbc-green);
   margin-right: 10px;
