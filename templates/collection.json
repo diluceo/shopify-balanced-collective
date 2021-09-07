@@ -7,6 +7,7 @@
         "image_1": "shopify:\/\/shop_images\/Mask_Group_59.png",
         "image_2": "shopify:\/\/shop_images\/header-product.jpg",
         "caption": "HAPPY EARTH, HAPPY HEART.",
+        "add_before": true,
         "heading": "Eco-friendly products for <span>your wellness routine<span><\/span><\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
