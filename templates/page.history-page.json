@@ -13,6 +13,7 @@
         "image_1": "shopify:\/\/shop_images\/header.png",
         "image_2": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
         "caption": "ENJOY THE PROCESS",
+        "add_before": true,
         "heading": "We are <br><span>The Balanced Collective<\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
