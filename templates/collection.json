@@ -65,6 +65,7 @@
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": false,
+        "shop_notice": "<b>Interested in Wholesale?<\/b><br>\nPlease email <a href=\"mailto:hello@thebalancedcollective.com\" target=\"_blank\">hello@thebalancedcollective.com<\/a> to learn about wholesale purchasing options.",
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": false
