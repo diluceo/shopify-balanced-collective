@@ -3,7 +3,9 @@
     #tbc-single-banner-{{ section.id }} span {
       background-color: {{ section.settings.highlight_color }};
       color: {{ section.settings.highlight_text_color }};
-      padding: 0 5px;
+      padding: 0 10px;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
     }
   </style>
   <div class="container {{section.settings.section_width}}" style="background-color: {{section.settings.bg_color}}; padding-top:{{section.settings.top_padding}}em;">

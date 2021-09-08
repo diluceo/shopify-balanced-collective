@@ -126,6 +126,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .flex-inner.fancy-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .flex-center-right,
   .flex-center-left,
   .flex-top-right,
@@ -623,11 +628,17 @@ button.simple-link {
   padding: 0px 15px;
 }
 
-.fancyheader, .myfancyheader {
+.fancyheader, .myfancyheader, .fancy-header_banner {
   position: relative;
 }
 
-.fancyheader:before, .fancyheader:after {
+.fancy-header_banner {
+  margin-left: 40px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.fancyheader:before, .fancyheader:after, .fancy-header_banner:before {
   content: '';
   display: block;
   position: absolute;
@@ -640,7 +651,7 @@ button.simple-link {
   background-repeat: no-repeat;
 }
 
-.fancyheader:before {
+.fancyheader:before, .fancy-header_banner:before {
   left: -50px;
 }
 
@@ -1340,6 +1351,7 @@ footer .icon-facebook {
 .block-33 .block-one figure img {
   -o-object-position: top;
      object-position: top;
+  max-width: 400px;
 }
 
 .block-33 .item-content figure {

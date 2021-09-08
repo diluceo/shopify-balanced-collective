@@ -2,7 +2,9 @@
 	#tbc-banner-{{ section.id }} span {
 		background-color: {{ section.settings.highlight_color }};
 		color: {{ section.settings.highlight_text_color }};
-		padding: 0 5px;
+		padding: 0 10px;
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
 	}
 </style>
 <div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner">
