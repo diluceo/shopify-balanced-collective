@@ -32,6 +32,7 @@
         "16311236949f7f6d9e-0"
       ],
       "settings": {
+        "max_width": "800px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
