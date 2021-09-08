@@ -18,6 +18,35 @@
         "highlight_text_color": "#ffffff"
       }
     },
+    "16311236949f7f6d9e": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "16311236949f7f6d9e-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "<span>Welcome to our brand new shop! We're excitedly awaiting the arrival of our products which should be arriving September thru October 2021, thus you're the first to be a part of our pre-sale! Orders will be processed in the order they are received and depending on your location take between 2-5 days to arrive, once shipped.<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "16311236949f7f6d9e-0"
+      ],
+      "settings": {
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "section_width": "page-width",
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "",
+        "title_color": "",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": ""
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -135,6 +164,7 @@
   },
   "order": [
     "163033968360b5a1e9",
+    "16311236949f7f6d9e",
     "banner",
     "product-grid",
     "16303422502867d4c7",
