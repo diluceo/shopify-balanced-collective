@@ -313,17 +313,6 @@
   --tbc-orange: #FFC600;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-:target:before {
-  content: "";
-  display: block;
-  height: 130px;
-  margin: -130px 0 0;
-}
-
 body {
   color: var(--tbc-darkblue);
 }
@@ -470,7 +459,11 @@ main h2,
 main h3,
 main h4,
 main h5,
-main h6,
+main h6 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 main p,
 main a:not(.btn) {
   margin-top: 0;
@@ -630,11 +623,11 @@ button.simple-link {
   padding: 0px 15px;
 }
 
-.fancyheader, .fancy-header_banner {
+.fancyheader, .myfancyheader {
   position: relative;
 }
 
-.fancyheader:before, .fancyheader:after, .fancy-header_banner:before {
+.fancyheader:before, .fancyheader:after {
   content: '';
   display: block;
   position: absolute;
@@ -647,7 +640,7 @@ button.simple-link {
   background-repeat: no-repeat;
 }
 
-.fancyheader:before, .fancy-header_banner:before {
+.fancyheader:before {
   left: -50px;
 }
 
@@ -750,26 +743,6 @@ button.simple-link {
   height: 4.5rem;
 }
 
-.tbc-banner .fancy-wrapper {
-  position: relative;
-}
-
-.tbc-banner .fancy-header_banner {
-  margin-left: 40px;
-}
-
-@media (max-width: 749px) {
-  .tbc-banner .fancy-wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 .tbc-single-banner h1, .tbc-single-banner h2, .tbc-single-banner h3, .tbc-single-banner h4 {
   line-height: 1.8em;
 }
@@ -780,91 +753,6 @@ button.simple-link {
   }
   .tbc-single-banner .content-wrapper {
     text-align: center;
-  }
-}
-
-.tbc-maps {
-  height: auto !important;
-}
-
-.tbc-maps .maps-con {
-  height: 400px;
-  z-index: 0;
-}
-
-.tbc-maps iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.tbc-maps .address-info {
-  position: relative;
-  z-index: 5;
-  margin-bottom: -100px;
-}
-
-.tbc-maps .content-con {
-  position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 400px;
-  margin: auto;
-  margin-right: 0;
-  padding: 2em;
-  background-color: #fff;
-  z-index: unset;
-}
-
-.tbc-maps .content-con::after {
-  content: "";
-  top: 15px;
-  width: 100%;
-  bottom: -15px;
-  left: 15px;
-  background-color: var(--tbc-purple);
-  position: absolute;
-  z-index: -1;
-}
-
-.tbc-maps .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.tbc-maps .item p {
-  margin-top: 3px;
-  text-align: left;
-}
-
-.tbc-maps i {
-  background-color: var(--tbc-green);
-  margin-right: 10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  color: white;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media (max-width: 749px) {
-  .tbc-maps .address-info {
-    margin-bottom: 80px;
-  }
-  .tbc-maps .content-con {
-    margin: auto !important;
   }
 }
 
@@ -1071,86 +959,6 @@ button.simple-link {
   -ms-flex-item-align: center !important;
       -ms-grid-row-align: center !important;
       align-self: center !important;
-}
-
-.tbc-contact form input, .tbc-contact form textarea {
-  border: 2px solid var(--tbc-green);
-  border-radius: 15px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.pre-legal {
-  background-color: var(--tbc-purple);
-  padding: 1em;
-}
-
-.pre-legal .anchor-con {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.pre-legal .anchor-links a {
-  margin: 5px;
-  display: block;
-  text-decoration: none;
-  padding: 10px 15px;
-  border: 1px solid #fff;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.pre-legal .anchor-links a:hover {
-  color: var(--tbc-purple);
-  background-color: #fff;
-}
-
-.legal {
-  padding: 4em 0;
-}
-
-.legal .anchor-con {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.legal .anchor-links a {
-  display: block;
-  text-decoration: none;
-  padding: 1em;
-  border: 1px solid #ccc;
-}
-
-.legal .rte h1, .legal .rte h2, .legal .rte h3, .legal .rte h4, .legal .rte h5, .legal .rte h6 {
-  font-family: "Gopher", Arial, sans-serif;
-  font-weight: bolder;
-  margin-top: 50px;
-  margin-bottom: 10px;
-}
-
-.legal .rte p {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-@media (max-width: 976px) {
-  .legal {
-    padding: 2em;
-  }
-  .legal .rte h1, .legal .rte h2, .legal .rte h3, .legal .rte h4, .legal .rte h5, .legal .rte h6 {
-    margin-top: 30px;
-  }
-  .legal .rte p {
-    font-size: 16px;
-  }
 }
 
 footer ul {
@@ -1774,54 +1582,6 @@ footer .icon-facebook {
     max-width: 1000px;
     margin: auto;
   }
-}
-
-.faq {
-  position: relative;
-  overflow: hidden;
-  border-radius: 3px;
-}
-
-.faq .tab-toggle {
-  display: none;
-}
-
-.faq .tab-toggle:checked ~ .tab-content {
-  max-height: 100vh;
-  padding: 1em;
-}
-
-.faq .tab-toggle:checked ~ .tab-label::after {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.faq .tab-label {
-  background-color: var(--tbc-blue);
-  color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1em;
-  font-weight: bold;
-}
-
-.faq .tab-label::after {
-  content: '\276F';
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.faq .tab-content {
-  background-color: #fff;
-  max-height: 0px;
-  overflow: hidden;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  padding: 0 1em;
 }
 
 body {
