@@ -17,7 +17,7 @@
         "heading": "We are <br><span>The Balanced Collective<\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
-        "caption_color": "#121212",
+        "caption_color": "#262c96",
         "heading_color": "#1c7ee3",
         "button_color": "#ff6976",
         "highlight_color": "#ec86d0",
@@ -38,6 +38,7 @@
         "163030625826391d0c-0"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
@@ -114,6 +115,7 @@
         "1630350002472a30f1-0"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
@@ -385,6 +387,7 @@
         "1630482090fd6da96d-2"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
