@@ -38,6 +38,7 @@
         "163030625826391d0c-0"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
@@ -142,7 +143,7 @@
       "settings": {
         "direction": true,
         "image_1": "shopify:\/\/shop_images\/active.png",
-        "image_position": "top"
+        "image_position": "center"
       }
     },
     "163055505955c53802": {
@@ -175,6 +176,7 @@
         "163055505955c53802-2"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
