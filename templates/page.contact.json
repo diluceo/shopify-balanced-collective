@@ -6,7 +6,7 @@
         "content_alignment": "center-left",
         "image_2": "shopify:\/\/shop_images\/hello-header.jpg",
         "caption": "LET’S CONNECT",
-        "add_before": false,
+        "add_before": true,
         "heading": "We love seeing our <br><span>Clients happy <br>In motion.<\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
@@ -31,6 +31,7 @@
         "1630652651f9111033-0"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
