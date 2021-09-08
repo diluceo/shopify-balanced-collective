@@ -1,5 +1,12 @@
 {
   "sections": {
+    "1631062391deb8499e": {
+      "type": "tbc-blog-banner",
+      "settings": {
+        "heading": "{{page.title}}",
+        "bg_image": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg"
+      }
+    },
     "main": {
       "type": "main-legal",
       "settings": {
@@ -8,6 +15,7 @@
     }
   },
   "order": [
+    "1631062391deb8499e",
     "main"
   ]
 }
