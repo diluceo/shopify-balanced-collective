@@ -759,16 +759,25 @@ button.simple-link {
   max-width: 100%;
 }
 
-.tbc-single-banner h1, .tbc-single-banner h2, .tbc-single-banner h3, .tbc-single-banner h4 {
-  line-height: 1.8em;
-}
-
 @media (max-width: 749px) {
   .tbc-single-banner .container {
     padding-top: 1em !important;
   }
   .tbc-single-banner .content-wrapper {
     text-align: center;
+  }
+}
+
+.feature-block .heading {
+  margin-bottom: 40px;
+  padding: 0 3em;
+}
+
+@media (max-width: 950px) {
+  .feature-block .col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
   }
 }
 

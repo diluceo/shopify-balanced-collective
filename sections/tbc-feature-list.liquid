@@ -1,7 +1,7 @@
 {%- if section.settings.fancy -%}
 <div class="fancy-background">
 {%- endif -%}
-<div id="block-1{{ section.id }}" class="block-1">
+<div id="feature-block-{{ section.id }}" class="block-1 feature-block">
 	<div class="container page-width flex-main p-small">
 		<div class="col">
 			<div class="heading flex-inner flex-center">
@@ -13,7 +13,7 @@
 						{%- when 'info' -%}
 							<div class="col flex-25">
 								{%- if block.settings.icon != blank -%}
-								<div class="icon" style="height: {{section.settings.icon_size}}px; width: {{section.settings.icon_size}}px;">
+								<div class="icon {{block.settings.icon_customclass}}" style="height: {{section.settings.icon_size}}px; width: {{section.settings.icon_size}}px;">
 									{% assign my_img = block.settings.icon %}
 									{% render 'image-block-svg', my_img: my_img %}
 								</div>
@@ -84,6 +84,11 @@
 						"type": "url",
 						"id": "icon",
 						"label": "Icon"
+					},
+					{
+						"type": "text",
+						"id": "icon_customclass",
+						"label": "Icon Overide Class"
 					},
 					{
 						"type": "text",
