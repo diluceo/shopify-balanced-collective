@@ -664,7 +664,8 @@ button.simple-link {
   background-position: left top, right bottom;
   background-size: 300px, 300px;
   background-repeat: no-repeat, no-repeat;
-  padding-top: 3em;
+  padding-top: 6em;
+  padding-bottom: 3em;
 }
 
 .header-wrapper, .header {
@@ -966,6 +967,40 @@ button.simple-link {
   padding-top: 200px;
   padding-bottom: 80px;
   margin-top: -150px !important;
+}
+
+.myprod .select .icon-caret {
+  height: 0.8rem;
+  margin-right: 10px;
+}
+
+.myprod .collection-filters__item select, .myprod .mobile-facets__open {
+  margin: 0 15px 0 0;
+  padding: 0.3em 1.75rem 0.3em 1.3em;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid var(--tbc-green);
+  border-radius: 8px;
+}
+
+.myprod .collection-product-count {
+  display: none;
+}
+
+.myprod .facets__wrapper > details {
+  border: 2px solid var(--tbc-green);
+  border-radius: 8px;
+}
+
+.myprod .facets__wrapper .facets__summary {
+  margin: 0 15px 0 0;
+  padding: 0.3em 1.75rem 0.3em 1.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.myprod .facets__wrapper .facets__heading {
+  display: none;
 }
 
 .cart-items .quantity {
