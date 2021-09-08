@@ -12,9 +12,34 @@
     {{ page.content }}
   </div>
 </div> -->
+{%- if block.settings.anchor_id != blank -%}
+<div class="page-full pre-legal">
+  <div class="anchor-con page-width page-width--narrow">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'info' -%}
+      <div class="anchor-links tex-main"><a href="#{{block.settings.anchor_id}}">{{block.settings.anchor_text}}</a></div>
+    {%- endcase -%}
+  {%- endfor -%}
+  </div>
+</div>
+  
+{%- endif -%}
 <div class="page-width page-width--narrow legal">
   <div class="rte">
     {{ page.content }}
+    <div class="faq">
+      <div class="tab">
+        <input type="checkbox" id="tab1" class="tab-toggle">
+        <label for="tab1" class="tab-label">How to Refund</label>
+        <div class="tab-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, voluptatem.</div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="tab2" class="tab-toggle">
+        <label for="tab2" class="tab-label">How to Refund</label>
+        <div class="tab-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, voluptatem.</div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -28,6 +53,24 @@
       "type": "checkbox",
       "id": "isactive",
       "label": "Hide Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "anchor",
+      "name": "Anchor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "anchor_text",
+          "label": "Anchor Text"
+        },
+        {
+          "type": "text",
+          "id": "anchor_id",
+          "label": "Anchor ID"
+        }
+      ]
     }
   ]
 }

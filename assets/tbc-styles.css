@@ -313,6 +313,17 @@
   --tbc-orange: #FFC600;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 130px;
+  margin: -130px 0 0;
+}
+
 body {
   color: var(--tbc-darkblue);
 }
@@ -1069,8 +1080,53 @@ button.simple-link {
           box-shadow: none;
 }
 
+.pre-legal {
+  background-color: var(--tbc-purple);
+  padding: 1em;
+}
+
+.pre-legal .anchor-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pre-legal .anchor-links a {
+  margin: 5px;
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.pre-legal .anchor-links a:hover {
+  color: var(--tbc-purple);
+  background-color: #fff;
+}
+
 .legal {
   padding: 4em 0;
+}
+
+.legal .anchor-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.legal .anchor-links a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  border: 1px solid #ccc;
 }
 
 .legal .rte h1, .legal .rte h2, .legal .rte h3, .legal .rte h4, .legal .rte h5, .legal .rte h6 {
@@ -1718,6 +1774,54 @@ footer .icon-facebook {
     max-width: 1000px;
     margin: auto;
   }
+}
+
+.faq {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.faq .tab-toggle {
+  display: none;
+}
+
+.faq .tab-toggle:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+.faq .tab-toggle:checked ~ .tab-label::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.faq .tab-label {
+  background-color: var(--tbc-blue);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.faq .tab-label::after {
+  content: '\276F';
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.faq .tab-content {
+  background-color: #fff;
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 0 1em;
 }
 
 body {
