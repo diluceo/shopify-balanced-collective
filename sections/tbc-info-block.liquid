@@ -27,7 +27,7 @@
 						{%- when 'info' -%}
 							<div class="col flex-50">
 								{%- if block.settings.icon != blank -%}
-								<div class="icon">
+								<div class="icon {{block.settings.icon_customclass}}">
 									{% assign my_img = block.settings.icon %}
 									{% render 'image-block-svg', my_img: my_img %}
 								</div>
@@ -99,6 +99,11 @@
 						"type": "url",
 						"id": "icon",
 						"label": "Icon"
+					},
+					{
+						"type": "text",
+						"id": "icon_customclass",
+						"label": "Icon Overide Class"
 					},
 					{
 						"type": "text",
