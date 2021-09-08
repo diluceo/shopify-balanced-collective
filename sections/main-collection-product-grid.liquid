@@ -498,6 +498,12 @@
           {% render 'pagination', paginate: paginate, anchor: '' %}
         {%- endif -%}
       </div>
+
+      {%- if section.settings.shop_notice -%}
+      <div class="page-width shop_notification text-center">
+        <p class="text-main">{{section.settings.shop_notice}}</p>
+      </div>
+      {%- endif -%}
     {%- endif -%}
   {%- endpaginate -%}
 </div>
@@ -575,6 +581,15 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "header",
+      "content": "Shop Notice"
+    },
+    {
+      "type": "richtext",
+      "id": "shop_notice",
+      "label": "Shop Notice"
     },
     {
       "type": "header",

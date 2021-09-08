@@ -781,6 +781,10 @@ button.simple-link {
   }
 }
 
+.cstm-info-block .icon.icon_bigger {
+  width: 100px !important;
+}
+
 .tbc-blog-block .blog-header {
   max-width: 800px;
   padding-top: 4em;
