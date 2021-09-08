@@ -1076,6 +1076,25 @@ button.simple-link {
 .legal .rte h1, .legal .rte h2, .legal .rte h3, .legal .rte h4, .legal .rte h5, .legal .rte h6 {
   font-family: "Gopher", Arial, sans-serif;
   font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.legal .rte p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 976px) {
+  .legal {
+    padding: 2em;
+  }
+  .legal .rte h1, .legal .rte h2, .legal .rte h3, .legal .rte h4, .legal .rte h5, .legal .rte h6 {
+    margin-top: 30px;
+  }
+  .legal .rte p {
+    font-size: 16px;
+  }
 }
 
 footer ul {
