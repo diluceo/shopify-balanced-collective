@@ -499,7 +499,7 @@
         {%- endif -%}
       </div>
 
-      {%- if section.settings.shop_notice -%}
+      {%- if section.settings.shop_notice != blank -%}
       <div class="page-width shop_notification text-center">
         <p class="text-main">{{section.settings.shop_notice}}</p>
       </div>
