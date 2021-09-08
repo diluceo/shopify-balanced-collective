@@ -6,13 +6,13 @@
 	}
 </style>
 
-<div id="hero-{{ section.id }}" class="hero-1 hero-txt">
+<div id="hero-txt-{{ section.id }}" class="hero-1 hero-txt">
   <div class="container page-full">
     <div class="col flex-main flex-{{section.settings.content_alignment}} p-med">
       {%- if section.settings.contained -%}
-      <div class="content-wrapper contained" style="background-color:{{section.settings.container_color}};">
+      <div class="content-wrapper contained" style="background-color:{{section.settings.container_color}}; max-width: {{section.settings.max_width}};">
       {%- else -%}
-      <div class="content-wrapper text-{{section.settings.text_alignment}} p-small"> 
+      <div class="content-wrapper text-{{section.settings.text_alignment}} p-small" style="max-width: {{section.settings.max_width}};"> 
       {%- endif -%}
         {%- if section.settings.caption != blank -%}
 				<p class="text-main" style="color:{{section.settings.caption_color}};">{{ section.settings.caption }}</p>
@@ -37,6 +37,13 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+			{
+				"type": "text",
+				"id": "max_width",
+				"label": "Max Width",
+				"default": "600px",
+				"info": "Accepts px/em/%/vw"
+			},
 			{
 				"type": "select",
 				"id": "content_alignment",

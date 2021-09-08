@@ -743,6 +743,10 @@ button.simple-link {
   height: 4.5rem;
 }
 
+.hero-txt .content-wrapper {
+  max-width: 100%;
+}
+
 .tbc-single-banner h1, .tbc-single-banner h2, .tbc-single-banner h3, .tbc-single-banner h4 {
   line-height: 1.8em;
 }
