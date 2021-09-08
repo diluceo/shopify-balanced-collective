@@ -1069,6 +1069,15 @@ button.simple-link {
           box-shadow: none;
 }
 
+.legal {
+  padding: 4em 0;
+}
+
+.legal h1, .legal h2, .legal h3, .legal h4, .legal h5, .legal h6 {
+  font-family: 'Gopher', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 footer ul {
   text-align: right;
 }
