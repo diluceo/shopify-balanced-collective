@@ -1289,6 +1289,10 @@ footer .icon-facebook {
   color: var(--tbc-darkblue) !important;
 }
 
+footer .footer__copyright {
+  margin-top: 3rem;
+}
+
 @media (max-width: 749px) {
   footer ul, footer .footer-block {
     text-align: center;
