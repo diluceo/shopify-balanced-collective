@@ -35,6 +35,7 @@
         "content"
       ],
       "settings": {
+        "default_postimage": "shopify:\/\/shop_images\/The-Balanced-Collective-Square.jpg",
         "related_title": "Related Posts",
         "related_bgimage": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg"
       }
