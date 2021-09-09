@@ -8,34 +8,34 @@
           {% render block %}
         </div>
       {%- when 'featured_image'-%}
-        {%- if article.image -%}
           <div class="article-template__hero-container" {{ block.shopify_attributes }}>
             <div class="tbc-blog-image">
               <div class="article-template__hero-{{ block.settings.image_height }} media"
                 itemprop="image"
-                {% if block.settings.image_height == 'adapt' and article.image %} style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"{% endif %}>
 
-              {%- if article.image -%}
-              {% render 'image-block', my_img: article.image %} 
-              {%- else -%}
-              {% render 'image-block', my_img: section.settings.default_postimage %} 
-              {%- endif -%}
+                {%- if article.image -%}
+                  {% assign art_image = article.image %}
+                {%- else -%}
+                  {% assign art_image = section.settings.default_postimage %}
+                {%- endif -%}
+
+                {% if block.settings.image_height == 'adapt'%} style="padding-bottom: {{ 1 | divided_by: art_image.aspect_ratio | times: 100 }}%;"{% endif %}>
+              {% render 'image-block', my_img: art_image %} 
               
               </div>
             </div>
           </div>
           <div class="article-template__hero-container event_banner">
-            {% assign event_details = article.content | split: '</h1>' | first | remove: '<h1>' | remove: '</h1>' %}
+            {% assign event_details = article.content | split: '</h4>' | first | remove: '<h4>' | remove: '</h4>' %}
             <div><p class="text-main">{{event_details}}</p></div>
           </div>
-        {%- endif -%}
 
         {%- when 'title'-%}
           <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing text-main date-caption" itemprop="dateCreated pubdate datePublished">{{ article.published_at | date: "%b %d, %y" }}</span>
             {%- endif -%}
-            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+            <h1 class="article-template__title" itemprop="headline">{{ article.title | split: '|' | first | escape }}</h1>
             {%- if block.settings.blog_show_author -%}
               <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <span itemprop="name">{{ article.author }}</span>
@@ -46,7 +46,8 @@
 
         {%- when 'content'-%}
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
-              {{ article.content }}
+            
+              {{ article.content | split: '</h4>' | last }}
           </div>
 
     {%- endcase -%}
