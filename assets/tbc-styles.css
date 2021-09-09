@@ -977,6 +977,59 @@ button.simple-link {
   }
 }
 
+.tbc-blog-classic .article-template {
+  padding: 0 1em;
+}
+
+.tbc-blog-classic .article-template__hero-container {
+  margin-top: 180px !important;
+  max-width: 120rem;
+}
+
+.tbc-blog-classic .tbc-blog-image {
+  position: relative;
+}
+
+.tbc-blog-classic .tbc-blog-image:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  top: -100px;
+  right: -200px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/blog-bubles_small.svg?v=1631150261);
+  z-index: -1;
+}
+
+.tbc-blog-classic .date-caption {
+  font-weight: bold;
+  color: var(--tbc-green);
+  text-transform: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.tbc-blog-classic .article-template__title {
+  color: var(--tbc-blue);
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 989px) {
+  .tbc-blog-classic .article-template__hero-medium {
+    height: 34.9rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .tbc-blog-classic .article-template__hero-container {
+    margin-top: 80px !important;
+  }
+}
+
 .product {
   padding-bottom: 4em;
 }
