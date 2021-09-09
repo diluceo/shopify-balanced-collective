@@ -986,6 +986,11 @@ button.simple-link {
   max-width: 120rem;
 }
 
+.tbc-blog-classic .article-template__content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 .tbc-blog-classic .tbc-blog-image {
   position: relative;
 }
@@ -1016,6 +1021,13 @@ button.simple-link {
 .tbc-blog-classic .article-template__title {
   color: var(--tbc-blue);
   font-weight: inherit;
+}
+
+@media screen and (max-width: 950px) {
+  .tbc-blog-classic .article-template__content p {
+    font-size: 16px;
+    line-height: 1.4em;
+  }
 }
 
 @media screen and (max-width: 989px) {
@@ -1765,6 +1777,41 @@ footer .icon-facebook {
     max-width: 1000px;
     margin: auto;
   }
+}
+
+#tbc_share-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#tbc_share-buttons .share-text {
+  margin-right: 1em;
+  font-weight: bold;
+  color: var(--tbc-green);
+}
+
+#tbc_share-buttons .share-icons a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#tbc_share-buttons .share-icons i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: var(--tbc-blue);
+}
+
+#tbc_share-buttons .share-icons i.fa-facebook {
+  color: #4267B2;
+}
+
+#tbc_share-buttons .share-icons i.fa-envelope {
+  color: var(--tbc-green);
 }
 
 body {
