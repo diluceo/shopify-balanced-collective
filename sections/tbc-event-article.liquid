@@ -18,6 +18,10 @@
               </div>
             </div>
           </div>
+          <div class="article-template__hero-container event_banner">
+            {% assign event_details = article.content | split: '</h1>' | first | remove: '<h1>' | remove: '</h1>' %}
+            <div><p class="text-main">{{event_details}}</p></div>
+          </div>
         {%- endif -%}
 
         {%- when 'title'-%}

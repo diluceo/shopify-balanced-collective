@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "tbc-main-article",
+      "type": "tbc-event-article",
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -24,8 +24,7 @@
         },
         "content": {
           "type": "content",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
