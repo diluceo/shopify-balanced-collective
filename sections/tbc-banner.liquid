@@ -1,4 +1,4 @@
-<!-- <style>
+<style>
 	#tbc-banner-{{ section.id }} span {
 		background-color: {{ section.settings.highlight_color }};
 		color: {{ section.settings.highlight_text_color }};
@@ -6,10 +6,16 @@
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
 	}
-</style> -->
-<div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner {{section.settings.banner_version}}">
+	#tbc-banner-{{ section.id }} .content-con.type_two {
+		background-image: url({{ section.settings.image_1 | img_url: '1000x' }});
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: bottom right;
+	}
+</style>
+<div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner">
 	<div class="container page-full">
-		<div class="content-con flex-main">
+		<div class="content-con flex-main {{section.settings.banner_version}}">
 			<div class="col flex-inner flex-{{section.settings.content_alignment}} flex-50 p-med content-con">
 				<div class="content-wrapper"> 
 					{%- if section.settings.caption != blank -%}
@@ -27,10 +33,9 @@
 					{%- endif -%}
 				</div>						
 			</div>
-			
-			{%- if section.settings.image_1 != blank -%}
-				
 
+			{%- unless section.settings.banner_version == 'type_two' -%}		
+			{%- if section.settings.image_1 != blank -%}
 			<div class="col flex-50 image-con {{section.settings.banner_version}}">
 				<figure>
 					{%- if section.settings.image_1 != blank -%}
@@ -53,8 +58,8 @@
 					{%- endif -%}
 				</figure>
 			</div>
-			
 			{%- endif -%}
+			{%- endunless -%}	
 		</div>
 		<div class="bgimage">
 			{%- if section.settings.image_2 != blank -%}

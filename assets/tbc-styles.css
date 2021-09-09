@@ -802,6 +802,13 @@ button.simple-link {
 }
 
 @media (max-width: 749px) {
+  .tbc-banner .content-con.type_two {
+    padding-bottom: 18em;
+    background-size: 100% !important;
+  }
+}
+
+@media (max-width: 749px) {
   .tbc-single-banner .container {
     padding-top: 1em !important;
   }
