@@ -832,17 +832,26 @@ button.simple-link {
   height: auto !important;
 }
 
+.tbc-maps p {
+  text-align: left;
+}
+
 .tbc-maps > .container.address-info {
   height: auto;
   width: 100%;
   position: relative;
   z-index: 1;
   margin-bottom: -80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .tbc-maps .content-con {
-  max-width: 500px;
-  margin: auto;
+  width: 400px;
   background-color: #fff;
   padding: 40px;
   z-index: unset;
@@ -902,6 +911,15 @@ button.simple-link {
 .tbc-maps .maps-con iframe {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 749px) {
+  .tbc-maps > .container.address-info {
+    margin-bottom: 80px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .tbc-blog-block .blog-header {
