@@ -14,7 +14,13 @@
               <div class="article-template__hero-{{ block.settings.image_height }} media"
                 itemprop="image"
                 {% if block.settings.image_height == 'adapt' and article.image %} style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"{% endif %}>
-              {% render 'image-block', my_img: article.image %}
+
+              {%- if article.image -%}
+              {% render 'image-block', my_img: article.image %} 
+              {%- else -%}
+              {% render 'image-block', my_img: section.settings.default_postimage %} 
+              {%- endif -%}
+              
               </div>
             </div>
           </div>
@@ -77,7 +83,7 @@
                     <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span><span class="caption-with-letter-spacing">{{ comment.created_at | time_tag: format: 'month_year' }}</span>
                   </footer>
                 </article>
-              {%- endfor -%}
+              {%- endfor -%} 
               {% render 'pagination', paginate: paginate, anchor: anchorId %}
             </div>
           {% endpaginate %}
@@ -233,6 +239,11 @@
   "class": "tbc-blog-classic",
   "settings": [
     {
+      "type": "image_picker",
+      "id": "default_postimage",
+      "label": "Default Posts Image"
+    },
+    {
       "type": "text",
       "id": "related_title",
       "label": "Title",
@@ -241,7 +252,7 @@
     {
       "type": "image_picker",
       "id": "related_bgimage",
-      "label": "Background Image"
+      "label": "Related Posts Background Image"
     }
   ],
   "blocks": [
