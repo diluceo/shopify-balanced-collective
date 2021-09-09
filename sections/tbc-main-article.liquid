@@ -233,12 +233,47 @@
   {%- endif -%}
 </article>
 
+<div class="tbc-related-posts">
+  <div class="page-width tbc-blog-block">
+    <h4 class="text-subtitle">{{section.settings.related_title}}</h4>
+    <div class="blog-articles page-width all-blogs single-page grid-main">
+      {% assign currentHandle = article.handle %}
+      {%- for article in blog.articles limit: 4 -%}
+        {% unless article.handle == currentHandle %}
+        <div class="blog-articles__article article">
+          {%- render 'tbc-article-card', article: article, show_image: true, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
+        </div>
+        {% endunless %}
+      {%- endfor -%}
+    </div>
+  </div>
+  {%- if block.settings.related_bgimage != blank -%}
+  <div class="bgimage">
+    {% assign my_img = block.settings.related_bgimage %}
+    {% render 'image-block', my_img: my_img %}
+  </div>
+  {%- endif -%}
+</div>
+
 
 {% schema %}
 {
   "name": "t:sections.main-article.name",
   "tag": "section",
   "class": "tbc-blog-classic",
+  "settings": [
+    {
+      "type": "text",
+      "id": "related_title",
+      "label": "Title",
+      "default": "Related Posts"
+    },
+    {
+      "type": "image_picker",
+      "id": "related_bgimage",
+      "label": "Background Image"
+    }
+  ],
   "blocks": [
     {
       "type": "@app"
