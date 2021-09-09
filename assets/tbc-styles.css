@@ -750,6 +750,10 @@ button.simple-link {
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_libra.svg?v=1631143895);
 }
 
+.custom-dual-banner .pisces:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_pisces.svg?v=1631148096);
+}
+
 .custom-dual-banner .bone:after {
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bone.svg?v=1631147539);
 }
@@ -1489,6 +1493,18 @@ footer .icon-facebook {
   width: 24px;
   padding-right: 10px;
   margin-left: -22px;
+}
+
+.block-33 .item-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media (max-width: 767px) {
