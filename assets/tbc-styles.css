@@ -827,6 +827,83 @@ button.simple-link {
   width: 100px !important;
 }
 
+.tbc-maps {
+  position: relative;
+  height: auto !important;
+}
+
+.tbc-maps > .container.address-info {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -80px;
+}
+
+.tbc-maps .content-con {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 40px;
+  z-index: unset;
+}
+
+.tbc-maps .content-con:after {
+  content: '';
+  position: absolute;
+  background-color: red;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+  right: -20px;
+  bottom: -20px;
+}
+
+.tbc-maps .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tbc-maps .item i {
+  font-size: 16px;
+}
+
+.tbc-maps .item-icon {
+  margin-right: 10px;
+}
+
+.tbc-maps .item-icon > div {
+  background-color: var(--tbc-green);
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbc-maps .map-info {
+  height: 400px;
+}
+
+.tbc-maps .maps-con {
+  height: 400px;
+}
+
+.tbc-maps .maps-con iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .tbc-blog-block .blog-header {
   max-width: 800px;
   padding-top: 4em;
