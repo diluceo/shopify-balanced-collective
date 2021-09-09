@@ -355,22 +355,23 @@ figure {
   padding: 0;
 }
 
+figure.top, figure.center, figure.bottom {
+  text-align: center;
+}
+
 figure.top img {
   -o-object-position: top !important;
      object-position: top !important;
-  text-align: center;
 }
 
 figure.center img {
   -o-object-position: center !important;
      object-position: center !important;
-  text-align: center;
 }
 
 figure.bottom img {
   -o-object-position: bottom !important;
      object-position: bottom !important;
-  text-align: center;
 }
 
 figure img {
