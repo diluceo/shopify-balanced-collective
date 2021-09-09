@@ -977,6 +977,11 @@ button.simple-link {
   }
 }
 
+.tbc-blog-classic .tbc-blog-block {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
 .tbc-blog-classic .tbc-blog-block .all-blogs {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -986,9 +991,18 @@ button.simple-link {
   padding: 0 1em;
 }
 
-.tbc-blog-classic .article-template__hero-container {
-  margin-top: 180px !important;
+.tbc-blog-classic .article-template > .article-template__hero-container {
+  margin-top: 180px;
   max-width: 120rem;
+}
+
+.tbc-blog-classic .article-template > .article-template__hero-container.event_banner {
+  margin-top: 2em;
+  background-color: var(--tbc-darkblue);
+  color: #fff;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .tbc-blog-classic .article-template__content p {
@@ -1046,8 +1060,11 @@ button.simple-link {
 }
 
 @media screen and (max-width: 749px) {
-  .tbc-blog-classic .article-template__hero-container {
-    margin-top: 80px !important;
+  .tbc-blog-classic .article-template {
+    padding: 0 1em;
+  }
+  .tbc-blog-classic .article-template > .article-template__hero-container {
+    margin-top: 80px;
   }
 }
 

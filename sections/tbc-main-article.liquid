@@ -18,6 +18,10 @@
               </div>
             </div>
           </div>
+          <div class="article-template__hero-container event_banner">
+            {% assign event_details = article.content | split: '</h1>' | first | remove: '<h1>' | remove: '</h1>' %}
+            <div><p class="text-main">{{event_details}}</p></div>
+          </div>
         {%- endif -%}
 
         {%- when 'title'-%}
@@ -39,45 +43,6 @@
               {{ article.content }}
           </div>
 
-        {%- when 'share' -%}
-          <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
-            <share-button class="share-button" {{ block.shopify_attributes }}>
-              <button class="share-button__button hidden">
-                {% render 'icon-share' %}
-                {{ block.settings.share_label | escape }}
-              </button>
-              <details>
-                <summary class="share-button__button">
-                  {% render 'icon-share' %}
-                  {{ block.settings.share_label | escape }}
-                </summary>
-                <div id="Article-share-{{ section.id }}" class="share-button__fallback motion-reduce">
-                  <div class="field">
-                    <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status">
-                    </span>
-                    <input type="text"
-                          class="field__input"
-                          id="url"
-                          value="{{ shop.url | append: article.url }}"
-                          placeholder="{{ 'general.share.share_url' | t }}"
-                          onclick="this.select();"
-                          readonly
-                    >
-                    <label class="field__label" for="url">{{ 'general.share.share_url' | t }}</label>
-                  </div>
-                  <button class="share-button__close hidden no-js-hidden">
-                    {% render 'icon-close' %}
-                    <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
-                  </button>
-                  <button class="share-button__copy no-js-hidden">
-                    {% render 'icon-clipboard' %}
-                    <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
-                  </button>
-                </div>
-              </details>
-            </share-button>
-            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-          </div>
     {%- endcase -%}
   {%- endfor -%}
 
@@ -235,8 +200,11 @@
 
 <div class="tbc-related-posts">
   <div class="bg-wrapper">
-    <div class="page-width tbc-blog-block">
-      <h4 class="text-subtitle">{{section.settings.related_title}}</h4>
+    <div class="page-width content-con tbc-blog-block">
+      
+      <div class="flex-center title-wrapper-with-link">
+        <h4 class="text-subtitle fancyheader title">{{section.settings.related_title}}</h4>
+      </div>
       <div class="blog-articles page-width all-blogs single-page grid-main">
         {% assign currentHandle = article.handle %}
         {%- for article in blog.articles limit: 4 -%}
