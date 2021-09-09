@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 	#tbc-banner-{{ section.id }} span {
 		background-color: {{ section.settings.highlight_color }};
 		color: {{ section.settings.highlight_text_color }};
@@ -6,8 +6,8 @@
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
 	}
-</style>
-<div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner">
+</style> -->
+<div id="tbc-banner-{{ section.id }}" class="hero-6 tbc-banner {{section.settings.banner_version}}">
 	<div class="container page-full">
 		<div class="content-con flex-main">
 			<div class="col flex-inner flex-{{section.settings.content_alignment}} flex-50 p-med content-con">
@@ -31,7 +31,7 @@
 			{%- if section.settings.image_1 != blank -%}
 				
 
-			<div class="col flex-50 image-con">
+			<div class="col flex-50 image-con {{section.settings.banner_version}}">
 				<figure>
 					{%- if section.settings.image_1 != blank -%}
 					<img srcset="{%- if section.settings.image_1.width >= 375 -%}{{ section.settings.image_1 | img_url: '375x' }} 375w,{%- endif -%}
@@ -85,6 +85,22 @@
 		"tag": "section",
 		"class": "wrapper",
 		"settings": [
+			{
+				"type": "select",
+				"id": "banner_version",
+				"label": "Banner Version",
+				"options": [
+					{
+						"value": "type_one",
+						"label": "Type One"
+					},
+					{
+						"value": "type_two",
+						"label": "Type Two"
+					}
+				],
+				"default": "type_one"
+			},
 			{
 				"type": "select",
 				"id": "content_alignment",
