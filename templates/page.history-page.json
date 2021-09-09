@@ -121,7 +121,7 @@
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
-        "section_width": "page-width",
+        "section_width": "page-full",
         "bg_image": "shopify:\/\/shop_images\/bg-team-section.jpg",
         "bg_opacity": 1,
         "bg_color": "",
@@ -184,7 +184,7 @@
       "settings": {
         "direction": false,
         "image_1": "shopify:\/\/shop_images\/team-danielle.png",
-        "image_position": "center"
+        "image_position": "top"
       }
     },
     "1630481693613d42ec": {
