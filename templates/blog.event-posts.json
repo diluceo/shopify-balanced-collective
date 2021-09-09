@@ -3,10 +3,12 @@
     "163064092789da3d03": {
       "type": "tbc-banner",
       "settings": {
+        "banner_version": "type_two",
         "content_alignment": "center-left",
         "image_1": "shopify:\/\/shop_images\/events-header.png",
         "image_2": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg",
         "caption": "EVENTS & EDUCATION",
+        "add_before": false,
         "heading": "Empowering you<br> <span>To feel better<\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
