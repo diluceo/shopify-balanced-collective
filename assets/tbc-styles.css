@@ -721,6 +721,39 @@ button.simple-link {
   width: 100%;
 }
 
+.custom-dual-banner .capricon:after, .custom-dual-banner .taurus:after, .custom-dual-banner .scorpio:after, .custom-dual-banner .libra:after, .custom-dual-banner .bone:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  top: 0px;
+  right: -40px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-dual-banner .capricon:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_capricon.svg?v=1631143895);
+}
+
+.custom-dual-banner .taurus:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_taurus.svg?v=1631143894);
+}
+
+.custom-dual-banner .scorpio:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_scorpion.svg?v=1631143894);
+}
+
+.custom-dual-banner .libra:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_libra.svg?v=1631143895);
+}
+
+.custom-dual-banner .bone:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_libra.svg?v=1631143895);
+}
+
 .tbc-newsletter .bg-wrapper {
   padding: 4em 0;
 }
@@ -1421,6 +1454,7 @@ footer .icon-facebook {
 }
 
 .block-33 .item .text-main {
+  position: relative;
   margin-bottom: 10px;
 }
 
