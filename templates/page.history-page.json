@@ -171,7 +171,7 @@
         "65939ebb-20b9-4e39-b7c7-247ad89dda9a": {
           "type": "list",
           "settings": {
-            "list_title": "Courses and Certifications:",
+            "list_title": "Courses and Certifications",
             "list_text_1": "<li>Proprioceptive - Deep Tendon Reflex (P-DTR) Advanced <\/li>\n<li>NeuroKinetic Therapy (NKT) Level 3; IMTAP Certified <\/li>\n<li>Ortho Canada Level 1 Manual Therapy <\/li>\n<li>Acupuncture Canada Certified <\/li>\n<li>200 Hour Meditation Teacher Training (The Lab of Meditation)<\/li>\n<li>Selective Functional Movement <\/li>\n<li>Assessment (SFMA) Level 1 <\/li>\n<li>Soft Tissue Release <\/li>\n<li>Mind Body Spirit Coaching 1 Year <\/li>\n<li>Certification Course<\/li>"
           }
         }
@@ -204,8 +204,8 @@
             "name_title": "Holly Middleton",
             "name_text_1": "She \/ Her (Taurus)",
             "name_text_1_class": "taurus",
-            "name_text_2": "Role: Active Rehab Assistant",
-            "name_text_3": "Favourite Bone: The Talus",
+            "name_text_2": "<b>Role:<\/b> Active Rehab Assistant",
+            "name_text_3": "<b>Favourite Bone:<\/b> The Talus",
             "name_text_3_class": ""
           }
         },
@@ -231,7 +231,7 @@
         "c00259c6-d1d1-4191-aefc-62564cc4a5ef": {
           "type": "list",
           "settings": {
-            "list_title": "Courses and Certifications:",
+            "list_title": "Courses and Certifications",
             "list_text_1": "<li>CanFitPro certified Personal Training Specialist <\/li><li>Anatomy in Motion practitioner<\/li>\n<li>Anatomy in Motion practitioner<\/li>"
           }
         }
@@ -291,7 +291,7 @@
         "7846a29e-67aa-4a09-9e5c-82904d0f2d0f": {
           "type": "list",
           "settings": {
-            "list_title": "Courses and Certifications:",
+            "list_title": "Courses and Certifications",
             "list_text_1": "<li>CSEP Personal Training<\/li>\n<li>CAPU Human Kinetics Exercise <\/li><li>Science Christian Thibeau: Science and Application of Strength Training<\/li>\n<li>Functional Range Conditioning  Mobility Specialist<\/li>\n<li>DNS (Dynamic Neuromuscular Stabilization) Level 1 & 2<\/li>\n<li>FMS Level 1<\/li>\n<li>Brain. Breathe. Barefoot. Workshop w\/ Dr. Emily Splichal<\/li>"
           }
         }
