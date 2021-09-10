@@ -5,18 +5,18 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 
-{%- for block in section.blocks -%}
-{%- if block.settings.anchor_id != blank -%}
+{%- if page.handle == 'privacy' -%}
 <div class="page-full pre-legal">
   <div class="anchor-con page-width page-width--narrow">
+  {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when 'anchor' -%}
       <div class="anchor-links tex-main"><a href="#{{block.settings.anchor_id}}">{{block.settings.anchor_text}}</a></div>
     {%- endcase -%}
+  {%- endfor -%}
   </div>
 </div>
 {%- endif -%}
-{%- endfor -%}
 <div class="page-width page-width--narrow legal">
   <div class="rte">
     {{ page.content }}

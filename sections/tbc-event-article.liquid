@@ -214,7 +214,7 @@
       </div>
       <div class="blog-articles page-width all-blogs single-page grid-main">
         {% assign currentHandle = article.handle %}
-        {%- for article in blog.articles limit: 4 -%}
+        {%- for article in blog.articles limit: 5 -%}
           {% unless article.handle == currentHandle %}
           <div class="blog-articles__article article">
             {%- render 'tbc-article-card', article: article, show_image: true, show_date: section.settings.show_date, show_author: section.settings.show_author -%}

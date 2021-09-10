@@ -318,6 +318,17 @@
   --tbc-orange: #FFC600;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 130px;
+  margin: -130px 0 0;
+}
+
 body {
   color: var(--tbc-darkblue);
 }
@@ -929,6 +940,50 @@ button.simple-link {
   }
 }
 
+.pre-legal {
+  background-color: var(--tbc-blue);
+  padding: 10px 0;
+}
+
+.pre-legal .anchor-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pre-legal a {
+  text-decoration: none;
+  display: block;
+  margin: 5px !important;
+  padding: 10px 20px;
+  border: 1px solid var(--tbc-lime);
+  color: var(--tbc-lime);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.legal {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.legal p, .legal li {
+  font-size: 20px;
+}
+
+.legal p {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 749px) {
+  .legal p, .legal li {
+    font-size: 16px;
+  }
+}
+
 .tbc-blog-block .blog-header {
   max-width: 800px;
   padding-top: 4em;
@@ -979,6 +1034,10 @@ button.simple-link {
 
 .tbc-blog-block .first-blog .blog-articles__article {
   margin-top: -100px;
+}
+
+.tbc-blog-block .first-blog .blog-articles__article .article-card__image.media {
+  padding-bottom: 50%;
 }
 
 .tbc-blog-block .all-blogs {
@@ -1169,6 +1228,14 @@ button.simple-link {
   .tbc-blog-classic .article-template > .article-template__hero-container {
     margin-top: 80px;
   }
+}
+
+.tbc-related-posts a {
+  text-decoration: none;
+}
+
+.tbc-related-posts a:hover {
+  text-decoration: underline;
 }
 
 .product {
