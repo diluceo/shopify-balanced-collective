@@ -100,7 +100,7 @@
     "1630199682ccd2f15a": {
       "type": "tbc-text-banner",
       "settings": {
-        "max_width": "600px",
+        "max_width": "700px",
         "content_alignment": "center",
         "text_alignment": "center",
         "bg_image": "shopify:\/\/shop_images\/blue-bg.jpg",
