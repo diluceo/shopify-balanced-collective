@@ -3,6 +3,7 @@
     "163033968360b5a1e9": {
       "type": "tbc-banner",
       "settings": {
+        "banner_version": "type_one",
         "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_59.png",
         "image_2": "shopify:\/\/shop_images\/header-product.jpg",
@@ -58,7 +59,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "bg_image_p": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
+        "bg_image_p": "shopify:\/\/shop_images\/product-bg.jpg",
         "products_per_page": 16,
         "image_ratio": "adapt",
         "show_secondary_image": false,
