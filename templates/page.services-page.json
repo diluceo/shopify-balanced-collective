@@ -9,6 +9,7 @@
     "1630299441752dfb4b": {
       "type": "tbc-banner",
       "settings": {
+        "banner_version": "type_one",
         "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/guy-header.png",
         "image_2": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
@@ -38,7 +39,7 @@
         "163030625826391d0c-0"
       ],
       "settings": {
-        "max_width": "600px",
+        "max_width": "750px",
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
@@ -63,8 +64,10 @@
             "title_color": "#1c7ee3",
             "name_title": "Physiotherapy",
             "name_text_1": "",
+            "name_text_1_class": "",
             "name_text_2": "",
-            "name_text_3": ""
+            "name_text_3": "",
+            "name_text_3_class": ""
           }
         },
         "48532f09-f170-4d49-aaeb-87cd0a23bdff": {
@@ -108,8 +111,10 @@
             "title_color": "#1c7ee3",
             "name_title": "Active Rehab",
             "name_text_1": "",
+            "name_text_1_class": "",
             "name_text_2": "",
-            "name_text_3": ""
+            "name_text_3": "",
+            "name_text_3_class": ""
           }
         },
         "dfb351f1-b9d5-4f8d-831a-9c52f7953bca": {
@@ -255,8 +260,10 @@
             "title_color": "#1c7ee3",
             "name_title": "Rates",
             "name_text_1": "",
+            "name_text_1_class": "",
             "name_text_2": "",
-            "name_text_3": ""
+            "name_text_3": "",
+            "name_text_3_class": ""
           }
         },
         "c721d132-7886-4c01-a013-c8420bce2fce": {
