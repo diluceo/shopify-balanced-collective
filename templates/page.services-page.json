@@ -92,7 +92,7 @@
       ],
       "settings": {
         "direction": false,
-        "image_1": "shopify:\/\/shop_images\/physiotherapy.png",
+        "image_1": "shopify:\/\/shop_images\/physio.png",
         "image_position": "center"
       }
     },
@@ -147,7 +147,7 @@
       ],
       "settings": {
         "direction": true,
-        "image_1": "shopify:\/\/shop_images\/active.png",
+        "image_1": "shopify:\/\/shop_images\/rehab.png",
         "image_position": "center"
       }
     },
