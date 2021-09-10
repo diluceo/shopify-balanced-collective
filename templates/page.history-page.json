@@ -9,6 +9,7 @@
     "1630299441752dfb4b": {
       "type": "tbc-banner",
       "settings": {
+        "banner_version": "type_one",
         "content_alignment": "center",
         "image_1": "shopify:\/\/shop_images\/header.png",
         "image_2": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
@@ -183,7 +184,7 @@
       ],
       "settings": {
         "direction": false,
-        "image_1": "shopify:\/\/shop_images\/team-danielle.png",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_77.png",
         "image_position": "top"
       }
     },
@@ -243,7 +244,7 @@
       ],
       "settings": {
         "direction": true,
-        "image_1": "shopify:\/\/shop_images\/team-holly.png",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_76.png",
         "image_position": "top"
       }
     },
@@ -303,7 +304,7 @@
       ],
       "settings": {
         "direction": false,
-        "image_1": "shopify:\/\/shop_images\/team-jeremy.png",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_75.png",
         "image_position": "center"
       }
     },
@@ -363,7 +364,7 @@
       ],
       "settings": {
         "direction": true,
-        "image_1": "shopify:\/\/shop_images\/team-bettina.png",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
         "image_position": "center"
       }
     },
