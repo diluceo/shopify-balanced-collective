@@ -400,11 +400,19 @@
             "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Group_587.svg?v=1631248013",
             "about_text_3": "My favourite authentic dishes"
           }
+        },
+        "0364ab5e-92f9-42a2-9d77-7bb01d8ee8a0": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "My treatment approach involves addressing the underlying cause of injury through listening to patients' stories. I believe that having good listening skills will allow me to better understand my patients' lifestyle, their mechanism of injury and how lifestyle modifications can aid in recovery and prevention of future injury. I enjoy working with a wide range of individuals from diverse backgrounds, whether it be athletes, office workers or those with chronic injuries. I believe that working together as a team with my patients is the key to having a smooth and successful rehabilitation."
+          }
         }
       },
       "block_order": [
         "2bed6883-abeb-4960-aeab-01b5af152338",
-        "d127cf5d-76ba-49e2-a54f-14578d6fd07c"
+        "d127cf5d-76ba-49e2-a54f-14578d6fd07c",
+        "0364ab5e-92f9-42a2-9d77-7bb01d8ee8a0"
       ],
       "settings": {
         "direction": false,
