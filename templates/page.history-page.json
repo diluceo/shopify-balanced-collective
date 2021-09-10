@@ -368,6 +368,50 @@
         "image_position": "center"
       }
     },
+    "1631247698839af32a": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/space-2.jpg"
+      }
+    },
+    "163124774924197585": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "2bed6883-abeb-4960-aeab-01b5af152338": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1dd8c4",
+            "name_title": "Shirin Davarpanah Jazi",
+            "name_text_1": "She\/Her",
+            "name_text_1_class": "Pisces",
+            "name_text_2": "<b>Role at TBC: <\/b>Physiotherapist",
+            "name_text_3": "<b>Favorite Body Part:<\/b> The brain!",
+            "name_text_3_class": ""
+          }
+        },
+        "d127cf5d-76ba-49e2-a54f-14578d6fd07c": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Group_582.svg?v=1631247633",
+            "about_text_1": "My time in Europe",
+            "about_url_2": "",
+            "about_text_2": "My Karate background",
+            "about_url_3": "",
+            "about_text_3": "My favourite authentic dishes"
+          }
+        }
+      },
+      "block_order": [
+        "2bed6883-abeb-4960-aeab-01b5af152338",
+        "d127cf5d-76ba-49e2-a54f-14578d6fd07c"
+      ],
+      "settings": {
+        "direction": false,
+        "image_1": "shopify:\/\/shop_images\/Group_580.png",
+        "image_position": "center"
+      }
+    },
     "1630482090fd6da96d": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -469,6 +513,8 @@
     "163064602929229c1b",
     "1630684101b4cd5c8d",
     "16306837944244da03",
+    "1631247698839af32a",
+    "163124774924197585",
     "1630482090fd6da96d",
     "16307976914653aa88",
     "1630516101a293de53"
