@@ -69,6 +69,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "custom_btn_text": "Pre-Order Now",
         "hide_variants": false,
         "enable_video_looping": false
       }
