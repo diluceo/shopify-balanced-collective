@@ -272,7 +272,7 @@
                     {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                     >
                         {%- if product.selected_or_first_available_variant.available -%}
-                          {{ 'products.product.add_to_cart' | t }}
+                          {{ section.settings.custom_btn_text }}
                         {%- else -%}
                           {{ 'products.product.sold_out' | t }}
                         {%- endif -%}
@@ -746,6 +746,12 @@
       "id": "enable_sticky_info",
       "default": true,
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
+    },
+    {
+      "type": "text",
+      "id": "custom_btn_text",
+      "label": "Custom 'Add to Cart' text",
+      "default": "Add To Cart"
     },
     {
       "type": "header",

@@ -1246,6 +1246,10 @@ button.simple-link {
   color: var(--tbc-blue);
 }
 
+.product .product-form__submit {
+  margin-bottom: 0;
+}
+
 .product .product__description {
   color: var(--tbc-darkblue);
 }
