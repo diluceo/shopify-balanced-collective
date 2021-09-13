@@ -736,7 +736,7 @@ button.simple-link {
   width: 100%;
 }
 
-.custom-dual-banner .capricon:after, .custom-dual-banner .taurus:after, .custom-dual-banner .scorpio:after, .custom-dual-banner .libra:after, .custom-dual-banner .bone:after {
+.custom-dual-banner .gender:after, .custom-dual-banner .bone:after {
   content: '';
   display: block;
   position: absolute;
@@ -747,6 +747,10 @@ button.simple-link {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.custom-dual-banner .bone:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bone.svg?v=1631147539);
 }
 
 .custom-dual-banner .capricon:after {
@@ -767,10 +771,6 @@ button.simple-link {
 
 .custom-dual-banner .pisces:after {
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_pisces.svg?v=1631148096);
-}
-
-.custom-dual-banner .bone:after {
-  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bone.svg?v=1631147539);
 }
 
 .tbc-newsletter .bg-wrapper {
