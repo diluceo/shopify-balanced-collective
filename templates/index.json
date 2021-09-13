@@ -94,7 +94,8 @@
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": false,
-        "show_vendor": false
+        "show_vendor": false,
+        "custom_btn_text": "PRE-ORDER NOW"
       }
     },
     "1630199682ccd2f15a": {
