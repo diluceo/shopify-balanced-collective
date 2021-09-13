@@ -272,7 +272,7 @@
                     {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                     >
                         {%- if product.selected_or_first_available_variant.available -%}
-                        {{ section.settings.custom_btn_text | default: 'products.product.add_to_cart' | t }}
+                        {{ section.settings.custom_btn_text | default: 'products.product.add_to_cart' }}
                         {%- else -%}
                           {{ 'products.product.sold_out' | t }}
                         {%- endif -%}
