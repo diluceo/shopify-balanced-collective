@@ -36,7 +36,8 @@
               show_secondary_image: section.settings.show_secondary_image,
               add_image_padding: section.settings.add_image_padding,
               show_vendor: section.settings.show_vendor,
-              show_image_outline: section.settings.show_image_outline
+              show_image_outline: section.settings.show_image_outline,
+              button_text: section.settings.custom_btn_text
             %}
           </li>
         {%- else -%}
@@ -171,6 +172,11 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+    {
+      "type": "text",
+      "id": "custom_btn_text",
+      "label": "Custom Button Text"
     }
   ],
   "presets": [
