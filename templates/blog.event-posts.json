@@ -22,6 +22,8 @@
     "main": {
       "type": "main-blog-event",
       "settings": {
+        "blog_header": "Next Opportunities",
+        "blog_summary": "Join our virtual or in-person workshops, live events, or destination wellness retreats –packed with plenty of joy and holistic healing. Or continue learning with one of our self-led health classes via Teachable. <br><br>Be sure to visit frequently for updated content!",
         "separator_image": "shopify:\/\/shop_images\/space-2.jpg",
         "placeholder_image": "shopify:\/\/shop_images\/The-Balanced-Collective-Square.jpg",
         "show_image": true,
