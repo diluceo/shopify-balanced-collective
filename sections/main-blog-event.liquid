@@ -9,8 +9,8 @@
 
     {%- if paginate.current_page == 1 -%}
       <div class="blog-header container page-width flex-inner flex-center">
-        <h4 class="text-subtitle fancyheader text-center">{{section.setttings.blog_header}}</h4>
-        <p class="text-main text-center">{{section.setttings.blog_summary}}</p>
+        <h4 class="text-subtitle fancyheader text-center">{{section.settings.blog_header}}</h4>
+        <p class="text-main text-center">{{section.settings.blog_summary}}</p>
       </div>
       <div class="blog-articles container page-width all-blogs">
         {%- for article in blog.articles -%}
