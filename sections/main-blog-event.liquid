@@ -9,8 +9,8 @@
 
     {%- if paginate.current_page == 1 -%}
       <div class="blog-header container page-width flex-inner flex-center">
-        <h4 class="text-subtitle fancyheader text-center">Next Opportunities</h4>
-        <p class="text-main text-center">Join our virtual or in-person workshops, live events, or destination wellness retreats –packed with plenty of joy and holistic healing. Or continue learning with one of our self-led health classes via Teachable.<br><br>Be sure to visit frequently for updated content!</p>
+        <h4 class="text-subtitle fancyheader text-center">{{section.setttings.blog_header}}</h4>
+        <p class="text-main text-center">{{section.setttings.blog_summary}}</p>
       </div>
       <div class="blog-articles container page-width all-blogs">
         {%- for article in blog.articles -%}
@@ -75,6 +75,18 @@
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
+    },
+    {
+      "type": "textarea",
+      "id": "blog_header",
+      "label": "Blog Header",
+      "default": "Next Opportunities"
+    },
+    {
+      "type": "textarea",
+      "id": "blog_summary",
+      "label": "Blog Summary",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "type": "image_picker",
