@@ -122,7 +122,7 @@
         "direction": true,
         "fancy": true,
         "image_1": "shopify:\/\/shop_images\/Group_569.png",
-        "title": "Our products are<br>the bomb dot com",
+        "title": "Our products are<br>the bom dot com",
         "title_colour": "#1c7ee3",
         "text_colour": "#262c96"
       }
@@ -164,6 +164,9 @@
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
+        "caption": "<span>Join Our Newsletter.<\/span>",
+        "highlight_color": "#D0DF00",
+        "highlight_text_color": "#000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
