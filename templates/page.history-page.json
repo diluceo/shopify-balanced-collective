@@ -266,7 +266,7 @@
             "name_text_1_class": "scorpio",
             "name_text_2": "<b>Role:<\/b> Movement Trainer. Active Rehab Specialist",
             "name_text_3": "<b>Favourite Bone:<\/b> The Serratus Anterior",
-            "name_text_3_class": ""
+            "name_text_3_class": "muscle"
           }
         },
         "41224bdb-ebda-42de-8497-2c7f8d9e06a8": {
@@ -386,7 +386,7 @@
             "name_text_1_class": "pisces",
             "name_text_2": "<b>Role at TBC: <\/b>Physiotherapist",
             "name_text_3": "<b>Favorite Body Part:<\/b> The brain!",
-            "name_text_3_class": ""
+            "name_text_3_class": "brain"
           }
         },
         "d127cf5d-76ba-49e2-a54f-14578d6fd07c": {
@@ -412,7 +412,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Level 1 Soft Tissue Release Workshop<\/li>\n<li>Level 1 Manual Therapy, Canadian Academy of Manipulative Therapy<\/li>\n<li>Level 1 & 2 Concussion Management Workshop<\/li>"
+            "list_text_1": "<li>Level 1 & 2 Concussion Management Workshop<\/li><li>Level 1 Soft Tissue Release Workshop<\/li>\n<li>Level 1 Manual Therapy, Canadian Academy of Manipulative Therapy<\/li>"
           }
         }
       },
@@ -512,8 +512,8 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
         "caption": "<span>Join Our Newsletter.<\/span>",
-        "highlight_color": "#D0DF00",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#000000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
