@@ -19,10 +19,10 @@
     "1630569292c5ebda49": {
       "type": "tbc-custom-newsletter",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
         "button_label": "Button Label",
-        "heading_color": "#1c7ee3"
+        "heading_color": "#ffffff"
       }
     }
   },
