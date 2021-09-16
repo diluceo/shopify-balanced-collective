@@ -736,7 +736,7 @@ button.simple-link {
   width: 100%;
 }
 
-.custom-dual-banner .gender:after, .custom-dual-banner .bone:after {
+.custom-dual-banner .gender:after, .custom-dual-banner .bodypart:after {
   content: '';
   display: block;
   position: absolute;
@@ -751,6 +751,14 @@ button.simple-link {
 
 .custom-dual-banner .bone:after {
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bone.svg?v=1631147539);
+}
+
+.custom-dual-banner .muscle:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/muscle.svg?v=1631833474);
+}
+
+.custom-dual-banner .brain:after {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/brain.svg?v=1631833474);
 }
 
 .custom-dual-banner .capricon:after {
