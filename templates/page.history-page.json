@@ -305,7 +305,7 @@
       "settings": {
         "direction": false,
         "image_1": "shopify:\/\/shop_images\/Mask_Group_75.png",
-        "image_position": "center"
+        "image_position": "top"
       }
     },
     "1630684101b4cd5c8d": {
@@ -365,7 +365,7 @@
       "settings": {
         "direction": true,
         "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
-        "image_position": "center"
+        "image_position": "top"
       }
     },
     "1631247698839af32a": {
@@ -425,7 +425,7 @@
       "settings": {
         "direction": false,
         "image_1": "shopify:\/\/shop_images\/Group_580.png",
-        "image_position": "center"
+        "image_position": "top"
       }
     },
     "1630482090fd6da96d": {
@@ -511,6 +511,9 @@
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
+        "caption": "<span>Join Our Newsletter.<\/span>",
+        "highlight_color": "#D0DF00",
+        "highlight_text_color": "#000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
