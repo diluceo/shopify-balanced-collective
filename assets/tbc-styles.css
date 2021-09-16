@@ -1983,6 +1983,142 @@ footer .footer__copyright {
   }
 }
 
+.faq {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.faq .tab-toggle {
+  display: none;
+}
+
+.faq .tab-toggle:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+.faq .tab-toggle:checked ~ .tab-label::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.faq .tab-label {
+  background-color: var(--tbc-blue);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.faq .tab-label::after {
+  content: '\276F';
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.faq .tab-content {
+  background-color: #fff;
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 0 1em;
+}
+
+/* Style the tab */
+.tab_items {
+  /* Style the buttons that are used to open the tab content */
+  /* Change background color of buttons on hover */
+  /* Create an active/current tablink class */
+  /* Style the tab content */
+}
+
+.tab_items .tab {
+  overflow: hidden;
+}
+
+.tab_items .tab button {
+  background-color: transparent;
+  float: left;
+  color: var(--tbc-red);
+  border: none;
+  border-bottom: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 15px 14px 20px;
+  margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+
+.tab_items .tab button::before {
+  content: "+";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.tab_items .tab button:hover {
+  border-bottom: 1px solid var(--tbc-red);
+}
+
+.tab_items .tab button:hover::before {
+  -webkit-transform: rotate(46deg);
+          transform: rotate(46deg);
+}
+
+.tab_items .tab button.active {
+  background-color: var(--tbc-red);
+  border-radius: 15px 15px 0 0;
+  color: #fff;
+}
+
+.tab_items .tab button.active::before {
+  -webkit-transform: rotate(46deg);
+          transform: rotate(46deg);
+}
+
+.tab_items .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  margin-top: -1px;
+  border: 2px solid var(--tbc-red);
+  border-radius: 0 0 15px 15px;
+  -webkit-animation: fadeEffect 1s;
+          animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #tbc_share-buttons {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -75,19 +75,26 @@
           </div>
           
         {%- when 'details' -%}
-          <div class="item">
-            <details>
-              <summary>This is for you if</summary>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi expedita qui nesciunt labore reprehenderit commodi magnam quae necessitatibus! Aspernatur.</p>
-            </details>
-            <details>
-              <summary>Skip the waitlist</summary>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi expedita qui nesciunt labore reprehenderit commodi magnam quae necessitatibus! Aspernatur.</p>
-            </details>
-            <details>
-              <summary>Get Covered</summary>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sequi expedita qui nesciunt labore reprehenderit commodi magnam quae necessitatibus! Aspernatur.</p>
-            </details>
+          <div class="item tab_items">
+            <!-- Tab links -->
+            <div class="tab">
+              <button class="tablinks" onclick="openTab(event, 't_one')"  id="default">{{block.settings.tab1_heading}}</button>
+              <button class="tablinks" onclick="openTab(event, 't_two')">{{block.settings.tab2_heading}}</button>
+              <button class="tablinks" onclick="openTab(event, 't_three')">{{block.settings.tab3_heading}}</button>
+            </div>
+
+            <!-- Tab content -->
+            <div id="t_one" class="tabcontent">
+              <p>{{block.settings.tab1_summary}}</p>
+            </div>
+
+            <div id="t_two" class="tabcontent">
+              <p>{{block.settings.tab2_summary}}</p>
+            </div>
+
+            <div id="t_three" class="tabcontent">
+              <p>{{block.settings.tab3_summary}}.</p>
+            </div>
           </div>
 
         {%- when 'button' -%}
@@ -267,14 +274,38 @@
         "settings": [
           {
             "type": "textarea",
-            "id": "details_1",
-            "label": "Details",
+            "id": "tab1_heading",
+            "label": "Tab 1 Heading",
             "default": "Lorem Ipsum"
           },
           {
             "type": "textarea",
-            "id": "summary_1",
-            "label": "Summary",
+            "id": "tab1_summary",
+            "label": "Tab 1 Summary",
+            "default": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!"
+          },
+          {
+            "type": "textarea",
+            "id": "tab2_heading",
+            "label": "Tab 2 Heading",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "tab2_summary",
+            "label": "Tab 2 Summary",
+            "default": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!"
+          },
+          {
+            "type": "textarea",
+            "id": "tab3_heading",
+            "label": "Tab 3 Heading",
+            "default": "Lorem Ipsum"
+          },
+          {
+            "type": "textarea",
+            "id": "tab3_summary",
+            "label": "Tab 3 Summary",
             "default": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!"
           }
         ]
