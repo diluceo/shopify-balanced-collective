@@ -124,6 +124,17 @@
             "content_text_1": "Active Rehab is a dynamic-movement-specific treatment that involves all the benefits of a Physiotherapist with the combined precision of a personal trainer or Kinesiologist. Receive support from an expert team dedicated to reducing long-term injuries and decreasing pain, while increasing confidence and strength in your body. <br><br>Active Rehab begins with a detailed, high-level assessment completed by a Physiotherapist, who will develop a uniquely tailored treatment plan. Then, during your next session(s), a personal trainer or Kinesiologist will carry out the program under the supervision of the Physiotherapist. Finally, you’ll continue to meet with your physiotherapist in between for progress check-ins and treatment modifications."
           }
         },
+        "b4071eb6-94a0-4996-a03d-739be093fd78": {
+          "type": "details",
+          "settings": {
+            "tab1_heading": "This is for you if",
+            "tab1_summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!",
+            "tab2_heading": "Skip the waitlist",
+            "tab2_summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!",
+            "tab3_heading": "Get Covered",
+            "tab3_summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!"
+          }
+        },
         "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6": {
           "type": "content",
           "settings": {
@@ -137,21 +148,14 @@
             "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
             "content_label": "BOOK NOW"
           }
-        },
-        "b4071eb6-94a0-4996-a03d-739be093fd78": {
-          "type": "details",
-          "settings": {
-            "details_1": "Lorem Ipsum",
-            "summary_1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, id!"
-          }
         }
       },
       "block_order": [
         "b46d6046-8320-4259-bfc2-c7ccf21cd590",
         "dfb351f1-b9d5-4f8d-831a-9c52f7953bca",
+        "b4071eb6-94a0-4996-a03d-739be093fd78",
         "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6",
-        "ed56f9a1-3eee-4460-9aeb-449e37df36d9",
-        "b4071eb6-94a0-4996-a03d-739be093fd78"
+        "ed56f9a1-3eee-4460-9aeb-449e37df36d9"
       ],
       "settings": {
         "direction": true,
@@ -347,8 +351,8 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips,\nevents and new products!",
         "caption": "<span>Join Our Newsletter.<\/span>",
-        "highlight_color": "#D0DF00",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#000000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
