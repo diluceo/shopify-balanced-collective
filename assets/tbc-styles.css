@@ -1576,24 +1576,24 @@ footer .footer__copyright {
   }
 }
 
-.hero-custom {
+.hero-custom, .tbc-single-banner {
   height: auto;
   overflow: hidden;
 }
 
-.hero-custom .container {
+.hero-custom .container, .tbc-single-banner .container {
   height: 100%;
 }
 
-.hero-custom .content-con {
+.hero-custom .content-con, .tbc-single-banner .content-con {
   height: 100%;
 }
 
 @media (max-width: 749px) {
-  .hero-custom {
+  .hero-custom, .tbc-single-banner {
     height: auto;
   }
-  .hero-custom .content-con {
+  .hero-custom .content-con, .tbc-single-banner .content-con {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1601,7 +1601,7 @@ footer .footer__copyright {
     padding: 1em;
     text-align: center;
   }
-  .hero-custom figure img {
+  .hero-custom figure img, .tbc-single-banner figure img {
     max-height: 300px;
   }
 }
@@ -1929,7 +1929,7 @@ footer .footer__copyright {
   content: '';
   display: block;
   position: absolute;
-  top: -100px;
+  top: -78px;
   height: 100px;
   width: 100px;
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quotes-left.svg?v=1630217157);

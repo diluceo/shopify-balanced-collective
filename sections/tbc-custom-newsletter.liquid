@@ -1,8 +1,19 @@
-<div id="hero-custom-{{ section.id }}" class="hero-custom tbc-newsletter">
+<div id="tbc-newsletter-{{ section.id }}" class="hero-custom tbc-newsletter">
+  <style>
+    #tbc-newsletter-{{ section.id }} span {
+      background-color: {{ section.settings.highlight_color }};
+      color: {{ section.settings.highlight_text_color }}!important;
+      padding: 0 10px;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+    }
+  </style>
+
   <div class="bg-wrapper">
 	<div class="container page-width">
 		<div class="content-con grid-main grid-2 gap-40">
-			<div class="col flex-inner flex-center flex-50 content-con">
+			<div class="col flex-inner flex-center-left flex-50 content-con">
+        <h6 class="caption text-main" style="font-weight:bold; color:{{section.settings.heading_color}};">{{section.settings.caption}}</h6>
         <h4 class="text-heading clear-margin" style="color:{{section.settings.heading_color}};">{{section.settings.heading}}</h4>					
 			</div>
 			<div class="col flex-inner flex-center">
@@ -74,6 +85,24 @@
 				"id": "heading",
 				"default": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
 				"label": "Headline"
+			},
+			{
+				"type": "textarea",
+				"id": "caption",
+        "label": "Caption",
+				"default": "<span>Join Our Newsletter.</span>"
+			},
+			{
+				"type": "color",
+				"id": "highlight_color",
+				"label": "Highlight Color",
+        "default": "#D0DF00"
+			},
+			{
+				"type": "color",
+				"id": "highlight_text_color",
+				"label": "Hightlight Text Color",
+        "default": "#000"
 			},
 			{
 				"type": "text",
