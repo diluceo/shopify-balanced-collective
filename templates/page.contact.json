@@ -3,6 +3,7 @@
     "1630652435f89cb654": {
       "type": "tbc-banner",
       "settings": {
+        "banner_version": "type_one",
         "content_alignment": "center-left",
         "image_2": "shopify:\/\/shop_images\/hello-header.jpg",
         "caption": "LET’S CONNECT",
@@ -35,7 +36,7 @@
         "top_padding": 0,
         "content_alignment": "center",
         "text_alignment": "center",
-        "section_width": "page-width",
+        "section_width": "page-full",
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
         "bg_color": "",
