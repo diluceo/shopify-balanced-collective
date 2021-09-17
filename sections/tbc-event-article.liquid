@@ -41,7 +41,7 @@
                 <span itemprop="name">{{ article.author }}</span>
               </span>
             {%- endif -%}
-            {% render 'tbc-share-buttons' %}
+            {% render 'tbc-share-buttons', shareUrl: article.url %}
           </header>
 
         {%- when 'content'-%}

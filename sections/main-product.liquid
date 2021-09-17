@@ -147,7 +147,7 @@
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
           {%- when 'share' -%}
-            {% render 'tbc-share-buttons' %}
+            {% render 'tbc-share-buttons', shareUrl: product.url %}
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
