@@ -5,9 +5,29 @@
       "settings": {
         "isactive": false
       }
+    },
+    "16324311803dc42893": {
+      "type": "tbc-banner",
+      "settings": {
+        "banner_version": "type_one",
+        "content_alignment": "center",
+        "image_1": "shopify:\/\/shop_images\/header-image.png",
+        "image_2": "shopify:\/\/shop_images\/podcast-bg.jpg",
+        "caption": "KICK OFF YOUR RUNNERS",
+        "add_before": true,
+        "heading": "Grab a glass of wine <br><span>And tune in.<\/span>",
+        "button_label": "Button Label",
+        "button_link_1": "",
+        "caption_color": "#262c96",
+        "heading_color": "#1C7EE3",
+        "button_color": "#FF6976",
+        "highlight_color": "#EC86D0",
+        "highlight_text_color": "#FFF"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16324311803dc42893"
   ]
 }
