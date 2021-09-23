@@ -56,11 +56,24 @@
       "settings": {
         "section_title": ""
       }
+    },
+    "1632433075101934a9": {
+      "type": "tbc-custom-newsletter",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "heading": "Stay up to date on health tips,\nevents and new products!",
+        "caption": "<span>JOIN OUR NEWSLETTER<\/span>",
+        "highlight_color": "#D0DF00",
+        "highlight_text_color": "#000",
+        "button_label": "Button Label",
+        "heading_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
     "16324311803dc42893",
-    "163243297168282a45"
+    "163243297168282a45",
+    "1632433075101934a9"
   ]
 }
