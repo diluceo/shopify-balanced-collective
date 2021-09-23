@@ -9,8 +9,8 @@
     "16324311803dc42893": {
       "type": "tbc-banner",
       "settings": {
-        "banner_version": "type_one",
-        "content_alignment": "center",
+        "banner_version": "type_two",
+        "content_alignment": "center-left",
         "image_1": "shopify:\/\/shop_images\/header-image.png",
         "image_2": "shopify:\/\/shop_images\/podcast-bg.jpg",
         "caption": "KICK OFF YOUR RUNNERS",
