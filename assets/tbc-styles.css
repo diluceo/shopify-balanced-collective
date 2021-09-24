@@ -736,6 +736,10 @@ button.simple-link {
   width: 100%;
 }
 
+.custom-dual-banner .item:last-child {
+  margin-bottom: 0;
+}
+
 .custom-dual-banner .gender:after, .custom-dual-banner .bodypart:after {
   content: '';
   display: block;
@@ -779,6 +783,13 @@ button.simple-link {
 
 .custom-dual-banner .pisces:after {
   background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/sign_pisces.svg?v=1631148096);
+}
+
+@media (min-width: 1200px) {
+  .custom-dual-banner .container.content-con {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
 }
 
 .tbc-newsletter .bg-wrapper {
