@@ -48,20 +48,12 @@
           "settings": {
             "custom_html": "<a href=\"https:\/\/apps.apple.com\/ca\/app\/spotify-new-music-and-podcasts\/id324684580\" target=\"_blank\" class=\"block\"><img width=\"130\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/itunes.png?v=1632512026\" alt=\"download on itunes\"><\/a>\n<a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.spotify.music&amp;hl=en_CA&amp;gl=US\" target=\"_blank\" class=\"block\"><img width=\"130\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/google.png?v=1632512025\" alt=\"download on Google play store\"><\/a>"
           }
-        },
-        "be664eb9-c568-4db2-8b9c-7c544fae68dc": {
-          "type": "content",
-          "settings": {
-            "content_title": "",
-            "content_text_1": ""
-          }
         }
       },
       "block_order": [
         "501f65b8-ed78-409d-8619-4493d03175b2",
         "3bd2b264-1fe7-4d09-b480-eae4216fe6ea",
-        "b10066a3-24c0-4432-8f77-4434c9431b44",
-        "be664eb9-c568-4db2-8b9c-7c544fae68dc"
+        "b10066a3-24c0-4432-8f77-4434c9431b44"
       ],
       "settings": {
         "direction": true,
