@@ -110,8 +110,8 @@
 
         {%- when 'button' -%}
           <div class="item"><a href="{{block.settings.content_url}}" class="btn custom-btn">
-            {%- if section.settings.button_icon -%}
-            <i class="{{section.settings.button_icon}}"></i>&nbsp;
+            {%- if block.settings.button_icon -%}
+            <i class="{{block.settings.button_icon}}"></i>&nbsp;
             {%- endif -%}
             {{block.settings.content_label}}</a>
           </div>
