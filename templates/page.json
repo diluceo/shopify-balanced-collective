@@ -19,10 +19,10 @@
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
-        "heading_color": "#1C7EE3",
-        "button_color": "#FF6976",
-        "highlight_color": "#EC86D0",
-        "highlight_text_color": "#FFF"
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
       }
     },
     "163243297168282a45": {
@@ -57,14 +57,43 @@
         "section_title": ""
       }
     },
+    "16325117019931d1ac": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "501f65b8-ed78-409d-8619-4493d03175b2": {
+          "type": "content",
+          "settings": {
+            "content_title": "Welcome! Our conversations here are real, raw and hold nothing back.",
+            "content_text_1": "Danielle digs deep with her guests here to unpack topics of wellness, spirituality, entrepreneurship, relationships and everything in between. Get ready to feel inspired, to laugh, to feel moved and to feel uncomfortable; sometimes all at once."
+          }
+        },
+        "3bd2b264-1fe7-4d09-b480-eae4216fe6ea": {
+          "type": "button",
+          "settings": {
+            "content_url": "https:\/\/open.spotify.com\/show\/6YEOkKSHiyZ13Oj5dKddyG?si=r3_uLA1gTrGKlH1HqfdQAQ&dl_branch=1",
+            "content_label": "FOLLOW US ON SPOTIFY"
+          }
+        }
+      },
+      "block_order": [
+        "501f65b8-ed78-409d-8619-4493d03175b2",
+        "3bd2b264-1fe7-4d09-b480-eae4216fe6ea"
+      ],
+      "settings": {
+        "direction": true,
+        "content_type": "html",
+        "html_content": "<iframe src=\"https:\/\/open.spotify.com\/embed\/show\/6YEOkKSHiyZ13Oj5dKddyG\" width=\"100%\" height=\"232\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"><\/iframe>",
+        "image_position": "top"
+      }
+    },
     "1632433075101934a9": {
       "type": "tbc-custom-newsletter",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips,\nevents and new products!",
         "caption": "<span>JOIN OUR NEWSLETTER<\/span>",
-        "highlight_color": "#D0DF00",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#000000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
@@ -74,6 +103,7 @@
     "main",
     "16324311803dc42893",
     "163243297168282a45",
+    "16325117019931d1ac",
     "1632433075101934a9"
   ]
 }
