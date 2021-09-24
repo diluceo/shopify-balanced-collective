@@ -582,7 +582,7 @@ main .clear-margin {
   opacity: 0.3;
 }
 
-.custom-btn, .shopify-payment-button__button {
+.custom-btn, .shopify-payment-button__buttn {
   text-transform: uppercase;
   background-color: #FF6976 !important;
   color: #fff;
@@ -596,13 +596,13 @@ main .clear-margin {
   position: relative;
 }
 
-.custom-btn.alt, .shopify-payment-button__button.alt {
+.custom-btn.alt, .shopify-payment-button__buttn.alt {
   background-color: #fff !important;
   color: #FF6976 !important;
   border: 2px solid #FF6976 !important;
 }
 
-.custom-btn:after, .shopify-payment-button__button:after {
+.custom-btn:after, .shopify-payment-button__buttn:after {
   content: '';
   display: block;
   position: absolute;
@@ -617,7 +617,7 @@ main .clear-margin {
   opacity: 0;
 }
 
-.custom-btn:hover:after, .shopify-payment-button__button:hover:after {
+.custom-btn:hover:after, .shopify-payment-button__buttn:hover:after {
   top: 2px;
   bottom: 2px;
   left: 2px;
