@@ -6,10 +6,14 @@
   <div class="container page-width grid-main grid-2 gap-40 content-con">
   {%- endif -%}
     <div class="col block-one">
+      {%- if section.settings.content_type == "image" -%}
       <figure class="{{section.settings.image_position}}">
         {% assign my_img = section.settings.image_1 %}
         {% render 'image-block', my_img: my_img %}
       </figure>
+      {%- else -%}
+        <div class="html-content">{{ section.settings.html_content }}</div>
+      {%- endif -%}
     </div>
     <div class="col block-two flex-inner flex-center">
       <div class="item-block">
@@ -122,11 +126,40 @@
 		"class": "wrapper",
 		"settings": [
       {
+        "type": "header",
+        "content": "Section Settings"
+      },
+      {
         "type": "checkbox",
         "id": "direction",
         "label": "Reverse Section",
         "default": false
       },
+      {
+        "type": "select",
+        "id": "content_type",
+        "label": "Content Type",
+        "options": [
+          {
+            "value": "image",
+            "label": "Image"
+          },
+          {
+            "value": "html",
+            "label": "HTML"
+          }
+        ],
+        "default": "image"
+      },
+			{
+				"type": "header",
+				"content": "Content Settings"
+			},
+      {
+        "type": "html",
+        "id": "html_content",
+        "label": "HTML Content"
+      },      
 			{
 				"type": "image_picker",
 				"id": "image_1",
