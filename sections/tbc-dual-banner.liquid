@@ -77,6 +77,13 @@
               {{block.settings.list_text_1}}
             </ul>
           </div>
+
+        {%- when 'html' -%}
+          <div class="item">
+            <div class="html_item">
+              {{block.settings.custom_html}}
+            </div>
+          </div>
           
         {%- when 'details' -%}
           <div class="item tab_items">
@@ -102,8 +109,11 @@
           </div>
 
         {%- when 'button' -%}
-          <div class="item">
-            <a href="{{block.settings.content_url}}" class="btn custom-btn">{{block.settings.content_label}}</a>
+          <div class="item"><a href="{{block.settings.content_url}}" class="btn custom-btn">
+            {%- if section.settings.button_icon -%}
+            <i class="{{section.settings.button_icon}}"></i>&nbsp;
+            {%- endif -%}
+            {{block.settings.content_label}}</a>
           </div>
 
       {%- endcase -%}
@@ -348,15 +358,32 @@
         "name": "Button",
         "settings": [
           {
+            "type": "text",
+            "id": "content_label",
+            "label": "Content Label",
+            "default": "Button Label"
+          },
+          {
             "type": "url",
             "id": "content_url",
             "label": "Content URL"
           },
           {
             "type": "text",
-            "id": "content_label",
-            "label": "Content Label",
-            "default": "Button Label"
+            "id": "button_icon",
+            "label": "Font Awesome Icon",
+            "info": "Ex. fas fa-user"
+          }
+        ]
+      },
+      {
+        "type": "html",
+        "name": "HTML",
+        "settings": [
+          {
+            "type": "html",
+            "id": "custom_html",
+            "label": "HTML Content"
           }
         ]
       },
