@@ -25,38 +25,6 @@
         "highlight_text_color": "#ffffff"
       }
     },
-    "163243297168282a45": {
-      "type": "tbc-multibanner",
-      "blocks": {
-        "163243297168282a45-0": {
-          "type": "banner",
-          "settings": {
-            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
-            "caption": "EVENTS & EDUCATION",
-            "title": "Come learn, heal and Laugh with us.",
-            "button_label": "Join Us",
-            "button_url": "shopify:\/\/blogs\/events"
-          }
-        },
-        "163243297168282a45-1": {
-          "type": "banner",
-          "settings": {
-            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
-            "caption": "Blogs",
-            "title": "Wellness tips for a balanced life.",
-            "button_label": "READ MORE",
-            "button_url": "shopify:\/\/blogs\/news"
-          }
-        }
-      },
-      "block_order": [
-        "163243297168282a45-0",
-        "163243297168282a45-1"
-      ],
-      "settings": {
-        "section_title": ""
-      }
-    },
     "16325117019931d1ac": {
       "type": "tbc-dual-banner",
       "blocks": {
@@ -94,6 +62,38 @@
         "image_position": "top"
       }
     },
+    "163243297168282a45": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "163243297168282a45-0": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "caption": "EVENTS & EDUCATION",
+            "title": "Come learn, heal and Laugh with us.",
+            "button_label": "Join Us",
+            "button_url": "shopify:\/\/blogs\/events"
+          }
+        },
+        "163243297168282a45-1": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
+            "caption": "Blogs",
+            "title": "Wellness tips for a balanced life.",
+            "button_label": "READ MORE",
+            "button_url": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "163243297168282a45-0",
+        "163243297168282a45-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
     "1632433075101934a9": {
       "type": "tbc-custom-newsletter",
       "settings": {
@@ -110,8 +110,8 @@
   "order": [
     "main",
     "16324311803dc42893",
-    "163243297168282a45",
     "16325117019931d1ac",
+    "163243297168282a45",
     "1632433075101934a9"
   ]
 }
