@@ -38,8 +38,9 @@
         "3bd2b264-1fe7-4d09-b480-eae4216fe6ea": {
           "type": "button",
           "settings": {
+            "content_label": "FOLLOW US ON SPOTIFY",
             "content_url": "https:\/\/open.spotify.com\/show\/6YEOkKSHiyZ13Oj5dKddyG?si=r3_uLA1gTrGKlH1HqfdQAQ&dl_branch=1",
-            "content_label": "FOLLOW US ON SPOTIFY"
+            "button_icon": "fab fa-spotify"
           }
         },
         "be664eb9-c568-4db2-8b9c-7c544fae68dc": {
