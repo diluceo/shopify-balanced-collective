@@ -80,8 +80,9 @@
         "612a5955-1ed5-4112-8b31-73f682152ab9": {
           "type": "button",
           "settings": {
+            "content_label": "DISCOVER MORE",
             "content_url": "shopify:\/\/pages\/our-services",
-            "content_label": "DISCOVER MORE"
+            "button_icon": ""
           }
         }
       },
@@ -92,6 +93,8 @@
       ],
       "settings": {
         "direction": true,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/who-we-are_290be253-d7b9-422e-8cce-04bdcaf4132c.png",
         "image_position": "center"
       }
@@ -172,7 +175,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Proprioceptive - Deep Tendon Reflex (P-DTR) Advanced <\/li>\n<li>NeuroKinetic Therapy (NKT) Level 3; IMTAP Certified <\/li>\n<li>Ortho Canada Level 1 Manual Therapy <\/li>\n<li>Acupuncture Canada Certified <\/li>\n<li>200 Hour Meditation Teacher Training (The Lab of Meditation)<\/li>\n<li>Selective Functional Movement <\/li>\n<li>Assessment (SFMA) Level 1 <\/li>\n<li>Soft Tissue Release <\/li>\n<li>Mind Body Spirit Coaching 1 Year <\/li>\n<li>Certification Course<\/li>"
+            "list_text_1": "<li>Proprioceptive - Deep Tendon Reflex (P-DTR) Advanced <\/li>\n<li>NeuroKinetic Therapy (NKT) Level 3; IMTAP Certified <\/li>\n<li>Ortho Canada Level 1 Manual Therapy <\/li>\n<li>Acupuncture Canada Certified <\/li>\n<li>200 Hour Meditation Teacher Training (The Lab of Meditation)<\/li>\n<li>Selective Functional Movement <\/li>\n<li>Assessment (SFMA) Level 1 <\/li>\n<li>Soft Tissue Release <\/li>\n<li>Mind Body Spirit Coaching 1 Year \nCertification Course<\/li>"
           }
         }
       },
@@ -184,6 +187,8 @@
       ],
       "settings": {
         "direction": false,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_77.png",
         "image_position": "top"
       }
@@ -244,6 +249,8 @@
       ],
       "settings": {
         "direction": true,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_76.png",
         "image_position": "top"
       }
@@ -304,6 +311,8 @@
       ],
       "settings": {
         "direction": false,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_75.png",
         "image_position": "top"
       }
@@ -364,6 +373,8 @@
       ],
       "settings": {
         "direction": true,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
         "image_position": "top"
       }
@@ -424,6 +435,8 @@
       ],
       "settings": {
         "direction": false,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Group_580.png",
         "image_position": "top"
       }
