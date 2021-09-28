@@ -174,11 +174,11 @@
         "1630221088c6b6c9b7-1": {
           "type": "banner",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/products.jpg",
-            "caption": "Products",
-            "title": "Roll and release, with Our eco-friendly products.",
+            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
+            "caption": "Blogs",
+            "title": "Wellness tips for a balanced life.",
             "button_label": "READ MORE",
-            "button_url": "shopify:\/\/collections\/all"
+            "button_url": "shopify:\/\/blogs\/news"
           }
         }
       },
@@ -196,8 +196,8 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips,\nevents and new products!",
         "caption": "<span>Join Our Newsletter.<\/span>",
-        "highlight_color": "#D0DF00",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#000000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
