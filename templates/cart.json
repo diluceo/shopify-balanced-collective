@@ -23,6 +23,7 @@
         "16306488426238151c-2"
       ],
       "settings": {
+        "max_width": "600px",
         "top_padding": 6,
         "content_alignment": "center-left",
         "text_alignment": "left",
@@ -70,9 +71,12 @@
       "type": "tbc-custom-newsletter",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
-        "heading": "Lorem ipsum dolor sit amet",
+        "heading": "Stay up to date on health tips, events and new products!",
+        "caption": "<span>Join Our Newsletter.<\/span>",
+        "highlight_color": "#D0DF00",
+        "highlight_text_color": "#000",
         "button_label": "Button Label",
-        "heading_color": "#fff"
+        "heading_color": "#ffffff"
       }
     }
   },
