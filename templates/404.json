@@ -18,10 +18,10 @@
         "button_label": "Back To Home Page",
         "button_link_1": "\/",
         "caption_color": "#262c96",
-        "heading_color": "#1C7EE3",
-        "button_color": "#FF6976",
-        "highlight_color": "#EC86D0",
-        "highlight_text_color": "#FFF"
+        "heading_color": "#1c7ee3",
+        "button_color": "#ff6976",
+        "highlight_color": "#ec86d0",
+        "highlight_text_color": "#ffffff"
       }
     },
     "1632879900124e7a91": {
@@ -39,11 +39,44 @@
         "show_vendor": false,
         "custom_btn_text": "PRE-ORDER NOW"
       }
+    },
+    "1632881994d948128c": {
+      "type": "tbc-multibanner",
+      "blocks": {
+        "1632881994d948128c-0": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "caption": "EVENTS & EDUCATION",
+            "title": "Come learn, heal and laugh with us.",
+            "button_label": "Join Us",
+            "button_url": "shopify:\/\/blogs\/events"
+          }
+        },
+        "1632881994d948128c-1": {
+          "type": "banner",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
+            "caption": "Blogs",
+            "title": "Wellness tips for a balanced life.",
+            "button_label": "Read More",
+            "button_url": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "1632881994d948128c-0",
+        "1632881994d948128c-1"
+      ],
+      "settings": {
+        "section_title": ""
+      }
     }
   },
   "order": [
     "main",
     "1632880262e510a60e",
-    "1632879900124e7a91"
+    "1632879900124e7a91",
+    "1632881994d948128c"
   ]
 }
