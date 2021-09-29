@@ -24,6 +24,22 @@
         "highlight_text_color": "#ffffff"
       }
     },
+    "16328825710e1686e1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "PRODUCTS",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "custom_btn_text": ""
+      }
+    },
     "1632881994d948128c": {
       "type": "tbc-multibanner",
       "blocks": {
@@ -72,6 +88,7 @@
   "order": [
     "main",
     "1632880262e510a60e",
+    "16328825710e1686e1",
     "1632881994d948128c",
     "16328821662dd255b0"
   ]
