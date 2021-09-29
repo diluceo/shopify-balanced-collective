@@ -1,10 +1,29 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1632879900124e7a91": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "PRODUCTS",
+        "collection": "sample",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "custom_btn_text": "PRE-ORDER NOW"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1632879900124e7a91"
   ]
- }
+}
