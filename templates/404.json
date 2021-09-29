@@ -5,6 +5,25 @@
       "settings": {
       }
     },
+    "1632880262e510a60e": {
+      "type": "tbc-banner",
+      "settings": {
+        "banner_version": "type_two",
+        "content_alignment": "center-left",
+        "image_1": "shopify:\/\/shop_images\/404-header-image.png",
+        "image_2": "shopify:\/\/shop_images\/404-bg.jpg",
+        "caption": "OPPS! KEEP MOVING",
+        "add_before": true,
+        "heading": "What you're looking<br><span>for isn't here.<\/span>",
+        "button_label": "Back To Home Page",
+        "button_link_1": "\/",
+        "caption_color": "#FF6976",
+        "heading_color": "#1C7EE3",
+        "button_color": "#FF6976",
+        "highlight_color": "#EC86D0",
+        "highlight_text_color": "#FFF"
+      }
+    },
     "1632879900124e7a91": {
       "type": "featured-collection",
       "settings": {
@@ -24,6 +43,7 @@
   },
   "order": [
     "main",
+    "1632880262e510a60e",
     "1632879900124e7a91"
   ]
 }
