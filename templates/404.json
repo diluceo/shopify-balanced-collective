@@ -28,7 +28,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "PRODUCTS",
-        "collection": "sample",
+        "collection": "frontpage",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -78,8 +78,8 @@
         "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
         "caption": "<span>Join Our Newsletter.<\/span>",
-        "highlight_color": "#D0DF00",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d0df00",
+        "highlight_text_color": "#000000",
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
