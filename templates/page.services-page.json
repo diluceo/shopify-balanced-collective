@@ -80,8 +80,9 @@
         "9de049b5-7916-410d-a70e-4612871d700e": {
           "type": "button",
           "settings": {
+            "content_label": "BOOK NOW",
             "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
-            "content_label": "BOOK NOW"
+            "button_icon": ""
           }
         }
       },
@@ -92,6 +93,8 @@
       ],
       "settings": {
         "direction": false,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/physio.png",
         "image_position": "center"
       }
@@ -132,7 +135,7 @@
             "tab2_heading": "Skip the waitlist",
             "tab2_summary": "Sometimes it can be challenging to see your physiotherapist for hands-on therapy in a timely manner and with an active rehab program you are not only receiving high quality movement coaching between your hands-on physiotherapy sessions, your physiotherapist is committed to seeing you in a timely manner to ensure your program is up to date and modified appropriately, meaning you will feel better even sooner.",
             "tab3_heading": "Get Covered",
-            "tab3_summary": "Active Rehab is considered an essential part of physiotherapy, therefore, you can use your extended health care to cover some or all of the costs. We also offer direct billing."
+            "tab3_summary": "Active Rehab is considered an essential part of physiotherapy, therefore, you can use your extended health care to cover some or all of the costs. We also offer direct billing"
           }
         },
         "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6": {
@@ -145,8 +148,9 @@
         "ed56f9a1-3eee-4460-9aeb-449e37df36d9": {
           "type": "button",
           "settings": {
+            "content_label": "BOOK NOW",
             "content_url": "https:\/\/thebalancedcollective.janeapp.com\/#\/staff_member\/14",
-            "content_label": "BOOK NOW"
+            "button_icon": ""
           }
         }
       },
@@ -159,6 +163,8 @@
       ],
       "settings": {
         "direction": true,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/rehab.png",
         "image_position": "center"
       }
@@ -295,8 +301,9 @@
         "1f1377d3-4e3b-40a3-8be4-8c62cf71a0cd": {
           "type": "button",
           "settings": {
+            "content_label": "BOOK NOW",
             "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
-            "content_label": "BOOK NOW"
+            "button_icon": ""
           }
         }
       },
@@ -308,6 +315,8 @@
       ],
       "settings": {
         "direction": true,
+        "content_type": "image",
+        "html_content": "",
         "image_1": "shopify:\/\/shop_images\/rates.png",
         "image_position": "center",
         "bg_image": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg"
