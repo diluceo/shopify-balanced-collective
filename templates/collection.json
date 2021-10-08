@@ -146,8 +146,8 @@
             "image_1": "shopify:\/\/shop_images\/Group_555.jpg",
             "caption": "BLOGS",
             "title": "Wellness tips for a balanced life.",
-            "button_label": "Coming soon",
-            "button_url": ""
+            "button_label": "Read More",
+            "button_url": "shopify:\/\/blogs\/news"
           }
         }
       },
