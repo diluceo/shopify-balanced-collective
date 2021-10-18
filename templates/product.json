@@ -69,7 +69,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "custom_btn_text": "Pre-Order Now",
+        "custom_btn_text": "Add to Cart",
         "hide_variants": false,
         "enable_video_looping": false
       }
