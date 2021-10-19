@@ -148,7 +148,7 @@
             "name_text_1": "She \/ Her (Capricorn)",
             "name_text_1_class": "capricon",
             "name_text_2": "<b>Role:<\/b> Physiotherapist and Founder of TBC",
-            "name_text_3": "<b>Favourite Bone:<\/b> The Sphenoid",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Sphenoid",
             "name_text_3_class": "bone"
           }
         },
@@ -209,8 +209,8 @@
             "name_title": "Holly Middleton",
             "name_text_1": "She \/ Her (Taurus)",
             "name_text_1_class": "taurus",
-            "name_text_2": "<b>Role:<\/b> Active Rehab Assistant",
-            "name_text_3": "<b>Favourite Bone:<\/b> The Talus",
+            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Talus",
             "name_text_3_class": "bone"
           }
         },
@@ -271,8 +271,8 @@
             "name_title": "Jeremy Vaughan",
             "name_text_1": "He\/Him (Scorpio)",
             "name_text_1_class": "scorpio",
-            "name_text_2": "<b>Role:<\/b> Movement Trainer. Active Rehab Specialist",
-            "name_text_3": "<b>Favourite Bone:<\/b> The Serratus Anterior",
+            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Serratus Anterior",
             "name_text_3_class": "muscle"
           }
         },
@@ -333,8 +333,8 @@
             "name_title": "Bettina Glauser",
             "name_text_1": "She \/ Her (Libra)",
             "name_text_1_class": "libra",
-            "name_text_2": "<b>Role:<\/b> Movement Coach. Personal Trainer. Active Rehab",
-            "name_text_3": "<b>Favourite Bone:<\/b> The Spine",
+            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Spine",
             "name_text_3_class": "bone"
           }
         },
@@ -396,7 +396,7 @@
             "name_text_1": "She\/Her (Pisces)",
             "name_text_1_class": "pisces",
             "name_text_2": "<b>Role at TBC: <\/b>Physiotherapist",
-            "name_text_3": "<b>Favorite Body Part:<\/b> The brain!",
+            "name_text_3": "<b>Favorite Body Part:<\/b> The Brain!",
             "name_text_3_class": "brain"
           }
         },
