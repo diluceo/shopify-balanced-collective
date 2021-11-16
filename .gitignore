@@ -10,8 +10,8 @@ Thumbs.db
 
 # Working files #
 ######################
-
+# /assets/modules # 
+# /assets/scss # 
 *.map
 *.zip
-/assets/modules
-/assets/scss
+

@@ -1,0 +1,121 @@
+// SLIDERS
+.slick-slide,
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  perspective: 1000;
+  backface-visibility: hidden;
+}
+
+.splide__arrow {
+  height: 4em;
+  width: 4em;
+  border-radius: 0;
+}
+
+/** TESTIMONIAL SLIDER **/
+.testimonial-1 {
+  padding: 200px 1em;
+  background-color: #F4F3F2;
+
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles-top.png?v=1630216385), url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubble-bottom.png?v=1630216385);
+  background-position: left top, right bottom;
+  background-size: 300px, 300px;
+  background-repeat: no-repeat, no-repeat;
+
+  .section-title {
+    margin-bottom: 3em;
+
+    * {
+      display: inline;
+    }
+  }
+
+  > .container {
+    padding: 0 100px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .splide {
+    position: relative;
+
+    .splide__slide {
+      &:nth-child(odd) .container {
+        border: 2px solid var(--tbc-green);
+      }
+      &:nth-child(even) .container {
+        border: 2px solid var(--tbc-purple);
+      }
+    }
+
+    .container {
+      min-height: 150px;
+      padding: 0 2em;
+      z-index: 1;
+      border: 2px solid var(--tbc-green);
+      border-radius: 15px;
+      margin: 0 1em;
+    }
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -78px;
+      height: 100px;
+      width: 100px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quotes-left.svg?v=1630217157);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: -80px;
+      height: 100px;
+      width: 100px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quotes-right.svg?v=1630217157);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  .content-wrapper {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+  }
+
+  .splide__arrow {
+    background:#ff6976 ;
+    border-radius: 15px;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  .splide__arrow--prev {
+    left: -60px;
+  }
+
+  .splide__arrow--next {
+    right: -60px;
+  }
+}
+
+@media (max-width: 749px) {
+  .testimonial-1 {
+  > .container {
+    padding: 0 70px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  }
+}
