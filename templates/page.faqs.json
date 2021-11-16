@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "1631062391deb8499e": {
+      "type": "tbc-blog-banner",
+      "settings": {
+        "heading": "{{page.title}}",
+        "bg_image": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg"
+      }
+    },
+    "main": {
+      "type": "main-legal",
+      "blocks": {
+        "94501b81-7596-47f4-ba81-f56a152d8d93": {
+          "type": "anchor",
+          "settings": {
+            "anchor_text": "Privacy Policy",
+            "anchor_id": "a_one"
+          }
+        },
+        "37515210-1948-4ade-8eea-1d4863ad19e1": {
+          "type": "anchor",
+          "settings": {
+            "anchor_text": "Medical Privacy Policy",
+            "anchor_id": "a_two"
+          }
+        }
+      },
+      "block_order": [
+        "94501b81-7596-47f4-ba81-f56a152d8d93",
+        "37515210-1948-4ade-8eea-1d4863ad19e1"
+      ],
+      "settings": {
+        "isactive": false
+      }
+    }
+  },
+  "order": [
+    "1631062391deb8499e",
+    "main"
+  ]
+}
