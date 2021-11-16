@@ -1,0 +1,19 @@
+// Imports
+@import "scss/layout";
+@import "scss/presets";
+@import "scss/fonts";
+@import "scss/general";
+@import "scss/customized";
+
+// Modules
+@import "modules/hero";
+@import "modules/blocks";
+@import "modules/accents";
+@import "modules/slider";
+@import "modules/tbctabs";
+@import "modules/sharebuttons";
+
+body {
+  background-color: #F4F3F2;
+}
+
