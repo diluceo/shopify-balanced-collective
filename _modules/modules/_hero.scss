@@ -1,0 +1,248 @@
+// HERO 01
+.hero-1 {
+  // height: 500px;
+  overflow: hidden;
+
+  .container {
+    height: 100%;
+  }
+
+  .content-wrapper {
+    max-width: 600px;
+    // text-align: center;
+    // text-transform: uppercase;
+  }
+  .contained {
+    padding: 2em;
+  }
+  .caption {
+    margin-bottom: 10px;
+  }
+
+}
+
+// HERO 02
+.hero-2 {
+  .container {
+    height: 100%;
+  }
+
+  .image-con {
+    height: 350px;
+  }
+
+  .content-con {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: -100px;
+  }
+
+  .content-wrapper {
+    background-color: #fff;
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-2 {
+    .image-con {
+      height: 250px;
+    }
+    .content-con {
+      margin-top: -50px;
+    }
+  }
+}
+
+// HERO 03
+.hero-3 {
+  height: 500px;
+
+  .container {
+    height: 100%;
+  }
+
+  .col {
+    height: auto;
+  }
+
+  .content {
+    max-width: 300px;
+  }
+
+  .content-con,
+  .image-con {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-3 {
+    height: auto;
+    min-height: 500px;
+  }
+}
+
+// HERO 04
+.hero-4 {
+  height: 500px;
+
+  .container {
+    height: 100%;
+  }
+
+  .clip-right {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+  }
+
+  .clip-left {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .flex-reverse {
+    .clip-right {
+      clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%);
+    }
+
+    .clip-left {
+      clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+  }
+
+  .content-wrapper {
+    max-width: 300px;
+  }
+
+  .content-con {
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-4 {
+    height: auto;
+
+    .image-con {
+      min-height: 250px;
+    }
+    .content-con {
+      justify-content: flex-start;
+      padding: 3em 0 4em;
+    }
+    .clip-right,
+    .clip-left {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%) !important;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+}
+
+// HERO 05
+.hero-5 {
+  height: 400px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+  .container {
+    height: 100%;
+  }
+
+  .col {
+    height: auto;
+  }
+
+  .offset-image {
+    position: absolute;
+    top: -35%;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-5 {
+    .offset-image {
+      height: 200%;
+    }
+  }
+}
+
+// HERO 06
+.hero-6 {
+  height: 600px;
+  overflow: hidden;
+
+  .container {
+    height: 100%;
+  }
+
+  .content-con {
+    height: 100%;
+    padding-right: 0;
+  }
+
+  .image-con {
+    padding: 40px;
+  }
+
+  .bgimage {
+    // opacity: 0.5;
+  }
+}
+
+@media (max-width: 749px) {
+  .hero-6 {
+    height: auto;
+
+    .content-con {
+      flex-direction: column;
+      padding: 1em;
+      text-align: center;
+    }
+
+    figure {
+      img {
+        max-height: 300px;
+      }
+    }
+  }
+}
+
+// HERO CUSTOM
+.hero-custom, .tbc-single-banner {
+  height: auto;
+  overflow: hidden;
+
+  .container {
+    height: 100%;
+  }
+
+  .content-con {
+    height: 100%;
+  }
+}
+
+@media (max-width: 749px) {
+  .hero-custom, .tbc-single-banner {
+    height: auto;
+
+    .content-con {
+      flex-direction: column;
+      padding: 1em;
+      text-align: center;
+    }
+
+    figure {
+      img {
+        max-height: 300px;
+      }
+    }
+  }
+}

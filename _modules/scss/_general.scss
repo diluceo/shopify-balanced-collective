@@ -1,0 +1,123 @@
+@media (min-width: 750px) {
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #333;
+  text-decoration: none;
+  padding: 8px 25px;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+}
+
+// Customization
+
+.op-10 {
+  opacity: 0.3;
+}
+
+.custom-btn, .shopify-payment-button__buttn {
+  text-transform: uppercase;
+  background-color:#FF6976!important;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px!important;
+  border: 2px solid #FF6976!important;
+  box-shadow: none!important;
+  // margin-top: 10px;
+  transition: all 0.3s ease;
+  position: relative;
+
+  &.alt {
+    background-color: #fff!important;
+    color: #FF6976!important;
+    border: 2px solid #FF6976!important;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+    opacity: 0;
+  }
+
+  &:hover:after {
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    opacity: 1;
+  }
+}
+
+button.simple-link {
+  border: transparent;
+  background: transparent;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: var(--tbc-red);
+}
+
+.text-overline {
+  background-color: #ddd;
+  color: #777;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.fancyheader, .myfancyheader, .fancy-header_banner {
+  position: relative;
+}
+
+.fancy-header_banner {
+  margin-left: 40px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.fancyheader:before, .fancyheader:after, .fancy-header_banner:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: 0px; 
+    background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles_icon.svg?v=1630196027);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fancyheader:before, .fancy-header_banner:before {
+    left: -50px;
+}
+
+.fancyheader:after {
+    right: -50px;
+}
+
+.fancy-background {
+  background-image: url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubbles-top.png?v=1630216385), url(https://cdn.shopify.com/s/files/1/0577/0844/5857/files/bubble-bottom.png?v=1630216385);
+  background-position: left top, right bottom;
+  background-size: 300px, 300px;
+  background-repeat: no-repeat, no-repeat;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}

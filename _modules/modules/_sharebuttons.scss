@@ -1,0 +1,29 @@
+#tbc_share-buttons {
+    display: flex;
+    margin: 1.5em 0;
+    align-items: center;
+
+    .share-text {
+      margin-right: 1em;
+      font-weight: bold;
+      color: var(--tbc-green);
+    }
+
+    .share-icons {
+      a {
+        text-decoration: none;
+        display: inline-block;
+      }
+      i {
+        font-size: 30px;
+        margin-right: 10px;
+        color: var(--tbc-blue);
+        &.fa-facebook {
+          color: #4267B2;
+        }
+        &.fa-envelope {
+          color: var(--tbc-green);
+        }
+      }
+    }
+}

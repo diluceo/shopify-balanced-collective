@@ -1,0 +1,111 @@
+.faq  {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  //
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // gap: 20px;
+
+  .tab-toggle {
+    display: none;
+
+    &:checked ~ .tab-content {
+      max-height: 100vh;
+      padding: 1em;
+    }
+
+    &:checked ~ .tab-label::after {
+      transform: rotate(90deg);
+    }
+  }
+
+  .tab-label {
+    background-color: var(--tbc-blue);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: bold;
+
+    &::after {
+      content: '\276F';
+      transition: all 0.4s ease;
+    }
+  }
+
+  .tab-content {
+    background-color: #fff;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    padding: 0 1em;
+  }
+}
+
+
+/* Style the tab */
+.tab_items {
+  .tab {
+    overflow: hidden;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: transparent;
+    float: left;
+    color: var(--tbc-red);
+    border: none;
+    border-bottom: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 15px 14px 20px;
+    margin-right: 10px;
+    transition: 0.3s;
+    position: relative;
+    &::before {
+      content: "+";
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 5px;
+      font-size: 20px;
+      transition: 0.3s;
+      transform: rotate(0deg);
+    }
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    border-bottom: 1px solid var(--tbc-red);
+    &::before {
+      transform: rotate(46deg);
+    }
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: var(--tbc-red);
+    border-radius: 15px 15px 0 0;
+    color: #fff;
+
+    &::before {
+      transform: rotate(46deg);
+    }
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    margin-top: -1px;
+    border: 2px solid var(--tbc-red);
+    border-radius: 0 0 15px 15px;
+    animation: fadeEffect 1s;
+  }
+
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+}
