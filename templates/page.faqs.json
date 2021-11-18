@@ -106,7 +106,7 @@
       "settings": {
         "faq_heading": "FAQ Services",
         "bg_color": "#f3f3f3",
-        "faq_id": "services"
+        "faq_id": "faq_link_services"
       }
     },
     "163726938168211a09": {
@@ -182,7 +182,7 @@
       "settings": {
         "faq_heading": "FAQ Products",
         "bg_color": "#ffffff",
-        "faq_id": "products"
+        "faq_id": "faq_link_products"
       }
     }
   },
