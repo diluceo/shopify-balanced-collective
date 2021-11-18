@@ -17,6 +17,7 @@
   </div>
 </div>
 {%- endif -%}
+{%- if page.content != blank -%}
 <div class="page-width page-width--narrow legal">
   <div class="rte">
     {{ page.content }}
@@ -34,6 +35,7 @@
     </div> -->
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {

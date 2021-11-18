@@ -1,6 +1,6 @@
-<div id="faq-block-{{ section.id }} {{section.settings.faq_id}}" class="faq-block" style="background-color:{{section.settings.bg_color}}; padding:2em;">
+<div id="faq-block-{{ section.id }}" class="faq-block" style="background-color:{{section.settings.bg_color}}; padding:2em;">
   {%- if section.settings.faq_heading -%}
-    <div class="container page-width text-center"><h4 class="text-subtitle">{{section.settings.faq_heading}}</h4></div>
+    <div id="{{section.settings.faq_id}}" class="container page-width text-center"><h4 class="text-subtitle">{{section.settings.faq_heading}}</h4></div>
   {%- endif -%}
   <div id="{{section.settings.faq_id}}" class="container page-width grid-main gap-20 grid-2 p-small">
   {%- for block in section.blocks -%}
