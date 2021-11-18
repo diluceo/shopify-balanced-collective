@@ -1,1 +1,71 @@
-hello
+<style>
+  #faq-block-{{ section.id }} .faq-con{
+    border: 2px solid red;
+  }
+</style>
+
+<div id="faq-block-{{ section.id }}" class="faq-block">
+  <div class="container page-width grid-main gap-20 grid-2 p-small">
+    <div class="con faq-con">
+      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
+      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+    </div>
+    <div class="con faq-con">
+      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
+      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+    </div>
+    <div class="con faq-con">
+      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
+      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+    </div>
+    <div class="con faq-con">
+      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
+      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+    </div>
+    <div class="con faq-con">
+      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
+      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom FAQ Block",
+  "tag": "section",
+  "class": "section-wrapper",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ",
+      "settings": [
+        {
+          "type": "text",
+          "id": "faq_heading",
+          "label": "FAQ Heading",
+          "default": "FAQ Heading"
+        },
+        {
+          "type": "text",
+          "id": "faq_content",
+          "label": "FAQ Content",
+          "default": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name":"Custom FAQ Block"
+    }
+  ]
+}
+{% endschema %}
