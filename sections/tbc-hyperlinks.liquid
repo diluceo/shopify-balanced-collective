@@ -1,0 +1,48 @@
+<div id="hyperlink-block-{{ section.id }}" class="hyperlink-block" style="background-color:{{section.settings.bg_color}}; padding:2em;">
+  <div class="container page-width page-width--narrow">
+  {%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'anchor' -%}
+      <div class="anchor-links"><a href="#{{block.settings.anchor_id}}">{{block.settings.anchor_text}}</a></div>
+    {%- endcase -%}
+  {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom - Hyperlinks",
+  "tag": "section",
+  "class": "wrapper",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "anchor",
+      "name": "Anchor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "anchor_text",
+          "label": "Anchor Text"
+        },
+        {
+          "type": "text",
+          "id": "anchor_id",
+          "label": "Anchor ID"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name":"Custom - Hyperlinks"
+    }
+  ]
+}
+{% endschema %}
