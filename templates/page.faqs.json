@@ -14,14 +14,14 @@
           "type": "anchor",
           "settings": {
             "anchor_text": "FAQ SERVICES",
-            "anchor_id": "services"
+            "anchor_id": "faq-link-services"
           }
         },
         "37515210-1948-4ade-8eea-1d4863ad19e1": {
           "type": "anchor",
           "settings": {
             "anchor_text": "FAQ PRODUCTS",
-            "anchor_id": "products"
+            "anchor_id": "faq-link-products"
           }
         }
       },
