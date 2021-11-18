@@ -39,29 +39,57 @@
         "1637269241950df6fe-0": {
           "type": "faq",
           "settings": {
-            "faq_title": "FAQ Title",
-            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+            "faq_title": "What is your cancellation policy.",
+            "faq_content": "While we do understand that life happens, late cancellations and no-shows leave a gap in a practitioner’s schedule that could have been filled by another client in need. As such, TBC has adopted a 48 hour cancellation policy. Cancellations within 48 hours of your appointment are subject to a cancellation fee. All no-shows will be charged the full amount of the appointment."
           }
         },
         "1637269241950df6fe-1": {
           "type": "faq",
           "settings": {
-            "faq_title": "FAQ Title",
-            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+            "faq_title": "What is Trauma-Informed work?",
+            "faq_content": "Trauma-Informed work recognizes the presence of trauma symptoms and acknowledges the role trauma may play in an individual’s experience and how it may be affecting their body. Our practitioners are aware that many symptoms clients experience are in fact nervous system responses to trauma and our practitioners view all clients as a whole and not as a cluster of symptoms."
           }
         },
         "1637269241950df6fe-2": {
           "type": "faq",
           "settings": {
-            "faq_title": "FAQ Title",
-            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+            "faq_title": "What is your Waitlist policy?",
+            "faq_content": "If you are a returning client and unable to find an appointment time that suits your needs, adding yourself to the waitlist is a great option as there are often cancellations. We honour the waiting list in our Jane booking software first and book clients in the order of the waiting list in Jane. If you are a new client and cannot find a time in Jane to book your first appointment, please contact the TBC team at <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to have your name placed on our in-house waitlist with your desired practitioner."
           }
         },
         "1637269241950df6fe-3": {
           "type": "faq",
           "settings": {
-            "faq_title": "FAQ Title",
-            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+            "faq_title": "How do you use photos from events for content (privacy?)",
+            "faq_content": "Consent is a biggie for us here at TBC and all images from events have received consent from those in the images to be displayed. We collect waivers and consent forms from all guests at retreats and events prior to placing anything on our website. We honor and respect the privacy of anyone who does not want to be photographed."
+          }
+        },
+        "3b9df22a-d479-48e4-a4a0-be84f02ef00e": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What form of payment do you take?",
+            "faq_content": "TBC offers payment through credit cards (including Visa, Mastercard and AMEX) or Interac e-transfer."
+          }
+        },
+        "1f5b236a-a01a-4b1f-9e4e-d300af847424": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Do you direct bill to extended health insurance companies?",
+            "faq_content": "TBC offers direct billing to most extended health insurance companies. We currently do not provide direct billing to ICBC or WorkSafe BC."
+          }
+        },
+        "46d135cf-6d65-4f83-97de-e432fa169d8b": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How does TBC support Communities? (or maybe the planet??)",
+            "faq_content": "TBC gives back to the community and to the planet by donating 1% of all profits to organizations committed to reversing climate change such as Protect our Winters Canada."
+          }
+        },
+        "5cee5e1b-7ce0-4f46-b847-931ada9a6d30": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What should I wear to my appointment?",
+            "faq_content": "Please wear something comfortable that you can move in, if possible — and if you are comfortable — wear something that allows you to expose the injured area during your physiotherapy appointment. For example, shorts if we are working on your knee or ankle, or a tank top if we are working on your shoulder. Naturally, this is entirely up to your comfort level, so please wear what makes you feel best!"
           }
         }
       },
@@ -69,18 +97,99 @@
         "1637269241950df6fe-0",
         "1637269241950df6fe-1",
         "1637269241950df6fe-2",
-        "1637269241950df6fe-3"
+        "1637269241950df6fe-3",
+        "3b9df22a-d479-48e4-a4a0-be84f02ef00e",
+        "1f5b236a-a01a-4b1f-9e4e-d300af847424",
+        "46d135cf-6d65-4f83-97de-e432fa169d8b",
+        "5cee5e1b-7ce0-4f46-b847-931ada9a6d30"
       ],
       "settings": {
-        "faq_heading": "",
+        "faq_heading": "FAQ Services",
         "bg_color": "#f3f3f3",
-        "faq_id": ""
+        "faq_id": "services"
+      }
+    },
+    "163726938168211a09": {
+      "type": "tbc-faqs",
+      "blocks": {
+        "1637269381028110f5-0": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is your Shipping policy?",
+            "faq_content": "We are currently offering shipping within Canada. Shipping rates are calculated on checkout and all orders over $100 will receive free shipping."
+          }
+        },
+        "1637269381028110f5-1": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How long does Shipping take?",
+            "faq_content": "As above with canada post. Likely 3-5 business days."
+          }
+        },
+        "1637269381028110f5-2": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What are your Return + Damaged goods policy",
+            "faq_content": "If you aren’t in love with your TBC product, we offer a 30 day return as long as the product is unused, in its original packaging with tags on. Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to get started on the return process. We would also love your feedback!"
+          }
+        },
+        "1637269381028110f5-3": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How do I take care of my products?",
+            "faq_content": "<b>Cervical neck Traction device:<\/b><br>\nWipe down with wet cloth as needed and allow to air dry. Do not soak in water. Cork Products are antimicrobial and easy to care for.<br><br>\n<b>Cork Foam Roller and Massage balls:<\/b><br>\nWipe down after use with a mild cleanser and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Yoga Mat:<\/b><br>\nWash by hand. Wipe down after each use with a mild cleanser and allow to air dry. Do not tumble dry, iron, press or use bleach."
+          }
+        },
+        "b6d93704-c282-44ad-8aef-f6a30c5ee20b": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Why cork?",
+            "faq_content": "Cork is a highly sustainable material that the more it is used, the more carbon it captures! Don’t believe us? Have a read through this blog post for the full deal on why cork is so amazing!"
+          }
+        },
+        "5db50ea0-b4cd-448c-9888-abd46daa071a": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Where are these products made?",
+            "faq_content": "TBC products are made in China, and the cork used in the massage products comes from Portugal."
+          }
+        },
+        "e765a136-cf10-4b83-a53e-a036f240d57f": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Do you offer wholesale purchasing?",
+            "faq_content": "Yes, we do! Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to learn about wholesale purchasing options."
+          }
+        },
+        "d71331e1-172c-4d93-a7cf-06396605dbfa": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is TBC doing for the planet?",
+            "faq_content": "We donate a portion of all profits to organizations fighting climate change, such as Protect Our Winters Canada."
+          }
+        }
+      },
+      "block_order": [
+        "1637269381028110f5-0",
+        "1637269381028110f5-1",
+        "1637269381028110f5-2",
+        "1637269381028110f5-3",
+        "b6d93704-c282-44ad-8aef-f6a30c5ee20b",
+        "5db50ea0-b4cd-448c-9888-abd46daa071a",
+        "e765a136-cf10-4b83-a53e-a036f240d57f",
+        "d71331e1-172c-4d93-a7cf-06396605dbfa"
+      ],
+      "settings": {
+        "faq_heading": "FAQ Products",
+        "bg_color": "#ffffff",
+        "faq_id": "products"
       }
     }
   },
   "order": [
     "1631062391deb8499e",
     "main",
-    "1637269241f0fd9c29"
+    "1637269241f0fd9c29",
+    "163726938168211a09"
   ]
 }
