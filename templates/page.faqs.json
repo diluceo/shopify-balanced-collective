@@ -7,6 +7,32 @@
         "bg_image": "shopify:\/\/shop_images\/bg-heather_f9ee17aa-93b1-4220-9c97-65b1ea122996.jpg"
       }
     },
+    "163727707097750c59": {
+      "type": "tbc-hyperlinks",
+      "blocks": {
+        "d0d48cb1-84bd-4602-bf25-3b0784b48a90": {
+          "type": "anchor",
+          "settings": {
+            "anchor_text": "View 1",
+            "anchor_id": "view_1"
+          }
+        },
+        "abea08fe-15b4-4d6f-8642-ded455ec2bc4": {
+          "type": "anchor",
+          "settings": {
+            "anchor_text": "View 2",
+            "anchor_id": "view_2"
+          }
+        }
+      },
+      "block_order": [
+        "d0d48cb1-84bd-4602-bf25-3b0784b48a90",
+        "abea08fe-15b4-4d6f-8642-ded455ec2bc4"
+      ],
+      "settings": {
+        "bg_color": "#1c7ee3"
+      }
+    },
     "main": {
       "type": "main-legal",
       "blocks": {
@@ -188,6 +214,7 @@
   },
   "order": [
     "1631062391deb8499e",
+    "163727707097750c59",
     "main",
     "1637269241f0fd9c29",
     "163726938168211a09"
