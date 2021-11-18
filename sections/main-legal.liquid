@@ -5,7 +5,7 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 
-{%- if page.handle == 'privacy' -%}
+{%- if page.handle == 'privacy' or page.handle == 'faqs' -%}
 <div class="page-full pre-legal">
   <div class="anchor-con page-width page-width--narrow">
   {%- for block in section.blocks -%}
