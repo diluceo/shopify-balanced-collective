@@ -1258,6 +1258,44 @@ button.simple-link {
   }
 }
 
+.faq-block > .container {
+  max-width: 1000px;
+}
+
+.faq-block .faq-con {
+  border-radius: 15px;
+  padding: 2em 2em;
+  border: 3px solid var(--tbc-purple);
+}
+
+.faq-block .faq-con:nth-child(7n+1) {
+  border-color: var(--tbc-purple);
+}
+
+.faq-block .faq-con:nth-child(7n+2) {
+  border-color: var(--tbc-red);
+}
+
+.faq-block .faq-con:nth-child(7n+3) {
+  border-color: var(--tbc-green);
+}
+
+.faq-block .faq-con:nth-child(7n+4) {
+  border-color: var(--tbc-lime);
+}
+
+.faq-block .faq-con:nth-child(7n+5) {
+  border-color: var(--tbc-darkblue);
+}
+
+.faq-block .faq-con:nth-child(7n+6) {
+  border-color: var(--tbc-orange);
+}
+
+.faq-block .faq-con:nth-child(7n+7) {
+  border-color: var(--tbc-blue);
+}
+
 .tbc-related-posts a {
   text-decoration: none;
 }

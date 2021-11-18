@@ -1,31 +1,15 @@
-<style>
-  #faq-block-{{ section.id }} .faq-con{
-    border: 2px solid red;
-  }
-</style>
-
-<div id="faq-block-{{ section.id }}" class="faq-block">
+<div id="faq-block-{{ section.id }} {{section.settings.faq_id}}" class="faq-block" style="background-color: {{section.settings.bg_color}};">
+  <div class="container page-width text-center"><h4 class="text-subtitle">{{section.settings.faq_heading}}</h4></div>
   <div class="container page-width grid-main gap-20 grid-2 p-small">
+  {%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'faq' -%}
     <div class="con faq-con">
-      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
-      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
+      <h4 class="text-main" style="color:#1C7EE3;">{{block.settings.faq_title}}</h4>
+      <p class="text-main" style="color:#262C96;">{{block.settings.faq_content}}</p>
     </div>
-    <div class="con faq-con">
-      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
-      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
-    </div>
-    <div class="con faq-con">
-      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
-      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
-    </div>
-    <div class="con faq-con">
-      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
-      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
-    </div>
-    <div class="con faq-con">
-      <h4 class="text-main" style="color:#1C7EE3;">Lorem Ipsum</h4>
-      <p class="text-main" style="color:#262C96;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis tempore distinctio corrupti aspernatur praesentium doloremque quis nobis magni saepe?</p>
-    </div>
+    {%- endcase -%}
+  {%- endfor -%}
   </div>
 </div>
 
@@ -36,10 +20,21 @@
   "class": "section-wrapper",
   "settings": [
     {
+      "type": "text",
+      "id": "faq_heading",
+      "label": "FAQ Section Heading",
+      "default": "FAQ Heading"
+    },
+    {
       "type": "color",
       "id": "bg_color",
       "label": "Background Color",
       "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "faq_id",
+      "label": "Anchor Text"
     }
   ],
   "blocks": [
@@ -49,9 +44,9 @@
       "settings": [
         {
           "type": "text",
-          "id": "faq_heading",
-          "label": "FAQ Heading",
-          "default": "FAQ Heading"
+          "id": "faq_title",
+          "label": "FAQ Title",
+          "default": "FAQ Title"
         },
         {
           "type": "text",
@@ -64,7 +59,21 @@
   ],
   "presets": [
     {
-      "name":"Custom FAQ Block"
+      "name":"Custom FAQ Block",
+      "blocks": [
+        {
+          "type": "faq"
+        },
+        {
+          "type": "faq"
+        },
+        {
+          "type": "faq"
+        },
+        {
+          "type": "faq"
+        }
+      ]
     }
   ]
 }

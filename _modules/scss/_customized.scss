@@ -595,8 +595,44 @@
 }
 
 ////////////////////////
+// FAQ PAGE
+////////////////////////
+.faq-block {
+  > .container {
+    max-width: 1000px;
+  }
+  .faq-con {
+    border-radius: 15px;
+    padding: 2em 2em;
+    border: 3px solid var(--tbc-purple);
+
+    &:nth-child(7n+1) {
+      border-color: var(--tbc-purple);
+    }
+    &:nth-child(7n+2) {
+      border-color: var(--tbc-red);
+    }
+    &:nth-child(7n+3) {
+      border-color: var(--tbc-green);
+    }
+    &:nth-child(7n+4) {
+      border-color: var(--tbc-lime);
+    }
+    &:nth-child(7n+5) {
+      border-color: var(--tbc-darkblue);
+    }
+    &:nth-child(7n+6) {
+      border-color: var(--tbc-orange);
+    }
+    &:nth-child(7n+7) {
+      border-color: var(--tbc-blue);
+    }
+  }
+}
+
+////////////////////////
 // BLOG PAGE
-///////////////////////
+////////////////////////
 .tbc-related-posts {
   a {
     text-decoration: none;
