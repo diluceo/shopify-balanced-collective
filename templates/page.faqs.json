@@ -32,17 +32,10 @@
       "settings": {
         "isactive": false
       }
-    },
-    "16372649084efb5ada": {
-      "type": "tbc-faqs",
-      "settings": {
-        "bg_color": "#ffffff"
-      }
     }
   },
   "order": [
     "1631062391deb8499e",
-    "main",
-    "16372649084efb5ada"
+    "main"
   ]
 }
