@@ -869,6 +869,17 @@ button.simple-link {
   }
 }
 
+.anchor-links a {
+  text-decoration: none;
+  display: block;
+  margin: 5px !important;
+  padding: 10px 20px;
+  border: 1px solid var(--tbc-lime);
+  color: var(--tbc-lime);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .cstm-info-block .icon.icon_bigger {
   width: 100px !important;
 }

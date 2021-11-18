@@ -191,6 +191,18 @@
   }
 }
 
+// TBC HYPERLINK BLOCK
+.anchor-links a {
+  text-decoration: none;
+  display: block;
+  margin: 5px!important;
+  padding: 10px 20px;
+  border: 1px solid var(--tbc-lime);
+  color: var(--tbc-lime);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 // TBC CUSTOM FEATURE BLOCK
 .cstm-info-block {
   .icon.icon_bigger {
