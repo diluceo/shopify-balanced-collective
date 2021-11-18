@@ -13,15 +13,15 @@
         "d0d48cb1-84bd-4602-bf25-3b0784b48a90": {
           "type": "anchor",
           "settings": {
-            "anchor_text": "View 1",
-            "anchor_id": "view_1"
+            "anchor_text": "FAQ Services",
+            "anchor_id": "faq_link_services"
           }
         },
         "abea08fe-15b4-4d6f-8642-ded455ec2bc4": {
           "type": "anchor",
           "settings": {
-            "anchor_text": "View 2",
-            "anchor_id": "view_2"
+            "anchor_text": "FAQ Products",
+            "anchor_id": "faq_link_products"
           }
         }
       },
