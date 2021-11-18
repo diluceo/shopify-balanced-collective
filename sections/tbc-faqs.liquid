@@ -1,5 +1,7 @@
 <div id="faq-block-{{ section.id }} {{section.settings.faq_id}}" class="faq-block" style="background-color: {{section.settings.bg_color}};">
-  <div class="container page-width text-center"><h4 class="text-subtitle">{{section.settings.faq_heading}}</h4></div>
+  {%- if {{section.settings.faq_heading}} -%}
+    <div class="container page-width text-center"><h4 class="text-subtitle">{{section.settings.faq_heading}}</h4></div>
+  {%- endif -%}
   <div class="container page-width grid-main gap-20 grid-2 p-small">
   {%- for block in section.blocks -%}
   {%- case block.type -%}
@@ -22,8 +24,7 @@
     {
       "type": "text",
       "id": "faq_heading",
-      "label": "FAQ Section Heading",
-      "default": "FAQ Heading"
+      "label": "FAQ Section Heading"
     },
     {
       "type": "color",
