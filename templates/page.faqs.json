@@ -32,10 +32,55 @@
       "settings": {
         "isactive": false
       }
+    },
+    "1637269241f0fd9c29": {
+      "type": "tbc-faqs",
+      "blocks": {
+        "1637269241950df6fe-0": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "FAQ Title",
+            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+          }
+        },
+        "1637269241950df6fe-1": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "FAQ Title",
+            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+          }
+        },
+        "1637269241950df6fe-2": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "FAQ Title",
+            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+          }
+        },
+        "1637269241950df6fe-3": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "FAQ Title",
+            "faq_content": "Lorem Ipsum dolor ipusm lorem ipsum dolor."
+          }
+        }
+      },
+      "block_order": [
+        "1637269241950df6fe-0",
+        "1637269241950df6fe-1",
+        "1637269241950df6fe-2",
+        "1637269241950df6fe-3"
+      ],
+      "settings": {
+        "faq_heading": "",
+        "bg_color": "#f3f3f3",
+        "faq_id": ""
+      }
     }
   },
   "order": [
     "1631062391deb8499e",
-    "main"
+    "main",
+    "1637269241f0fd9c29"
   ]
 }
