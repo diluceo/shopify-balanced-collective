@@ -35,26 +35,6 @@
     },
     "main": {
       "type": "main-legal",
-      "blocks": {
-        "94501b81-7596-47f4-ba81-f56a152d8d93": {
-          "type": "anchor",
-          "settings": {
-            "anchor_text": "FAQ SERVICES",
-            "anchor_id": "faq_link_services"
-          }
-        },
-        "37515210-1948-4ade-8eea-1d4863ad19e1": {
-          "type": "anchor",
-          "settings": {
-            "anchor_text": "FAQ PRODUCTS",
-            "anchor_id": "faq_link_products"
-          }
-        }
-      },
-      "block_order": [
-        "94501b81-7596-47f4-ba81-f56a152d8d93",
-        "37515210-1948-4ade-8eea-1d4863ad19e1"
-      ],
       "settings": {
         "isactive": false
       }
