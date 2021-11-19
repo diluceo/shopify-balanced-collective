@@ -11,11 +11,11 @@
       "settings": {
         "banner_version": "type_one",
         "content_alignment": "center",
-        "image_1": "shopify:\/\/shop_images\/guy-header.png",
-        "image_2": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
-        "caption": "LET’S GET YOU…",
+        "image_1": "shopify:\/\/shop_images\/faq-header_bd73d3be-2de0-4c72-9fb2-e4e552062fcb.png",
+        "image_2": "shopify:\/\/shop_images\/faq-bg-header.jpg",
+        "caption": "HERE ARE THE FAQ'S",
         "add_before": true,
-        "heading": "Back on your feet <br><span>so you can feel like yourself again<\/span>",
+        "heading": "Tibia-honest, <br><span>We're \n not pulling your your leg.<\/span>",
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
@@ -25,333 +25,182 @@
         "highlight_text_color": "#ffffff"
       }
     },
-    "163030625826391d0c": {
-      "type": "tbc-single-banner",
+    "16372790182bb59668": {
+      "type": "tbc-hyperlinks",
       "blocks": {
-        "163030625826391d0c-0": {
-          "type": "caption",
+        "630bcec5-0afb-4409-a036-ff8877f9d89b": {
+          "type": "anchor",
           "settings": {
-            "caption_1": "<span>Your Body is Weird and Wonderful.<\/span><br><span>That’s why we provide sessions that are as unique as you are.<\/span>"
+            "anchor_text": "FAQ Services",
+            "anchor_id": "link_faq_services"
+          }
+        },
+        "3f607056-09db-41f0-9f9f-13ce9ae8d170": {
+          "type": "anchor",
+          "settings": {
+            "anchor_text": "FAQ PRODUCTS",
+            "anchor_id": "link_faq_products"
           }
         }
       },
       "block_order": [
-        "163030625826391d0c-0"
+        "630bcec5-0afb-4409-a036-ff8877f9d89b",
+        "3f607056-09db-41f0-9f9f-13ce9ae8d170"
       ],
       "settings": {
-        "max_width": "750px",
-        "top_padding": 0,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
-        "bg_opacity": 1,
+        "bg_color": "#1c7ee3"
+      }
+    },
+    "1637278534b8fb4272": {
+      "type": "tbc-faqs",
+      "blocks": {
+        "16372785346fa21855-0": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is your cancellation policy.",
+            "faq_content": "While we do understand that life happens, late cancellations and no-shows leave a gap in a practitioner’s schedule that could have been filled by another client in need. As such, TBC has adopted a 48 hour cancellation policy. Cancellations within 48 hours of your appointment are subject to a cancellation fee. All no-shows will be charged the full amount of the appointment."
+          }
+        },
+        "16372785346fa21855-1": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is Trauma-Informed work?",
+            "faq_content": "Trauma-Informed work recognizes the presence of trauma symptoms and acknowledges the role trauma may play in an individual’s experience and how it may be affecting their body. Our practitioners are aware that many symptoms clients experience are in fact nervous system responses to trauma and our practitioners view all clients as a whole and not as a cluster of symptoms."
+          }
+        },
+        "16372785346fa21855-2": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is your Waitlist policy?",
+            "faq_content": "If you are a returning client and unable to find an appointment time that suits your needs, adding yourself to the waitlist is a great option as there are often cancellations. We honour the waiting list in our Jane booking software first and book clients in the order of the waiting list in Jane. If you are a new client and cannot find a time in Jane to book your first appointment, please contact the TBC team at <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to have your name placed on our in-house waitlist with your desired practitioner."
+          }
+        },
+        "5048b5a4-61fa-4a90-b78a-ddfcaeb5e055": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What should I wear to my appointment?",
+            "faq_content": "Please wear something comfortable that you can move in, if possible — and if you are comfortable — wear something that allows you to expose the injured area during your physiotherapy appointment. For example, shorts if we are working on your knee or ankle, or a tank top if we are working on your shoulder. Naturally, this is entirely up to your comfort level, so please wear what makes you feel best!"
+          }
+        },
+        "16372785346fa21855-3": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How do you use photos from events for content?",
+            "faq_content": "Consent is a biggie for us here at TBC and all images from events have received consent from those in the images to be displayed. We collect waivers and consent forms from all guests at retreats and events prior to placing anything on our website. We honor and respect the privacy of anyone who does not want to be photographed."
+          }
+        },
+        "bc087030-4999-40d6-8c1a-4ac3e673e892": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How does TBC support Communities?",
+            "faq_content": "TBC gives back to the community and to the planet by donating 1% of all profits to organizations committed to reversing climate change such as Protect our Winters Canada."
+          }
+        },
+        "d1195668-eda0-4839-ac40-a4cf93df12ac": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Do you direct bill to extended health insurance companies?",
+            "faq_content": "TBC offers direct billing to most extended health insurance companies. We currently do not provide direct billing to ICBC or WorkSafe BC."
+          }
+        },
+        "73dc3eac-6575-4867-8de5-724c2adeaaf5": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What form of payment do you take?",
+            "faq_content": "TBC offers payment through credit cards (including Visa, Mastercard and AMEX) or Interac e-transfer."
+          }
+        }
+      },
+      "block_order": [
+        "16372785346fa21855-0",
+        "16372785346fa21855-1",
+        "16372785346fa21855-2",
+        "5048b5a4-61fa-4a90-b78a-ddfcaeb5e055",
+        "16372785346fa21855-3",
+        "bc087030-4999-40d6-8c1a-4ac3e673e892",
+        "d1195668-eda0-4839-ac40-a4cf93df12ac",
+        "73dc3eac-6575-4867-8de5-724c2adeaaf5"
+      ],
+      "settings": {
+        "faq_heading": "FAQ Services",
         "bg_color": "#ffffff",
-        "show_vid": false,
-        "vid_link": "",
-        "caption_color": "#ffffff",
-        "title_color": "#ffffff",
-        "highlight_color": "#d0df00",
-        "highlight_text_color": "#121212"
+        "faq_id": "link_faq_services"
       }
     },
-    "1630309950b6af270e": {
-      "type": "tbc-dual-banner",
+    "1637279012910e9e91": {
+      "type": "tbc-faqs",
       "blocks": {
-        "be1e7132-ab91-4a55-90a9-1d915a103ec5": {
-          "type": "name",
+        "16372790128f3a27d6-0": {
+          "type": "faq",
           "settings": {
-            "title_color": "#1c7ee3",
-            "name_title": "Physiotherapy",
-            "name_text_1": "",
-            "name_text_1_class": "",
-            "name_text_2": "",
-            "name_text_3": "",
-            "name_text_3_class": ""
+            "faq_title": "What is your Shipping policy?",
+            "faq_content": "We are currently offering shipping within Canada. Shipping rates are calculated on checkout and all orders over $100 will receive free shipping."
           }
         },
-        "48532f09-f170-4d49-aaeb-87cd0a23bdff": {
-          "type": "content",
+        "16372790128f3a27d6-1": {
+          "type": "faq",
           "settings": {
-            "content_title": "",
-            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. \n<br><br>\nOur physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. \n<br><br>\nIn-person physiotherapy sessions at 500-224 West Esplanade, North Vancouver. If an online session is more your style, we are also available for virtual telehealth sessions."
+            "faq_title": "How long does Shipping take?",
+            "faq_content": "As above with canada post. Likely 3-5 business days."
           }
         },
-        "9de049b5-7916-410d-a70e-4612871d700e": {
-          "type": "button",
+        "16372790128f3a27d6-2": {
+          "type": "faq",
           "settings": {
-            "content_label": "BOOK NOW",
-            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
-            "button_icon": ""
+            "faq_title": "What are your Return + Damaged goods policy?",
+            "faq_content": "If you aren’t in love with your TBC product, we offer a 30 day return as long as the product is unused, in its original packaging with tags on. Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to get started on the return process. We would also love your feedback!"
+          }
+        },
+        "16372790128f3a27d6-3": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "How do I take care of my products?",
+            "faq_content": "<i>Cork Products are antimicrobial and easy to care for.<\/i><br><br>\n\n<b>Cervical neck Traction device:<\/b><br>\nWipe down with wet cloth as needed and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Foam Roller and Massage balls:<\/b><br>\nWipe down after use with a mild cleanser and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Yoga Mat:<\/b><br>\nWash by hand. Wipe down after each use with a mild cleanser and allow to air dry. Do not tumble dry, iron, press or use bleach."
+          }
+        },
+        "84e24e41-7dcf-40b9-be00-c3cea9eb1e0b": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Why cork?",
+            "faq_content": "Cork is a highly sustainable material that the more it is used, the more carbon it captures! Don’t believe us? Have a read through this blog post for the full deal on why cork is so amazing!"
+          }
+        },
+        "a55c4cdf-ea74-4353-b4b4-2acb68d49390": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Where are these products made?",
+            "faq_content": "TBC products are made in China, and the cork used in the massage products comes from Portugal."
+          }
+        },
+        "f46b30b1-5ce7-49d6-9e62-7c639df87474": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Do you offer wholesale purchasing?",
+            "faq_content": "Yes, we do! Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to learn about wholesale purchasing options."
+          }
+        },
+        "eaa3067f-1a0e-4b02-b717-674d48d15416": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "What is TBC doing for the planet?",
+            "faq_content": "We donate a portion of all profits to organizations fighting climate change, such as Protect Our Winters Canada."
           }
         }
       },
       "block_order": [
-        "be1e7132-ab91-4a55-90a9-1d915a103ec5",
-        "48532f09-f170-4d49-aaeb-87cd0a23bdff",
-        "9de049b5-7916-410d-a70e-4612871d700e"
+        "16372790128f3a27d6-0",
+        "16372790128f3a27d6-1",
+        "16372790128f3a27d6-2",
+        "16372790128f3a27d6-3",
+        "84e24e41-7dcf-40b9-be00-c3cea9eb1e0b",
+        "a55c4cdf-ea74-4353-b4b4-2acb68d49390",
+        "f46b30b1-5ce7-49d6-9e62-7c639df87474",
+        "eaa3067f-1a0e-4b02-b717-674d48d15416"
       ],
       "settings": {
-        "direction": false,
-        "content_type": "image",
-        "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/physio.png",
-        "image_position": "center"
-      }
-    },
-    "1630544979a8159e41": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
-      }
-    },
-    "16305450173826bedb": {
-      "type": "tbc-dual-banner",
-      "blocks": {
-        "b46d6046-8320-4259-bfc2-c7ccf21cd590": {
-          "type": "name",
-          "settings": {
-            "title_color": "#1c7ee3",
-            "name_title": "Active Rehab",
-            "name_text_1": "",
-            "name_text_1_class": "",
-            "name_text_2": "",
-            "name_text_3": "",
-            "name_text_3_class": ""
-          }
-        },
-        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca": {
-          "type": "content",
-          "settings": {
-            "content_title": "",
-            "content_text_1": "Active Rehab is a dynamic-movement-specific treatment that involves all the benefits of a Physiotherapist with the combined precision of a personal trainer or Kinesiologist. Receive support from an expert team dedicated to reducing long-term injuries and decreasing pain, while increasing confidence and strength in your body. <br><br>Active Rehab begins with a detailed, high-level assessment completed by a Physiotherapist, who will develop a uniquely tailored treatment plan. Then, during your next session(s), a personal trainer or Kinesiologist will carry out the program under the supervision of the Physiotherapist. Finally, you’ll continue to meet with your physiotherapist in between for progress check-ins and treatment modifications."
-          }
-        },
-        "b4071eb6-94a0-4996-a03d-739be093fd78": {
-          "type": "details",
-          "settings": {
-            "tab1_heading": "This is for you if",
-            "tab1_summary": "1. Late stage post-surgical rehab<br>\n2. Sports & repetitive strain injuries<br>\n3. Concussions<br>\n4. Car accidents<br>\n5. Chronic pain<br>\n6. Treatment of muscular imbalances:<br>\n  > Sedentary\/desk jobs (with or without repetitive motion): teachers, designers, accountants, etc.<br>\n  > Active work: nurses, police officers, fire fighters, etc.<br>\n7. Osteoarthritis<br>\n8. Sciatica<br>\n9. Low back pain",
-            "tab2_heading": "Skip the waitlist",
-            "tab2_summary": "Sometimes it can be challenging to see your physiotherapist for hands-on therapy in a timely manner and with an active rehab program you are not only receiving high quality movement coaching between your hands-on physiotherapy sessions, your physiotherapist is committed to seeing you in a timely manner to ensure your program is up to date and modified appropriately, meaning you will feel better even sooner.",
-            "tab3_heading": "Get Covered",
-            "tab3_summary": "Active Rehab is considered an essential part of physiotherapy, therefore, you can use your extended health care to cover some or all of the costs. We also offer direct billing"
-          }
-        },
-        "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6": {
-          "type": "content",
-          "settings": {
-            "content_title": "Have questions? Ready to get started? Book a free 15min consult with an Active Rehab specialist.",
-            "content_text_1": ""
-          }
-        },
-        "ed56f9a1-3eee-4460-9aeb-449e37df36d9": {
-          "type": "button",
-          "settings": {
-            "content_label": "BOOK NOW",
-            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/#\/staff_member\/14",
-            "button_icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "b46d6046-8320-4259-bfc2-c7ccf21cd590",
-        "dfb351f1-b9d5-4f8d-831a-9c52f7953bca",
-        "b4071eb6-94a0-4996-a03d-739be093fd78",
-        "6321d6c7-4a93-46ac-9aaf-75cd8b92fad6",
-        "ed56f9a1-3eee-4460-9aeb-449e37df36d9"
-      ],
-      "settings": {
-        "direction": true,
-        "content_type": "image",
-        "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/rehab.png",
-        "image_position": "center"
-      }
-    },
-    "163055505955c53802": {
-      "type": "tbc-single-banner",
-      "blocks": {
-        "163055505955c53802-0": {
-          "type": "caption",
-          "settings": {
-            "caption_1": "CONTACT US"
-          }
-        },
-        "163055505955c53802-1": {
-          "type": "title",
-          "settings": {
-            "title_1": "We love seeing our clients happy in motion.",
-            "fancy": false
-          }
-        },
-        "163055505955c53802-2": {
-          "type": "link",
-          "settings": {
-            "button_label": "LET’S CONNECT",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "163055505955c53802-0",
-        "163055505955c53802-1",
-        "163055505955c53802-2"
-      ],
-      "settings": {
-        "max_width": "600px",
-        "top_padding": 0,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "section_width": "page-width",
-        "bg_image": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
-        "bg_opacity": 0.6,
-        "bg_color": "#26268b",
-        "show_vid": true,
-        "vid_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/workoutvideo.mp4?v=1630555901",
-        "caption_color": "#ffc600",
-        "title_color": "#ffffff",
-        "highlight_color": "",
-        "highlight_text_color": ""
-      }
-    },
-    "16305562074d6a90dd": {
-      "type": "tbc-feature-list",
-      "blocks": {
-        "15c35e41-487e-4b15-9536-ee87793168ca": {
-          "type": "info",
-          "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/integrity.svg?v=1630542147",
-            "icon_customclass": "",
-            "heading": "Integrity",
-            "content": "The team at TBC is committed to practicing with the highest level of integrity, respect and care possible. Wherever you’re at in your health journey, we welcome you."
-          }
-        },
-        "ca63816f-1a06-4053-bdd1-9c8b8266f4f8": {
-          "type": "info",
-          "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/quality_8b1af5e6-4d06-4b23-ad8a-f993b1a54a4c.svg?v=1630542147",
-            "icon_customclass": "",
-            "heading": "Quality",
-            "content": "We’re committed to continuously improving and learning so you’ll always be given the highest quality services and products to the best of our abilities."
-          }
-        },
-        "dea2af01-bf62-4d0a-9cfa-39d4f92700c0": {
-          "type": "info",
-          "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/unique.svg?v=1630699705",
-            "icon_customclass": "",
-            "heading": "Unique Techniques",
-            "content": "Each treatment plan includes cutting edge techniques uniquely tailored to suit you. No two nervous systems are the same so no two sessions will be either."
-          }
-        },
-        "a07a651e-5628-4a7e-8c27-aae66f9b0168": {
-          "type": "info",
-          "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/trauma_402b8537-8717-4b42-a3c0-103c20ebb078.svg?v=1630542147",
-            "icon_customclass": "",
-            "heading": "Trauma Informed",
-            "content": "Our trauma-informed team understands how to navigate and respect your unique history while creating the most sensitive and appropriate plan for you."
-          }
-        }
-      },
-      "block_order": [
-        "15c35e41-487e-4b15-9536-ee87793168ca",
-        "ca63816f-1a06-4053-bdd1-9c8b8266f4f8",
-        "dea2af01-bf62-4d0a-9cfa-39d4f92700c0",
-        "a07a651e-5628-4a7e-8c27-aae66f9b0168"
-      ],
-      "settings": {
-        "fancy": false,
-        "title": "What you can expect in our sessions",
-        "icon_size": 80,
-        "title_colour": "#1c7ee3",
-        "text_colour": "#262c96"
-      }
-    },
-    "1630557728ca28f1af": {
-      "type": "tbc-dual-banner",
-      "blocks": {
-        "2141b451-d258-46a0-a98b-f1760972f05c": {
-          "type": "name",
-          "settings": {
-            "title_color": "#1c7ee3",
-            "name_title": "Rates",
-            "name_text_1": "",
-            "name_text_1_class": "",
-            "name_text_2": "",
-            "name_text_3": "",
-            "name_text_3_class": ""
-          }
-        },
-        "c721d132-7886-4c01-a013-c8420bce2fce": {
-          "type": "content",
-          "settings": {
-            "content_title": "",
-            "content_text_1": "Rates are based on your health practitioner and service. We can happily direct bill to your extended health benefits provider. We currently do not bill to ICBC or WSBC, but please check back as this is another support feature in our near future."
-          }
-        },
-        "1e3efa7f-399a-475d-938d-41eb6a69db32": {
-          "type": "content",
-          "settings": {
-            "content_title": "<p>Physiotherapy: $95 - $165<\/p>\n<p>Active Rehab: $120 - $175<\/p>",
-            "content_text_1": ""
-          }
-        },
-        "1f1377d3-4e3b-40a3-8be4-8c62cf71a0cd": {
-          "type": "button",
-          "settings": {
-            "content_label": "BOOK NOW",
-            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
-            "button_icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "2141b451-d258-46a0-a98b-f1760972f05c",
-        "c721d132-7886-4c01-a013-c8420bce2fce",
-        "1e3efa7f-399a-475d-938d-41eb6a69db32",
-        "1f1377d3-4e3b-40a3-8be4-8c62cf71a0cd"
-      ],
-      "settings": {
-        "direction": true,
-        "content_type": "image",
-        "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/rates.png",
-        "image_position": "center",
-        "bg_image": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg"
-      }
-    },
-    "1630562693e6105f93": {
-      "type": "tbc-multibanner",
-      "blocks": {
-        "1630562693e6105f93-0": {
-          "type": "banner",
-          "settings": {
-            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
-            "caption": "Events",
-            "title": "Come learn, heal and Laugh with us.",
-            "button_label": "Join Us",
-            "button_url": "shopify:\/\/blogs\/events"
-          }
-        },
-        "1630562693e6105f93-1": {
-          "type": "banner",
-          "settings": {
-            "image_1": "shopify:\/\/shop_images\/products.jpg",
-            "caption": "PRODUCTS",
-            "title": "Roll and release, with Our eco-friendly products.",
-            "button_label": "See products",
-            "button_url": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "1630562693e6105f93-0",
-        "1630562693e6105f93-1"
-      ],
-      "settings": {
-        "section_title": ""
+        "faq_heading": "FAQ Products",
+        "bg_color": "#ffffff",
+        "faq_id": "link_faq_products"
       }
     },
     "163056294909b03e5b": {
@@ -370,14 +219,9 @@
   "order": [
     "main",
     "1630299441752dfb4b",
-    "163030625826391d0c",
-    "1630309950b6af270e",
-    "1630544979a8159e41",
-    "16305450173826bedb",
-    "163055505955c53802",
-    "16305562074d6a90dd",
-    "1630557728ca28f1af",
-    "1630562693e6105f93",
+    "16372790182bb59668",
+    "1637278534b8fb4272",
+    "1637279012910e9e91",
     "163056294909b03e5b"
   ]
 }
