@@ -168,7 +168,7 @@
           "type": "content",
           "settings": {
             "content_title": "Approach",
-            "content_text_1": "Using a unique and cutting edge set of assessment and treatment modalities, I like to look at each client as a whole. I take a thorough and detailed history to get a deep understanding of each client and the unique history they have experienced in order to create a detailed map of their nervous system. This history is the most important facet of treatment as it allows me to navigate the intricacies of every unique person I work with. Nothing is cookie cutter because no two nervous systems are the same or have had the same experiences. Together, we then create a unique and detailed treatment plan that aligns with each client’s goals and needs."
+            "content_text_1": "Using a unique and cutting edge set of assessment and treatment modalities, I like to look at each client as a whole. I take a thorough and detailed history to get a deep understanding of each client and the unique history they have experienced in order to create a detailed map of their nervous system. This history is the most important facet of treatment as it allows me to navigate the intricacies of every unique person I work with. Nothing is cookie cutter because no two nervous systems are the same or have had the same experiences. Together, we then create a unique and detailed treatment plan that aligns with each client’s goals and needs.\nDanielle also speaks French conversationally."
           }
         },
         "65939ebb-20b9-4e39-b7c7-247ad89dda9a": {
@@ -199,59 +199,59 @@
         "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
       }
     },
-    "1630352647787145aa": {
+    "16306837944244da03": {
       "type": "tbc-dual-banner",
       "blocks": {
-        "2ea9b25d-8822-476b-a038-ed558039e337": {
+        "b756f000-5d46-4d1d-8cea-15c4cf471a47": {
           "type": "name",
           "settings": {
-            "title_color": "#ec86d0",
-            "name_title": "Holly Middleton",
-            "name_text_1": "She \/ Her (Taurus)",
-            "name_text_1_class": "taurus",
+            "title_color": "#1dd8c4",
+            "name_title": "Bettina Glauser",
+            "name_text_1": "She \/ Her (Libra)",
+            "name_text_1_class": "libra",
             "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
-            "name_text_3": "<b>Favourite Body Part:<\/b> The Talus",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Spine",
             "name_text_3_class": "bone"
           }
         },
-        "d798eabf-f9f0-49c0-9bc9-7102178f1988": {
+        "145eacbf-087f-41d5-b865-08cfb016f046": {
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-1.svg?v=1630645934",
-            "about_text_1": "My elderly cat, <br>Pekoe",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-2.svg?v=1630645942",
-            "about_text_2": "The topic of my <br>PhD research",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-3.svg?v=1630645947",
-            "about_text_3": "A forest scent that evokes childhood memories"
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon1.svg?v=1630683951",
+            "about_text_1": "What I miss most  about Switzerland",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon2.svg?v=1630683939",
+            "about_text_2": "My cat",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon3.svg?v=1630683929",
+            "about_text_3": "My  travel destinations Bucket list"
           }
         },
-        "5362b885-6c00-494b-829e-b857a3ace1b9": {
+        "1e5c0d3a-1edb-44a6-90b6-0797ece881fc": {
           "type": "content",
           "settings": {
             "content_title": "Approach",
-            "content_text_1": "I help restore your body’s factory settings by helping you move better. I zoom in with my eagle eyes on what is and isn’t moving and work with you to find strategies to get your parts moving better. I’m super keen on foot function and hacking the role of gravity and momentum in getting your body to do what it’s designed to do. I also enjoy how getting your breathing just right can instantly alleviate pain and improve your posture."
+            "content_text_1": "The basis of my work is the knowledge and belief that regular movement is a fundamental building block for a healthy and happy life. In our collaboration, we will identify gaps in your movement practice and fill them with smart programming; this often includes supporting my clients in looking at their beliefs, mindsets, and broader habits. Further, I aim to help my clients become more self-sufficient about their health and needs, resulting in creating healthy habits, a regular movement practice, which ultimately leads to enjoying life by moving pain-free and confidently. Bettina speaks Swiss German and German fluently."
           }
         },
-        "c00259c6-d1d1-4191-aefc-62564cc4a5ef": {
+        "b66bd2f2-7f8a-4a9c-9939-9efa8e4acb7d": {
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>CanFitPro certified Personal Training Specialist <\/li><li>Anatomy in Motion practitioner<\/li>\n<li>Anatomy in Motion practitioner<\/li>"
+            "list_text_1": "<li>Masters of Health and Exercise Science, University of Basel (Switzerland)<\/li>\n<li>Bachelors of Science in Sport Science, University of Bern (Switzerland)<\/li>\n<li>TRX Suspension Training Level 1<\/li>\n<li>FRC Mobility Specialist (FRCms)<\/li>\n<li>First Aid and CPR<\/li>"
           }
         }
       },
       "block_order": [
-        "2ea9b25d-8822-476b-a038-ed558039e337",
-        "d798eabf-f9f0-49c0-9bc9-7102178f1988",
-        "5362b885-6c00-494b-829e-b857a3ace1b9",
-        "c00259c6-d1d1-4191-aefc-62564cc4a5ef"
+        "b756f000-5d46-4d1d-8cea-15c4cf471a47",
+        "145eacbf-087f-41d5-b865-08cfb016f046",
+        "1e5c0d3a-1edb-44a6-90b6-0797ece881fc",
+        "b66bd2f2-7f8a-4a9c-9939-9efa8e4acb7d"
       ],
       "settings": {
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_76.png",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
         "image_position": "top"
       }
     },
@@ -317,68 +317,6 @@
         "image_position": "top"
       }
     },
-    "1630684101b4cd5c8d": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
-      }
-    },
-    "16306837944244da03": {
-      "type": "tbc-dual-banner",
-      "blocks": {
-        "b756f000-5d46-4d1d-8cea-15c4cf471a47": {
-          "type": "name",
-          "settings": {
-            "title_color": "#1dd8c4",
-            "name_title": "Bettina Glauser",
-            "name_text_1": "She \/ Her (Libra)",
-            "name_text_1_class": "libra",
-            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
-            "name_text_3": "<b>Favourite Body Part:<\/b> The Spine",
-            "name_text_3_class": "bone"
-          }
-        },
-        "145eacbf-087f-41d5-b865-08cfb016f046": {
-          "type": "about",
-          "settings": {
-            "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon1.svg?v=1630683951",
-            "about_text_1": "What I miss most  about Switzerland",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon2.svg?v=1630683939",
-            "about_text_2": "My cat",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon3.svg?v=1630683929",
-            "about_text_3": "My  travel destinations Bucket list"
-          }
-        },
-        "1e5c0d3a-1edb-44a6-90b6-0797ece881fc": {
-          "type": "content",
-          "settings": {
-            "content_title": "Approach",
-            "content_text_1": "The basis of my work is the knowledge and belief that regular movement is a fundamental building block for a healthy and happy life. In our collaboration, we will identify gaps in your movement practice and fill them with smart programming; this often includes supporting my clients in looking at their beliefs, mindsets, and broader habits. Further, I aim to help my clients become more self-sufficient about their health and needs, resulting in creating healthy habits, a regular movement practice, which ultimately leads to enjoying life by moving pain-free and confidently."
-          }
-        },
-        "b66bd2f2-7f8a-4a9c-9939-9efa8e4acb7d": {
-          "type": "list",
-          "settings": {
-            "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Masters of Health and Exercise Science, University of Basel (Switzerland)<\/li>\n<li>Bachelors of Science in Sport Science, University of Bern (Switzerland)<\/li>\n<li>TRX Suspension Training Level 1<\/li>\n<li>FRC Mobility Specialist (FRCms)<\/li>\n<li>First Aid and CPR<\/li>"
-          }
-        }
-      },
-      "block_order": [
-        "b756f000-5d46-4d1d-8cea-15c4cf471a47",
-        "145eacbf-087f-41d5-b865-08cfb016f046",
-        "1e5c0d3a-1edb-44a6-90b6-0797ece881fc",
-        "b66bd2f2-7f8a-4a9c-9939-9efa8e4acb7d"
-      ],
-      "settings": {
-        "direction": true,
-        "content_type": "image",
-        "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
-        "image_position": "top"
-      }
-    },
     "1631247698839af32a": {
       "type": "tbc-custom-divider",
       "settings": {
@@ -416,7 +354,7 @@
           "type": "content",
           "settings": {
             "content_title": "Approach",
-            "content_text_1": "My treatment approach involves addressing the underlying cause of injury through listening to patients' stories. I believe that having good listening skills will allow me to better understand my patients' lifestyle, their mechanism of injury and how lifestyle modifications can aid in recovery and prevention of future injury. I enjoy working with a wide range of individuals from diverse backgrounds, whether it be athletes, office workers or those with chronic injuries. I believe that working together as a team with my patients is the key to having a smooth and successful rehabilitation."
+            "content_text_1": "My treatment approach involves addressing the underlying cause of injury through listening to patients' stories. I believe that having good listening skills will allow me to better understand my patients' lifestyle, their mechanism of injury and how lifestyle modifications can aid in recovery and prevention of future injury. I enjoy working with a wide range of individuals from diverse backgrounds, whether it be athletes, office workers or those with chronic injuries. I believe that working together as a team with my patients is the key to having a smooth and successful rehabilitation. Shirin speaks Farsi fluently and Swedish conversationally."
           }
         },
         "3eff8185-400a-41e4-a79d-34daa4a5d211": {
@@ -438,6 +376,70 @@
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Shirin-davarpanah-jazi-physio-karate_2d462e73-91c5-40a7-aa09-5bf7f3fe5606.png",
+        "image_position": "top"
+      }
+    },
+    "1630684101b4cd5c8d": {
+      "type": "tbc-custom-divider",
+      "disabled": true,
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
+      }
+    },
+    "1630352647787145aa": {
+      "type": "tbc-dual-banner",
+      "disabled": true,
+      "blocks": {
+        "2ea9b25d-8822-476b-a038-ed558039e337": {
+          "type": "name",
+          "settings": {
+            "title_color": "#ec86d0",
+            "name_title": "Holly Middleton",
+            "name_text_1": "She \/ Her (Taurus)",
+            "name_text_1_class": "taurus",
+            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Talus",
+            "name_text_3_class": "bone"
+          }
+        },
+        "d798eabf-f9f0-49c0-9bc9-7102178f1988": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-1.svg?v=1630645934",
+            "about_text_1": "My elderly cat, <br>Pekoe",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-2.svg?v=1630645942",
+            "about_text_2": "The topic of my <br>PhD research",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-3.svg?v=1630645947",
+            "about_text_3": "A forest scent that evokes childhood memories"
+          }
+        },
+        "5362b885-6c00-494b-829e-b857a3ace1b9": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "I help restore your body’s factory settings by helping you move better. I zoom in with my eagle eyes on what is and isn’t moving and work with you to find strategies to get your parts moving better. I’m super keen on foot function and hacking the role of gravity and momentum in getting your body to do what it’s designed to do. I also enjoy how getting your breathing just right can instantly alleviate pain and improve your posture."
+          }
+        },
+        "c00259c6-d1d1-4191-aefc-62564cc4a5ef": {
+          "type": "list",
+          "settings": {
+            "list_title": "Courses and Certifications",
+            "list_text_1": "<li>CanFitPro certified Personal Training Specialist <\/li><li>Anatomy in Motion practitioner<\/li>\n<li>Anatomy in Motion practitioner<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "2ea9b25d-8822-476b-a038-ed558039e337",
+        "d798eabf-f9f0-49c0-9bc9-7102178f1988",
+        "5362b885-6c00-494b-829e-b857a3ace1b9",
+        "c00259c6-d1d1-4191-aefc-62564cc4a5ef"
+      ],
+      "settings": {
+        "direction": true,
+        "content_type": "image",
+        "html_content": "",
+        "image_1": "shopify:\/\/shop_images\/Mask_Group_76.png",
         "image_position": "top"
       }
     },
@@ -540,13 +542,13 @@
     "1630350002472a30f1",
     "16303517224142031f",
     "1630481693613d42ec",
-    "1630352647787145aa",
+    "16306837944244da03",
     "1630481710de7d62b2",
     "163064602929229c1b",
-    "1630684101b4cd5c8d",
-    "16306837944244da03",
     "1631247698839af32a",
     "163124774924197585",
+    "1630684101b4cd5c8d",
+    "1630352647787145aa",
     "1630482090fd6da96d",
     "16307976914653aa88",
     "1630516101a293de53"
