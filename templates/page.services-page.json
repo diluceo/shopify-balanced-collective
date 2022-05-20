@@ -288,13 +288,13 @@
           "type": "content",
           "settings": {
             "content_title": "",
-            "content_text_1": "Rates are based on your health practitioner and service. We can happily direct bill to your extended health benefits provider. We currently do not bill to ICBC or WSBC, but please check back as this is another support feature in our near future."
+            "content_text_1": "Rates are based on your health practitioner and service. We can happily direct bill to your extended health benefits provider for some services or to ICBC with a case number. We do not bill to WSBC."
           }
         },
         "1e3efa7f-399a-475d-938d-41eb6a69db32": {
           "type": "content",
           "settings": {
-            "content_title": "<p>Physiotherapy: $95 - $165<\/p>\n<p>Active Rehab: $120 - $175<\/p>",
+            "content_title": "<p>Physiotherapy: $95 - $175<\/p>\n<p>Active Rehab: $110 - $150<\/p>",
             "content_text_1": ""
           }
         },
