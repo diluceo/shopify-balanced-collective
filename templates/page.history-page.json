@@ -405,11 +405,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "",
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dog-bowl.png?v=1655695518",
             "about_text_1": "My dog Harlow <br>",
-            "about_url_2": "",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/mountain-bike.png?v=1655695518",
             "about_text_2": "My new favourite mountain bike trail<br>",
-            "about_url_3": "",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/copenhagen.png?v=1655695690",
             "about_text_3": "Food - especially traditional Danish food"
           }
         },
