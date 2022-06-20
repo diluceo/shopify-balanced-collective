@@ -415,7 +415,7 @@
         "5362b885-6c00-494b-829e-b857a3ace1b9": {
           "type": "content",
           "settings": {
-            "content_title": "Approach",
+            "content_title": "Approach: Kathrine is available in both North Vancouver and Squamish for Physiotherapy.",
             "content_text_1": "My treatment approach is reflected by the fact that everyone’s body is unique. I believe that body awareness and movement control is essential for injury prevention and successful rehabilitation. I will perform a careful assessment and identify potential movement limitations. I use individualized and creative exercises to address specific problem areas. In addition, I use manual techniques to relieve pain and create muscle balance. I place importance on providing purposeful education on the body which will aid in creating a meaningful treatment plan. Lastly, I hope that my enthusiasm about the body will inspire my clients and support them in finding joy in the process of recovery."
           }
         },
@@ -439,12 +439,6 @@
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
         "image_position": "top"
-      }
-    },
-    "16556962197111b16e": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
       }
     },
     "1655695562f18fb297": {
@@ -503,6 +497,44 @@
         "image_position": "top"
       }
     },
+    "16556905026bbe843f": {
+      "type": "tbc-single-banner",
+      "blocks": {
+        "16556905027a68e32f-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "TBC's Extended Practitioner Network:",
+            "fancy": true
+          }
+        },
+        "885be3e5-999c-4fb3-b028-387bc560d87d": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "TBC is proud to collaborate with many other incredible providers in <b>Vancouver, North Vancouver, Squamish and Whistler <b><\/b> to provide physiotherapy and active rehab including: <li>\n\n<li> SHY Practice (Jess Pastro, Briana Kelly and Andrea Brennan)<\/li>\n<li> Rejuv Medical Fitness (Taylor Romanchuk) <li> Feel Good Everyday (Amanda Vickers, Oll Farrell, Mikala Condon, Nicole Lunde)\n<li> The Firm Athletica (Amanda Vickers, Paul Chung, Emilia D'Aversa)<\/li>\n<li> West Coast Strength and Movement (Phil Wittmer, Clayton Mackoruk, Connor Smith) <li> Wild Life Gym Squamish (Kathrine Stolborg) <li> Peak Training Whistler (Meaghan Sutter) <li> GV Lifestyle (Gabi Varga)<\/b>"
+          }
+        }
+      },
+      "block_order": [
+        "16556905027a68e32f-1",
+        "885be3e5-999c-4fb3-b028-387bc560d87d"
+      ],
+      "settings": {
+        "max_width": "1000px",
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "section_width": "page-full",
+        "bg_image": "shopify:\/\/shop_images\/product-bg.jpg",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "",
+        "title_color": "",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
+    },
     "1630482090fd6da96d": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -522,8 +554,8 @@
         "1630482090fd6da96d-2": {
           "type": "link",
           "settings": {
-            "button_label": "Book now",
-            "button_url": "https:\/\/thebalancedcollective.janeapp.com\/"
+            "button_label": "BOOK NOW",
+            "button_url": "https:\/\/www.thebalancedcollective.janeapp.com"
           }
         }
       },
@@ -592,52 +624,6 @@
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
-    },
-    "16556905026bbe843f": {
-      "type": "tbc-single-banner",
-      "disabled": true,
-      "blocks": {
-        "16556905027a68e32f-0": {
-          "type": "caption",
-          "settings": {
-            "caption_1": "Lorem ipsum"
-          }
-        },
-        "16556905027a68e32f-1": {
-          "type": "title",
-          "settings": {
-            "title_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
-            "fancy": false
-          }
-        },
-        "16556905027a68e32f-2": {
-          "type": "link",
-          "settings": {
-            "button_label": "Button Label",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "16556905027a68e32f-0",
-        "16556905027a68e32f-1",
-        "16556905027a68e32f-2"
-      ],
-      "settings": {
-        "max_width": "600px",
-        "top_padding": 0,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "section_width": "page-width",
-        "bg_opacity": 1,
-        "bg_color": "",
-        "show_vid": false,
-        "vid_link": "",
-        "caption_color": "",
-        "title_color": "",
-        "highlight_color": "",
-        "highlight_text_color": ""
-      }
     }
   },
   "order": [
@@ -655,11 +641,10 @@
     "163124774924197585",
     "1630684101b4cd5c8d",
     "1630352647787145aa",
-    "16556962197111b16e",
     "1655695562f18fb297",
+    "16556905026bbe843f",
     "1630482090fd6da96d",
     "16307976914653aa88",
-    "1630516101a293de53",
-    "16556905026bbe843f"
+    "1630516101a293de53"
   ]
 }
