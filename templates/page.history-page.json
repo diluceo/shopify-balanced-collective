@@ -381,7 +381,6 @@
     },
     "1630684101b4cd5c8d": {
       "type": "tbc-custom-divider",
-      "disabled": true,
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
       }
