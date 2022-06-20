@@ -388,44 +388,43 @@
     },
     "1630352647787145aa": {
       "type": "tbc-dual-banner",
-      "disabled": true,
       "blocks": {
         "2ea9b25d-8822-476b-a038-ed558039e337": {
           "type": "name",
           "settings": {
-            "title_color": "#ec86d0",
-            "name_title": "Holly Middleton",
-            "name_text_1": "She \/ Her (Taurus)",
-            "name_text_1_class": "taurus",
-            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
-            "name_text_3": "<b>Favourite Body Part:<\/b> The Talus",
-            "name_text_3_class": "bone"
+            "title_color": "#1dd8c4",
+            "name_title": "Kathrine Stolborg",
+            "name_text_1": "She \/ Her (Leo)",
+            "name_text_1_class": "leo",
+            "name_text_2": "<b>Role:<\/b> Interim Physiotherapist",
+            "name_text_3": "<b>Favourite Body Part:<\/b> The Transversus Abdominus",
+            "name_text_3_class": "muscle"
           }
         },
         "d798eabf-f9f0-49c0-9bc9-7102178f1988": {
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-1.svg?v=1630645934",
-            "about_text_1": "My elderly cat, <br>Pekoe",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-2.svg?v=1630645942",
-            "about_text_2": "The topic of my <br>PhD research",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/holly-icon-3.svg?v=1630645947",
-            "about_text_3": "A forest scent that evokes childhood memories"
+            "about_url_1": "",
+            "about_text_1": "My dog Harlow <br>",
+            "about_url_2": "",
+            "about_text_2": "My new favourite mountain bike trail<br>",
+            "about_url_3": "",
+            "about_text_3": "Food - especially traditional Danish food"
           }
         },
         "5362b885-6c00-494b-829e-b857a3ace1b9": {
           "type": "content",
           "settings": {
             "content_title": "Approach",
-            "content_text_1": "I help restore your body’s factory settings by helping you move better. I zoom in with my eagle eyes on what is and isn’t moving and work with you to find strategies to get your parts moving better. I’m super keen on foot function and hacking the role of gravity and momentum in getting your body to do what it’s designed to do. I also enjoy how getting your breathing just right can instantly alleviate pain and improve your posture."
+            "content_text_1": "My treatment approach is reflected by the fact that everyone’s body is unique. I believe that body awareness and movement control is essential for injury prevention and successful rehabilitation. I will perform a careful assessment and identify potential movement limitations. I use individualized and creative exercises to address specific problem areas. In addition, I use manual techniques to relieve pain and create muscle balance. I place importance on providing purposeful education on the body which will aid in creating a meaningful treatment plan. Lastly, I hope that my enthusiasm about the body will inspire my clients and support them in finding joy in the process of recovery."
           }
         },
         "c00259c6-d1d1-4191-aefc-62564cc4a5ef": {
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>CanFitPro certified Personal Training Specialist <\/li><li>Anatomy in Motion practitioner<\/li>\n<li>Anatomy in Motion practitioner<\/li>"
+            "list_text_1": "<li>Functional Range Conditioning (FRC)<\/li><li>Animal Flow - Level 1 Instructor<\/li>\n<li>National Academy of Sports Medicine (NASM) Certified Personal Trainer <\/li><li>Alive Academy Sport and Fitness Nutrition Certificate Program <\/li>"
           }
         }
       },
@@ -439,7 +438,7 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_76.png",
+        "image_1": "shopify:\/\/shop_images\/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
         "image_position": "top"
       }
     },
@@ -532,6 +531,52 @@
         "button_label": "Button Label",
         "heading_color": "#ffffff"
       }
+    },
+    "16556905026bbe843f": {
+      "type": "tbc-single-banner",
+      "disabled": true,
+      "blocks": {
+        "16556905027a68e32f-0": {
+          "type": "caption",
+          "settings": {
+            "caption_1": "Lorem ipsum"
+          }
+        },
+        "16556905027a68e32f-1": {
+          "type": "title",
+          "settings": {
+            "title_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit provident.",
+            "fancy": false
+          }
+        },
+        "16556905027a68e32f-2": {
+          "type": "link",
+          "settings": {
+            "button_label": "Button Label",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16556905027a68e32f-0",
+        "16556905027a68e32f-1",
+        "16556905027a68e32f-2"
+      ],
+      "settings": {
+        "max_width": "600px",
+        "top_padding": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "section_width": "page-width",
+        "bg_opacity": 1,
+        "bg_color": "",
+        "show_vid": false,
+        "vid_link": "",
+        "caption_color": "",
+        "title_color": "",
+        "highlight_color": "",
+        "highlight_text_color": ""
+      }
     }
   },
   "order": [
@@ -551,6 +596,7 @@
     "1630352647787145aa",
     "1630482090fd6da96d",
     "16307976914653aa88",
-    "1630516101a293de53"
+    "1630516101a293de53",
+    "16556905026bbe843f"
   ]
 }
