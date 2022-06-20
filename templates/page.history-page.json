@@ -441,6 +441,68 @@
         "image_position": "top"
       }
     },
+    "16556962197111b16e": {
+      "type": "tbc-custom-divider",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
+      }
+    },
+    "1655695562f18fb297": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "e8cdc91a-9afb-4571-9232-81c86989198b": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1dd8c4",
+            "name_title": "Christina Di Chiara",
+            "name_text_1": "She \/ Her (Cancer)",
+            "name_text_1_class": "cancer",
+            "name_text_2": "<b>Role at TBC: <\/b> Kinesiologist and Active Rehab Specialist",
+            "name_text_3": "<b>Favorite Body Part:<\/b> The Glutes",
+            "name_text_3_class": "muscle"
+          }
+        },
+        "c6cf93bb-de54-4c3b-aa86-6204ae919a21": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "",
+            "about_text_1": "Lorem ipsum Dolor",
+            "about_url_2": "",
+            "about_text_2": "Lorem ipsum Dolor",
+            "about_url_3": "",
+            "about_text_3": "Lorem ipsum Dolor"
+          }
+        },
+        "52ef4848-ac99-4549-b982-9ebc38e1770f": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "Christina studied Kinesiology and Applied Health at the University of Winnipeg and conducted research in the Exercise Science and Physical Health Education Faculty at the University of Victoria. She has been working in the fitness industry since 2007, is a certified group fitness, Zumba and Yoga instructor (300hr). She is a CSEP - Certified Personal Trainer and is NCCP trained in sports programming. She considers herself to be a technical trainer who focuses on quality and functional movement. She enjoys working with various age groups from children to seniors and has experience working with dancers and CIS athletes including soccer, hockey, basketball, and volleyball players, as well as national competitive figure skaters."
+          }
+        },
+        "a94230f9-14a2-4607-bb7f-2e6d813bee66": {
+          "type": "list",
+          "settings": {
+            "list_title": "Lorem ipsum",
+            "list_text_1": "<li>CSEP - Certified Personal Trainer<\/li><li>Functional Movement Screen level 2<\/li><li>NeuroKinetic Therapy<\/li><li>Dynamic Neuromuscular Stabilization<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "e8cdc91a-9afb-4571-9232-81c86989198b",
+        "c6cf93bb-de54-4c3b-aa86-6204ae919a21",
+        "52ef4848-ac99-4549-b982-9ebc38e1770f",
+        "a94230f9-14a2-4607-bb7f-2e6d813bee66"
+      ],
+      "settings": {
+        "direction": true,
+        "content_type": "image",
+        "html_content": "",
+        "image_1": "shopify:\/\/shop_images\/2.png",
+        "image_position": "top"
+      }
+    },
     "1630482090fd6da96d": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -593,6 +655,8 @@
     "163124774924197585",
     "1630684101b4cd5c8d",
     "1630352647787145aa",
+    "16556962197111b16e",
+    "1655695562f18fb297",
     "1630482090fd6da96d",
     "16307976914653aa88",
     "1630516101a293de53",
