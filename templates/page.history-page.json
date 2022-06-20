@@ -460,12 +460,12 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "",
-            "about_text_1": "",
-            "about_url_2": "",
-            "about_text_2": "",
-            "about_url_3": "",
-            "about_text_3": ""
+            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dancer.png?v=1655699380",
+            "about_text_1": "My favourite <br> dance moves",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/yoga.png?v=1655699380",
+            "about_text_2": "My yoga <br> teacher training",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_text_3": "Anything chocolate - especially dark"
           }
         },
         "52ef4848-ac99-4549-b982-9ebc38e1770f": {
