@@ -372,7 +372,7 @@
         "3eff8185-400a-41e4-a79d-34daa4a5d211"
       ],
       "settings": {
-        "direction": false,
+        "direction": true,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Shirin-davarpanah-jazi-physio-karate_2d462e73-91c5-40a7-aa09-5bf7f3fe5606.png",
@@ -435,7 +435,7 @@
         "c00259c6-d1d1-4191-aefc-62564cc4a5ef"
       ],
       "settings": {
-        "direction": true,
+        "direction": false,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
