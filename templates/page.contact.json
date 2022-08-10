@@ -80,15 +80,31 @@
         "32766183-481b-456f-a77f-b5c6e06cecaa": {
           "type": "address_item",
           "settings": {
-            "item_text": "<b>Hours<\/b><br>Monday to Friday: 9am to 5pm<br>Saturday: 9am to 1pm",
+            "item_text": "<b>Hours<\/b><br>By appointment only",
             "item_icon": "fas fa-clock"
+          }
+        },
+        "ced77b5e-87f1-490a-8731-b1fd412fd719": {
+          "type": "address_item",
+          "settings": {
+            "item_text": "+1-236-471-6747",
+            "item_icon": "fas fa-phone-alt"
+          }
+        },
+        "1ba408b0-c59d-45ce-9a68-8683199c0c9e": {
+          "type": "address_item",
+          "settings": {
+            "item_text": "Please note that our admin team is practitioner run and as such, we are often unable to answer the phone when we are with clients. Email is typically our best method of communication.",
+            "item_icon": "fas fa-phone-alt"
           }
         }
       },
       "block_order": [
         "ff09e1cb-6f0a-46f4-b915-2977498172f1",
         "561a7b67-1584-4d7a-8d45-f56cad388703",
-        "32766183-481b-456f-a77f-b5c6e06cecaa"
+        "32766183-481b-456f-a77f-b5c6e06cecaa",
+        "ced77b5e-87f1-490a-8731-b1fd412fd719",
+        "1ba408b0-c59d-45ce-9a68-8683199c0c9e"
       ],
       "settings": {
         "map_embed": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2601.0619322932503!2d-123.08565694823243!3d49.3131107792333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486712096c677ed%3A0x9e191ba3f2a7ac29!2sThe%20Balanced%20Collective!5e0!3m2!1sen!2sca!4v1631052096173!5m2!1sen!2sca\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
