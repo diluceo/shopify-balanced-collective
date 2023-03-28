@@ -395,8 +395,8 @@
             "name_title": "Kathrine Stolborg",
             "name_text_1": "She \/ Her (Leo)",
             "name_text_1_class": "leo",
-            "name_text_2": "<b>Role:<\/b> Interim Physiotherapist",
-            "name_text_3": "<b>Favourite Body Part:<\/b> The Transversus Abdominus",
+            "name_text_2": "Role: Physiotherapist",
+            "name_text_3": "Favourite Body Part: The Transversus Abdominus",
             "name_text_3_class": "muscle"
           }
         },
@@ -405,9 +405,9 @@
           "settings": {
             "about_title": "Ask me about",
             "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dog-bowl.png?v=1655695518",
-            "about_text_1": "My dog Harlow <br>",
+            "about_text_1": "My dog Harlow",
             "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/mountain-bike.png?v=1655695518",
-            "about_text_2": "My new favourite mountain bike trail<br>",
+            "about_text_2": "My new favourite mountain bike trail",
             "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/copenhagen_1.png?v=1655697137",
             "about_text_3": "Food - especially traditional Danish food"
           }
