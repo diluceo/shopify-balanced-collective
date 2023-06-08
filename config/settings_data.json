@@ -22,6 +22,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "0a0b7830-392e-4442-8f8c-e8670bb21611": {
+            "type": "announcement",
+            "settings": {
+              "text": "Join Stream TBC for FREE! TBC's expert led on-demand movement class platform.",
+              "color_scheme": "accent-2",
+              "link": "https:\/\/thebalancedcollective.thinkific.com\/courses\/stream-tbc"
+            }
+          }
+        },
+        "block_order": [
+          "0a0b7830-392e-4442-8f8c-e8670bb21611"
+        ],
         "settings": {
         }
       },
