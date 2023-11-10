@@ -522,11 +522,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "{{ page.url }}",
+            "about_url_1": "",
             "about_text_1": "The places I have lived",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/yoga.png?v=1655699380",
+            "about_url_2": "",
             "about_text_2": "What sport I am playing at the moment",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_url_3": "",
             "about_text_3": "My time as a competitive gamer"
           }
         },
@@ -555,7 +555,7 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/2.png",
+        "image_1": "shopify:\/\/shop_images\/SmartSelect_20220330-135931_Chrome.jpg",
         "image_position": "top"
       }
     },
