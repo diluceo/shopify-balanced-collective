@@ -503,6 +503,62 @@
         "image_position": "top"
       }
     },
+    "f9ebf9bd-9573-4058-b18f-649a204ded83": {
+      "type": "tbc-dual-banner",
+      "blocks": {
+        "92e0afb2-c3a9-4dc0-baa2-c149b4d491f3": {
+          "type": "name",
+          "settings": {
+            "title_color": "#1dd8c4",
+            "name_title": "Tony Cruz",
+            "name_text_1": "He \/ Him (Aries)",
+            "name_text_1_class": "Aries",
+            "name_text_2": "Role at TBC:  Physiotherapist",
+            "name_text_3": "Favorite Body Part: Foot & Ankle",
+            "name_text_3_class": "muscle"
+          }
+        },
+        "19a11732-c4df-4ac7-8d3e-fc7200b28808": {
+          "type": "about",
+          "settings": {
+            "about_title": "Ask me about",
+            "about_url_1": "{{ page.url }}",
+            "about_text_1": "The places I have lived",
+            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/yoga.png?v=1655699380",
+            "about_text_2": "What sport I am playing at the moment",
+            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_text_3": "My time as a competitive gamer"
+          }
+        },
+        "2bc2c818-01eb-46e4-9907-51271e9efb09": {
+          "type": "content",
+          "settings": {
+            "content_title": "Approach",
+            "content_text_1": "I use an education and client-centered exercise approach to Physiotherapy sessions. My trauma-informed approach aims to help my clients with providing an understanding and reassurance for what may be going on with their bodies. My hope is to promote safety and improvements in independence while bringing a smile to your face. In our sessions, you can expect to be feel seen and heard. I will conduct an individualized assessment and develop a plan that fits what you need to get better. Best of all, I hope to promote a sense of ownership to your rehabilitation plan so that you feel that you can work towards the healing and improvement of yourself. My experience includes joint replacements, sports injuries, overhead athletes, elder care, Parkinson’s and falls prevention, among others. I am fluent in English and Spanish."
+          }
+        },
+        "630f1512-a6eb-413f-85e7-74994bd49a5f": {
+          "type": "list",
+          "settings": {
+            "list_title": "Courses and Certifications",
+            "list_text_1": "<li>Orthopaedic Manual Therapy Level 1<\/li><li>Anatomical Neuropathic Intramuscular Stimulation (AN-IMS)<\/li><li>CBI Health Concussion Management Course<\/li><li>Bachelor's of Science in Kinesiology<\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "92e0afb2-c3a9-4dc0-baa2-c149b4d491f3",
+        "19a11732-c4df-4ac7-8d3e-fc7200b28808",
+        "2bc2c818-01eb-46e4-9907-51271e9efb09",
+        "630f1512-a6eb-413f-85e7-74994bd49a5f"
+      ],
+      "settings": {
+        "direction": true,
+        "content_type": "image",
+        "html_content": "",
+        "image_1": "shopify:\/\/shop_images\/2.png",
+        "image_position": "top"
+      }
+    },
     "16556905026bbe843f": {
       "type": "tbc-single-banner",
       "blocks": {
@@ -657,6 +713,7 @@
     "1630352647787145aa",
     "d7020af6-e09e-48ed-83e6-6fc6ba6e6517",
     "1655695562f18fb297",
+    "f9ebf9bd-9573-4058-b18f-649a204ded83",
     "16556905026bbe843f",
     "1630482090fd6da96d",
     "16307976914653aa88",
