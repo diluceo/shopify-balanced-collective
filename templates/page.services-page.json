@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -224,7 +233,7 @@
         "1e3efa7f-399a-475d-938d-41eb6a69db32": {
           "type": "content",
           "settings": {
-            "content_title": "<p>Physiotherapy: $95 - $175<\/p>",
+            "content_title": "<p>Physiotherapy: $95 - $15<\/p>",
             "content_text_1": ""
           }
         },

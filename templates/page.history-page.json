@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -193,12 +202,6 @@
         "image_position": "top"
       }
     },
-    "1630481693613d42ec": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
-      }
-    },
     "16306837944244da03": {
       "type": "tbc-dual-banner",
       "blocks": {
@@ -247,6 +250,7 @@
         "1e5c0d3a-1edb-44a6-90b6-0797ece881fc",
         "b66bd2f2-7f8a-4a9c-9939-9efa8e4acb7d"
       ],
+      "disabled": true,
       "settings": {
         "direction": true,
         "content_type": "image",
@@ -309,18 +313,13 @@
         "7d251ff7-0cff-4c74-8cab-fbb8e327c1f7",
         "7846a29e-67aa-4a09-9e5c-82904d0f2d0f"
       ],
+      "disabled": true,
       "settings": {
         "direction": false,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Mask_Group_75.png",
         "image_position": "top"
-      }
-    },
-    "1631247698839af32a": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-2.jpg"
       }
     },
     "163124774924197585": {
@@ -371,18 +370,13 @@
         "0364ab5e-92f9-42a2-9d77-7bb01d8ee8a0",
         "3eff8185-400a-41e4-a79d-34daa4a5d211"
       ],
+      "disabled": true,
       "settings": {
         "direction": true,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/Shirin-davarpanah-jazi-physio-karate_2d462e73-91c5-40a7-aa09-5bf7f3fe5606.png",
         "image_position": "top"
-      }
-    },
-    "1630684101b4cd5c8d": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
       }
     },
     "1630352647787145aa": {
@@ -433,18 +427,13 @@
         "5362b885-6c00-494b-829e-b857a3ace1b9",
         "c00259c6-d1d1-4191-aefc-62564cc4a5ef"
       ],
+      "disabled": true,
       "settings": {
         "direction": false,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
         "image_position": "top"
-      }
-    },
-    "d7020af6-e09e-48ed-83e6-6fc6ba6e6517": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-2.jpg"
       }
     },
     "1655695562f18fb297": {
@@ -495,18 +484,13 @@
         "52ef4848-ac99-4549-b982-9ebc38e1770f",
         "a94230f9-14a2-4607-bb7f-2e6d813bee66"
       ],
+      "disabled": true,
       "settings": {
         "direction": true,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/2.png",
         "image_position": "top"
-      }
-    },
-    "1130bf00-01fa-44b7-83b7-1b5df6e3f77d": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/space-1.jpg"
       }
     },
     "938b676c-4d59-441a-8f95-459a43f879e1": {
@@ -557,18 +541,13 @@
         "21d3a1e6-9f1d-410f-bcff-37aaa876c7e8",
         "501ba298-1158-4809-b25d-d959612a7506"
       ],
+      "disabled": true,
       "settings": {
         "direction": false,
         "content_type": "image",
         "html_content": "",
         "image_1": "shopify:\/\/shop_images\/SmartSelect_20220330-135931_Chrome.jpg",
         "image_position": "top"
-      }
-    },
-    "0eba0ad0-d7e7-4501-a5ec-3f4f2c06a7cd": {
-      "type": "tbc-custom-divider",
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
       }
     },
     "16556905026bbe843f": {
@@ -584,7 +563,7 @@
         "885be3e5-999c-4fb3-b028-387bc560d87d": {
           "type": "caption",
           "settings": {
-            "caption_1": "TBC is proud to collaborate with many other incredible providers in <b>Vancouver, North Vancouver, Squamish, Whistler and Victoria<b><\/b> to provide physiotherapy and active rehab including: <li>\n\n<\/li>\n<li> Kinected Strength at SHY Practice - North Vancouver (Jess Pastro, Briana Kelly, Andrea Brennan and David Ewart)<\/li>\n<li> Rejuv Medical Fitness - North Vancouver (Taylor Romanchuk) <\/li>\n<li> Feel Good Everyday - Vancouver (Amanda Vickers, Oll Farrell, Warren Chow, Hatem Alnojeidi, Meghan Baker)\n<\/li>\n<li> The Firm Athletica - Vancouver (Amanda Vickers, Paul Chung, Emilia D'Aversa, Jeremy Vaughan, Stefan Stewart, Marley Smith)<\/li>\n<li> West Coast Strength and Movement - Vancouver (Phil Wittmer, Nick Middleton, Tanya Glekova, Clayton Mackoruk, Connor Smith, Jay Lehmann, Stephen Boyle) <\/li>\n<li> Wild Life Gym - Squamish (Kathrine Stolborg, Lianne Burrell, Addy Abdurahman, Jess Turner) <\/li>\n<li> Restore Mvmnt - Vancouver (Arissa Martin, Amanda Vickers)\n<\/li>\n<li> Peak Training - Whistler (Meaghan Sutter, Allie Schneider, Makenzi McLeod) <\/li>\n<li> Third Space Movement - Victoria (Jeremy Vaughan, Katrina Barrett) <\/li>\n<li> SHIFT Rehab Services - Kelowna, Lake Country and Vernon (Alicia Keim)\n<\/li>\n<li> Elevate Personal Training - North Vancouver (Shawn Jahanbani)\n<\/li>\n<li> Exhale Centre Kamloops (Natalie Saari, Nicole Hildebrand, Sue Grono)\n<\/li>\n<li> Kenny Muir Kinesiology - Vancouver and Abbotsford\n<\/li>\n<li> The Program Fitness Vancouver (Jordy Shumay, Steph Calvert, Jordan Javier, DImitrije Vukovic, Matt Caparas, Warren Chow, Nadia Joybari, Octavia Lau, Shanil Sharma, Khoa Truong)\n<\/li>\n<\/b>"
+            "caption_1": "TBC is proud to collaborate with many other incredible providers in British Columbia to provide physiotherapy and active rehab including: <li>\n\n<\/li>\n<li> Kinected Strength at SHY Practice - North Vancouver (Jess Pastro, Briana Kelly, Andrea Brennan and David Ewart)<\/li>\n<li> Rejuv Medical Fitness - North Vancouver (Taylor Romanchuk) <\/li>\n<li> Restore Mvmnt - Vancouver (Arissa Martin)\n<\/li>\n<li> Exhale Centre Kamloops (Natalie Saari, Nicole Hildebrand, Sue Grono)\n<\/li>\n"
           }
         },
         "5d23f9cb-2ebc-4eeb-b968-5f9bf546cefc": {
@@ -715,19 +694,13 @@
     "1630309950b6af270e",
     "1630350002472a30f1",
     "16303517224142031f",
-    "1630481693613d42ec",
     "16306837944244da03",
     "1630481710de7d62b2",
     "163064602929229c1b",
-    "1631247698839af32a",
     "163124774924197585",
-    "1630684101b4cd5c8d",
     "1630352647787145aa",
-    "d7020af6-e09e-48ed-83e6-6fc6ba6e6517",
     "1655695562f18fb297",
-    "1130bf00-01fa-44b7-83b7-1b5df6e3f77d",
     "938b676c-4d59-441a-8f95-459a43f879e1",
-    "0eba0ad0-d7e7-4501-a5ec-3f4f2c06a7cd",
     "16556905026bbe843f",
     "1630482090fd6da96d",
     "16307976914653aa88",
