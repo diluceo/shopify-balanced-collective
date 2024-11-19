@@ -74,9 +74,8 @@
       "blocks": {
         "address_item_YzFM6V": {
           "type": "address_item",
-          "disabled": true,
           "settings": {
-            "item_text": "XXX-XXX-XXXX",
+            "item_text": "hello@thebalancedcollective.com",
             "item_icon": "fas fa-phone-alt"
           }
         },
