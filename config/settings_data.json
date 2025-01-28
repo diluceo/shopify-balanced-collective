@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -18,14 +18,14 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
-    "social_twitter_link": "https:\/\/twitter.com\/balcollective",
-    "social_facebook_link": "https:\/\/www.facebook.com\/thebalancedcollective",
-    "social_instagram_link": "https:\/\/www.instagram.com\/thebalancedcollective\/",
-    "favicon": "shopify:\/\/shop_images\/thebalancedcollective.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-tbc.png",
+    "social_twitter_link": "https://twitter.com/balcollective",
+    "social_facebook_link": "https://www.facebook.com/thebalancedcollective",
+    "social_instagram_link": "https://www.instagram.com/thebalancedcollective/",
+    "favicon": "shopify://shop_images/thebalancedcollective.png",
+    "checkout_logo_image": "shopify://shop_images/logo-tbc.png",
     "checkout_body_background_color": "#f4f3f2",
     "checkout_input_background_color_mode": "transparent",
-    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/bg-heather.jpg",
+    "checkout_sidebar_background_image": "shopify://shop_images/bg-heather.jpg",
     "checkout_accent_color": "#1c7ee3",
     "checkout_button_color": "#ff6976",
     "sections": {
@@ -35,22 +35,21 @@
           "0a0b7830-392e-4442-8f8c-e8670bb21611": {
             "type": "announcement",
             "settings": {
-              "text": "Free shipping on all orders over $100 CAD within Canada",
+              "text": "Head's up! We are on holidays for the month of February 2025 - all orders purchased this month will be shipped after March 3rd/25. Thank you!",
               "color_scheme": "accent-2",
-              "link": "https:\/\/thebalancedcollective.com\/collections\/all"
+              "link": "https://thebalancedcollective.com/collections/all"
             }
           }
         },
         "block_order": [
           "0a0b7830-392e-4442-8f8c-e8670bb21611"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/logo.svg?v=1630284135",
+          "logo_svg": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/logo.svg?v=1630284135",
           "logo_width": 170,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -60,8 +59,7 @@
       },
       "tbc-banner": {
         "type": "tbc-banner",
-        "settings": {
-        }
+        "settings": {}
       },
       "footer": {
         "type": "footer",
@@ -77,7 +75,7 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -102,13 +100,13 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p>With gratitude, The Balanced Collective, acknowledges that our work is facilitated on the traditional territories of the Coast Salish peoples – xʷməθkʷəy̓əm (Musqueam), sḵwx̱wú7mesh (Squamish), and sel̓íl̓witulh (Tsleil-Waututh) ancestors and families.<\/p>"
+              "subtext": "<p>With gratitude, The Balanced Collective, acknowledges that our work is facilitated on the traditional territories of the Coast Salish peoples – xʷməθkʷəy̓əm (Musqueam), sḵwx̱wú7mesh (Squamish), and sel̓íl̓witulh (Tsleil-Waututh) ancestors and families.</p>"
             }
           },
           "4eaf4396-4ca2-4f1a-9318-c140daff4aba": {
             "type": "image",
             "settings": {
-              "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/logo.svg?v=1630284135",
+              "logo_svg": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/logo.svg?v=1630284135",
               "image_width": 165,
               "alignment": "center"
             }
@@ -137,15 +135,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "13070091535480640111": {
-        "type": "shopify:\/\/apps\/attrac\/blocks\/app-embed\/b783956d-47a9-4434-91ad-4ec960bd74b0",
+        "type": "shopify://apps/attrac/blocks/app-embed/b783956d-47a9-4434-91ad-4ec960bd74b0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -174,8 +169,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -195,13 +189,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
