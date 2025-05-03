@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,11 +20,11 @@
       "settings": {
         "banner_version": "type_one",
         "content_alignment": "center",
-        "image_1": "shopify:\/\/shop_images\/faq-header_bd73d3be-2de0-4c72-9fb2-e4e552062fcb.png",
-        "image_2": "shopify:\/\/shop_images\/faq-bg-header.jpg",
+        "image_1": "shopify://shop_images/faq-header_bd73d3be-2de0-4c72-9fb2-e4e552062fcb.png",
+        "image_2": "shopify://shop_images/faq-bg-header.jpg",
         "caption": "HERE ARE THE FAQ'S",
         "add_before": true,
-        "heading": "Tibia-honest, <br><span>We're \n not pulling your your leg.<\/span>",
+        "heading": "Tibia-honest, <br><span>We're \n not pulling your your leg.</span>",
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
@@ -72,7 +81,7 @@
           "type": "faq",
           "settings": {
             "faq_title": "What is your Waitlist policy?",
-            "faq_content": "If you are a returning client and unable to find an appointment time that suits your needs, adding yourself to the waitlist is a great option as there are often cancellations. We honour the waiting list in our Jane booking software first and book clients in the order of the waiting list in Jane. If you are a new client and cannot find a time in Jane to book your first appointment, please contact the TBC team at <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to have your name placed on our in-house waitlist with your desired practitioner."
+            "faq_content": "If you are a returning client and unable to find an appointment time that suits your needs, adding yourself to the waitlist is a great option as there are often cancellations. We honour the waiting list in our Jane booking software first and book clients in the order of the waiting list in Jane. If you are a new client and cannot find a time in Jane to book your first appointment, please contact the TBC team at <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com</a> to have your name placed on our in-house waitlist with your desired practitioner."
           }
         },
         "5048b5a4-61fa-4a90-b78a-ddfcaeb5e055": {
@@ -100,7 +109,7 @@
           "type": "faq",
           "settings": {
             "faq_title": "Do you direct bill to extended health insurance companies?",
-            "faq_content": "TBC offers direct billing to most extended health insurance companies for eligible services. We also offer direct billing to ICBC with a valid case number. We do not provide direct billing to WorkSafe BC."
+            "faq_content": "TBC does not direct bill any third party providers. We encourage all of our clients to be well aware of their own policies as coverage is different plan to plan. We do not see ICBC or Worksafe related claims."
           }
         },
         "73dc3eac-6575-4867-8de5-724c2adeaaf5": {
@@ -148,14 +157,14 @@
           "type": "faq",
           "settings": {
             "faq_title": "What are your Return + Damaged goods policy?",
-            "faq_content": "If you aren’t in love with your TBC product, we offer a 30 day return as long as the product is unused, in its original packaging with tags on. Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to get started on the return process. We would also love your feedback!"
+            "faq_content": "If you aren’t in love with your TBC product, we offer a 30 day return as long as the product is unused, in its original packaging with tags on. Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com</a> to get started on the return process. We would also love your feedback!"
           }
         },
         "16372790128f3a27d6-3": {
           "type": "faq",
           "settings": {
             "faq_title": "How do I take care of my products?",
-            "faq_content": "<i>Cork Products are antimicrobial and easy to care for.<\/i><br><br>\n\n<b>Cervical neck Traction device:<\/b><br>\nWipe down with wet cloth as needed and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Foam Roller and Massage balls:<\/b><br>\nWipe down after use with a mild cleanser and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Yoga Mat:<\/b><br>\nWash by hand. Wipe down after each use with a mild cleanser and allow to air dry. Do not tumble dry, iron, press or use bleach."
+            "faq_content": "<i>Cork Products are antimicrobial and easy to care for.</i><br><br>\n\n<b>Cervical neck Traction device:</b><br>\nWipe down with wet cloth as needed and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Foam Roller and Massage balls:</b><br>\nWipe down after use with a mild cleanser and allow to air dry. Do not soak in water.<br><br>\n<b>Cork Yoga Mat:</b><br>\nWash by hand. Wipe down after each use with a mild cleanser and allow to air dry. Do not tumble dry, iron, press or use bleach."
           }
         },
         "84e24e41-7dcf-40b9-be00-c3cea9eb1e0b": {
@@ -176,7 +185,7 @@
           "type": "faq",
           "settings": {
             "faq_title": "Do you offer wholesale purchasing?",
-            "faq_content": "Yes, we do! Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com<\/a> to learn about wholesale purchasing options."
+            "faq_content": "Yes, we do! Please email <a target=\"_blank\" href=\"mailto:hello@thebalancedcollective.com\">hello@thebalancedcollective.com</a> to learn about wholesale purchasing options."
           }
         },
         "eaa3067f-1a0e-4b02-b717-674d48d15416": {
@@ -206,9 +215,9 @@
     "163056294909b03e5b": {
       "type": "tbc-custom-newsletter",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_image": "shopify://shop_images/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips,\nevents and new products!",
-        "caption": "<span>Join Our Newsletter.<\/span>",
+        "caption": "<span>Join Our Newsletter.</span>",
         "highlight_color": "#d0df00",
         "highlight_text_color": "#000000",
         "button_label": "Button Label",
