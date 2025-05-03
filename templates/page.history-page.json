@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,11 +20,11 @@
       "settings": {
         "banner_version": "type_one",
         "content_alignment": "center",
-        "image_1": "shopify:\/\/shop_images\/header.png",
-        "image_2": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
+        "image_1": "shopify://shop_images/header.png",
+        "image_2": "shopify://shop_images/header-bg-our-history.jpg",
         "caption": "ENJOY THE PROCESS",
         "add_before": true,
-        "heading": "We are <br><span>The Balanced Collective<\/span>",
+        "heading": "We are <br><span>The Balanced Collective</span>",
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
@@ -40,7 +40,7 @@
         "163030625826391d0c-0": {
           "type": "caption",
           "settings": {
-            "caption_1": "<span>Oh baby! We want you to feel good, heard and seen. We combine trauma informed practices with cutting edge techniques.<\/span>"
+            "caption_1": "<span>Oh baby! We want you to feel good, heard and seen. We combine trauma informed practices with cutting edge techniques.</span>"
           }
         }
       },
@@ -53,7 +53,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_image": "shopify://shop_images/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
         "bg_color": "#ff4646",
         "show_vid": false,
@@ -90,7 +90,7 @@
           "type": "button",
           "settings": {
             "content_label": "DISCOVER MORE",
-            "content_url": "shopify:\/\/pages\/our-services",
+            "content_url": "shopify://pages/our-services",
             "button_icon": ""
           }
         }
@@ -104,7 +104,7 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/who-we-are_290be253-d7b9-422e-8cce-04bdcaf4132c.png",
+        "image_1": "shopify://shop_images/who-we-are_290be253-d7b9-422e-8cce-04bdcaf4132c.png",
         "image_position": "center"
       }
     },
@@ -135,7 +135,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/bg-team-section.jpg",
+        "bg_image": "shopify://shop_images/bg-team-section.jpg",
         "bg_opacity": 1,
         "bg_color": "",
         "show_vid": false,
@@ -154,9 +154,9 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Danielle Boyd",
-            "name_text_1": "She\/Her  **Not currently accepting new clients **",
-            "name_text_1_class": "capricon",
-            "name_text_2": "Role: Physiotherapist and Founder of TBC",
+            "name_text_1": "",
+            "name_text_1_class": "capricorn",
+            "name_text_2": "Role: Lead Physiotherapist and Founder of TBC",
             "name_text_3": "Favourite Body Part: The Sphenoid",
             "name_text_3_class": "bone"
           }
@@ -165,11 +165,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/danielle-icon-1.svg?v=1630645719",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/danielle-icon-1.svg?v=1630645719",
             "about_text_1": "My days as a competitive wakeboarder",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/danielle-icon-2.svg?v=1630645730",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/danielle-icon-2.svg?v=1630645730",
             "about_text_2": "Favourite Wine",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/danielle-icon-3.svg?v=1630645739",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/danielle-icon-3.svg?v=1630645739",
             "about_text_3": "Anything travel related"
           }
         },
@@ -184,7 +184,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Proprioceptive - Deep Tendon Reflex (P-DTR) Advanced <\/li>\n<li>NeuroKinetic Therapy (NKT) Level 3; IMTAP Certified <\/li>\n<li>Ortho Canada Level 1 Manual Therapy <\/li>\n<li>Acupuncture Canada Certified <\/li>\n<li>200 Hour Meditation Teacher Training (The Lab of Meditation)<\/li>\n<li>Selective Functional Movement <\/li>\n<li>Assessment (SFMA) Level 1 <\/li>\n<li>Soft Tissue Release <\/li>\n<li>Mind Body Spirit Coaching 1 Year \nCertification Course<\/li>"
+            "list_text_1": "<li>Proprioceptive - Deep Tendon Reflex (P-DTR) Advanced </li>\n<li>NeuroKinetic Therapy (NKT) Level 3; IMTAP Certified </li>\n<li>Ortho Canada Level 1 Manual Therapy </li>\n<li>Acupuncture Canada Certified </li>\n<li>200 Hour Meditation Teacher Training (The Lab of Meditation)</li>\n<li>Selective Functional Movement Assessment (SFMA) Level 1 </li>\n<li>Soft Tissue Release </li>\n<li>Project Management Professional - PMP</li>"
           }
         }
       },
@@ -198,7 +198,7 @@
         "direction": false,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_77.png",
+        "image_1": "shopify://shop_images/Mask_Group_77.png",
         "image_position": "top"
       }
     },
@@ -210,10 +210,10 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Bettina Glauser",
-            "name_text_1": "She \/ Her (Libra)",
+            "name_text_1": "She / Her (Libra)",
             "name_text_1_class": "libra",
-            "name_text_2": "<b>Role:<\/b> Active Rehab Specialist",
-            "name_text_3": "<b>Favourite Body Part:<\/b> The Spine",
+            "name_text_2": "<b>Role:</b> Active Rehab Specialist",
+            "name_text_3": "<b>Favourite Body Part:</b> The Spine",
             "name_text_3_class": "bone"
           }
         },
@@ -221,11 +221,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon1.svg?v=1630683951",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/betina-icon1.svg?v=1630683951",
             "about_text_1": "What I miss most  about Switzerland",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon2.svg?v=1630683939",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/betina-icon2.svg?v=1630683939",
             "about_text_2": "My cat",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/betina-icon3.svg?v=1630683929",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/betina-icon3.svg?v=1630683929",
             "about_text_3": "My  travel destinations Bucket list"
           }
         },
@@ -240,7 +240,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Masters of Health and Exercise Science, University of Basel (Switzerland)<\/li>\n<li>Bachelors of Science in Sport Science, University of Bern (Switzerland)<\/li>\n<li>TRX Suspension Training Level 1<\/li>\n<li>FRC Mobility Specialist (FRCms)<\/li>\n<li>First Aid and CPR<\/li>"
+            "list_text_1": "<li>Masters of Health and Exercise Science, University of Basel (Switzerland)</li>\n<li>Bachelors of Science in Sport Science, University of Bern (Switzerland)</li>\n<li>TRX Suspension Training Level 1</li>\n<li>FRC Mobility Specialist (FRCms)</li>\n<li>First Aid and CPR</li>"
           }
         }
       },
@@ -255,14 +255,14 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_74.png",
+        "image_1": "shopify://shop_images/Mask_Group_74.png",
         "image_position": "top"
       }
     },
     "1630481710de7d62b2": {
       "type": "tbc-custom-divider",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/Scroll_Group_1.jpg"
+        "bg_image": "shopify://shop_images/Scroll_Group_1.jpg"
       }
     },
     "163064602929229c1b": {
@@ -273,7 +273,7 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Jeremy Vaughan",
-            "name_text_1": "He\/Him (Scorpio)",
+            "name_text_1": "He/Him (Scorpio)",
             "name_text_1_class": "scorpio",
             "name_text_2": "Role: Active Rehab Specialist and Registered Professional Counsellor",
             "name_text_3": "Favourite Body Part: The Serratus Anterior",
@@ -284,11 +284,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon1.svg?v=1630646173",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/jeremy-icon1.svg?v=1630646173",
             "about_text_1": "My cold water obsession",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/jeremy-icon-2.svg?v=1630646180",
             "about_text_2": "My favourite  Dark chocolate",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon3.svg?v=1630646187",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/jeremy-icon3.svg?v=1630646187",
             "about_text_3": "Favourite spot to Unplug from the world."
           }
         },
@@ -296,14 +296,14 @@
           "type": "content",
           "settings": {
             "content_title": "Approach",
-            "content_text_1": "In my counselling practice, I commit to meeting you where you are at with radical compassion, curiosity, acceptance and honesty. I work alongside you to create a therapy environment that works for you – including the pace of therapy and what kinds of modalities\/practices work for you. I will walk beside you offering gentle encouragement and a steady belief in your ability to learn to tap into the part of you that is always solid, full of wisdom and able to create the life you want for yourself.\n\nIn my active rehab practice, I blend multiple modalities of strength training, breathing, and functional joint\/mobility training to put the best possible program design forward for you to work through with me. It’s dynamic and flexible, knowing that as the weeks go on, there will be changes and adaptations made so that everything will be as effective as when you started."
+            "content_text_1": "In my counselling practice, I commit to meeting you where you are at with radical compassion, curiosity, acceptance and honesty. I work alongside you to create a therapy environment that works for you – including the pace of therapy and what kinds of modalities/practices work for you. I will walk beside you offering gentle encouragement and a steady belief in your ability to learn to tap into the part of you that is always solid, full of wisdom and able to create the life you want for yourself.\n\nIn my active rehab practice, I blend multiple modalities of strength training, breathing, and functional joint/mobility training to put the best possible program design forward for you to work through with me. It’s dynamic and flexible, knowing that as the weeks go on, there will be changes and adaptations made so that everything will be as effective as when you started."
           }
         },
         "7846a29e-67aa-4a09-9e5c-82904d0f2d0f": {
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>CSEP Personal Training<\/li>\n<li>CAPU Human Kinetics Exercise <\/li><li>Science Christian Thibeau: Science and Application of Strength Training<\/li>\n<li>Functional Range Conditioning  Mobility Specialist<\/li>\n<li>DNS (Dynamic Neuromuscular Stabilization) Level 1 & 2<\/li>\n<li>FMS Level 1<\/li>\n<li>Brain. Breathe. Barefoot. Workshop w\/ Dr. Emily Splichal<\/li>\n<li> CPCA Registered Professional Counsellor (c) <\/li>"
+            "list_text_1": "<li>CSEP Personal Training</li>\n<li>CAPU Human Kinetics Exercise </li><li>Science Christian Thibeau: Science and Application of Strength Training</li>\n<li>Functional Range Conditioning  Mobility Specialist</li>\n<li>DNS (Dynamic Neuromuscular Stabilization) Level 1 & 2</li>\n<li>FMS Level 1</li>\n<li>Brain. Breathe. Barefoot. Workshop w/ Dr. Emily Splichal</li>\n<li> CPCA Registered Professional Counsellor (c) </li>"
           }
         }
       },
@@ -318,7 +318,7 @@
         "direction": false,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Mask_Group_75.png",
+        "image_1": "shopify://shop_images/Mask_Group_75.png",
         "image_position": "top"
       }
     },
@@ -330,7 +330,7 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Shirin Davarpanah Jazi",
-            "name_text_1": "She\/Her (Pisces)",
+            "name_text_1": "She/Her (Pisces)",
             "name_text_1_class": "pisces",
             "name_text_2": "Role at TBC: Physiotherapist",
             "name_text_3": "Favorite Body Part: The Brain!",
@@ -341,11 +341,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Group_582.svg?v=1631247633",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/Group_582.svg?v=1631247633",
             "about_text_1": "My time in Europe",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Group_584.svg?v=1631247983",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/Group_584.svg?v=1631247983",
             "about_text_2": "My Karate <br> background",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/Group_587.svg?v=1631248013",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/Group_587.svg?v=1631248013",
             "about_text_3": "My favourite authentic dishes"
           }
         },
@@ -360,7 +360,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Level 1 & 2 Concussion Management Workshop<\/li><li>Level 1 Soft Tissue Release Workshop<\/li>\n<li>Level 1 Manual Therapy, Canadian Academy of Manipulative Therapy<\/li>\n<li> NeuroKinetic Therapy Level 1<\/li>"
+            "list_text_1": "<li>Level 1 & 2 Concussion Management Workshop</li><li>Level 1 Soft Tissue Release Workshop</li>\n<li>Level 1 Manual Therapy, Canadian Academy of Manipulative Therapy</li>\n<li> NeuroKinetic Therapy Level 1</li>"
           }
         }
       },
@@ -375,7 +375,7 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/Shirin-davarpanah-jazi-physio-karate_2d462e73-91c5-40a7-aa09-5bf7f3fe5606.png",
+        "image_1": "shopify://shop_images/Shirin-davarpanah-jazi-physio-karate_2d462e73-91c5-40a7-aa09-5bf7f3fe5606.png",
         "image_position": "top"
       }
     },
@@ -387,7 +387,7 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Kathrine Stolborg",
-            "name_text_1": "She \/ Her (Leo)",
+            "name_text_1": "She / Her (Leo)",
             "name_text_1_class": "leo",
             "name_text_2": "Role: Physiotherapist",
             "name_text_3": "Favourite Body Part: The Transversus Abdominus",
@@ -398,11 +398,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dog-bowl.png?v=1655695518",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/dog-bowl.png?v=1655695518",
             "about_text_1": "My dog Harlow",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/mountain-bike.png?v=1655695518",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/mountain-bike.png?v=1655695518",
             "about_text_2": "My new favourite mountain bike trail",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/copenhagen_1.png?v=1655697137",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/copenhagen_1.png?v=1655697137",
             "about_text_3": "Food - especially traditional Danish food"
           }
         },
@@ -417,7 +417,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Functional Range Conditioning (FRC)<\/li><li>Animal Flow - Level 1 Instructor<\/li>\n<li>National Academy of Sports Medicine (NASM) Certified Personal Trainer <\/li><li>Alive Academy Sport and Fitness Nutrition Certificate Program <\/li>"
+            "list_text_1": "<li>Functional Range Conditioning (FRC)</li><li>Animal Flow - Level 1 Instructor</li>\n<li>National Academy of Sports Medicine (NASM) Certified Personal Trainer </li><li>Alive Academy Sport and Fitness Nutrition Certificate Program </li>"
           }
         }
       },
@@ -432,7 +432,7 @@
         "direction": false,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
+        "image_1": "shopify://shop_images/1_8e9108ea-7c41-48d0-83e4-429301223dbf.png",
         "image_position": "top"
       }
     },
@@ -444,10 +444,10 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Christina Di Chiara",
-            "name_text_1": "She \/ Her (Cancer)",
+            "name_text_1": "She / Her (Cancer)",
             "name_text_1_class": "cancer",
-            "name_text_2": "<b>Role at TBC: <\/b> Kinesiologist and Active Rehab Specialist",
-            "name_text_3": "<b>Favorite Body Part:<\/b> The Glutes",
+            "name_text_2": "<b>Role at TBC: </b> Kinesiologist and Active Rehab Specialist",
+            "name_text_3": "<b>Favorite Body Part:</b> The Glutes",
             "name_text_3_class": "muscle"
           }
         },
@@ -455,11 +455,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dancer.png?v=1655699380",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/dancer.png?v=1655699380",
             "about_text_1": "My favourite <br> dance moves",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/yoga.png?v=1655699380",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/yoga.png?v=1655699380",
             "about_text_2": "My yoga <br> teacher training",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/jeremy-icon-2.svg?v=1630646180",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/jeremy-icon-2.svg?v=1630646180",
             "about_text_3": "Anything chocolate - especially dark"
           }
         },
@@ -474,7 +474,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>CSEP - Certified Personal Trainer<\/li><li>Functional Movement Screen level 2<\/li><li>NeuroKinetic Therapy<\/li><li>Dynamic Neuromuscular Stabilization<\/li>"
+            "list_text_1": "<li>CSEP - Certified Personal Trainer</li><li>Functional Movement Screen level 2</li><li>NeuroKinetic Therapy</li><li>Dynamic Neuromuscular Stabilization</li>"
           }
         }
       },
@@ -489,7 +489,7 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/2.png",
+        "image_1": "shopify://shop_images/2.png",
         "image_position": "top"
       }
     },
@@ -501,7 +501,7 @@
           "settings": {
             "title_color": "#1dd8c4",
             "name_title": "Tony Cruz",
-            "name_text_1": "He \/ Him (Aries)",
+            "name_text_1": "He / Him (Aries)",
             "name_text_1_class": "aries",
             "name_text_2": "Role: Physiotherapist",
             "name_text_3": "Favourite Body Part: The Foot & Ankle",
@@ -512,11 +512,11 @@
           "type": "about",
           "settings": {
             "about_title": "Ask me about",
-            "about_url_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/dog-bowl.png?v=1655695518",
+            "about_url_1": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/dog-bowl.png?v=1655695518",
             "about_text_1": "The places I have lived",
-            "about_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/mountain-bike.png?v=1655695518",
+            "about_url_2": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/mountain-bike.png?v=1655695518",
             "about_text_2": "What sport I am playing at the moment",
-            "about_url_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/copenhagen_1.png?v=1655697137",
+            "about_url_3": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/copenhagen_1.png?v=1655697137",
             "about_text_3": "My time as a competitive gamer"
           }
         },
@@ -531,7 +531,7 @@
           "type": "list",
           "settings": {
             "list_title": "Courses and Certifications",
-            "list_text_1": "<li>Orthopaedic Manual Therapy Level 1<\/li><li>Anatomical Neuropathic Intramuscular Stimulation (AN-IMS)<\/li>\n<li>CBI Health Concussion Management Course<\/li><li>Bachelor's of Science in Kinesiology<\/li>"
+            "list_text_1": "<li>Orthopaedic Manual Therapy Level 1</li><li>Anatomical Neuropathic Intramuscular Stimulation (AN-IMS)</li>\n<li>CBI Health Concussion Management Course</li><li>Bachelor's of Science in Kinesiology</li>"
           }
         }
       },
@@ -546,7 +546,7 @@
         "direction": false,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/SmartSelect_20220330-135931_Chrome.jpg",
+        "image_1": "shopify://shop_images/SmartSelect_20220330-135931_Chrome.jpg",
         "image_position": "top"
       }
     },
@@ -563,14 +563,14 @@
         "885be3e5-999c-4fb3-b028-387bc560d87d": {
           "type": "caption",
           "settings": {
-            "caption_1": "TBC is proud to collaborate with many other incredible providers in British Columbia to provide physiotherapy and active rehab including: <li>\n\n<\/li>\n<li> Kinected Strength at SHY Practice - North Vancouver (Jess Pastro, Briana Kelly, Andrea Brennan and David Ewart)<\/li>\n<li> Rejuv Medical Fitness - North Vancouver (Taylor Romanchuk) <\/li>\n<li> Restore Mvmnt - Vancouver (Arissa Martin)\n<\/li>\n<li> Exhale Centre Kamloops (Natalie Saari, Nicole Hildebrand, Sue Grono)\n<\/li>\n"
+            "caption_1": "TBC is proud to collaborate with many other incredible providers in British Columbia to provide physiotherapy and active rehab including: <li>\n\n</li>\n<li> Kinected Strength at SHY Practice - North Vancouver (Jess Pastro, Briana Kelly, Andrea Brennan and David Ewart)</li>\n<li> Rejuv Medical Fitness - North Vancouver (Taylor Romanchuk) </li>\n<li> Restore Mvmnt - Vancouver (Arissa Martin)\n</li>"
           }
         },
         "5d23f9cb-2ebc-4eeb-b968-5f9bf546cefc": {
           "type": "link",
           "settings": {
             "button_label": "GET in touch to work with any of these amazing practitioners",
-            "button_url": "shopify:\/\/pages\/contact-us"
+            "button_url": "shopify://pages/contact-us"
           }
         }
       },
@@ -585,7 +585,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/product-bg.jpg",
+        "bg_image": "shopify://shop_images/product-bg.jpg",
         "bg_opacity": 1,
         "bg_color": "",
         "show_vid": false,
@@ -616,7 +616,7 @@
           "type": "link",
           "settings": {
             "button_label": "BOOK NOW",
-            "button_url": "https:\/\/www.thebalancedcollective.janeapp.com"
+            "button_url": "https://www.thebalancedcollective.janeapp.com"
           }
         }
       },
@@ -631,7 +631,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/about-cta.jpg",
+        "bg_image": "shopify://shop_images/about-cta.jpg",
         "bg_opacity": 1,
         "bg_color": "",
         "show_vid": false,
@@ -648,7 +648,7 @@
         "1630797691b03428a1-0": {
           "type": "banner",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "image_1": "shopify://shop_images/Group_554.jpg",
             "caption": "Events",
             "title": "Come learn, heal and laugh with us.",
             "button_label": "Learn More",
@@ -658,11 +658,11 @@
         "1630797691b03428a1-1": {
           "type": "banner",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/products.jpg",
+            "image_1": "shopify://shop_images/products.jpg",
             "caption": "Products",
             "title": "Roll and release, with Our eco-friendly products.",
             "button_label": "See Products",
-            "button_url": "shopify:\/\/collections\/all"
+            "button_url": "shopify://collections/all"
           }
         }
       },
@@ -677,9 +677,9 @@
     "1630516101a293de53": {
       "type": "tbc-custom-newsletter",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_image": "shopify://shop_images/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips, events and new products!",
-        "caption": "<span>Join Our Newsletter.<\/span>",
+        "caption": "<span>Join Our Newsletter.</span>",
         "highlight_color": "#d0df00",
         "highlight_text_color": "#000000",
         "button_label": "Button Label",
