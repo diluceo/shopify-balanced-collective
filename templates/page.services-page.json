@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,11 +20,11 @@
       "settings": {
         "banner_version": "type_one",
         "content_alignment": "center",
-        "image_1": "shopify:\/\/shop_images\/guy-header.png",
-        "image_2": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
+        "image_1": "shopify://shop_images/guy-header.png",
+        "image_2": "shopify://shop_images/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg",
         "caption": "LET’S GET YOU…",
         "add_before": true,
-        "heading": "Back on your feet <br><span>so you can feel like yourself again<\/span>",
+        "heading": "Back on your feet <br><span>so you can feel like yourself again</span>",
         "button_label": "Button Label",
         "button_link_1": "",
         "caption_color": "#262c96",
@@ -40,7 +40,7 @@
         "163030625826391d0c-0": {
           "type": "caption",
           "settings": {
-            "caption_1": "<span>Your Body is Weird and Wonderful.<\/span><br><span>That’s why we provide sessions that are as unique as you are.<\/span>"
+            "caption_1": "<span>Your Body is Weird and Wonderful.</span><br><span>That’s why we provide sessions that are as unique as you are.</span>"
           }
         }
       },
@@ -53,7 +53,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-full",
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_image": "shopify://shop_images/TBC_webTextureBanner.jpg",
         "bg_opacity": 1,
         "bg_color": "#ffffff",
         "show_vid": false,
@@ -83,14 +83,14 @@
           "type": "content",
           "settings": {
             "content_title": "",
-            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. \n<br><br>\nOur physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. \n<br><br>\nIn-person physiotherapy sessions at 500-224 West Esplanade, North Vancouver. If an online session is more your style, we are also available for virtual telehealth sessions."
+            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. \n<br><br>\nOur physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. \n<br><br>\nSession are currently offered via telehealth and home-visit in Kamloops BC"
           }
         },
         "9de049b5-7916-410d-a70e-4612871d700e": {
           "type": "button",
           "settings": {
             "content_label": "BOOK NOW",
-            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
+            "content_url": "https://thebalancedcollective.janeapp.com/",
             "button_icon": ""
           }
         }
@@ -104,7 +104,7 @@
         "direction": false,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/physio.png",
+        "image_1": "shopify://shop_images/physio.png",
         "image_position": "center"
       }
     },
@@ -143,11 +143,11 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "section_width": "page-width",
-        "bg_image": "shopify:\/\/shop_images\/header-bg-our-history.jpg",
+        "bg_image": "shopify://shop_images/header-bg-our-history.jpg",
         "bg_opacity": 0.6,
         "bg_color": "#26268b",
         "show_vid": true,
-        "vid_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/workoutvideo.mp4?v=1630555901",
+        "vid_link": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/workoutvideo.mp4?v=1630555901",
         "caption_color": "#ffc600",
         "title_color": "#ffffff",
         "highlight_color": "",
@@ -160,7 +160,7 @@
         "15c35e41-487e-4b15-9536-ee87793168ca": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/integrity.svg?v=1630542147",
+            "icon": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/integrity.svg?v=1630542147",
             "icon_customclass": "",
             "heading": "Integrity",
             "content": "The team at TBC is committed to practicing with the highest level of integrity, respect and care possible. Wherever you’re at in your health journey, we welcome you."
@@ -169,7 +169,7 @@
         "ca63816f-1a06-4053-bdd1-9c8b8266f4f8": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/quality_8b1af5e6-4d06-4b23-ad8a-f993b1a54a4c.svg?v=1630542147",
+            "icon": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/quality_8b1af5e6-4d06-4b23-ad8a-f993b1a54a4c.svg?v=1630542147",
             "icon_customclass": "",
             "heading": "Quality",
             "content": "We’re committed to continuously improving and learning so you’ll always be given the highest quality services and products to the best of our abilities."
@@ -178,7 +178,7 @@
         "dea2af01-bf62-4d0a-9cfa-39d4f92700c0": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/unique.svg?v=1630699705",
+            "icon": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/unique.svg?v=1630699705",
             "icon_customclass": "",
             "heading": "Unique Techniques",
             "content": "Each treatment plan includes cutting edge techniques uniquely tailored to suit you. No two nervous systems are the same so no two sessions will be either."
@@ -187,7 +187,7 @@
         "a07a651e-5628-4a7e-8c27-aae66f9b0168": {
           "type": "info",
           "settings": {
-            "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0577\/0844\/5857\/files\/trauma_402b8537-8717-4b42-a3c0-103c20ebb078.svg?v=1630542147",
+            "icon": "https://cdn.shopify.com/s/files/1/0577/0844/5857/files/trauma_402b8537-8717-4b42-a3c0-103c20ebb078.svg?v=1630542147",
             "icon_customclass": "",
             "heading": "Trauma Informed",
             "content": "Our trauma-informed team understands how to navigate and respect your unique history while creating the most sensitive and appropriate plan for you."
@@ -233,7 +233,7 @@
         "1e3efa7f-399a-475d-938d-41eb6a69db32": {
           "type": "content",
           "settings": {
-            "content_title": "<p>Physiotherapy: $95 - $15<\/p>",
+            "content_title": "<p>Physiotherapy: $105-205</p>",
             "content_text_1": ""
           }
         },
@@ -241,7 +241,7 @@
           "type": "button",
           "settings": {
             "content_label": "BOOK NOW",
-            "content_url": "https:\/\/thebalancedcollective.janeapp.com\/",
+            "content_url": "https://thebalancedcollective.janeapp.com/",
             "button_icon": ""
           }
         }
@@ -256,9 +256,9 @@
         "direction": true,
         "content_type": "image",
         "html_content": "",
-        "image_1": "shopify:\/\/shop_images\/rates.png",
+        "image_1": "shopify://shop_images/rates.png",
         "image_position": "center",
-        "bg_image": "shopify:\/\/shop_images\/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg"
+        "bg_image": "shopify://shop_images/headerbg_bc643b3e-7869-4446-b141-4e8a316fa7cd.jpg"
       }
     },
     "1630562693e6105f93": {
@@ -267,21 +267,21 @@
         "1630562693e6105f93-0": {
           "type": "banner",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/Group_554.jpg",
+            "image_1": "shopify://shop_images/Group_554.jpg",
             "caption": "Events",
             "title": "Come learn, heal and laugh with us.",
             "button_label": "Join Us",
-            "button_url": "shopify:\/\/blogs\/events"
+            "button_url": "shopify://blogs/events"
           }
         },
         "1630562693e6105f93-1": {
           "type": "banner",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/products.jpg",
+            "image_1": "shopify://shop_images/products.jpg",
             "caption": "PRODUCTS",
             "title": "Roll and release, with our eco-friendly products.",
             "button_label": "See products",
-            "button_url": "shopify:\/\/collections\/all"
+            "button_url": "shopify://collections/all"
           }
         }
       },
@@ -296,9 +296,9 @@
     "163056294909b03e5b": {
       "type": "tbc-custom-newsletter",
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/TBC_webTextureBanner.jpg",
+        "bg_image": "shopify://shop_images/TBC_webTextureBanner.jpg",
         "heading": "Stay up to date on health tips,\nevents and new products!",
-        "caption": "<span>Join Our Newsletter.<\/span>",
+        "caption": "<span>Join Our Newsletter.</span>",
         "highlight_color": "#d0df00",
         "highlight_text_color": "#000000",
         "button_label": "Button Label",
