@@ -83,7 +83,7 @@
           "type": "content",
           "settings": {
             "content_title": "",
-            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. \n<br><br>\nOur physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. \n<br><br>\nSession are currently offered via telehealth and home-visit in Kamloops BC"
+            "content_text_1": "Physiotherapists are primary health care professionals with a significant role in health promotion and treatment of injury and disease. They combine their in-depth knowledge of the body and how it works with specialized hands-on clinical skills to assess, diagnose, and treat symptoms of illness, injury, or disability. \n<br><br>\nOur physiotherapists like to evaluate and treat outside of the traditional rehab box. Using innovative techniques and problem-solving skills, we get to the root of the problem and don’t just mask symptoms. \n<br><br>\nSessions are currently offered via telehealth online or in Kamloops BC via home-visit or at Kamloops Integrated Wellness by request."
           }
         },
         "9de049b5-7916-410d-a70e-4612871d700e": {
@@ -233,7 +233,7 @@
         "1e3efa7f-399a-475d-938d-41eb6a69db32": {
           "type": "content",
           "settings": {
-            "content_title": "<p>Physiotherapy: $105-205</p>",
+            "content_title": "<p>Physiotherapy: $105-$205</p>",
             "content_text_1": ""
           }
         },
